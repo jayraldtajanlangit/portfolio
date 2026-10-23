@@ -1,0 +1,2608 @@
+{
+ "url": "index.html",
+ "at": "2026-10-22T02:09:35.374Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.38,
+    0.33,
+    0.36,
+    0.45,
+    0.46,
+    0.48,
+    0.45,
+    0.87,
+    0.75
+   ],
+   "motion": {
+    "elements": 23,
+    "css": 4,
+    "transitions": 19,
+    "scripted": 0,
+    "videos": 5,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7997,
+     "screens": 8.9,
+     "words": 539,
+     "img": 6,
+     "video": 5,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 5,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "583917390_25203520672616248_2951040891851883210_",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Full-stack engineer.",
+     "words": 2,
+     "chars": 20,
+     "lines": 2,
+     "size": 104,
+     "vw": 7.2,
+     "font": "Newsreader",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 243,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Full-stack engineer.",
+     "words": 2,
+     "lines": 2,
+     "size": 104,
+     "font": "Newsreader"
+    },
+    "headings": [
+     {
+      "text": "Full-stack engineer.",
+      "words": 2,
+      "chars": 20,
+      "lines": 2,
+      "size": 104,
+      "vw": 7.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 243,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected Work",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 60.8,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 1040,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 60.8,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 1260,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire — Airline Booking System",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 60.8,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 2248,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 60.8,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 3296,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 60.8,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 4320,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 60.8,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 5344,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Capabilities",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 60.8,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 6513,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Full-stack web",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 37.6,
+      "vw": 2.6,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 6529,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Mobile development",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 37.6,
+      "vw": 2.6,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 6666,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Backend and data",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 37.6,
+      "vw": 2.6,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 6803,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AI integration",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 37.6,
+      "vw": 2.6,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 6940,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 60.8,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 7244,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "I build the screen and the systems behind it.",
+      "words": 9,
+      "chars": 45,
+      "lines": 1,
+      "size": 37.6,
+      "vw": 2.6,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 7244,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Contact",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 60.8,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 7544,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Newsreader",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      24,
+      25,
+      38,
+      61,
+      104
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.3
+     },
+     "measureChars": 86,
+     "max": {
+      "size": 104,
+      "vw": 7.2,
+      "font": "Newsreader",
+      "text": "Full-stackengineer."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ecebe7",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.12,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#203139",
+       "top": 1444,
+       "hsl": {
+        "h": 199,
+        "s": 0.28,
+        "l": 0.17
+       }
+      },
+      {
+       "color": "#131b20",
+       "top": 1460,
+       "hsl": {
+        "h": 203,
+        "s": 0.25,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#dcdedb",
+       "top": 7472,
+       "hsl": {
+        "h": 100,
+        "s": 0.04,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#203139",
+       "share": 0.65
+      },
+      {
+       "color": "#ecebe7",
+       "share": 0.25
+      },
+      {
+       "color": "#526168",
+       "share": 0.07
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#2456d6",
+      "hsl": {
+       "h": 223,
+       "s": 0.71,
+       "l": 0.49
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 12,
+     "inHero": 2,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "Review selected work ↓"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.22
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans",
+     "newsreader"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7997,
+    "margins": {
+     "left": 96,
+     "right": 102
+    },
+    "sections": [
+     {
+      "sel": "section.hero.shell",
+      "tag": "section",
+      "top": 80,
+      "height": 832,
+      "words": 42,
+      "media": 1,
+      "middle": 105,
+      "heading": {
+       "text": "Full-stack",
+       "size": 104,
+       "tag": "h1"
+      },
+      "left": 96,
+      "right": 96,
+      "textLeft": 96,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-maistra.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 1164,
+      "height": 988,
+      "words": 70,
+      "media": 2,
+      "middle": 9,
+      "heading": {
+       "text": "mAIstra",
+       "size": 61,
+       "tag": "h3"
+      },
+      "left": 96,
+      "right": 102,
+      "textLeft": 96,
+      "textRight": 102,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-skyfire.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 2152,
+      "height": 1048,
+      "words": 75,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire — Airline Booking System",
+       "size": 61,
+       "tag": "h3"
+      },
+      "left": 96,
+      "right": 112,
+      "textLeft": 96,
+      "textRight": 128,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-bulk-buying-companion.project-chapter.is-rev",
+      "tag": "article",
+      "top": 3200,
+      "height": 1024,
+      "words": 79,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 61,
+       "tag": "h3"
+      },
+      "left": 96,
+      "right": 112,
+      "textLeft": 96,
+      "textRight": 112,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-pulso.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 4224,
+      "height": 1024,
+      "words": 70,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Pulso",
+       "size": 61,
+       "tag": "h3"
+      },
+      "left": 96,
+      "right": 112,
+      "textLeft": 96,
+      "textRight": 128,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-sige.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 5248,
+      "height": 1024,
+      "words": 74,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Sige",
+       "size": 61,
+       "tag": "h3"
+      },
+      "left": 96,
+      "right": 110,
+      "textLeft": 96,
+      "textRight": 110,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#capabilities.capabilities-section",
+      "tag": "section",
+      "top": 6401,
+      "height": 772,
+      "words": 68,
+      "media": 0,
+      "middle": 114,
+      "heading": {
+       "text": "Capabilities",
+       "size": 61,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 191,
+      "textLeft": 96,
+      "textRight": 191,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.shell",
+      "tag": "section",
+      "top": 7172,
+      "height": 299,
+      "words": 47,
+      "media": 0,
+      "middle": 255,
+      "heading": {
+       "text": "About",
+       "size": 61,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 204,
+      "textLeft": 96,
+      "textRight": 204,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 7472,
+      "height": 414,
+      "words": 20,
+      "media": 0,
+      "middle": 212,
+      "heading": {
+       "text": "Contact",
+       "size": 61,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 153,
+      "textLeft": 96,
+      "textRight": 153,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 6164,
+      "height": 344
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Full-stack engineer.",
+      "size": 104,
+      "top": 243,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 96,
+      "n": 17
+     },
+     {
+      "x": 516,
+      "n": 2
+     },
+     {
+      "x": 610,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 20,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 780,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.33,
+    0.47,
+    0.54,
+    0.5,
+    0.45,
+    0.44,
+    0.5,
+    0.76,
+    0.76
+   ],
+   "motion": {
+    "elements": 23,
+    "css": 4,
+    "transitions": 19,
+    "scripted": 0,
+    "videos": 5,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 8721,
+     "screens": 8.5,
+     "words": 539,
+     "img": 6,
+     "video": 5,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 5,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "583917390_25203520672616248_2951040891851883210_",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Full-stack engineer.",
+     "words": 2,
+     "chars": 20,
+     "lines": 2,
+     "size": 70.4,
+     "vw": 9.2,
+     "font": "Newsreader",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 152,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Full-stack engineer.",
+     "words": 2,
+     "lines": 2,
+     "size": 70.4,
+     "font": "Newsreader"
+    },
+    "headings": [
+     {
+      "text": "Full-stack engineer.",
+      "words": 2,
+      "chars": 20,
+      "lines": 2,
+      "size": 70.4,
+      "vw": 9.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 152,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected Work",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 801,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 980,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire — Airline Booking System",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 2135,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 3331,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 4571,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 5810,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Capabilities",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 7201,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Full-stack web",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.6,
+      "top": 7217,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Mobile development",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.6,
+      "top": 7345,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Backend and data",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.6,
+      "top": 7473,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AI integration",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.6,
+      "top": 7602,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 7898,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "I build the screen and the systems behind it.",
+      "words": 9,
+      "chars": 45,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.6,
+      "top": 7898,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Contact",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 8278,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Newsreader",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      17,
+      22,
+      30,
+      44,
+      70
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 16.6,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.3
+     },
+     "measureChars": 55,
+     "max": {
+      "size": 70.4,
+      "vw": 9.2,
+      "font": "Newsreader",
+      "text": "Full-stackengineer."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ecebe7",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.12,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#203139",
+       "top": 1139,
+       "hsl": {
+        "h": 199,
+        "s": 0.28,
+        "l": 0.17
+       }
+      },
+      {
+       "color": "#131b20",
+       "top": 1155,
+       "hsl": {
+        "h": 203,
+        "s": 0.25,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#dcdedb",
+       "top": 8206,
+       "hsl": {
+        "h": 100,
+        "s": 0.04,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#203139",
+       "share": 0.65
+      },
+      {
+       "color": "#ecebe7",
+       "share": 0.25
+      },
+      {
+       "color": "#526168",
+       "share": 0.07
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#2456d6",
+      "hsl": {
+       "h": 223,
+       "s": 0.71,
+       "l": 0.49
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 12,
+     "inHero": 2,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "Review selected work ↓"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.12
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans",
+     "newsreader"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 8721,
+    "margins": {
+     "left": 28,
+     "right": 35
+    },
+    "sections": [
+     {
+      "sel": "section.hero.shell",
+      "tag": "section",
+      "top": 80,
+      "height": 626,
+      "words": 42,
+      "media": 1,
+      "middle": 50,
+      "heading": {
+       "text": "Full-stack",
+       "size": 70,
+       "tag": "h1"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-maistra.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 908,
+      "height": 1154,
+      "words": 70,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 44,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 44,
+      "textLeft": 28,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-skyfire.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 2063,
+      "height": 1197,
+      "words": 75,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire — Airline Booking System",
+       "size": 44,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 44,
+      "textLeft": 28,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-bulk-buying-companion.project-chapter.is-rev",
+      "tag": "article",
+      "top": 3259,
+      "height": 1239,
+      "words": 79,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 44,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 44,
+      "textLeft": 28,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-pulso.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 4499,
+      "height": 1239,
+      "words": 70,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Pulso",
+       "size": 44,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 38,
+      "textLeft": 28,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-sige.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 5738,
+      "height": 1239,
+      "words": 74,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Sige",
+       "size": 44,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 41,
+      "textLeft": 28,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#capabilities.capabilities-section",
+      "tag": "section",
+      "top": 7089,
+      "height": 737,
+      "words": 68,
+      "media": 0,
+      "middle": 40,
+      "heading": {
+       "text": "Capabilities",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 35,
+      "textLeft": 28,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.shell",
+      "tag": "section",
+      "top": 7826,
+      "height": 380,
+      "words": 47,
+      "media": 0,
+      "middle": 138,
+      "heading": {
+       "text": "About",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 41,
+      "textLeft": 28,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 8206,
+      "height": 403,
+      "words": 20,
+      "media": 0,
+      "middle": 108,
+      "heading": {
+       "text": "Contact",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 51,
+      "textLeft": 28,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 6852,
+      "height": 348
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Full-stack engineer.",
+      "size": 70,
+      "top": 152,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 28,
+      "n": 17
+     },
+     {
+      "x": 282,
+      "n": 2
+     },
+     {
+      "x": 327,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 20,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.68,
+    0.47,
+    0.39,
+    0.6,
+    0.49,
+    0.27,
+    0.46,
+    0.59,
+    0.58,
+    0.75,
+    0.89,
+    0.93
+   ],
+   "motion": {
+    "elements": 23,
+    "css": 4,
+    "transitions": 19,
+    "scripted": 0,
+    "videos": 5,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 9349,
+     "screens": 11.1,
+     "words": 535,
+     "img": 6,
+     "video": 5,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 5,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "583917390_25203520672616248_2951040891851883210_",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Full-stack engineer.",
+     "words": 2,
+     "chars": 20,
+     "lines": 2,
+     "size": 51.5,
+     "vw": 13.2,
+     "font": "Newsreader",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.87,
+     "top": 128,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Full-stack engineer.",
+     "words": 2,
+     "lines": 2,
+     "size": 51.5,
+     "font": "Newsreader"
+    },
+    "headings": [
+     {
+      "text": "Full-stack engineer.",
+      "words": 2,
+      "chars": 20,
+      "lines": 2,
+      "size": 51.5,
+      "vw": 13.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 128,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected Work",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 34.1,
+      "vw": 8.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1113,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 34.1,
+      "vw": 8.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1361,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire — Airline Booking System",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 34.1,
+      "vw": 8.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2492,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 34.1,
+      "vw": 8.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3646,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 34.1,
+      "vw": 8.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4870,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 34.1,
+      "vw": 8.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6014,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Capabilities",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 34.1,
+      "vw": 8.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7310,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Full-stack web",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 25.1,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7408,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Mobile development",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 25.1,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7556,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Backend and data",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 25.1,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7704,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AI integration",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 25.1,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7852,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 34.1,
+      "vw": 8.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8168,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "I build the screen and the systems behind it.",
+      "words": 9,
+      "chars": 45,
+      "lines": 2,
+      "size": 25.1,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8249,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Contact",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 34.1,
+      "vw": 8.7,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8639,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Newsreader",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      16,
+      20,
+      22,
+      25,
+      34,
+      52
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 16.1,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.3
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 51.5,
+      "vw": 13.2,
+      "font": "Newsreader",
+      "text": "Full-stackengineer."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ecebe7",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.12,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#203139",
+       "top": 1544,
+       "hsl": {
+        "h": 199,
+        "s": 0.28,
+        "l": 0.17
+       }
+      },
+      {
+       "color": "#dcdedb",
+       "top": 8567,
+       "hsl": {
+        "h": 100,
+        "s": 0.04,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#203139",
+       "share": 0.65
+      },
+      {
+       "color": "#ecebe7",
+       "share": 0.26
+      },
+      {
+       "color": "#526168",
+       "share": 0.07
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#2456d6",
+      "hsl": {
+       "h": 223,
+       "s": 0.71,
+       "l": 0.49
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 12,
+     "inHero": 2,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "Review selected work ↓"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.28
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans",
+     "newsreader"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 9349,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.hero.shell",
+      "tag": "section",
+      "top": 80,
+      "height": 961,
+      "words": 42,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Full-stack",
+       "size": 52,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.section-heading.section-heading--wide",
+      "tag": "header",
+      "top": 1113,
+      "height": 129,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Selected Work",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 30,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-maistra.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 1289,
+      "height": 1131,
+      "words": 70,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 34,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 36,
+      "textLeft": 20,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-skyfire.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 2420,
+      "height": 1154,
+      "words": 75,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire — Airline Booking System",
+       "size": 34,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 36,
+      "textLeft": 20,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-bulk-buying-companion.project-chapter.is-rev",
+      "tag": "article",
+      "top": 3574,
+      "height": 1224,
+      "words": 79,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 34,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-pulso.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 4798,
+      "height": 1144,
+      "words": 70,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Pulso",
+       "size": 34,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 27,
+      "textLeft": 20,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-sige.project-chapter.is-revealed",
+      "tag": "article",
+      "top": 5942,
+      "height": 1144,
+      "words": 74,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Sige",
+       "size": 34,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 36,
+      "textLeft": 20,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#capabilities.capabilities-section",
+      "tag": "section",
+      "top": 7198,
+      "height": 898,
+      "words": 68,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Capabilities",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.shell",
+      "tag": "section",
+      "top": 8096,
+      "height": 471,
+      "words": 47,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 27,
+      "textLeft": 20,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 8567,
+      "height": 613,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Contact",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 55,
+      "textLeft": 20,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 9180,
+      "height": 169,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 55,
+      "textLeft": 20,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 6960,
+      "height": 348
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Full-stack engineer.",
+      "size": 52,
+      "top": 128,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 20
+     }
+    ],
+    "leftBlocks": 20,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\before\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\before\\desktop-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\before\\desktop-page-02.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\before\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\before\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\before\\tablet-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\before\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\before\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\before\\mobile-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\before\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

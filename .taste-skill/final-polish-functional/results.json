@@ -1,0 +1,555 @@
+[
+  {
+    "name": "light 320px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "stableTyping": true,
+      "mobileIntroGap": 20,
+      "portraits": [
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "light 390px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "stableTyping": true,
+      "mobileIntroGap": 20,
+      "portraits": [
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "light 768px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "stableTyping": true,
+      "mobileIntroGap": -230.4375,
+      "portraits": [
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 471.625,
+          "frameLeft": 396,
+          "frameWidth": 325,
+          "frameCssWidth": "325px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 325
+        },
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 122.625,
+          "frameLeft": 47,
+          "frameWidth": 325,
+          "frameCssWidth": "325px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 325
+        },
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 471.625,
+          "frameLeft": 396,
+          "frameWidth": 325,
+          "frameCssWidth": "325px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 325
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "light 1440px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "stableTyping": true,
+      "mobileIntroGap": -232.609375,
+      "portraits": [
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 902.640625,
+          "frameLeft": 736,
+          "frameWidth": 544,
+          "frameCssWidth": "544px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 544
+        },
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 326.640625,
+          "frameLeft": 160,
+          "frameWidth": 544,
+          "frameCssWidth": "544px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 544
+        },
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 902.640625,
+          "frameLeft": 736,
+          "frameWidth": 544,
+          "frameCssWidth": "544px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 544
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "dark 320px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "stableTyping": true,
+      "mobileIntroGap": 20,
+      "portraits": [
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "dark 390px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "stableTyping": true,
+      "mobileIntroGap": 20,
+      "portraits": [
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "dark 768px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "stableTyping": true,
+      "mobileIntroGap": -230.4375,
+      "portraits": [
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 471.625,
+          "frameLeft": 396,
+          "frameWidth": 325,
+          "frameCssWidth": "325px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 325
+        },
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 122.625,
+          "frameLeft": 47,
+          "frameWidth": 325,
+          "frameCssWidth": "325px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 325
+        },
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 471.625,
+          "frameLeft": 396,
+          "frameWidth": 325,
+          "frameCssWidth": "325px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 325
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "dark 1440px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "stableTyping": true,
+      "mobileIntroGap": -232.609375,
+      "portraits": [
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 902.640625,
+          "frameLeft": 736,
+          "frameWidth": 544,
+          "frameCssWidth": "544px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 544
+        },
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 326.640625,
+          "frameLeft": 160,
+          "frameWidth": 544,
+          "frameCssWidth": "544px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 544
+        },
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 902.640625,
+          "frameLeft": 736,
+          "frameWidth": 544,
+          "frameCssWidth": "544px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 544
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "mobile navigation opens and Escape restores focus",
+    "pass": true
+  },
+  {
+    "name": "skyfire: walkthrough decodes, plays and retains native controls",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "width": 1440,
+      "controls": true,
+      "fullscreen": true
+    }
+  },
+  {
+    "name": "maistra: walkthrough decodes, plays and retains native controls",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "width": 1280,
+      "controls": true,
+      "fullscreen": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion: walkthrough decodes, plays and retains native controls",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "width": 390,
+      "controls": true,
+      "fullscreen": true
+    }
+  },
+  {
+    "name": "pulso: walkthrough decodes, plays and retains native controls",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "width": 390,
+      "controls": true,
+      "fullscreen": true
+    }
+  },
+  {
+    "name": "sige: walkthrough decodes, plays and retains native controls",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "width": 390,
+      "controls": true,
+      "fullscreen": true
+    }
+  },
+  {
+    "name": "reduced motion displays static interests without overflow",
+    "pass": true,
+    "detail": {
+      "staticText": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "/index.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 2
+    }
+  },
+  {
+    "name": "/projects/skyfire.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0
+    }
+  },
+  {
+    "name": "/projects/maistra.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0
+    }
+  },
+  {
+    "name": "/projects/pulso.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0
+    }
+  },
+  {
+    "name": "/projects/sige.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0
+    }
+  },
+  {
+    "name": "no browser JavaScript exceptions",
+    "pass": true,
+    "detail": []
+  }
+]

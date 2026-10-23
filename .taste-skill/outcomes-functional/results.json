@@ -1,0 +1,1069 @@
+[
+  {
+    "name": "light 320px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "alignedPhones": true,
+      "stableTyping": true,
+      "mobileIntroGap": 20,
+      "portraits": [
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "light 390px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "alignedPhones": true,
+      "stableTyping": true,
+      "mobileIntroGap": 20,
+      "portraits": [
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "light 768px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "alignedPhones": true,
+      "stableTyping": true,
+      "mobileIntroGap": -230.4375,
+      "portraits": [
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 89.328125,
+          "frameLeft": 47,
+          "frameWidth": 258.390625,
+          "frameCssWidth": "258.391px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 674
+        },
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 89.328125,
+          "frameLeft": 47,
+          "frameWidth": 258.390625,
+          "frameCssWidth": "258.391px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 674
+        },
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 89.328125,
+          "frameLeft": 47,
+          "frameWidth": 258.390625,
+          "frameCssWidth": "258.391px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 674
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "light 1440px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "alignedPhones": true,
+      "stableTyping": true,
+      "mobileIntroGap": -232.609375,
+      "portraits": [
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 230.640625,
+          "frameLeft": 160,
+          "frameWidth": 352,
+          "frameCssWidth": "352px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 352
+        },
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 614.640625,
+          "frameLeft": 544,
+          "frameWidth": 352,
+          "frameCssWidth": "352px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 352
+        },
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 998.640625,
+          "frameLeft": 928,
+          "frameWidth": 352,
+          "frameCssWidth": "352px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 352
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "dark 320px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "alignedPhones": true,
+      "stableTyping": true,
+      "mobileIntroGap": 20,
+      "portraits": [
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 77.03125,
+          "frameLeft": 35,
+          "frameWidth": 280,
+          "frameCssWidth": "280px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 280
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "dark 390px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "alignedPhones": true,
+      "stableTyping": true,
+      "mobileIntroGap": 20,
+      "portraits": [
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        },
+        {
+          "height": 424,
+          "width": 195.921875,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46207989386792453,
+          "left": 97.03125,
+          "frameLeft": 35,
+          "frameWidth": 320,
+          "frameCssWidth": "320px",
+          "cssVideoWidth": "195.922px",
+          "parentWidth": 320
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "dark 768px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "alignedPhones": true,
+      "stableTyping": true,
+      "mobileIntroGap": -230.4375,
+      "portraits": [
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 89.328125,
+          "frameLeft": 47,
+          "frameWidth": 258.390625,
+          "frameCssWidth": "258.391px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 674
+        },
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 89.328125,
+          "frameLeft": 47,
+          "frameWidth": 258.390625,
+          "frameCssWidth": "258.391px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 674
+        },
+        {
+          "height": 376,
+          "width": 173.734375,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.4620595079787234,
+          "left": 89.328125,
+          "frameLeft": 47,
+          "frameWidth": 258.390625,
+          "frameCssWidth": "258.391px",
+          "cssVideoWidth": "173.734px",
+          "parentWidth": 674
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "dark 1440px: layout, full typing phrases and portrait controls",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "alignedPhones": true,
+      "stableTyping": true,
+      "mobileIntroGap": -232.609375,
+      "portraits": [
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 230.640625,
+          "frameLeft": 160,
+          "frameWidth": 352,
+          "frameCssWidth": "352px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 352
+        },
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 614.640625,
+          "frameLeft": 544,
+          "frameWidth": 352,
+          "frameCssWidth": "352px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 352
+        },
+        {
+          "height": 456,
+          "width": 210.703125,
+          "controls": true,
+          "fits": true,
+          "aspect": 0.46206825657894735,
+          "left": 998.640625,
+          "frameLeft": 928,
+          "frameWidth": 352,
+          "frameCssWidth": "352px",
+          "cssVideoWidth": "210.703px",
+          "parentWidth": 352
+        }
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "mobile navigation opens and Escape restores focus",
+    "pass": true
+  },
+  {
+    "name": "skyfire: walkthrough decodes, plays and retains native controls",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "width": 1440,
+      "controls": true,
+      "fullscreen": true
+    }
+  },
+  {
+    "name": "maistra: walkthrough decodes, plays and retains native controls",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "width": 1280,
+      "controls": true,
+      "fullscreen": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion: walkthrough decodes, plays and retains native controls",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "width": 390,
+      "controls": true,
+      "fullscreen": true
+    }
+  },
+  {
+    "name": "pulso: walkthrough decodes, plays and retains native controls",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "width": 390,
+      "controls": true,
+      "fullscreen": true
+    }
+  },
+  {
+    "name": "sige: walkthrough decodes, plays and retains native controls",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "width": 390,
+      "controls": true,
+      "fullscreen": true
+    }
+  },
+  {
+    "name": "reduced motion displays static interests without overflow",
+    "pass": true,
+    "detail": {
+      "staticText": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "/index.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 2,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": false
+    }
+  },
+  {
+    "name": "/index.html: repository links removed, personal profile retained, no typing button",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 2,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": false
+    }
+  },
+  {
+    "name": "/projects/skyfire.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": true
+    }
+  },
+  {
+    "name": "/projects/skyfire.html: repository links removed, personal profile retained, no typing button",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": true
+    }
+  },
+  {
+    "name": "/projects/skyfire.html: outcome is present",
+    "pass": true
+  },
+  {
+    "name": "/projects/skyfire.html light 320px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/skyfire.html light 390px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/skyfire.html light 768px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/skyfire.html light 1440px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/skyfire.html dark 320px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/skyfire.html dark 390px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/skyfire.html dark 768px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/skyfire.html dark 1440px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/maistra.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": true
+    }
+  },
+  {
+    "name": "/projects/maistra.html: repository links removed, personal profile retained, no typing button",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": true
+    }
+  },
+  {
+    "name": "/projects/maistra.html: outcome is present",
+    "pass": true
+  },
+  {
+    "name": "/projects/maistra.html light 320px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/maistra.html light 390px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/maistra.html light 768px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/maistra.html light 1440px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/maistra.html dark 320px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/maistra.html dark 390px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/maistra.html dark 768px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/maistra.html dark 1440px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": true
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html: repository links removed, personal profile retained, no typing button",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": true
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html: outcome is present",
+    "pass": true
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html light 320px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html light 390px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html light 768px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html light 1440px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html dark 320px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html dark 390px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html dark 768px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/bulk-buying-companion.html dark 1440px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/pulso.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": true
+    }
+  },
+  {
+    "name": "/projects/pulso.html: repository links removed, personal profile retained, no typing button",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": true
+    }
+  },
+  {
+    "name": "/projects/pulso.html: outcome is present",
+    "pass": true
+  },
+  {
+    "name": "/projects/pulso.html light 320px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/pulso.html light 390px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/pulso.html light 768px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/pulso.html light 1440px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/pulso.html dark 320px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/pulso.html dark 390px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/pulso.html dark 768px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/pulso.html dark 1440px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/sige.html: links, media, favicon and social image resolve",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": true
+    }
+  },
+  {
+    "name": "/projects/sige.html: repository links removed, personal profile retained, no typing button",
+    "pass": true,
+    "detail": {
+      "failures": [],
+      "image": [
+        1200,
+        630
+      ],
+      "favicon": true,
+      "resume": 0,
+      "repos": 0,
+      "profile": true,
+      "typingControl": false,
+      "outcome": true
+    }
+  },
+  {
+    "name": "/projects/sige.html: outcome is present",
+    "pass": true
+  },
+  {
+    "name": "/projects/sige.html light 320px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/sige.html light 390px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/sige.html light 768px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/sige.html light 1440px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/sige.html dark 320px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/sige.html dark 390px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/sige.html dark 768px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "/projects/sige.html dark 1440px: outcome remains readable",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fits": true,
+      "paragraphs": 3
+    }
+  },
+  {
+    "name": "no browser JavaScript exceptions",
+    "pass": true,
+    "detail": []
+  }
+]

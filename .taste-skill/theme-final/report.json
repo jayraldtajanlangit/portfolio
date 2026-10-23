@@ -1,0 +1,2003 @@
+{
+ "url": "index.html",
+ "at": "2026-10-22T14:45:21.962Z",
+ "allow": [
+  "still-page",
+  "focal-point"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.31,
+    0.43,
+    0.26,
+    0.37,
+    0.96
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4306,
+     "screens": 4.8,
+     "words": 469,
+     "img": 13,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-03.webp",
+      "583917390_25203520672616248_2951040891851883210_"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "chars": 19,
+     "lines": 2,
+     "size": 64,
+     "vw": 4.4,
+     "font": "General Sans",
+     "weight": 500,
+     "tracking": -0.025,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.37,
+     "top": 170,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "lines": 2,
+     "size": 64,
+     "font": "General Sans"
+    },
+    "headings": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 170,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected projects",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 745,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "More to explore",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 2321,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tech stack",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 2891,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A little about me",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 3399,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get in touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 3959,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      16,
+      18,
+      20,
+      22,
+      28,
+      64
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 16,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.4
+     },
+     "measureChars": 79,
+     "max": {
+      "size": 64,
+      "vw": 4.4,
+      "font": "General Sans",
+      "text": "JayraldTajanlangit"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f8f8f4",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.22,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e9eee7",
+       "top": 3319,
+       "hsl": {
+        "h": 103,
+        "s": 0.17,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#183d35",
+       "top": 3879,
+       "hsl": {
+        "h": 167,
+        "s": 0.44,
+        "l": 0.17
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#232b28",
+       "share": 0.51
+      },
+      {
+       "color": "#424c45",
+       "share": 0.39
+      },
+      {
+       "color": "#f8f8f4",
+       "share": 0.09
+      },
+      {
+       "color": "#176455",
+       "share": 0.01
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#232b28",
+      "hsl": {
+       "h": 157,
+       "s": 0.1,
+       "l": 0.15
+      },
+      "fg": "#f8f8f4"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "View projects"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4306,
+    "margins": {
+     "left": 160,
+     "right": 160
+    },
+    "sections": [
+     {
+      "sel": "section.intro-section.shell",
+      "tag": "section",
+      "top": 96,
+      "height": 601,
+      "words": 61,
+      "media": 2,
+      "middle": 16,
+      "heading": {
+       "text": "Jayrald",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 160,
+      "right": 160,
+      "textLeft": 160,
+      "textRight": 160,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-skyfire.work-entry.work-entry--skyfire",
+      "tag": "article",
+      "top": 830,
+      "height": 441,
+      "words": 56,
+      "media": 1,
+      "middle": 148,
+      "heading": {
+       "text": "SkyFire",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 160,
+      "right": 192,
+      "textLeft": 160,
+      "textRight": 867,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-maistra.work-entry.work-entry--maistra",
+      "tag": "article",
+      "top": 1335,
+      "height": 439,
+      "words": 56,
+      "media": 1,
+      "middle": 90,
+      "heading": {
+       "text": "mAIstra",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 160,
+      "right": 192,
+      "textLeft": 160,
+      "textRight": 809,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-bulk-buying-companion.work-entry.work-entry-",
+      "tag": "article",
+      "top": 1838,
+      "height": 387,
+      "words": 56,
+      "media": 3,
+      "middle": 85,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 160,
+      "right": 180,
+      "textLeft": 160,
+      "textRight": 816,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.additional-work",
+      "tag": "section",
+      "top": 2225,
+      "height": 554,
+      "words": 60,
+      "media": 0,
+      "middle": 353,
+      "heading": {
+       "text": "More to explore",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 198,
+      "textLeft": 160,
+      "textRight": 198,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tech-stack.tech-section.shell",
+      "tag": "section",
+      "top": 2779,
+      "height": 540,
+      "words": 46,
+      "media": 0,
+      "middle": 172,
+      "heading": {
+       "text": "Tech stack",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 340,
+      "textLeft": 160,
+      "textRight": 340,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 3319,
+      "height": 560,
+      "words": 91,
+      "media": 1,
+      "middle": 208,
+      "heading": {
+       "text": "A little about me",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 214,
+      "textLeft": 160,
+      "textRight": 214,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 3879,
+      "height": 335,
+      "words": 33,
+      "media": 0,
+      "middle": 225,
+      "heading": {
+       "text": "Get in touch",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 371,
+      "textLeft": 160,
+      "textRight": 371,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "size": 64,
+      "top": 170,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 160,
+      "n": 17
+     },
+     {
+      "x": 280,
+      "n": 5
+     },
+     {
+      "x": 603,
+      "n": 4
+     },
+     {
+      "x": 773,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 28,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.08,
+    "voidBox": {
+     "x": 420,
+     "y": 660,
+     "w": 540,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.38,
+    0.37,
+    0.34,
+    0.33,
+    0.96
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4897,
+     "screens": 4.8,
+     "words": 467,
+     "img": 13,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "583917390_25203520672616248_2951040891851883210_"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "chars": 19,
+     "lines": 2,
+     "size": 44,
+     "vw": 5.7,
+     "font": "General Sans",
+     "weight": 500,
+     "tracking": -0.025,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.42,
+     "top": 234,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "lines": 2,
+     "size": 44,
+     "font": "General Sans"
+    },
+    "headings": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 44,
+      "vw": 5.7,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 234,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected projects",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 858,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "More to explore",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2675,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tech stack",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 3271,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A little about me",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 3911,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get in touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 4497,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      16,
+      18,
+      20,
+      22,
+      28,
+      44
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 16,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.4
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 44,
+      "vw": 5.7,
+      "font": "General Sans",
+      "text": "JayraldTajanlangit"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f8f8f4",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.22,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e9eee7",
+       "top": 3831,
+       "hsl": {
+        "h": 103,
+        "s": 0.17,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#183d35",
+       "top": 4417,
+       "hsl": {
+        "h": 167,
+        "s": 0.44,
+        "l": 0.17
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#232b28",
+       "share": 0.51
+      },
+      {
+       "color": "#424c45",
+       "share": 0.39
+      },
+      {
+       "color": "#f8f8f4",
+       "share": 0.09
+      },
+      {
+       "color": "#176455",
+       "share": 0.01
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#232b28",
+      "hsl": {
+       "h": 157,
+       "s": 0.1,
+       "l": 0.15
+      },
+      "fg": "#f8f8f4"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "View projects"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4897,
+    "margins": {
+     "left": 47,
+     "right": 53
+    },
+    "sections": [
+     {
+      "sel": "section.intro-section.shell",
+      "tag": "section",
+      "top": 96,
+      "height": 714,
+      "words": 61,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Jayrald",
+       "size": 44,
+       "tag": "h1"
+      },
+      "left": 47,
+      "right": 63,
+      "textLeft": 47,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-skyfire.work-entry.work-entry--skyfire",
+      "tag": "article",
+      "top": 943,
+      "height": 493,
+      "words": 56,
+      "media": 1,
+      "middle": 54,
+      "heading": {
+       "text": "SkyFire",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 47,
+      "right": 63,
+      "textLeft": 47,
+      "textRight": 442,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-maistra.work-entry.work-entry--maistra",
+      "tag": "article",
+      "top": 1500,
+      "height": 518,
+      "words": 56,
+      "media": 1,
+      "middle": 54,
+      "heading": {
+       "text": "mAIstra",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 47,
+      "right": 63,
+      "textLeft": 47,
+      "textRight": 441,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-bulk-buying-companion.work-entry.work-entry-",
+      "tag": "article",
+      "top": 2082,
+      "height": 497,
+      "words": 56,
+      "media": 3,
+      "middle": 61,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 47,
+      "right": 63,
+      "textLeft": 47,
+      "textRight": 449,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.additional-work",
+      "tag": "section",
+      "top": 2579,
+      "height": 580,
+      "words": 60,
+      "media": 0,
+      "middle": 37,
+      "heading": {
+       "text": "More to explore",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 85,
+      "textLeft": 47,
+      "textRight": 85,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tech-stack.tech-section.shell",
+      "tag": "section",
+      "top": 3159,
+      "height": 672,
+      "words": 46,
+      "media": 0,
+      "middle": 47,
+      "heading": {
+       "text": "Tech stack",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 150,
+      "textLeft": 47,
+      "textRight": 150,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 3831,
+      "height": 586,
+      "words": 91,
+      "media": 1,
+      "middle": 43,
+      "heading": {
+       "text": "A little about me",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 53,
+      "textLeft": 47,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 4417,
+      "height": 388,
+      "words": 33,
+      "media": 0,
+      "middle": 68,
+      "heading": {
+       "text": "Get in touch",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 125,
+      "textLeft": 47,
+      "textRight": 125,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "size": 44,
+      "top": 234,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 47,
+      "n": 17
+     },
+     {
+      "x": 167,
+      "n": 5
+     },
+     {
+      "x": 312,
+      "n": 4
+     },
+     {
+      "x": 412,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 28,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.33,
+    0.56,
+    0.48,
+    0.52,
+    0.3,
+    0.65,
+    0.98,
+    0.99
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6024,
+     "screens": 7.1,
+     "words": 463,
+     "img": 13,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "chars": 19,
+     "lines": 2,
+     "size": 44,
+     "vw": 11.3,
+     "font": "General Sans",
+     "weight": 500,
+     "tracking": -0.025,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 98,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "lines": 2,
+     "size": 44,
+     "font": "General Sans"
+    },
+    "headings": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 44,
+      "vw": 11.3,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 98,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected projects",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 872,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1014,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1733,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2458,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "More to explore",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3220,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.69,
+      "top": 3309,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.69,
+      "top": 3573,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tech stack",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3970,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A little about me",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4668,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get in touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5494,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      16,
+      18,
+      20,
+      22,
+      28,
+      44
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 16,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.4
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 44,
+      "vw": 11.3,
+      "font": "General Sans",
+      "text": "JayraldTajanlangit"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f8f8f4",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.22,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e9eee7",
+       "top": 4628,
+       "hsl": {
+        "h": 103,
+        "s": 0.17,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#183d35",
+       "top": 5454,
+       "hsl": {
+        "h": 167,
+        "s": 0.44,
+        "l": 0.17
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#232b28",
+       "share": 0.48
+      },
+      {
+       "color": "#424c45",
+       "share": 0.41
+      },
+      {
+       "color": "#f8f8f4",
+       "share": 0.09
+      },
+      {
+       "color": "#176455",
+       "share": 0.01
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#232b28",
+      "hsl": {
+       "h": 157,
+       "s": 0.1,
+       "l": 0.15
+      },
+      "fg": "#f8f8f4"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "View projects"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 70,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6024,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.intro-section.shell",
+      "tag": "section",
+      "top": 70,
+      "height": 770,
+      "words": 61,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Jayrald",
+       "size": 44,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 28,
+      "textLeft": 20,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-skyfire.work-entry.work-entry--skyfire",
+      "tag": "article",
+      "top": 994,
+      "height": 679,
+      "words": 56,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-maistra.work-entry.work-entry--maistra",
+      "tag": "article",
+      "top": 1713,
+      "height": 684,
+      "words": 56,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article#project-bulk-buying-companion.work-entry.work-entry-",
+      "tag": "article",
+      "top": 2438,
+      "height": 718,
+      "words": 56,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 27,
+      "textLeft": 20,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.additional-work",
+      "tag": "section",
+      "top": 3156,
+      "height": 718,
+      "words": 60,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "More to explore",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 23,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tech-stack.tech-section.shell",
+      "tag": "section",
+      "top": 3906,
+      "height": 722,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tech stack",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 65,
+      "textLeft": 20,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 4628,
+      "height": 826,
+      "words": 91,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A little about me",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 31,
+      "textLeft": 20,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 5454,
+      "height": 448,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Get in touch",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 32,
+      "textLeft": 20,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.portfolio-footer",
+      "tag": "footer",
+      "top": 5902,
+      "height": 122,
+      "words": 8,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 183,
+      "textLeft": 20,
+      "textRight": 183,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "size": 44,
+      "top": 98,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 23
+     },
+     {
+      "x": 100,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 28,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f8f8f4, text #f8f8f4).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\theme-final\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\theme-final\\desktop-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\theme-final\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\theme-final\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\theme-final\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\theme-final\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\theme-final\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

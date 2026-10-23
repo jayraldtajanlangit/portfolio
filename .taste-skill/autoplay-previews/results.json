@@ -1,0 +1,126 @@
+[
+  {
+    "name": "/index.html: skyfire autoplays without hover or controls",
+    "pass": true
+  },
+  {
+    "name": "/index.html: maistra autoplays without hover or controls",
+    "pass": true
+  },
+  {
+    "name": "/index.html: bulk-buying-companion autoplays without hover or controls",
+    "pass": true
+  },
+  {
+    "name": "/index.html: pulso autoplays without hover or controls",
+    "pass": true
+  },
+  {
+    "name": "/index.html: sige autoplays without hover or controls",
+    "pass": true
+  },
+  {
+    "name": "/index.html: all three phone previews play together",
+    "pass": true
+  },
+  {
+    "name": "/index.html: clicking pauses only Pulso",
+    "pass": true
+  },
+  {
+    "name": "/index.html: intentional pause survives scrolling and mouse movement",
+    "pass": true
+  },
+  {
+    "name": "/index.html: keyboard resumes Pulso with other phones still playing",
+    "pass": true
+  },
+  {
+    "name": "/index.html: reduced motion pauses all previews",
+    "pass": true
+  },
+  {
+    "name": "/index.html: explicit play works with reduced motion",
+    "pass": true
+  },
+  {
+    "name": "/index.html: hidden tab pauses all players",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: skyfire autoplays without hover or controls",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: maistra autoplays without hover or controls",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: bulk-buying-companion autoplays without hover or controls",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: pulso autoplays without hover or controls",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: sige autoplays without hover or controls",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: all three phone previews play together",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: clicking pauses only Pulso",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: intentional pause survives scrolling and mouse movement",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: keyboard resumes Pulso with other phones still playing",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: reduced motion pauses all previews",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: explicit play works with reduced motion",
+    "pass": true
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html: hidden tab pauses all players",
+    "pass": true
+  },
+  {
+    "name": "touch: skyfire loops without controls",
+    "pass": true
+  },
+  {
+    "name": "touch: maistra loops without controls",
+    "pass": true
+  },
+  {
+    "name": "touch: bulk-buying-companion loops without controls",
+    "pass": true
+  },
+  {
+    "name": "touch: pulso loops without controls",
+    "pass": true
+  },
+  {
+    "name": "touch: sige loops without controls",
+    "pass": true
+  },
+  {
+    "name": "case study keeps full native playback controls",
+    "pass": true
+  },
+  {
+    "name": "local-file/no-JavaScript markup keeps muted autoplay without controls",
+    "pass": true
+  }
+]

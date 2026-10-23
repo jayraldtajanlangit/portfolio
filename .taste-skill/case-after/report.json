@@ -1,0 +1,1545 @@
+{
+ "url": "projects\\maistra.html",
+ "at": "2026-10-22T02:37:35.128Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.57,
+    0.77,
+    0.51,
+    0.68,
+    0.43,
+    0.37,
+    0.71,
+    0.72
+   ],
+   "motion": {
+    "elements": 8,
+    "css": 8,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6423,
+     "screens": 7.1,
+     "words": 377,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "mAIstra",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 144,
+     "vw": 10,
+     "font": "Libre Franklin",
+     "weight": 700,
+     "tracking": -0.05,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.73,
+     "top": 202,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "mAIstra",
+     "words": 1,
+     "lines": 1,
+     "size": 144,
+     "font": "Libre Franklin"
+    },
+    "headings": [
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 144,
+      "vw": 10,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 202,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Connect an instructor-facing review flow to remote code execution while keeping submission and grading state coherent.",
+      "words": 16,
+      "chars": 118,
+      "lines": 3,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Libre Franklin",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.5,
+      "top": 1731,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Problem",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 1763,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "My contribution",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 2118,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How it works",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2561,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Instructor review",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 2702,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Supabase",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 2702,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Judge0 boundary",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 2952,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Grade record",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 2952,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering choices",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 3289,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "In use",
+      "words": 2,
+      "chars": 6,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 3820,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Open a submission",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 4107,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Review the code",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.67,
+      "top": 4781,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Run and grade",
+      "words": 3,
+      "chars": 13,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 5416,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 99.2,
+      "vw": 6.9,
+      "font": "Libre Franklin",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6147,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "→",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 99.2,
+      "vw": 6.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.65,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.07,
+      "top": 6147,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.81,
+       "mono": false
+      },
+      {
+       "family": "Libre Franklin",
+       "share": 0.19,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      19,
+      24,
+      26,
+      32,
+      46,
+      64,
+      99,
+      144
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 19,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 9.9
+     },
+     "measureChars": 76,
+     "max": {
+      "size": 144,
+      "vw": 10,
+      "font": "Libre Franklin",
+      "text": "mAIstra"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Case study / 01 / Learning systems",
+      "above": "mAIstra",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 144
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#c8c5ba",
+     "bodyBgHsl": {
+      "h": 47,
+      "s": 0.11,
+      "l": 0.76
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#1c1c1c",
+       "top": 626,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#131b20",
+       "top": 626,
+       "hsl": {
+        "h": 203,
+        "s": 0.25,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1c1c",
+       "share": 0.61
+      },
+      {
+       "color": "#c8c5ba",
+       "share": 0.22
+      },
+      {
+       "color": "#454743",
+       "share": 0.17
+      }
+     ],
+     "button": {
+      "bg": "#1c1c1c",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.11
+      },
+      "fg": "#c8c5ba"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.29
+     },
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "libre franklin",
+     "source serif 4"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 6423,
+    "margins": {
+     "left": 28,
+     "right": 28
+    },
+    "sections": [
+     {
+      "sel": "div.case-title-block.is-revealed",
+      "tag": "div",
+      "top": 128,
+      "height": 331,
+      "words": 23,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 144,
+       "tag": "h1"
+      },
+      "left": 28,
+      "right": 775,
+      "textLeft": 28,
+      "textRight": 775,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.case-lead-media.is-revealed",
+      "tag": "div",
+      "top": 626,
+      "height": 921,
+      "words": 14,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--problem",
+      "tag": "section",
+      "top": 1659,
+      "height": 355,
+      "words": 41,
+      "media": 0,
+      "middle": 260,
+      "heading": {
+       "text": "Problem",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 302,
+      "textLeft": 28,
+      "textRight": 302,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.shell",
+      "tag": "section",
+      "top": 2014,
+      "height": 443,
+      "words": 48,
+      "media": 0,
+      "middle": 136,
+      "heading": {
+       "text": "My contribution",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 275,
+      "textLeft": 28,
+      "textRight": 275,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--system",
+      "tag": "section",
+      "top": 2457,
+      "height": 728,
+      "words": 59,
+      "media": 0,
+      "middle": 97,
+      "heading": {
+       "text": "Instructor review",
+       "size": 64,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 29,
+      "textLeft": 28,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.shell",
+      "tag": "section",
+      "top": 3185,
+      "height": 531,
+      "words": 88,
+      "media": 0,
+      "middle": 196,
+      "heading": {
+       "text": "Engineering choices",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 58,
+      "textLeft": 28,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--workflow",
+      "tag": "section",
+      "top": 3716,
+      "height": 2387,
+      "words": 96,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Open a submission",
+       "size": 64,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 73,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "nav.next-project",
+      "tag": "nav",
+      "top": 6103,
+      "height": 208,
+      "words": 3,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire",
+       "size": 99,
+       "tag": "strong"
+      },
+      "left": 28,
+      "right": 1044,
+      "textLeft": 28,
+      "textRight": 1044,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "mAIstra",
+      "size": 144,
+      "top": 202,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 28,
+      "n": 8
+     },
+     {
+      "x": 477,
+      "n": 2
+     },
+     {
+      "x": 517,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.2,
+    "voidBox": {
+     "x": 720,
+     "y": 120,
+     "w": 720,
+     "h": 360
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.52,
+    0.39,
+    0.81,
+    0.87,
+    0.46,
+    0.46,
+    0.7,
+    0.81
+   ],
+   "motion": {
+    "elements": 8,
+    "css": 8,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6539,
+     "screens": 7.7,
+     "words": 373,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "mAIstra",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 62.4,
+     "vw": 16,
+     "font": "Libre Franklin",
+     "weight": 700,
+     "tracking": -0.05,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 213,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "mAIstra",
+     "words": 1,
+     "lines": 1,
+     "size": 62.4,
+     "font": "Libre Franklin"
+    },
+    "headings": [
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 62.4,
+      "vw": 16,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 213,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Problem",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1211,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "My contribution",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1694,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How it works",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2333,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Instructor review",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 2464,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Supabase",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 2652,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Judge0 boundary",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 2869,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Grade record",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 3086,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering choices",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3387,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "In use",
+      "words": 2,
+      "chars": 6,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4433,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Open a submission",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4726,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Review the code",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5181,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Run and grade",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5636,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Libre Franklin",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.71,
+      "top": 6215,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "→",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.65,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.12,
+      "top": 6215,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.81,
+       "mono": false
+      },
+      {
+       "family": "Libre Franklin",
+       "share": 0.19,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      17,
+      20,
+      22,
+      33,
+      36,
+      48,
+      62
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 9.9
+     },
+     "measureChars": 29,
+     "max": {
+      "size": 62.4,
+      "vw": 16,
+      "font": "Libre Franklin",
+      "text": "mAIstra"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Case study / 01 / Learning systems",
+      "above": "mAIstra",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 128
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#c8c5ba",
+     "bodyBgHsl": {
+      "h": 47,
+      "s": 0.11,
+      "l": 0.76
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#1c1c1c",
+       "top": 713,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1c1c",
+       "share": 0.61
+      },
+      {
+       "color": "#c8c5ba",
+       "share": 0.22
+      },
+      {
+       "color": "#454743",
+       "share": 0.17
+      }
+     ],
+     "button": {
+      "bg": "#1c1c1c",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.11
+      },
+      "fg": "#c8c5ba"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.14
+     },
+     {
+      "type": "img",
+      "ratio": 0.14
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "libre franklin",
+     "source serif 4"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6539,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "main#main",
+      "tag": "main",
+      "top": 80,
+      "height": 6259,
+      "words": 386,
+      "media": 5,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 62,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 6339,
+      "height": 200,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 110,
+      "textLeft": 20,
+      "textRight": 110,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "mAIstra",
+      "size": 62,
+      "top": 213,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 10
+     },
+     {
+      "x": 52,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Case study / 01 / Learning systems\" above \"mAIstra\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 8 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-after\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-after\\desktop-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-after\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-after\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-after\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

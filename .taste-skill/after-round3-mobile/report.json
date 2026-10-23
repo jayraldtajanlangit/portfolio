@@ -1,0 +1,858 @@
+{
+ "url": "index.html",
+ "at": "2026-10-22T02:34:25.019Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.97,
+    0.63,
+    0.86,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0.74
+   ],
+   "motion": {
+    "elements": 18,
+    "css": 17,
+    "transitions": 1,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 16787,
+     "screens": 19.9,
+     "words": 757,
+     "img": 31,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 20,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-01.webp",
+      "still-02.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Full-stack & mobile engineer.",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 35.1,
+     "vw": 9,
+     "font": "Libre Franklin",
+     "weight": 700,
+     "tracking": -0.035,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.86,
+     "top": 98,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Full-stack & mobile engineer.",
+     "words": 4,
+     "lines": 2,
+     "size": 35.1,
+     "font": "Libre Franklin"
+    },
+    "headings": [
+     {
+      "text": "Full-stack & mobile engineer.",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 35.1,
+      "vw": 9,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 98,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Work, in motion.",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1296,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1991,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire — Airline Booking System",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4588,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7218,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9872,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 12445,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 15006,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Have a product that needs both the interface and the system behind it?",
+      "words": 13,
+      "chars": 70,
+      "lines": 5,
+      "size": 23.2,
+      "vw": 5.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 15856,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Jayrald",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 120.9,
+      "vw": 31,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.82,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 16688,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 5,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.88,
+       "mono": false
+      },
+      {
+       "family": "Libre Franklin",
+       "share": 0.12,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      17,
+      20,
+      23,
+      24,
+      33,
+      35,
+      121
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 16,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.5
+     },
+     "measureChars": 29,
+     "max": {
+      "size": 120.9,
+      "vw": 31,
+      "font": "Libre Franklin",
+      "text": "Jayrald"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#1c1c1c",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.11
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1c1c1c",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#8fa68e",
+       "top": 8,
+       "hsl": {
+        "h": 118,
+        "s": 0.12,
+        "l": 0.6
+       }
+      },
+      {
+       "color": "#262626",
+       "top": 1895,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#111617",
+       "top": 2264,
+       "hsl": {
+        "h": 190,
+        "s": 0.15,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#c8c5ba",
+       "top": 4492,
+       "hsl": {
+        "h": 47,
+        "s": 0.11,
+        "l": 0.76
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1c1c",
+       "share": 0.6
+      },
+      {
+       "color": "#f1f1ef",
+       "share": 0.38
+      },
+      {
+       "color": "#9a9b96",
+       "share": 0.02
+      },
+      {
+       "color": "#555751",
+       "share": 0.01
+      },
+      {
+       "color": "#c8c5ba",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#262626",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.15
+      },
+      "fg": "#f1f1ef"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 2,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "Explore the work ↓"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 15,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 443
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 395
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.11
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "libre franklin",
+     "source serif 4"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 16787,
+    "margins": {
+     "left": 8,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section#top.contact-hero",
+      "tag": "section",
+      "top": 0,
+      "height": 1200,
+      "words": 65,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "Full-stack & mobile",
+       "size": 35,
+       "tag": "h1"
+      },
+      "left": 8,
+      "right": 8,
+      "textLeft": 18,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-work-intro.shell",
+      "tag": "header",
+      "top": 1200,
+      "height": 400,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Work, in motion.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 30,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.workflow-dock.shell",
+      "tag": "div",
+      "top": 1600,
+      "height": 294,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--1",
+      "tag": "article",
+      "top": 1895,
+      "height": 2597,
+      "words": 119,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--2",
+      "tag": "article",
+      "top": 4492,
+      "height": 2630,
+      "words": 122,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire — Airline Booking System",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--3",
+      "tag": "article",
+      "top": 7122,
+      "height": 2655,
+      "words": 133,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--4",
+      "tag": "article",
+      "top": 9776,
+      "height": 2573,
+      "words": 115,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Pulso",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--5",
+      "tag": "article",
+      "top": 12349,
+      "height": 2545,
+      "words": 115,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Sige",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 14894,
+      "height": 849,
+      "words": 57,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 34,
+      "textLeft": 20,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 15744,
+      "height": 792,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Have a product that needs both the interface and t",
+       "size": 23,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 99,
+      "textLeft": 20,
+      "textRight": 99,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 16536,
+      "height": 251,
+      "words": 7,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 161,
+      "textLeft": 20,
+      "textRight": 161,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Full-stack & mobile engineer.",
+      "size": 35,
+      "top": 98,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 19
+     }
+    ],
+    "leftBlocks": 19,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "statement-length",
+   "width": 390,
+   "message": "1 large-set statement(s) run past 4 lines at 390px: \"Have a product that needs both the inter…\" → 5 lines at 23.2px",
+   "fix": "A statement set large is about 30 words. Cut it, or set the rest as ordinary body text."
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 390,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid."
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 390,
+   "message": "The running text is a soft grey on its ground (6.5:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 390,
+   "message": "The margins differ: 8px on the left, 20px on the right, at 390px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\after-round3-mobile\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\after-round3-mobile\\mobile-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\after-round3-mobile\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

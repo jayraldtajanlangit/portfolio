@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <script src="../../js/theme.js"></script>
+  <title>Jayrald Tajanlangit — Editorial design concept</title>
+  <link rel="preload" href="../../assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="../../assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="../../css/fonts.css">
+  <link rel="stylesheet" href="../../css/theme.css">
+  <link rel="stylesheet" href="../../css/motion.css">
+  <link rel="stylesheet" href="../../css/selected-work.css">
+  <style>
+    :root { color-scheme: light; --concept-paper: #ffffff; --concept-ink: #202020; --concept-action: #202020; --concept-action-ink: #ffffff; --concept-hover: #315b6d; --concept-surface: #eceff1; --concept-secondary: #ededeb; --concept-phone: #e9efeb; --concept-footer: #202020; --concept-footer-ink: #ffffff; --concept-footer-link: #b8d4dd; }
+    :root[data-theme="dark"] { color-scheme: dark; --concept-paper: #171717; --concept-ink: #f1f1ee; --concept-action: #f1f1ee; --concept-action-ink: #171717; --concept-hover: #add2df; --concept-surface: #26292b; --concept-secondary: #262626; --concept-phone: #242b28; --concept-footer: #101010; --concept-footer-ink: #f1f1ee; --concept-footer-link: #b8d4dd; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme]) { color-scheme: dark; --concept-paper: #171717; --concept-ink: #f1f1ee; --concept-action: #f1f1ee; --concept-action-ink: #171717; --concept-hover: #add2df; --concept-surface: #26292b; --concept-secondary: #262626; --concept-phone: #242b28; --concept-footer: #101010; --concept-footer-ink: #f1f1ee; --concept-footer-link: #b8d4dd; }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scrollbar-gutter: stable both-edges; }
+    body { margin: 0; background: var(--concept-paper); color: var(--concept-ink); font: 16px/1.6 'Manrope', Arial, sans-serif; letter-spacing: -.015em; font-kerning: normal; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+    h1, h2, h3, p, figure { margin: 0; }
+    h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 400; letter-spacing: -.025em; line-height: .98; text-wrap: balance; }
+    h3 { font-size: 28px; font-weight: 650; letter-spacing: -.04em; line-height: 1.15; text-wrap: balance; }
+    p { text-wrap: pretty; }
+    a { color: inherit; text-underline-offset: .22em; text-decoration-thickness: .07em; }
+    a:hover { color: var(--concept-hover); }
+    a:focus-visible, summary:focus-visible { outline: 3px solid var(--concept-hover); outline-offset: 5px; }
+    img { display: block; max-width: 100%; height: auto; }
+    .wrap { width: min(calc(100% - 80px), 1440px); margin-inline: auto; }
+    .navigation { display: flex; align-items: center; justify-content: space-between; gap: 32px; min-height: 88px; }
+    .brand { font-weight: 750; letter-spacing: -.04em; text-decoration: none; }
+    .navigation nav { display: flex; align-items: center; gap: 32px; }
+    .navigation nav a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 500; text-decoration: none; }
+    .navigation .contact-link { text-decoration: underline; }
+    .navigation-actions { display: flex; align-items: center; gap: 28px; }
+    .intro { display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; align-items: center; padding-block: 24px 56px; }
+    .intro-copy { padding-block: 12px; }
+    h1 { font-size: clamp(64px, 7.8vw, 116px); line-height: .92; letter-spacing: -.035em; }
+    .intro-role { font-size: 24px; line-height: 1.3; margin-top: 24px; letter-spacing: -.035em; font-weight: 500; }
+    .intro-description { max-width: 46ch; margin-top: 20px; }
+    .actions { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; margin-top: 24px; font-weight: 600; }
+    .actions a { display: inline-flex; align-items: center; min-height: 48px; }
+    .button { background: var(--concept-action); color: var(--concept-action-ink); padding: 12px 24px; text-decoration: none; }
+    .button:hover { background: var(--concept-hover); color: var(--concept-action-ink); }
+    .socials { display: flex; gap: 24px; margin-top: 28px; }
+    .socials a { display: inline-flex; align-items: center; min-height: 44px; }
+    .portrait { background: #dadada; }
+    .portrait img { width: 100%; height: 540px; object-fit: cover; object-position: 50% 42%; }
+    .section-intro { display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; align-items: end; margin-bottom: 28px; }
+    h2 { font-size: clamp(44px, 4vw, 60px); }
+    .section-intro p { max-width: 43ch; }
+    .featured-image { display: flex; justify-content: center; align-items: center; background: var(--concept-surface); padding: 24px; }
+    .featured-image img { width: 100%; max-height: 480px; object-fit: contain; }
+    .project-caption { display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; padding-top: 20px; }
+    .project-caption h3 a, .project-caption-small h3 a { text-decoration: none; }
+    .project-type { margin-top: 8px; font-weight: 500; }
+    .project-caption .project-description { max-width: 46ch; }
+    .project-caption p + p { margin-top: 10px; }
+    .project-caption .project-description > a { display: inline-flex; align-items: center; min-height: 44px; margin-top: 4px; font-weight: 600; }
+    .secondary-projects { display: grid; grid-template-columns: 1.15fr 1fr; gap: 28px; margin-top: 48px; align-items: start; }
+    .secondary-image { background: var(--concept-secondary); display: flex; align-items: center; justify-content: center; height: 320px; padding: 24px; }
+    .secondary-image img { width: 100%; height: 100%; object-fit: contain; }
+    .secondary-image.mobile { background: var(--concept-phone); gap: 16px; }
+    .secondary-image.mobile img { width: calc((100% - 32px) / 3); }
+    .project-caption-small { padding-top: 20px; }
+    .project-caption-small p { margin-top: 10px; max-width: 48ch; }
+    .project-caption-small > a { display: inline-flex; align-items: center; min-height: 44px; margin-top: 8px; font-weight: 600; }
+    .walkthrough { margin-top: 4px; }
+    .walkthrough summary { cursor: pointer; min-height: 44px; align-content: center; text-decoration: underline; text-underline-offset: .25em; }
+    .walkthrough video { display: block; width: 100%; height: auto; margin-top: 12px; }
+    .more-projects { margin-top: 40px; display: flex; justify-content: space-between; align-items: baseline; gap: 28px; }
+    .more-projects h3 { font-size: 28px; }
+    .more-projects div { display: flex; flex-wrap: wrap; gap: 32px; }
+    .more-projects a { display: inline-flex; align-items: center; min-height: 44px; }
+    .about { display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; margin-top: 80px; padding-bottom: 80px; }
+    .about-copy p { max-width: 48ch; }
+    .about-copy p + p { margin-top: 20px; }
+    .about-copy h3 { margin-top: 28px; margin-bottom: 12px; }
+    .about-copy dl { margin: 0; }
+    .about-copy dt { font-weight: 500; }
+    .about-copy dd { margin: 4px 0 16px; }
+    .about-facts { margin-top: 28px; max-width: 36ch; }
+    .about-facts p { margin-top: 12px; }
+    .contact { background: var(--concept-footer); color: var(--concept-footer-ink); padding-block: 48px 28px; }
+    .contact-layout { display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; align-items: start; }
+    .contact h2 { max-width: 15ch; }
+    .contact p { max-width: 42ch; margin-bottom: 20px; }
+    .contact a { display: inline-flex; align-items: center; min-height: 44px; overflow-wrap: anywhere; }
+    .contact a:hover { color: var(--concept-footer-link); }
+    .footer { display: flex; justify-content: space-between; gap: 24px; padding-top: 40px; }
+    @media (max-width: 1000px) {
+      .wrap { width: calc(100% - 64px); }
+      .intro, .section-intro, .project-caption, .about, .contact-layout { gap: 32px; }
+      .intro { grid-template-columns: 1.1fr 1fr; }
+      .portrait img { height: 460px; }
+      .intro-role { font-size: 20px; }
+      .featured-image { padding: 20px; }
+      .secondary-projects { gap: 24px; }
+      .secondary-image { height: 260px; padding: 20px; }
+      .secondary-image.mobile { gap: 8px; }
+      .secondary-image.mobile img { width: calc((100% - 16px) / 3); }
+    }
+    @media (max-width: 700px) {
+      .wrap { width: calc(100% - 40px); }
+      .navigation { min-height: 76px; gap: 12px; }
+      .navigation-actions { gap: 12px; }
+      .navigation nav { gap: 12px; }
+      .navigation nav a { font-size: 16px; }
+      .navigation .contact-link { display: none; }
+      .intro { grid-template-columns: 1fr; gap: 24px; padding-block: 8px 48px; }
+      .portrait { order: -1; }
+      .portrait img { height: 300px; object-position: 50% 28%; }
+      .intro-copy { padding: 0; }
+      h1 { font-size: clamp(52px, 15.4vw, 72px); }
+      .intro-role { margin-top: 20px; }
+      .intro-description { margin-top: 20px; }
+      .actions { margin-top: 20px; gap: 20px; }
+      .socials { margin-top: 16px; }
+      .section-intro, .project-caption, .about, .contact-layout { grid-template-columns: 1fr; gap: 16px; }
+      .section-intro { margin-bottom: 24px; }
+      .featured-image { padding: 16px; }
+      .project-caption { padding-top: 16px; }
+      .secondary-projects { grid-template-columns: 1fr; gap: 32px; margin-top: 32px; }
+      .secondary-image { height: auto; aspect-ratio: 16 / 10; padding: 16px; }
+      .secondary-image.mobile { height: 280px; aspect-ratio: auto; }
+      .more-projects { flex-direction: column; gap: 8px; margin-top: 32px; }
+      .about { margin-top: 56px; padding-bottom: 56px; }
+      .contact { padding-block: 48px 24px; }
+      .footer { flex-direction: column; padding-top: 28px; gap: 8px; }
+    }
+    @media (max-width: 380px) {
+      .navigation { display: grid; grid-template-columns: 1fr auto; gap: 0 12px; padding-block: 8px; }
+      .navigation-actions { display: contents; }
+      .navigation .theme-control { grid-column: 2; grid-row: 1; }
+      .navigation nav { grid-column: 1 / -1; grid-row: 2; gap: 24px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <header class="navigation wrap"><a class="brand" href="#top">Jayrald T.</a><div class="navigation-actions"><nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a class="contact-link" href="#contact">Get in touch</a></nav><div class="theme-control" hidden><button class="theme-trigger" data-theme-trigger type="button" role="switch" aria-label="Dark mode" aria-checked="false" title="Switch to dark mode"><span class="theme-track" aria-hidden="true"><span class="theme-thumb"></span><svg data-theme-icon="light" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg data-theme-icon="dark" viewBox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg></span></button></div></div></header>
+  <main id="top">
+    <section class="intro wrap" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <h1 id="intro-title">Jayrald<br>Tajanlangit</h1>
+        <p class="intro-role typing-line"><span class="typing-static">I’m interested in web development, mobile development, and artificial intelligence.</span><span class="typing-visual" aria-hidden="true">I’m interested in <span class="typing-slot"><span class="typing-measure">artificial intelligence|</span><span class="typing-text" data-typing-words="[&quot;web development&quot;,&quot;mobile development&quot;,&quot;artificial intelligence&quot;]">web development</span></span></span></p>
+        <p class="intro-description">I’m a Computer Science student at the University of San Jose Recoletos in the Philippines. My projects span booking systems, teaching tools, and community applications.</p>
+        <div class="actions"><a class="button" href="#work">View selected work</a><a href="mailto:jayraldtajanlangit123@gmail.com">Contact me</a></div>
+      </div>
+      <figure class="portrait"><img src="../../assets/pp/583917390_25203520672616248_2951040891851883210_n.jpg" width="864" height="852" alt="Jayrald Tajanlangit seated in a studio portrait"></figure>
+    </section>
+    <section class="work wrap" id="work" aria-labelledby="work-title">
+      <header class="section-intro"><h2 id="work-title">Selected work</h2><p>Individual projects and team contributions across web and mobile development.</p></header>
+      <!-- selected-work:start -->
+<div class="selected-work"><article class="selected-project selected-project--skyfire selected-project--featured" id="project-skyfire" aria-labelledby="selected-skyfire-title" data-walkthrough-preview>
+    <figure class="selected-project-media"><video autoplay muted loop playsinline preload="metadata" poster="../../assets/images/projects/skyfire/poster.webp" width="1440" height="900" aria-label="SkyFire guided project walkthrough"><source src="../../assets/videos/skyfire-polished.mp4" type="video/mp4"><source src="../../assets/videos/skyfire.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="../../assets/videos/skyfire-polished.mp4">Open the video</a> or <a href="../../projects/skyfire.html">view the case study</a>.</video></figure>
+    <div class="selected-project-copy">
+      <h3 class="selected-project-title" id="selected-skyfire-title"><a href="../../projects/skyfire.html">SkyFire</a></h3>
+      <div class="selected-project-overview"><p class="selected-project-summary">Find flights, choose seats, and manage reservations.</p>
+        </div>
+      <p class="selected-project-contribution"><strong>My contribution</strong>Built the Angular frontend, Django API, and reservation flow with backend seat validation.</p>
+      <div class="selected-project-meta"><p class="selected-project-role">Individual project · Full-stack development</p><p class="selected-project-stack">Angular 21 · Django REST Framework · JWT · SQLite</p></div>
+      <div class="selected-project-links"><a href="../../projects/skyfire.html">View case study <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </article><article class="selected-project selected-project--maistra selected-project--wide" id="project-maistra" aria-labelledby="selected-maistra-title" data-walkthrough-preview>
+    <figure class="selected-project-media"><video autoplay muted loop playsinline preload="metadata" poster="../../assets/images/projects/maistra/poster.webp" width="1280" height="720" aria-label="mAIstra guided project walkthrough"><source src="../../assets/videos/maistra-polished.mp4" type="video/mp4"><source src="../../assets/videos/maistra.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="../../assets/videos/maistra-polished.mp4">Open the video</a> or <a href="../../projects/maistra.html">view the case study</a>.</video></figure>
+    <div class="selected-project-copy">
+      <h3 class="selected-project-title" id="selected-maistra-title"><a href="../../projects/maistra.html">mAIstra</a></h3>
+      <div class="selected-project-overview"><p class="selected-project-summary">A web and mobile teaching system that extracts handwritten code with OCR for teacher review and grading.</p>
+        </div>
+      <p class="selected-project-contribution"><strong>My contribution</strong>Built the web submission review and grading interface, Judge0 integration, and Supabase persistence.</p>
+      <div class="selected-project-meta"><p class="selected-project-role">Team project · Submission review and grading</p><p class="selected-project-stack">Angular 21 · TypeScript · Flutter · Python · FastAPI · OpenCV · PaddleOCR · Supabase · Judge0</p></div>
+      <div class="selected-project-links"><a href="../../projects/maistra.html">View case study <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </article><div class="selected-projects-mobile"><article class="selected-project selected-project--bulk-buying-companion" id="project-bulk-buying-companion" aria-labelledby="selected-bulk-buying-companion-title" data-walkthrough-preview>
+    <figure class="selected-project-media selected-project-media--mobile"><div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><video autoplay muted loop playsinline preload="metadata" poster="../../assets/images/projects/bulk-buying-companion/poster.webp" width="390" height="844" aria-label="Bulk Buying Companion guided project walkthrough"><source src="../../assets/videos/bulk-buying-companion-polished.mp4" type="video/mp4"><source src="../../assets/videos/bulk-buying-companion-polished.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="../../assets/videos/bulk-buying-companion-polished.mp4">Open the video</a> or <a href="../../projects/bulk-buying-companion.html">view the case study</a>.</video></div></div></figure>
+    <div class="selected-project-copy">
+      <h3 class="selected-project-title" id="selected-bulk-buying-companion-title"><a href="../../projects/bulk-buying-companion.html">Bulk Buying Companion</a></h3>
+      <div class="selected-project-overview"><p class="selected-project-summary">Find nearby group buys, split quantities, and coordinate pickup.</p>
+        </div>
+      <p class="selected-project-contribution"><strong>My contribution</strong>Built authentication, nearby discovery, Split Board search, realtime updates, and pickup tools with the team.</p>
+      <div class="selected-project-meta"><p class="selected-project-role">Team project · Mobile and backend development</p><p class="selected-project-stack">Flutter · Supabase · Realtime · Geolocation · On-device ML</p></div>
+      <div class="selected-project-links"><a href="../../projects/bulk-buying-companion.html">View case study <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </article><article class="selected-project selected-project--pulso" id="project-pulso" aria-labelledby="selected-pulso-title" data-walkthrough-preview>
+    <figure class="selected-project-media selected-project-media--mobile"><div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><video autoplay muted loop playsinline preload="metadata" poster="../../assets/images/projects/pulso/poster.webp" width="390" height="844" aria-label="Pulso guided project walkthrough"><source src="../../assets/videos/pulso-polished.mp4" type="video/mp4"><source src="../../assets/videos/pulso-polished.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="../../assets/videos/pulso-polished.mp4">Open the video</a> or <a href="../../projects/pulso.html">view the case study</a>.</video></div></div></figure>
+    <div class="selected-project-copy">
+      <h3 class="selected-project-title" id="selected-pulso-title"><a href="../../projects/pulso.html">Pulso</a></h3>
+      <div class="selected-project-overview"><p class="selected-project-summary">Sign in, share image posts, and personalize your profile.</p>
+        </div>
+      <p class="selected-project-contribution"><strong>My contribution</strong>Built the Flutter and Riverpod foundation, authentication, feed, profiles, saved posts, and realtime features.</p>
+      <div class="selected-project-meta"><p class="selected-project-role">Team project · Mobile and backend development</p><p class="selected-project-stack">Flutter · Riverpod · Supabase · Realtime</p></div>
+      <div class="selected-project-links"><a href="../../projects/pulso.html">View case study <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </article><article class="selected-project selected-project--sige" id="project-sige" aria-labelledby="selected-sige-title" data-walkthrough-preview>
+    <figure class="selected-project-media selected-project-media--mobile"><div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><video autoplay muted loop playsinline preload="metadata" poster="../../assets/images/projects/sige/poster.webp" width="390" height="844" aria-label="Sige Tasks UI prototype guided project walkthrough"><source src="../../assets/videos/sige-polished.mp4" type="video/mp4"><source src="../../assets/videos/sige-polished.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="../../assets/videos/sige-polished.mp4">Open the video</a> or <a href="../../projects/sige.html">view the case study</a>.</video></div></div></figure>
+    <div class="selected-project-copy">
+      <h3 class="selected-project-title" id="selected-sige-title"><a href="../../projects/sige.html">Sige</a></h3>
+      <div class="selected-project-overview"><p class="selected-project-summary">An AI accountability coach for turning conversation into action.</p>
+        <p class="selected-project-disclosure">Walkthrough: Tasks UI prototype</p></div>
+      <p class="selected-project-contribution"><strong>My contribution</strong>Designed and built the Flutter coaching interface and chat service integration. Tasks and Insights are UI prototypes.</p>
+      <div class="selected-project-meta"><p class="selected-project-role">Individual project · Mobile development</p><p class="selected-project-stack">Flutter · Supabase · FastAPI · Groq · FCM</p></div>
+      <div class="selected-project-links"><a href="../../projects/sige.html">View case study <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </article></div></div>
+<!-- selected-work:end -->
+    </section>
+    <section class="about wrap" id="about" aria-labelledby="about-title"><div><h2 id="about-title">About me</h2><div class="about-facts"><h3>Education</h3><p>Computer Science<br>University of San Jose Recoletos</p></div></div><div class="about-copy"><p>I’m learning by building: independently on SkyFire and Sige, and with teammates on mAIstra, Bulk Buying Companion, and Pulso.</p><p>I’d like to contribute to development tasks, get feedback through code reviews, and learn how a team builds and maintains software.</p><h3>Technologies I’ve used</h3><p>Angular, Flutter, Riverpod, Django REST Framework, FastAPI, Supabase, and SQLite. Project pages explain where and how I used them.</p></div></section>
+  </main>
+  <footer class="contact" id="contact"><div class="wrap"><div class="contact-layout"><h2>Let’s work together</h2><div><p>Have a project or an opportunity in mind? I’d be glad to hear from you.</p><a href="mailto:jayraldtajanlangit123@gmail.com">jayraldtajanlangit123@gmail.com</a><div class="socials"><a href="https://github.com/jayraldtajanlangit">GitHub</a><a href="https://www.linkedin.com/in/jayrald-tajanlangit-b8646a280/">LinkedIn</a></div></div></div><div class="footer"><p>© 2026 Jayrald Tajanlangit</p><a href="#top">Back to top</a></div></div></footer>
+  <script type="module" src="../../js/motion.js"></script>
+  <script type="module" src="../../js/walkthrough.js"></script>
+</body>
+</html>

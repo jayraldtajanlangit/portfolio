@@ -1,0 +1,10 @@
+{
+  "source_sha256": "3f902210bdccd3f4597de12d6dbc1076f1b52b84ff213e9e8feeac48f1f0177a",
+  "preserved_parts": 18,
+  "changed_parts": [
+    "word/document.xml",
+    "word/_rels/document.xml.rels"
+  ],
+  "section_geometry_preserved": true,
+  "all_five_projects": true
+}

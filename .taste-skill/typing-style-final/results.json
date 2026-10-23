@@ -1,0 +1,748 @@
+[
+  {
+    "name": "light 320px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 16,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "light 360px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 16,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "light 375px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 16,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "light 390px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 16.38,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "light 428px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 17.976,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "light 768px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 18,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "light 1440px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 20,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "dark 320px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 261.65625,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 16,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "dark 360px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 268,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 16,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "dark 375px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 272.25,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 16,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "dark 390px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 277.0625,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 16.38,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "dark 428px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 290.203125,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 17.976,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "dark 768px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 128,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 18,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "dark 1440px: medium Manrope and stable full phrases",
+    "pass": true,
+    "detail": {
+      "states": [
+        {
+          "word": "web development",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "mobile development",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "artificial intelligence",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        },
+        {
+          "word": "",
+          "top": 157.453125,
+          "overflow": false,
+          "fits": true
+        }
+      ],
+      "font": "Manrope, Arial, sans-serif",
+      "weight": "500",
+      "size": 20,
+      "words": [
+        "web development",
+        "mobile development",
+        "artificial intelligence"
+      ],
+      "noButton": true
+    }
+  },
+  {
+    "name": "reduced motion keeps all three interests readable",
+    "pass": true
+  }
+]

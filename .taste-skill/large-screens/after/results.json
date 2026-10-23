@@ -1,0 +1,2166 @@
+[
+  {
+    "name": "dark 320px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 320,
+      "shells": [
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        }
+      ],
+      "occupancy": 0.78125,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": false,
+      "paragraphs": [
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        }
+      ],
+      "frames": [
+        {
+          "width": 238,
+          "left": 41,
+          "right": 279
+        },
+        {
+          "width": 238,
+          "left": 41,
+          "right": 279
+        },
+        {
+          "width": 238,
+          "left": 41,
+          "right": 279
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "dark 390px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 390,
+      "shells": [
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        }
+      ],
+      "occupancy": 0.8205128205128205,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": false,
+      "paragraphs": [
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        }
+      ],
+      "frames": [
+        {
+          "width": 272,
+          "left": 59,
+          "right": 331
+        },
+        {
+          "width": 272,
+          "left": 59,
+          "right": 331
+        },
+        {
+          "width": 272,
+          "left": 59,
+          "right": 331
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "dark 768px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 768,
+      "shells": [
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        }
+      ],
+      "occupancy": 0.8776041666666666,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": false,
+      "paragraphs": [
+        {
+          "width": 468.46875,
+          "font": 16
+        },
+        {
+          "width": 478.234375,
+          "font": 16
+        },
+        {
+          "width": 468.46875,
+          "font": 16
+        },
+        {
+          "width": 478.234375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        }
+      ],
+      "frames": [
+        {
+          "width": 246.390625,
+          "left": 53,
+          "right": 299.390625
+        },
+        {
+          "width": 246.390625,
+          "left": 53,
+          "right": 299.390625
+        },
+        {
+          "width": 246.390625,
+          "left": 53,
+          "right": 299.390625
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "dark 1024px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 1024,
+      "shells": [
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        }
+      ],
+      "occupancy": 0.908203125,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 356,
+          "font": 16
+        },
+        {
+          "width": 356,
+          "font": 16
+        },
+        {
+          "width": 356,
+          "font": 16
+        },
+        {
+          "width": 356,
+          "font": 16
+        },
+        {
+          "width": 288.65625,
+          "font": 16
+        },
+        {
+          "width": 288.65625,
+          "font": 16
+        },
+        {
+          "width": 288.671875,
+          "font": 16
+        },
+        {
+          "width": 288.671875,
+          "font": 16
+        },
+        {
+          "width": 288.65625,
+          "font": 16
+        },
+        {
+          "width": 288.65625,
+          "font": 16
+        }
+      ],
+      "frames": [
+        {
+          "width": 272,
+          "left": 55.328125,
+          "right": 327.328125
+        },
+        {
+          "width": 272,
+          "left": 376,
+          "right": 648
+        },
+        {
+          "width": 272,
+          "left": 696.65625,
+          "right": 968.65625
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "dark 1440px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 1440,
+      "shells": [
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        }
+      ],
+      "occupancy": 0.9191623263888888,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 468.46875,
+          "font": 16
+        },
+        {
+          "width": 478.234375,
+          "font": 16
+        },
+        {
+          "width": 468.46875,
+          "font": 16
+        },
+        {
+          "width": 478.234375,
+          "font": 16
+        },
+        {
+          "width": 419.859375,
+          "font": 16
+        },
+        {
+          "width": 419.859375,
+          "font": 16
+        },
+        {
+          "width": 419.859375,
+          "font": 16
+        },
+        {
+          "width": 419.859375,
+          "font": 16
+        },
+        {
+          "width": 419.875,
+          "font": 16
+        },
+        {
+          "width": 419.875,
+          "font": 16
+        }
+      ],
+      "frames": [
+        {
+          "width": 272,
+          "left": 132.140625,
+          "right": 404.140625
+        },
+        {
+          "width": 272,
+          "left": 584,
+          "right": 856
+        },
+        {
+          "width": 272,
+          "left": 1035.859375,
+          "right": 1307.859375
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "dark 1920px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 1920,
+      "shells": [
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        }
+      ],
+      "occupancy": 0.9243733723958333,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        }
+      ],
+      "frames": [
+        {
+          "width": 307.1875,
+          "left": 204.140625,
+          "right": 511.328125
+        },
+        {
+          "width": 307.1875,
+          "left": 806.40625,
+          "right": 1113.59375
+        },
+        {
+          "width": 307.1875,
+          "left": 1408.671875,
+          "right": 1715.859375
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "dark 2560px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 2560,
+      "shells": [
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        }
+      ],
+      "occupancy": 0.928277587890625,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        }
+      ],
+      "frames": [
+        {
+          "width": 409.59375,
+          "left": 272.40625,
+          "right": 682
+        },
+        {
+          "width": 409.59375,
+          "left": 1075.203125,
+          "right": 1484.796875
+        },
+        {
+          "width": 409.59375,
+          "left": 1878,
+          "right": 2287.59375
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "dark 3440px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 3440,
+      "shells": [
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        }
+      ],
+      "occupancy": 0.9354651162790698,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        }
+      ],
+      "frames": [
+        {
+          "width": 416,
+          "left": 428.671875,
+          "right": 844.671875
+        },
+        {
+          "width": 416,
+          "left": 1512,
+          "right": 1928
+        },
+        {
+          "width": 416,
+          "left": 2595.328125,
+          "right": 3011.328125
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "dark 3840px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 3840,
+      "shells": [
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        }
+      ],
+      "occupancy": 0.9333333333333333,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        }
+      ],
+      "frames": [
+        {
+          "width": 416,
+          "left": 506.671875,
+          "right": 922.671875
+        },
+        {
+          "width": 416,
+          "left": 1712,
+          "right": 2128
+        },
+        {
+          "width": 416,
+          "left": 2917.328125,
+          "right": 3333.328125
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "light 320px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 320,
+      "shells": [
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        },
+        {
+          "left": 35,
+          "right": 285,
+          "width": 250
+        }
+      ],
+      "occupancy": 0.78125,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": false,
+      "paragraphs": [
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        },
+        {
+          "width": 250,
+          "font": 16
+        }
+      ],
+      "frames": [
+        {
+          "width": 238,
+          "left": 41,
+          "right": 279
+        },
+        {
+          "width": 238,
+          "left": 41,
+          "right": 279
+        },
+        {
+          "width": 238,
+          "left": 41,
+          "right": 279
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "light 390px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 390,
+      "shells": [
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        },
+        {
+          "left": 35,
+          "right": 355,
+          "width": 320
+        }
+      ],
+      "occupancy": 0.8205128205128205,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": false,
+      "paragraphs": [
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        },
+        {
+          "width": 320,
+          "font": 16
+        }
+      ],
+      "frames": [
+        {
+          "width": 272,
+          "left": 59,
+          "right": 331
+        },
+        {
+          "width": 272,
+          "left": 59,
+          "right": 331
+        },
+        {
+          "width": 272,
+          "left": 59,
+          "right": 331
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "light 768px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 768,
+      "shells": [
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        },
+        {
+          "left": 47,
+          "right": 721,
+          "width": 674
+        }
+      ],
+      "occupancy": 0.8776041666666666,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": false,
+      "paragraphs": [
+        {
+          "width": 468.46875,
+          "font": 16
+        },
+        {
+          "width": 478.234375,
+          "font": 16
+        },
+        {
+          "width": 468.46875,
+          "font": 16
+        },
+        {
+          "width": 478.234375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        },
+        {
+          "width": 387.609375,
+          "font": 16
+        }
+      ],
+      "frames": [
+        {
+          "width": 246.390625,
+          "left": 53,
+          "right": 299.390625
+        },
+        {
+          "width": 246.390625,
+          "left": 53,
+          "right": 299.390625
+        },
+        {
+          "width": 246.390625,
+          "left": 53,
+          "right": 299.390625
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "light 1024px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 1024,
+      "shells": [
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        },
+        {
+          "left": 47,
+          "right": 977,
+          "width": 930
+        }
+      ],
+      "occupancy": 0.908203125,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 356,
+          "font": 16
+        },
+        {
+          "width": 356,
+          "font": 16
+        },
+        {
+          "width": 356,
+          "font": 16
+        },
+        {
+          "width": 356,
+          "font": 16
+        },
+        {
+          "width": 288.65625,
+          "font": 16
+        },
+        {
+          "width": 288.65625,
+          "font": 16
+        },
+        {
+          "width": 288.671875,
+          "font": 16
+        },
+        {
+          "width": 288.671875,
+          "font": 16
+        },
+        {
+          "width": 288.65625,
+          "font": 16
+        },
+        {
+          "width": 288.65625,
+          "font": 16
+        }
+      ],
+      "frames": [
+        {
+          "width": 272,
+          "left": 55.328125,
+          "right": 327.328125
+        },
+        {
+          "width": 272,
+          "left": 376,
+          "right": 648
+        },
+        {
+          "width": 272,
+          "left": 696.65625,
+          "right": 968.65625
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "light 1440px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 1440,
+      "shells": [
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        },
+        {
+          "left": 58.203125,
+          "right": 1381.796875,
+          "width": 1323.59375
+        }
+      ],
+      "occupancy": 0.9191623263888888,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 468.46875,
+          "font": 16
+        },
+        {
+          "width": 478.234375,
+          "font": 16
+        },
+        {
+          "width": 468.46875,
+          "font": 16
+        },
+        {
+          "width": 478.234375,
+          "font": 16
+        },
+        {
+          "width": 419.859375,
+          "font": 16
+        },
+        {
+          "width": 419.859375,
+          "font": 16
+        },
+        {
+          "width": 419.859375,
+          "font": 16
+        },
+        {
+          "width": 419.859375,
+          "font": 16
+        },
+        {
+          "width": 419.875,
+          "font": 16
+        },
+        {
+          "width": 419.875,
+          "font": 16
+        }
+      ],
+      "frames": [
+        {
+          "width": 272,
+          "left": 132.140625,
+          "right": 404.140625
+        },
+        {
+          "width": 272,
+          "left": 584,
+          "right": 856
+        },
+        {
+          "width": 272,
+          "left": 1035.859375,
+          "right": 1307.859375
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "light 1920px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 1920,
+      "shells": [
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        }
+      ],
+      "occupancy": 0.9243733723958333,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        }
+      ],
+      "frames": [
+        {
+          "width": 307.1875,
+          "left": 204.140625,
+          "right": 511.328125
+        },
+        {
+          "width": 307.1875,
+          "left": 806.40625,
+          "right": 1113.59375
+        },
+        {
+          "width": 307.1875,
+          "left": 1408.671875,
+          "right": 1715.859375
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "light 2560px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 2560,
+      "shells": [
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        },
+        {
+          "left": 91.796875,
+          "right": 2468.1875,
+          "width": 2376.390625
+        }
+      ],
+      "occupancy": 0.928277587890625,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        }
+      ],
+      "frames": [
+        {
+          "width": 409.59375,
+          "left": 272.40625,
+          "right": 682
+        },
+        {
+          "width": 409.59375,
+          "left": 1075.203125,
+          "right": 1484.796875
+        },
+        {
+          "width": 409.59375,
+          "left": 1878,
+          "right": 2287.59375
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "light 3440px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 3440,
+      "shells": [
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        },
+        {
+          "left": 111,
+          "right": 3329,
+          "width": 3218
+        }
+      ],
+      "occupancy": 0.9354651162790698,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        }
+      ],
+      "frames": [
+        {
+          "width": 416,
+          "left": 428.671875,
+          "right": 844.671875
+        },
+        {
+          "width": 416,
+          "left": 1512,
+          "right": 1928
+        },
+        {
+          "width": 416,
+          "left": 2595.328125,
+          "right": 3011.328125
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "light 3840px: fluid frame, readable copy and aligned projects",
+    "pass": true,
+    "detail": {
+      "viewport": 3840,
+      "shells": [
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        },
+        {
+          "left": 128,
+          "right": 3712,
+          "width": 3584
+        }
+      ],
+      "occupancy": 0.9333333333333333,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        }
+      ],
+      "frames": [
+        {
+          "width": 416,
+          "left": 506.671875,
+          "right": 922.671875
+        },
+        {
+          "width": 416,
+          "left": 1712,
+          "right": 2128
+        },
+        {
+          "width": 416,
+          "left": 2917.328125,
+          "right": 3333.328125
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "90% desktop scaling still uses the viewport",
+    "pass": true,
+    "detail": {
+      "viewport": 2073,
+      "shells": [
+        {
+          "left": 77.1875,
+          "right": 1995.796875,
+          "width": 1918.609375
+        },
+        {
+          "left": 77.1875,
+          "right": 1995.796875,
+          "width": 1918.609375
+        },
+        {
+          "left": 77.1875,
+          "right": 1995.796875,
+          "width": 1918.609375
+        },
+        {
+          "left": 77.1875,
+          "right": 1995.796875,
+          "width": 1918.609375
+        },
+        {
+          "left": 77.1875,
+          "right": 1995.796875,
+          "width": 1918.609375
+        },
+        {
+          "left": 77.1875,
+          "right": 1995.796875,
+          "width": 1918.609375
+        },
+        {
+          "left": 77.1875,
+          "right": 1995.796875,
+          "width": 1918.609375
+        }
+      ],
+      "occupancy": 0.9255230945489629,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        }
+      ],
+      "frames": [
+        {
+          "width": 331.671875,
+          "left": 220.453125,
+          "right": 552.125
+        },
+        {
+          "width": 331.671875,
+          "left": 870.65625,
+          "right": 1202.328125
+        },
+        {
+          "width": 331.671875,
+          "left": 1520.859375,
+          "right": 1852.53125
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "HiDPI scaling retains the responsive layout",
+    "pass": true,
+    "detail": {
+      "viewport": 1920,
+      "shells": [
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        },
+        {
+          "left": 72.59375,
+          "right": 1847.390625,
+          "width": 1774.796875
+        }
+      ],
+      "occupancy": 0.9243733723958333,
+      "alignedShells": true,
+      "overflow": false,
+      "rowsAligned": true,
+      "paragraphs": [
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        },
+        {
+          "width": 527.03125,
+          "font": 18
+        },
+        {
+          "width": 538.015625,
+          "font": 18
+        }
+      ],
+      "frames": [
+        {
+          "width": 307.1875,
+          "left": 204.140625,
+          "right": 511.328125
+        },
+        {
+          "width": 307.1875,
+          "left": 806.40625,
+          "right": 1113.59375
+        },
+        {
+          "width": 307.1875,
+          "left": 1408.671875,
+          "right": 1715.859375
+        }
+      ],
+      "navFits": true
+    }
+  },
+  {
+    "name": "QHD phone previews autoplay together without controls",
+    "pass": true
+  }
+]

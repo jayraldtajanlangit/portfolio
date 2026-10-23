@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="../js/theme.js"></script>
+  <title>Pulso | Case study | Jayrald Tajanlangit</title>
+  <meta name="description" content="A Flutter community app with account access, image posts, reactions, saved content, and personalized profiles.">
+  <meta property="og:title" content="Pulso | Case study | Jayrald Tajanlangit">
+  <meta property="og:description" content="A Flutter community app with account access, image posts, reactions, saved content, and personalized profiles.">
+  <meta property="og:type" content="article">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:site_name" content="Jayrald Tajanlangit">
+  <meta property="og:image" content="../assets/images/social-preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="../assets/images/social-preview.png">
+  <meta name="twitter:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
+  <meta name="theme-color" content="#f8f8f4">
+  <link rel="preload" href="../assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="../assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="../css/fonts.css">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/case-study.css">
+  <link rel="stylesheet" href="../css/theme.css">
+  <link rel="stylesheet" href="../css/motion.css">
+</head>
+<body class="case-page case-page--pulso">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="shell site-header-inner">
+      <a class="site-name" href="../index.html" aria-label="Jayrald Tajanlangit, home">
+        <span>Jayrald Tajanlangit</span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation" hidden>Menu</button>
+      <nav aria-label="Primary" id="primary-navigation" class="primary-nav">
+        <a href="../index.html#work">Projects</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#contact">Contact</a>
+        <a href="https://github.com/jayraldtajanlangit">GitHub</a>
+        <a href="https://www.linkedin.com/in/jayrald-tajanlangit-b8646a280/">LinkedIn</a>
+      </nav>
+      <div class="theme-control" hidden><button class="theme-trigger" data-theme-trigger type="button" role="switch" aria-label="Dark mode" aria-checked="false" title="Switch to dark mode"><span class="theme-track" aria-hidden="true"><span class="theme-thumb"></span><svg data-theme-icon="light" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg data-theme-icon="dark" viewBox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg></span></button></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="case-study">
+      <header class="case-hero shell">
+        <div class="case-title-block" data-intro-reveal="headline">
+          <h1>Pulso</h1>
+          <p class="case-deck">A Flutter community app with account access, image posts, reactions, saved content, and personalized profiles.</p>
+        </div>
+        <dl class="case-dossier" aria-label="Project dossier" data-intro-reveal="intro">
+          <div><dt>Role</dt><dd>Team project · Mobile and backend development</dd></div>
+          <div><dt>Built with</dt><dd>Flutter · Riverpod · Supabase · Realtime</dd></div>
+        </dl>
+        <div class="case-lead-media case-lead-media--portrait" style="--media-aspect: 390 / 844" data-intro-reveal="portrait">
+          <h2 id="walkthrough-title">Project walkthrough</h2>
+          <figure class="project-media project-media--portrait" data-project-media>
+              <div class="project-media-stage" id="media-pulso" style="--media-aspect: 390 / 844"><div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><video data-project-video controls muted loop playsinline preload="metadata" poster="../assets/images/projects/pulso/poster.webp" width="390" height="844" aria-describedby="media-pulso-caption" aria-label="Pulso project walkthrough">
+                  <source src="../assets/videos/pulso-polished.mp4" type="video/mp4">
+                  <source src="../assets/videos/pulso-polished.webm" type="video/webm">
+                  Your browser cannot play this walkthrough. <a href="../assets/videos/pulso-polished.mp4">Open the video</a>.
+                </video>
+                <img class="project-media-fallback" data-media-fallback src="../assets/images/projects/pulso/still-01.webp" alt="Pulso welcome and sign-in screen showing email and password fields, Sign in, and Create account." width="390" height="844" loading="lazy" hidden></div></div></div>
+              <figcaption id="media-pulso-caption">Sign in → share an image → edit the profile → sign out. <a class="walkthrough-video-link" href="../assets/videos/pulso-polished.mp4">Open walkthrough video</a></figcaption>
+            </figure>
+        </div>
+      </header>
+
+      <section class="case-section case-section--problem shell" aria-labelledby="problem-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="problem-title">Problem</h2>
+        </header>
+        <div class="case-prose">
+          <p class="case-lede">Give community interactions a responsive mobile experience backed by consistent authentication and realtime state.</p>
+          <p>A Flutter client uses Riverpod for application state and Supabase for authentication, persisted social data, and realtime changes.</p>
+        </div>
+      </section>
+
+      <section class="case-section shell" aria-labelledby="contribution-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="contribution-title">My contribution</h2>
+        </header>
+        <div class="case-prose contribution-note">
+          <p class="case-lede">Built the Flutter scaffold, Supabase and Riverpod foundation, authentication, and major social, profile, saved-content, and realtime features.</p>
+          <p><strong>Ownership boundary.</strong> Team project; Jayrald established the application foundation and built major social and realtime product features.</p>
+          <p>Public team repository. Jayrald built the app foundation and major social, profile, saved-content, and realtime features; unreleased direct messages are not presented as shipped.</p>
+        </div>
+      </section>
+
+      <section class="case-section case-section--system" aria-labelledby="system-title" data-reveal-group>
+        <div class="shell">
+          <header class="case-section-heading">
+            <h2 id="system-title">How it works</h2>
+          </header>
+          <ol class="system-flow">
+<li>
+                <div>
+                  <h3>Flutter interface</h3>
+                  <p>Provides sign-in and registration screens, image selection and post previews, the community feed, and profile editing.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>Riverpod state</h3>
+                  <p>Coordinates the session, pending post images, reactions, bookmarks, and profile updates.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>Supabase services</h3>
+                  <p>Provides authentication, image storage, persisted social data, and realtime changes in the connected app.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>Profile and saved views</h3>
+                  <p>Bring together a member&#39;s avatar, name, bio, published image grid, and bookmarked content.</p>
+                </div>
+              </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="case-section shell" aria-labelledby="decisions-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="decisions-title">Engineering choices</h2>
+        </header>
+        <div class="decision-table-wrap">
+          <table class="decision-ledger">
+            <thead><tr><th>Decision</th><th>Why</th><th>Tradeoff</th></tr></thead>
+            <tbody>
+<tr>
+                  <th scope="row">Centralize feature state with Riverpod.</th>
+                  <td data-label="Why">Feed, profile, authentication, and saved-content behavior share session and data dependencies.</td>
+                  <td data-label="Tradeoff">Providers require deliberate boundaries so feature state does not become globally tangled.</td>
+                </tr>
+<tr>
+                  <th scope="row">Demonstrate image posting and profile editing with isolated sample data.</th>
+                  <td data-label="Why">The real screens can show image selection, publishing, and profile changes without using live community accounts.</td>
+                  <td data-label="Tradeoff">This capture demonstrates interface and state changes; live storage and realtime delivery require separate verification. Unreleased direct messages remain omitted.</td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-section case-section--workflow shell" aria-labelledby="workflow-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="workflow-title">In use</h2>
+        </header>
+        <p class="capture-disclosure">Real Flutter screens with isolated in-memory authentication, post, profile, and media storage. The walkthrough previews registration, signs in with a fictional local account, selects an image, publishes and interacts with the post, edits the profile/avatar, and signs out. No real account is registered and no live authentication or community services are contacted.</p>
+        <ol class="workflow-list">
+<li class="workflow-entry">
+                <div class="workflow-copy">
+                  <h3>Sign in</h3>
+                </div>
+                <figure class="workflow-media" data-capture-state="available">
+                  <div class="workflow-media-stage">
+                    <img src="../assets/images/projects/pulso/still-01.webp" alt="Pulso welcome and sign-in screen showing email and password fields, Sign in, and Create account." width="390" height="844" loading="lazy">
+                  </div>
+                  <figcaption>Access an account: the walkthrough previews Create account, then returns to sign in with a fictional local demo account.</figcaption>
+                </figure>
+              </li>
+<li class="workflow-entry">
+                <div class="workflow-copy">
+                  <h3>Publish to the feed</h3>
+                </div>
+                <figure class="workflow-media" data-capture-state="available">
+                  <div class="workflow-media-stage">
+                    <img src="../assets/images/projects/pulso/still-02.webp" alt="Pulso feed showing the newly published image post with its caption, liked heart, and active bookmark." width="390" height="844" loading="lazy">
+                  </div>
+                  <figcaption>Publish and interact: the image and caption appear together in the feed, where the member can like and bookmark the new post.</figcaption>
+                </figure>
+              </li>
+<li class="workflow-entry">
+                <div class="workflow-copy">
+                  <h3>Update your profile</h3>
+                </div>
+                <figure class="workflow-media" data-capture-state="available">
+                  <div class="workflow-media-stage">
+                    <img src="../assets/images/projects/pulso/still-03.webp" alt="Pulso demo profile showing the updated avatar, display name, bio, and published image in its post grid." width="390" height="844" loading="lazy">
+                  </div>
+                  <figcaption>Personalize the profile: saved edits update the display name, bio, and avatar, while the published image appears in the member&#39;s post grid.</figcaption>
+                </figure>
+              </li>
+        </ol>
+      </section>
+
+      <section class="case-section case-section--outcome shell" aria-labelledby="outcome-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="outcome-title">Outcome</h2>
+        </header>
+        <div class="case-prose">
+          <p class="case-lede">Members can sign in, publish a captioned image post, interact with the feed, personalize their profile, and sign out.</p>
+          <p><strong>Evidence.</strong> The video opens on sign-in, previews the create-account screen, and signs in with a fictional demo account. It then creates an image post, likes and bookmarks it, updates the name, bio, and avatar, and signs out to the welcome screen.</p>
+          <p><strong>Current limits.</strong> The recording uses real Flutter screens and the browser image picker with isolated in-memory authentication, media storage, and social data. The create-account screen is previewed without registering a real account. Live authentication, email confirmation, uploads, persistence, and realtime delivery are not verified; unreleased direct messages remain outside this case study.</p>
+        </div>
+      </section>
+
+      <nav class="next-project" aria-label="Next case study">
+        <a class="shell" href="sige.html" aria-label="Next case study: Sige">
+          <span>Next project</span>
+          <strong>Sige</strong>
+          <span aria-hidden="true">→</span>
+        </a>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer-inner">
+      <p>© 2026 Jayrald Tajanlangit</p>
+      <p>Computer Science student · Web &amp; mobile development · Philippines</p>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+  <script type="module" src="../js/site.js"></script>
+  <script type="module" src="../js/motion.js"></script>
+</body>
+</html>

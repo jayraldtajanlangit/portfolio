@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "bulk-buying-companion",
+    "ssim": 0.996619,
+    "tapCount": 2,
+    "formats": "MP4 and WebM: 390x844 at 60fps"
+  },
+  {
+    "slug": "pulso",
+    "ssim": 0.996506,
+    "tapCount": 18,
+    "formats": "MP4 and WebM: 390x844 at 60fps"
+  },
+  {
+    "slug": "sige",
+    "ssim": 0.995823,
+    "tapCount": 2,
+    "formats": "MP4 and WebM: 390x844 at 60fps"
+  }
+]

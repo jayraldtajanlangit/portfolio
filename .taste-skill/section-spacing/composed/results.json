@@ -1,0 +1,582 @@
+[
+  {
+    "name": "dark 320px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 0,
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "overlap": false
+        },
+        {
+          "left": 0,
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "overlap": false
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 250,
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "stacked": true
+        },
+        {
+          "labelWidth": 250,
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "stacked": true
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        5465.859375,
+        5575.046875
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 390px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 0,
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "overlap": false
+        },
+        {
+          "left": 0,
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "overlap": false
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 320,
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "stacked": true
+        },
+        {
+          "labelWidth": 320,
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "stacked": true
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        5318,
+        5427.1875
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 768px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 352.828125,
+          "horizontalGap": 26.875,
+          "verticalGap": -48.828125,
+          "overlap": true
+        },
+        {
+          "left": 228.75,
+          "horizontalGap": 26.875,
+          "verticalGap": -48.828125,
+          "overlap": true
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        },
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        -631.703125,
+        -535.703125
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 1024px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 361.78125,
+          "horizontalGap": 35.828125,
+          "verticalGap": -48.828125,
+          "overlap": true
+        },
+        {
+          "left": 237.703125,
+          "horizontalGap": 35.828125,
+          "verticalGap": -48.828125,
+          "overlap": true
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        },
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        -587.265625,
+        -491.265625
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 1440px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 498.25,
+          "horizontalGap": 50.390625,
+          "verticalGap": -57.234375,
+          "overlap": true
+        },
+        {
+          "left": 327.6875,
+          "horizontalGap": 50.390625,
+          "verticalGap": -57.234375,
+          "overlap": true
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        },
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        -504.453125,
+        -504.453125
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 1857px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 529.921875,
+          "horizontalGap": 56,
+          "verticalGap": -59.03125,
+          "overlap": true
+        },
+        {
+          "left": 349.4375,
+          "horizontalGap": 56,
+          "verticalGap": -59.03125,
+          "overlap": true
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        },
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        217.609375,
+        217.609375
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 320px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 0,
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "overlap": false
+        },
+        {
+          "left": 0,
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "overlap": false
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 250,
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "stacked": true
+        },
+        {
+          "labelWidth": 250,
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "stacked": true
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        2913.859375,
+        3023.046875
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 390px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 0,
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "overlap": false
+        },
+        {
+          "left": 0,
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "overlap": false
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 320,
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "stacked": true
+        },
+        {
+          "labelWidth": 320,
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "stacked": true
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        2981,
+        3090.1875
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 768px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 352.828125,
+          "horizontalGap": 26.875,
+          "verticalGap": -48.828125,
+          "overlap": true
+        },
+        {
+          "left": 228.75,
+          "horizontalGap": 26.875,
+          "verticalGap": -48.828125,
+          "overlap": true
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        },
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        -631.703125,
+        -535.703125
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 1024px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 361.78125,
+          "horizontalGap": 35.828125,
+          "verticalGap": -48.828125,
+          "overlap": true
+        },
+        {
+          "left": 237.703125,
+          "horizontalGap": 35.828125,
+          "verticalGap": -48.828125,
+          "overlap": true
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        },
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        -587.265625,
+        -491.265625
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 1440px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 498.25,
+          "horizontalGap": 50.390625,
+          "verticalGap": -57.234375,
+          "overlap": true
+        },
+        {
+          "left": 327.6875,
+          "horizontalGap": 50.390625,
+          "verticalGap": -57.234375,
+          "overlap": true
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        },
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        -504.453125,
+        -504.453125
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 1857px: composed headings and balanced technology groups",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 529.921875,
+          "horizontalGap": 56,
+          "verticalGap": -59.03125,
+          "overlap": true
+        },
+        {
+          "left": 349.4375,
+          "horizontalGap": 56,
+          "verticalGap": -59.03125,
+          "overlap": true
+        }
+      ],
+      "groups": [
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        },
+        {
+          "labelWidth": 112,
+          "horizontalGap": 24,
+          "verticalGap": -48.59375,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryTops": [
+        217.609375,
+        217.609375
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "technology label remains visible on keyboard focus",
+    "pass": true
+  }
+]

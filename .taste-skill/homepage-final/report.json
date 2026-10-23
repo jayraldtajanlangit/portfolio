@@ -1,0 +1,2591 @@
+{
+ "url": "index.html",
+ "at": "2026-10-22T02:43:19.161Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.79,
+    0.43,
+    0.89,
+    0.89,
+    0.9,
+    0.88,
+    0.48,
+    0.34,
+    0.88,
+    0.88,
+    0.69,
+    0.29
+   ],
+   "motion": {
+    "elements": 30,
+    "css": 29,
+    "transitions": 1,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 10558,
+     "screens": 11.7,
+     "words": 795,
+     "img": 30,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 31,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-03.webp",
+      "still-03.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Full-stack & mobile engineer.",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 79.2,
+     "vw": 5.5,
+     "font": "Libre Franklin",
+     "weight": 700,
+     "tracking": -0.035,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.6,
+     "top": 282,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Full-stack & mobile engineer.",
+     "words": 4,
+     "lines": 2,
+     "size": 79.2,
+     "font": "Libre Franklin"
+    },
+    "headings": [
+     {
+      "text": "Full-stack & mobile engineer.",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 79.2,
+      "vw": 5.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.6,
+      "top": 282,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Work, in motion.",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 99.2,
+      "vw": 6.9,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1102,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 1718,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire — Airline Booking System",
+      "words": 5,
+      "chars": 32,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 3035,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 4225,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 6021,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 7472,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 9086,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "I build the screen and the systems behind it, with ownership made explicit.",
+      "words": 13,
+      "chars": 75,
+      "lines": 3,
+      "size": 31,
+      "vw": 2.2,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 9086,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Need the whole product built?",
+      "words": 5,
+      "chars": 29,
+      "lines": 2,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 9779,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Jayrald",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 273.6,
+      "vw": 19,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.82,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 10334,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.88,
+       "mono": false
+      },
+      {
+       "family": "Libre Franklin",
+       "share": 0.12,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      19,
+      26,
+      31,
+      43,
+      64,
+      79,
+      99,
+      274
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 16,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.4
+     },
+     "measureChars": 61,
+     "max": {
+      "size": 273.6,
+      "vw": 19,
+      "font": "Libre Franklin",
+      "text": "Jayrald"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#1c1c1c",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.11
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1c1c1c",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#8fa68e",
+       "top": 162,
+       "hsl": {
+        "h": 118,
+        "s": 0.12,
+        "l": 0.6
+       }
+      },
+      {
+       "color": "#262626",
+       "top": 1546,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#c8c5ba",
+       "top": 2862,
+       "hsl": {
+        "h": 47,
+        "s": 0.11,
+        "l": 0.76
+       }
+      },
+      {
+       "color": "#111617",
+       "top": 4593,
+       "hsl": {
+        "h": 190,
+        "s": 0.15,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1c1c",
+       "share": 0.58
+      },
+      {
+       "color": "#f1f1ef",
+       "share": 0.39
+      },
+      {
+       "color": "#c6c6c1",
+       "share": 0.01
+      },
+      {
+       "color": "#555751",
+       "share": 0.01
+      },
+      {
+       "color": "#c8c5ba",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#262626",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.15
+      },
+      "fg": "#f1f1ef"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 2,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "Explore the work ↓"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 31,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 12
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": -76
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": -28
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.12
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "libre franklin",
+     "source serif 4"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 10558,
+    "margins": {
+     "left": 27,
+     "right": 35
+    },
+    "sections": [
+     {
+      "sel": "section#top.contact-hero",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 115,
+      "media": 8,
+      "middle": 12,
+      "heading": {
+       "text": "Full-stack & mobile",
+       "size": 79,
+       "tag": "h1"
+      },
+      "left": 27,
+      "right": 27,
+      "textLeft": 37,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-work-intro.shell",
+      "tag": "header",
+      "top": 900,
+      "height": 524,
+      "words": 33,
+      "media": 0,
+      "middle": 291,
+      "heading": {
+       "text": "Work, in motion.",
+       "size": 99,
+       "tag": "h2"
+      },
+      "left": 43,
+      "right": 46,
+      "textLeft": 43,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.workflow-dock.shell",
+      "tag": "div",
+      "top": 1424,
+      "height": 122,
+      "words": 18,
+      "media": 0,
+      "middle": 528,
+      "heading": null,
+      "left": 43,
+      "right": 43,
+      "textLeft": 57,
+      "textRight": 57,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "article.proof-project.proof-project--1",
+      "tag": "article",
+      "top": 1546,
+      "height": 1316,
+      "words": 119,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 64,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--2",
+      "tag": "article",
+      "top": 2862,
+      "height": 1190,
+      "words": 122,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire — Airline Booking System",
+       "size": 64,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--3",
+      "tag": "article",
+      "top": 4052,
+      "height": 1797,
+      "words": 133,
+      "media": 3,
+      "middle": 4,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 64,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--4",
+      "tag": "article",
+      "top": 5849,
+      "height": 1450,
+      "words": 115,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Pulso",
+       "size": 64,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--5",
+      "tag": "article",
+      "top": 7299,
+      "height": 1600,
+      "words": 115,
+      "media": 3,
+      "middle": 20,
+      "heading": {
+       "text": "Sige",
+       "size": 64,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.is-revealed",
+      "tag": "section",
+      "top": 8899,
+      "height": 693,
+      "words": 33,
+      "media": 0,
+      "middle": 160,
+      "heading": {
+       "text": "About",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 43,
+      "right": 361,
+      "textLeft": 43,
+      "textRight": 361,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 9592,
+      "height": 634,
+      "words": 18,
+      "media": 1,
+      "middle": 360,
+      "heading": {
+       "text": "Need the whole product built?",
+       "size": 43,
+       "tag": "p"
+      },
+      "left": 43,
+      "right": 43,
+      "textLeft": 43,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 10226,
+      "height": 332,
+      "words": 7,
+      "media": 0,
+      "middle": 1012,
+      "heading": null,
+      "left": 43,
+      "right": 66,
+      "textLeft": 43,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 9408,
+      "height": 364
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Full-stack & mobile engineer.",
+      "size": 79,
+      "top": 282,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 35,
+      "n": 12
+     },
+     {
+      "x": 300,
+      "n": 3
+     },
+     {
+      "x": 579,
+      "n": 1
+     },
+     {
+      "x": 688,
+      "n": 1
+     },
+     {
+      "x": 1034,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.2,
+    "voidBox": {
+     "x": 720,
+     "y": 540,
+     "w": 720,
+     "h": 360
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.66,
+    0.64,
+    0.88,
+    0.89,
+    0.72,
+    0.63,
+    0.84,
+    0.41,
+    0.46
+   ],
+   "motion": {
+    "elements": 30,
+    "css": 28,
+    "transitions": 2,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 8291,
+     "screens": 8.1,
+     "words": 767,
+     "img": 30,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 26,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-03.webp",
+      "still-03.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Full-stack & mobile engineer.",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 53.8,
+     "vw": 7,
+     "font": "Libre Franklin",
+     "weight": 700,
+     "tracking": -0.035,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.78,
+     "top": 296,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Full-stack & mobile engineer.",
+     "words": 4,
+     "lines": 2,
+     "size": 53.8,
+     "font": "Libre Franklin"
+    },
+    "headings": [
+     {
+      "text": "Full-stack & mobile engineer.",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 53.8,
+      "vw": 7,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 296,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Work, in motion.",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 65.6,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 1214,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 1708,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire — Airline Booking System",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 2676,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 3641,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 4867,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 5950,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 7062,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Need the whole product built?",
+      "words": 5,
+      "chars": 29,
+      "lines": 2,
+      "size": 30.4,
+      "vw": 4,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 7631,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Jayrald",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 145.9,
+      "vw": 19,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.82,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 8171,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.88,
+       "mono": false
+      },
+      {
+       "family": "Libre Franklin",
+       "share": 0.12,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      18,
+      23,
+      25,
+      30,
+      45,
+      54,
+      66,
+      146
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 16,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.4
+     },
+     "measureChars": 30,
+     "max": {
+      "size": 145.9,
+      "vw": 19,
+      "font": "Libre Franklin",
+      "text": "Jayrald"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#1c1c1c",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.11
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1c1c1c",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#8fa68e",
+       "top": 184,
+       "hsl": {
+        "h": 118,
+        "s": 0.12,
+        "l": 0.6
+       }
+      },
+      {
+       "color": "#262626",
+       "top": 1596,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#c8c5ba",
+       "top": 2564,
+       "hsl": {
+        "h": 47,
+        "s": 0.11,
+        "l": 0.76
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1c1c",
+       "share": 0.58
+      },
+      {
+       "color": "#f1f1ef",
+       "share": 0.39
+      },
+      {
+       "color": "#c6c6c1",
+       "share": 0.02
+      },
+      {
+       "color": "#555751",
+       "share": 0.01
+      },
+      {
+       "color": "#c8c5ba",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#262626",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.15
+      },
+      "fg": "#f1f1ef"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 2,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "Explore the work ↓"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 15,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 12
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": -76
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": -28
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.16
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "libre franklin",
+     "source serif 4"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 8291,
+    "margins": {
+     "left": 27,
+     "right": 35
+    },
+    "sections": [
+     {
+      "sel": "section#top.contact-hero",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 85,
+      "media": 7,
+      "middle": 12,
+      "heading": {
+       "text": "Full-stack & mobile",
+       "size": 54,
+       "tag": "h1"
+      },
+      "left": 27,
+      "right": 27,
+      "textLeft": 37,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-work-intro.shell",
+      "tag": "header",
+      "top": 1024,
+      "height": 398,
+      "words": 33,
+      "media": 0,
+      "middle": 109,
+      "heading": {
+       "text": "Work, in motion.",
+       "size": 66,
+       "tag": "h2"
+      },
+      "left": 43,
+      "right": 43,
+      "textLeft": 43,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.workflow-dock.shell",
+      "tag": "div",
+      "top": 1422,
+      "height": 174,
+      "words": 18,
+      "media": 0,
+      "middle": 8,
+      "heading": null,
+      "left": 43,
+      "right": 43,
+      "textLeft": 57,
+      "textRight": 57,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "article.proof-project.proof-project--1",
+      "tag": "article",
+      "top": 1596,
+      "height": 968,
+      "words": 119,
+      "media": 3,
+      "middle": 12,
+      "heading": {
+       "text": "mAIstra",
+       "size": 45,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--2",
+      "tag": "article",
+      "top": 2564,
+      "height": 965,
+      "words": 122,
+      "media": 3,
+      "middle": 9,
+      "heading": {
+       "text": "SkyFire — Airline Booking System",
+       "size": 45,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--3",
+      "tag": "article",
+      "top": 3529,
+      "height": 1227,
+      "words": 133,
+      "media": 3,
+      "middle": 12,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 45,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--4",
+      "tag": "article",
+      "top": 4755,
+      "height": 1083,
+      "words": 115,
+      "media": 3,
+      "middle": 8,
+      "heading": {
+       "text": "Pulso",
+       "size": 45,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--5",
+      "tag": "article",
+      "top": 5838,
+      "height": 1112,
+      "words": 115,
+      "media": 3,
+      "middle": 12,
+      "heading": {
+       "text": "Sige",
+       "size": 45,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.is-revealed",
+      "tag": "section",
+      "top": 6950,
+      "height": 569,
+      "words": 33,
+      "media": 0,
+      "middle": 80,
+      "heading": {
+       "text": "About",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 43,
+      "right": 140,
+      "textLeft": 43,
+      "textRight": 140,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 7519,
+      "height": 545,
+      "words": 18,
+      "media": 0,
+      "middle": 101,
+      "heading": {
+       "text": "Need the whole product built?",
+       "size": 30,
+       "tag": "p"
+      },
+      "left": 43,
+      "right": 46,
+      "textLeft": 43,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 8063,
+      "height": 228,
+      "words": 7,
+      "media": 0,
+      "middle": 353,
+      "heading": null,
+      "left": 43,
+      "right": 66,
+      "textLeft": 43,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Full-stack & mobile engineer.",
+      "size": 54,
+      "top": 296,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 35,
+      "n": 12
+     },
+     {
+      "x": 86,
+      "n": 3
+     },
+     {
+      "x": 328,
+      "n": 1
+     },
+     {
+      "x": 385,
+      "n": 1
+     },
+     {
+      "x": 517,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.97,
+    0.67,
+    0.65,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 18,
+    "css": 16,
+    "transitions": 2,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 17106,
+     "screens": 20.3,
+     "words": 734,
+     "img": 30,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 19,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Full-stack & mobile engineer.",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 35.1,
+     "vw": 9,
+     "font": "Libre Franklin",
+     "weight": 700,
+     "tracking": -0.035,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.86,
+     "top": 98,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Full-stack & mobile engineer.",
+     "words": 4,
+     "lines": 2,
+     "size": 35.1,
+     "font": "Libre Franklin"
+    },
+    "headings": [
+     {
+      "text": "Full-stack & mobile engineer.",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 35.1,
+      "vw": 9,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 98,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Work, in motion.",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1879,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2573,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire — Airline Booking System",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5171,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7801,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10455,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 13028,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 15589,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "I build the screen and the systems behind it, with ownership made explicit.",
+      "words": 13,
+      "chars": 75,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 15934,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Need the whole product built?",
+      "words": 5,
+      "chars": 29,
+      "lines": 2,
+      "size": 23.2,
+      "vw": 5.9,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 16251,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Jayrald",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 120.9,
+      "vw": 31,
+      "font": "Libre Franklin",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.82,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 17007,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.87,
+       "mono": false
+      },
+      {
+       "family": "Libre Franklin",
+       "share": 0.13,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      17,
+      20,
+      23,
+      24,
+      33,
+      35,
+      121
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 16,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.5
+     },
+     "measureChars": 34,
+     "max": {
+      "size": 120.9,
+      "vw": 31,
+      "font": "Libre Franklin",
+      "text": "Jayrald"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#1c1c1c",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.11
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1c1c1c",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#262626",
+       "top": 443,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#8fa68e",
+       "top": 8,
+       "hsl": {
+        "h": 118,
+        "s": 0.12,
+        "l": 0.6
+       }
+      },
+      {
+       "color": "#111617",
+       "top": 2847,
+       "hsl": {
+        "h": 190,
+        "s": 0.15,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#c8c5ba",
+       "top": 5075,
+       "hsl": {
+        "h": 47,
+        "s": 0.11,
+        "l": 0.76
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1c1c",
+       "share": 0.59
+      },
+      {
+       "color": "#f1f1ef",
+       "share": 0.38
+      },
+      {
+       "color": "#c6c6c1",
+       "share": 0.02
+      },
+      {
+       "color": "#555751",
+       "share": 0.01
+      },
+      {
+       "color": "#c8c5ba",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#262626",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.15
+      },
+      "fg": "#f1f1ef"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 2,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "Explore the work ↓"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 15,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 443
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 395
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.22
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "libre franklin",
+     "source serif 4"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 17106,
+    "margins": {
+     "left": 8,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "div.contact-sheet",
+      "tag": "div",
+      "top": 435,
+      "height": 1348,
+      "words": 37,
+      "media": 5,
+      "middle": 8,
+      "heading": null,
+      "left": 8,
+      "right": 8,
+      "textLeft": 18,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.hero-panel.is-revealed",
+      "tag": "div",
+      "top": 8,
+      "height": 419,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Full-stack & mobile",
+       "size": 35,
+       "tag": "h1"
+      },
+      "left": 28,
+      "right": 34,
+      "textLeft": 28,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-work-intro.shell",
+      "tag": "header",
+      "top": 1783,
+      "height": 400,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Work, in motion.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 30,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.workflow-dock.shell",
+      "tag": "div",
+      "top": 2183,
+      "height": 294,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--1",
+      "tag": "article",
+      "top": 2477,
+      "height": 2597,
+      "words": 119,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--2",
+      "tag": "article",
+      "top": 5075,
+      "height": 2630,
+      "words": 122,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire — Airline Booking System",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--3",
+      "tag": "article",
+      "top": 7705,
+      "height": 2655,
+      "words": 133,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--4",
+      "tag": "article",
+      "top": 10359,
+      "height": 2573,
+      "words": 115,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Pulso",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--5",
+      "tag": "article",
+      "top": 12932,
+      "height": 2545,
+      "words": 115,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Sige",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 15477,
+      "height": 662,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 34,
+      "textLeft": 20,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 16139,
+      "height": 716,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Need the whole product built?",
+       "size": 23,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 99,
+      "textLeft": 20,
+      "textRight": 99,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 16855,
+      "height": 251,
+      "words": 7,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 161,
+      "textLeft": 20,
+      "textRight": 161,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Full-stack & mobile engineer.",
+      "size": 35,
+      "top": 98,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 18
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "3 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 390,
+   "message": "The running text is a soft grey on its ground (6.5:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 390,
+   "message": "The margins differ: 8px on the left, 20px on the right, at 390px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\homepage-final\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\homepage-final\\desktop-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\homepage-final\\desktop-page-02.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\homepage-final\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\homepage-final\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\homepage-final\\tablet-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\homepage-final\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\homepage-final\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\homepage-final\\mobile-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\homepage-final\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

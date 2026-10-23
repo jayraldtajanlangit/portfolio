@@ -1,0 +1,140 @@
+{
+  "input": "C:\\Users\\Jayrald\\Desktop\\Tajalangit_CV.docx",
+  "fonts_by_char_count": {
+    "Garamond": 2561
+  },
+  "direct_run_formatting_runs": 89,
+  "direct_paragraph_formatting_paragraphs": 17,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 1,
+      "text": "JAYRALD B. TAJANLANGIT",
+      "style": "Normal"
+    },
+    {
+      "para_index": 4,
+      "text": "EDUCATION\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 7,
+      "text": "UNIVERSITY OF SAN JOSE RECOLETOS\tCebu City",
+      "style": "Normal"
+    },
+    {
+      "para_index": 12,
+      "text": "FULL-STACK WEB DEVELOPMENT BOOTCAMP\tRemote, Philippines",
+      "style": "Normal"
+    },
+    {
+      "para_index": 15,
+      "text": "WORK EXPERIENCE\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 18,
+      "text": "TECHSTART SOLUTIONS (early-stage fintech startup)\tBGC, Taguig",
+      "style": "Normal"
+    },
+    {
+      "para_index": 24,
+      "text": "METRO DIGITAL INC.\tCebu City, Cebu",
+      "style": "Normal"
+    },
+    {
+      "para_index": 29,
+      "text": "PROJECTS\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 32,
+      "text": "JEEPNEY ROUTE FINDER (Mobile App)\t2023",
+      "style": "Normal"
+    },
+    {
+      "para_index": 36,
+      "text": "SARI-SARI STORE POS & INVENTORY SYSTEM\t2022",
+      "style": "Normal"
+    },
+    {
+      "para_index": 40,
+      "text": "ACTIVITIES\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 43,
+      "text": "GOOGLE DEVELOPER STUDENT CLUB (GDSC)\tQuezon City",
+      "style": "Normal"
+    },
+    {
+      "para_index": 48,
+      "text": "COMPETITIVE PROGRAMMING CLUB\tQuezon City",
+      "style": "Normal"
+    },
+    {
+      "para_index": 52,
+      "text": "ADDITIONAL\t",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "JAYRALD B. TAJANLANGIT",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "Cordova, Cebu City",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": " | +63 ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "9953518945",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": " | ",
+        "style": "Normal"
+      }
+    ],
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 9,
+        "text": "Major in Mobile Application\u00b7 Specialized in Artificial Intelligence",
+        "style": "Normal"
+      },
+      {
+        "para_index": 10,
+        "text": "Relevant Coursework: Data Structures & Algorithms, Software Engineering, Operating Systems, Database Systems, Web & Mobi",
+        "style": "Normal"
+      },
+      {
+        "para_index": 20,
+        "text": "Built and shipped REST APIs in Laravel and Node.js serving 50,000+ daily active users, cutting average response time by ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 21,
+        "text": "Developed responsive front-end features in React and Tailwind CSS, increasing sign-up conversion by 25%",
+        "style": "Normal"
+      },
+      {
+        "para_index": 22,
+        "text": "Wrote unit and integration tests (PHPUnit, Jest), raising code coverage from 40% to 85% and reducing production bugs",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

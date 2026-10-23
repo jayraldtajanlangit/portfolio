@@ -1,0 +1,91 @@
+[
+  {
+    "name": "320px: one project section follows introduction with compact spacing",
+    "pass": true,
+    "detail": {
+      "noIndex": true,
+      "direct": true,
+      "gap": 72,
+      "projects": 5,
+      "unique": 5,
+      "videos": true,
+      "overflow": false,
+      "sectionOrder": [
+        "intro",
+        "work",
+        "tech-stack",
+        "about",
+        "contact"
+      ]
+    }
+  },
+  {
+    "name": "390px: one project section follows introduction with compact spacing",
+    "pass": true,
+    "detail": {
+      "noIndex": true,
+      "direct": true,
+      "gap": 72,
+      "projects": 5,
+      "unique": 5,
+      "videos": true,
+      "overflow": false,
+      "sectionOrder": [
+        "intro",
+        "work",
+        "tech-stack",
+        "about",
+        "contact"
+      ]
+    }
+  },
+  {
+    "name": "768px: one project section follows introduction with compact spacing",
+    "pass": true,
+    "detail": {
+      "noIndex": true,
+      "direct": true,
+      "gap": 72,
+      "projects": 5,
+      "unique": 5,
+      "videos": true,
+      "overflow": false,
+      "sectionOrder": [
+        "intro",
+        "work",
+        "tech-stack",
+        "about",
+        "contact"
+      ]
+    }
+  },
+  {
+    "name": "1440px: one project section follows introduction with compact spacing",
+    "pass": true,
+    "detail": {
+      "noIndex": true,
+      "direct": true,
+      "gap": 72,
+      "projects": 5,
+      "unique": 5,
+      "videos": true,
+      "overflow": false,
+      "sectionOrder": [
+        "intro",
+        "work",
+        "tech-stack",
+        "about",
+        "contact"
+      ]
+    }
+  },
+  {
+    "name": "View projects still jumps to all selected projects",
+    "pass": true,
+    "detail": {
+      "hash": "#work",
+      "top": 32.0625,
+      "margin": 32
+    }
+  }
+]

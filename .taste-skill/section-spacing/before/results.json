@@ -1,0 +1,462 @@
+[
+  {
+    "name": "dark 320px: headings and icon groups stay compact",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 0,
+          "verticalGap": 12
+        },
+        {
+          "left": 0,
+          "verticalGap": 12
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "stacked": true
+        },
+        {
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "stacked": true
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 390px: headings and icon groups stay compact",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 0,
+          "verticalGap": 12
+        },
+        {
+          "left": 0,
+          "verticalGap": 12
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "stacked": true
+        },
+        {
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "stacked": true
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 768px: headings and icon groups stay compact",
+    "pass": false,
+    "detail": {
+      "headers": [
+        {
+          "left": 412.734375,
+          "verticalGap": -44.875
+        },
+        {
+          "left": 390.96875,
+          "verticalGap": -44.875
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        },
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 1024px: headings and icon groups stay compact",
+    "pass": false,
+    "detail": {
+      "headers": [
+        {
+          "left": 668.734375,
+          "verticalGap": -44.875
+        },
+        {
+          "left": 646.96875,
+          "verticalGap": -44.875
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        },
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 1440px: headings and icon groups stay compact",
+    "pass": false,
+    "detail": {
+      "headers": [
+        {
+          "left": 1084.734375,
+          "verticalGap": -58.734375
+        },
+        {
+          "left": 1062.96875,
+          "verticalGap": -58.734375
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        },
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 1857px: headings and icon groups stay compact",
+    "pass": false,
+    "detail": {
+      "headers": [
+        {
+          "left": 1138.734375,
+          "verticalGap": -61.1875
+        },
+        {
+          "left": 1116.96875,
+          "verticalGap": -61.1875
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        },
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 320px: headings and icon groups stay compact",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 0,
+          "verticalGap": 12
+        },
+        {
+          "left": 0,
+          "verticalGap": 12
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "stacked": true
+        },
+        {
+          "horizontalGap": -250,
+          "verticalGap": 12,
+          "stacked": true
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 390px: headings and icon groups stay compact",
+    "pass": true,
+    "detail": {
+      "headers": [
+        {
+          "left": 0,
+          "verticalGap": 12
+        },
+        {
+          "left": 0,
+          "verticalGap": 12
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "stacked": true
+        },
+        {
+          "horizontalGap": -320,
+          "verticalGap": 12,
+          "stacked": true
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 768px: headings and icon groups stay compact",
+    "pass": false,
+    "detail": {
+      "headers": [
+        {
+          "left": 412.734375,
+          "verticalGap": -44.875
+        },
+        {
+          "left": 390.96875,
+          "verticalGap": -44.875
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        },
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 1024px: headings and icon groups stay compact",
+    "pass": false,
+    "detail": {
+      "headers": [
+        {
+          "left": 668.734375,
+          "verticalGap": -44.875
+        },
+        {
+          "left": 646.96875,
+          "verticalGap": -44.875
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        },
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 1440px: headings and icon groups stay compact",
+    "pass": false,
+    "detail": {
+      "headers": [
+        {
+          "left": 1084.734375,
+          "verticalGap": -58.734375
+        },
+        {
+          "left": 1062.96875,
+          "verticalGap": -58.734375
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        },
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 1857px: headings and icon groups stay compact",
+    "pass": false,
+    "detail": {
+      "headers": [
+        {
+          "left": 1138.734375,
+          "verticalGap": -61.1875
+        },
+        {
+          "left": 1116.96875,
+          "verticalGap": -61.1875
+        }
+      ],
+      "groups": [
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        },
+        {
+          "horizontalGap": 24,
+          "verticalGap": -44.796875,
+          "stacked": false
+        }
+      ],
+      "links": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "name": "technology label remains visible on keyboard focus",
+    "pass": true
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "sample": "bond/bond_writer1_1.jpg",
+  "raw_text": "#include <stdio.h>\nint main() {\n    int a, b;\n    printf(\"Enter two numbers: \");\n    scanf(\"%d %d\", &a, &b);\n    if (a > b) {\n      printf(\"Larger: %d\\n\", a);\n    } else {\n      printf(\"Larger: %d\\n\", b);\n    }\n    return 0;\n}",
+  "cleaned_text": "#include <stdio.h>\nint main() {\n    int a, b;\n    printf(\"Enter two numbers: \");\n    scanf(\"%d %d\", &a, &b);\n    if (a > b) {\n      printf(\"Larger: %d\\n\", a);\n    } else {\n      printf(\"Larger: %d\\n\", b);\n    }\n    return 0;\n}",
+  "average_confidence": 0.9709865947564443,
+  "verified_text": "#include <stdio.h>\nint main() {\n    int a, b;\n    printf(\"Enter two numbers: \");\n    scanf(\"%d %d\", &a, &b);\n    if (a > b) {\n        printf(\"Larger: %d\\n\", a);\n    } else {\n        printf(\"Larger: %d\\n\", b);\n    }\n    return 0;\n}",
+  "extraction_seconds": 4.05
+}

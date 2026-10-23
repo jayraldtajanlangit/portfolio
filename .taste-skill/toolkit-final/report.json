@@ -1,0 +1,1978 @@
+{
+ "url": "index.html",
+ "at": "2026-10-22T17:32:35.234Z",
+ "allow": [
+  "eyebrow",
+  "font-not-dealt"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.39,
+    0.54,
+    0.4,
+    0.4,
+    0.96
+   ],
+   "motion": {
+    "elements": 44,
+    "css": 44,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 5,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4412,
+     "screens": 4.9,
+     "words": 521,
+     "img": 6,
+     "video": 5,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 8,
+     "videoCount": 5,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "583917390_25203520672616248_2951040891851883210_"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "chars": 19,
+     "lines": 2,
+     "size": 112,
+     "vw": 7.8,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.035,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.37,
+     "top": 128,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "lines": 2,
+     "size": 112,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 112,
+      "vw": 7.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 128,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected projects",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 720,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 848,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 1596,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 1596,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 2300,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 2300,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "My toolkit",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 2733,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A little about me",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 3397,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get in touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 4040,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      20,
+      28,
+      58,
+      112
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": -0.015,
+      "contrast": 9.8
+     },
+     "measureChars": 83,
+     "max": {
+      "size": 112,
+      "vw": 7.8,
+      "font": "Bodoni Moda",
+      "text": "JayraldTajanlangit"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "SkyFire",
+      "above": "Selected projects",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 622
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#171e1a",
+     "bodyBgHsl": {
+      "h": 146,
+      "s": 0.13,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#222d26",
+       "top": 3317,
+       "hsl": {
+        "h": 142,
+        "s": 0.14,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#101b17",
+       "top": 3960,
+       "hsl": {
+        "h": 158,
+        "s": 0.26,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f0f4f0",
+       "share": 0.78
+      },
+      {
+       "color": "#bbc8be",
+       "share": 0.21
+      },
+      {
+       "color": "#171e1a",
+       "share": 0.01
+      },
+      {
+       "color": "#10241b",
+       "share": 0
+      },
+      {
+       "color": "#101b17",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#f0f4f0",
+      "hsl": {
+       "h": 120,
+       "s": 0.15,
+       "l": 0.95
+      },
+      "fg": "#171e1a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "View projects"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4412,
+    "margins": {
+     "left": 160,
+     "right": 160
+    },
+    "sections": [
+     {
+      "sel": "section.intro-section.shell",
+      "tag": "section",
+      "top": 96,
+      "height": 592,
+      "words": 54,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Jayrald",
+       "size": 112,
+       "tag": "h1"
+      },
+      "left": 160,
+      "right": 160,
+      "textLeft": 160,
+      "textRight": 160,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.shell",
+      "tag": "section",
+      "top": 688,
+      "height": 1964,
+      "words": 290,
+      "media": 5,
+      "middle": 0,
+      "heading": {
+       "text": "Selected projects",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 160,
+      "textLeft": 160,
+      "textRight": 160,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#tech-stack.tech-section.shell",
+      "tag": "section",
+      "top": 2653,
+      "height": 664,
+      "words": 48,
+      "media": 0,
+      "middle": 179,
+      "heading": {
+       "text": "My toolkit",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 179,
+      "textLeft": 160,
+      "textRight": 179,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 3317,
+      "height": 643,
+      "words": 89,
+      "media": 1,
+      "middle": 212,
+      "heading": {
+       "text": "A little about me",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 178,
+      "textLeft": 160,
+      "textRight": 178,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 3960,
+      "height": 360,
+      "words": 27,
+      "media": 0,
+      "middle": 284,
+      "heading": {
+       "text": "Get in touch",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 462,
+      "textLeft": 160,
+      "textRight": 462,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "size": 112,
+      "top": 128,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 160,
+      "n": 13
+     },
+     {
+      "x": 736,
+      "n": 6
+     },
+     {
+      "x": 603,
+      "n": 4
+     },
+     {
+      "x": 848,
+      "n": 3
+     },
+     {
+      "x": 773,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 28,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 120,
+     "h": 780
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.48,
+    0.63,
+    0.49,
+    0.45,
+    0.96
+   ],
+   "motion": {
+    "elements": 48,
+    "css": 48,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 5,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4784,
+     "screens": 4.7,
+     "words": 518,
+     "img": 6,
+     "video": 5,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 5,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "583917390_25203520672616248_2951040891851883210_"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "chars": 19,
+     "lines": 2,
+     "size": 64,
+     "vw": 8.3,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.035,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.42,
+     "top": 174,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "lines": 2,
+     "size": 64,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 174,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected projects",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 775,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1301,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1933,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 1933,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 2668,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 2668,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "My toolkit",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 3152,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A little about me",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 3810,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get in touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 4425,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      20,
+      28,
+      44,
+      64
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": -0.015,
+      "contrast": 9.8
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 64,
+      "vw": 8.3,
+      "font": "Bodoni Moda",
+      "text": "JayraldTajanlangit"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Web application",
+      "above": "Selected projects",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 677
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#171e1a",
+     "bodyBgHsl": {
+      "h": 146,
+      "s": 0.13,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#253129",
+       "top": 860,
+       "hsl": {
+        "h": 140,
+        "s": 0.14,
+        "l": 0.17
+       }
+      },
+      {
+       "color": "#222d26",
+       "top": 3730,
+       "hsl": {
+        "h": 142,
+        "s": 0.14,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#101b17",
+       "top": 4345,
+       "hsl": {
+        "h": 158,
+        "s": 0.26,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f0f4f0",
+       "share": 0.78
+      },
+      {
+       "color": "#bbc8be",
+       "share": 0.21
+      },
+      {
+       "color": "#171e1a",
+       "share": 0.01
+      },
+      {
+       "color": "#10241b",
+       "share": 0
+      },
+      {
+       "color": "#101b17",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#f0f4f0",
+      "hsl": {
+       "h": 120,
+       "s": 0.15,
+       "l": 0.95
+      },
+      "fg": "#171e1a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "View projects"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.13
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4784,
+    "margins": {
+     "left": 47,
+     "right": 47
+    },
+    "sections": [
+     {
+      "sel": "section.intro-section.shell",
+      "tag": "section",
+      "top": 96,
+      "height": 647,
+      "words": 53,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Jayrald",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 47,
+      "right": 63,
+      "textLeft": 47,
+      "textRight": 68,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.shell",
+      "tag": "section",
+      "top": 743,
+      "height": 2329,
+      "words": 290,
+      "media": 5,
+      "middle": 0,
+      "heading": {
+       "text": "Selected projects",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 47,
+      "textLeft": 47,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#tech-stack.tech-section.shell",
+      "tag": "section",
+      "top": 3072,
+      "height": 658,
+      "words": 48,
+      "media": 0,
+      "middle": 66,
+      "heading": {
+       "text": "My toolkit",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 66,
+      "textLeft": 47,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 3730,
+      "height": 615,
+      "words": 89,
+      "media": 1,
+      "middle": 34,
+      "heading": {
+       "text": "A little about me",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 49,
+      "textLeft": 47,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 4345,
+      "height": 346,
+      "words": 27,
+      "media": 0,
+      "middle": 71,
+      "heading": {
+       "text": "Get in touch",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 126,
+      "textLeft": 47,
+      "textRight": 126,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "size": 64,
+      "top": 174,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 47,
+      "n": 16
+     },
+     {
+      "x": 396,
+      "n": 6
+     },
+     {
+      "x": 312,
+      "n": 4
+     },
+     {
+      "x": 412,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 28,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.54,
+    0.67,
+    0.79,
+    0.56,
+    0.69,
+    0.38,
+    0.7,
+    1
+   ],
+   "motion": {
+    "elements": 46,
+    "css": 46,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 5,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6704,
+     "screens": 7.9,
+     "words": 514,
+     "img": 6,
+     "video": 5,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 5,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "chars": 19,
+     "lines": 2,
+     "size": 60.1,
+     "vw": 15.4,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.035,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 98,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Jayrald Tajanlangit",
+     "words": 2,
+     "lines": 2,
+     "size": 60.1,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 60.1,
+      "vw": 15.4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 98,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected projects",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 898,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SkyFire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1270,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "mAIstra",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1890,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2571,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pulso",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3278,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sige",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3960,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "My toolkit",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4430,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A little about me",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5382,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get in touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6189,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      20,
+      28,
+      44,
+      60
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": -0.015,
+      "contrast": 9.8
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 60.1,
+      "vw": 15.4,
+      "font": "Bodoni Moda",
+      "text": "JayraldTajanlangit"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#171e1a",
+     "bodyBgHsl": {
+      "h": 146,
+      "s": 0.13,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#222d26",
+       "top": 5342,
+       "hsl": {
+        "h": 142,
+        "s": 0.14,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#101b17",
+       "top": 6149,
+       "hsl": {
+        "h": 158,
+        "s": 0.26,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f0f4f0",
+       "share": 0.78
+      },
+      {
+       "color": "#bbc8be",
+       "share": 0.21
+      },
+      {
+       "color": "#171e1a",
+       "share": 0.01
+      },
+      {
+       "color": "#10241b",
+       "share": 0
+      },
+      {
+       "color": "#101b17",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#f0f4f0",
+      "hsl": {
+       "h": 120,
+       "s": 0.15,
+       "l": 0.95
+      },
+      "fg": "#171e1a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "View projects"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 70,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6704,
+    "margins": {
+     "left": 20,
+     "right": 22
+    },
+    "sections": [
+     {
+      "sel": "section.intro-section.shell",
+      "tag": "section",
+      "top": 70,
+      "height": 796,
+      "words": 52,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Jayrald",
+       "size": 60,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 24,
+      "textLeft": 20,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.shell",
+      "tag": "section",
+      "top": 866,
+      "height": 3500,
+      "words": 290,
+      "media": 5,
+      "middle": 0,
+      "heading": {
+       "text": "Selected projects",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tech-stack.tech-section.shell",
+      "tag": "section",
+      "top": 4366,
+      "height": 976,
+      "words": 48,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "My toolkit",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 106,
+      "textLeft": 20,
+      "textRight": 106,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 5342,
+      "height": 807,
+      "words": 89,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A little about me",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 6149,
+      "height": 433,
+      "words": 27,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Get in touch",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 80,
+      "textLeft": 20,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.portfolio-footer",
+      "tag": "footer",
+      "top": 6582,
+      "height": 122,
+      "words": 8,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 183,
+      "textLeft": 20,
+      "textRight": 183,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "size": 60,
+      "top": 98,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 28
+     }
+    ],
+    "leftBlocks": 28,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\toolkit-final\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\toolkit-final\\desktop-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\toolkit-final\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\toolkit-final\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\toolkit-final\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\toolkit-final\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\toolkit-final\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

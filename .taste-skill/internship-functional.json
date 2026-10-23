@@ -1,0 +1,126 @@
+[
+  {
+    "name": "homepage matches renderer",
+    "pass": true
+  },
+  {
+    "name": "index.html at 320px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "index.html at 390px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "index.html at 768px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "index.html at 1440px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "projects/skyfire.html at 390px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "projects/skyfire.html at 1440px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "projects/maistra.html at 390px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "projects/maistra.html at 1440px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "projects/bulk-buying-companion.html at 390px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "projects/bulk-buying-companion.html at 1440px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "projects/pulso.html at 390px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "projects/pulso.html at 1440px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "projects/sige.html at 390px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "projects/sige.html at 1440px",
+    "pass": true,
+    "overflow": false,
+    "brokenImages": 0
+  },
+  {
+    "name": "menu, keyboard, project links, walkthrough",
+    "pass": true,
+    "menuOpens": true,
+    "escapeCloses": true,
+    "linkCloses": true,
+    "walkthroughOpens": true,
+    "validAnchors": true
+  },
+  {
+    "name": "local destination projects/skyfire.html",
+    "pass": true
+  },
+  {
+    "name": "local destination projects/maistra.html",
+    "pass": true
+  },
+  {
+    "name": "local destination projects/bulk-buying-companion.html",
+    "pass": true
+  },
+  {
+    "name": "local destination projects/pulso.html",
+    "pass": true
+  },
+  {
+    "name": "local destination projects/sige.html",
+    "pass": true
+  },
+  {
+    "name": "no JavaScript fallback",
+    "pass": true,
+    "visibleNavigation": true,
+    "projectCount": 5,
+    "readable": true
+  }
+]

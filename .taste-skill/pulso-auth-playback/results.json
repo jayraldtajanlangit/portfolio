@@ -1,0 +1,159 @@
+[
+  {
+    "name": "pulso: homepage project link opens a playable guided MP4",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:51042/assets/videos/pulso-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "pulso light 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648.0000610351562,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso light 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.9999389648438,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso light 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso light 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso dark 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso dark 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso dark 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso dark 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso: manual playback works with reduced motion",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:51042/assets/videos/pulso-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "pulso: native player works without JavaScript",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:51042/assets/videos/pulso-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "pulso: local-file walkthrough works",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "file:///C:/Users/Jayrald/Desktop/Projects/portfolio/assets/videos/pulso-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "autoplay denial leaves a visible player for manual play",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "visible": true,
+      "fallbackHidden": true
+    }
+  },
+  {
+    "name": "manual play succeeds after autoplay denial",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:51042/assets/videos/pulso-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  }
+]

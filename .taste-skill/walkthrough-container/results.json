@@ -1,0 +1,1302 @@
+[
+  {
+    "slug": "skyfire",
+    "mode": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 35,
+        "width": 250
+      },
+      "stage": {
+        "x": 35,
+        "width": 250,
+        "height": 156.25
+      },
+      "video": {
+        "x": 35,
+        "width": 250,
+        "height": 156.25
+      },
+      "ratio": 1.6,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "skyfire",
+    "mode": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 35,
+        "width": 320
+      },
+      "stage": {
+        "x": 35,
+        "width": 320,
+        "height": 200
+      },
+      "video": {
+        "x": 35,
+        "width": 320,
+        "height": 200
+      },
+      "ratio": 1.6,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "skyfire",
+    "mode": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 47,
+        "width": 674
+      },
+      "stage": {
+        "x": 47,
+        "width": 674,
+        "height": 421.25
+      },
+      "video": {
+        "x": 47,
+        "width": 674,
+        "height": 421.25
+      },
+      "ratio": 1.6,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "skyfire",
+    "mode": "light",
+    "width": 1522,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 185,
+        "width": 1152
+      },
+      "stage": {
+        "x": 185,
+        "width": 1152,
+        "height": 719.28125
+      },
+      "video": {
+        "x": 185,
+        "width": 1152,
+        "height": 719.28125
+      },
+      "ratio": 1.6,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "skyfire",
+    "mode": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 352.5,
+        "width": 1152
+      },
+      "stage": {
+        "x": 352.5,
+        "width": 1152,
+        "height": 720
+      },
+      "video": {
+        "x": 352.5,
+        "width": 1152,
+        "height": 720
+      },
+      "ratio": 1.6,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "skyfire",
+    "mode": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 35,
+        "width": 250
+      },
+      "stage": {
+        "x": 35,
+        "width": 250,
+        "height": 156.25
+      },
+      "video": {
+        "x": 35,
+        "width": 250,
+        "height": 156.25
+      },
+      "ratio": 1.6,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "skyfire",
+    "mode": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 35,
+        "width": 320
+      },
+      "stage": {
+        "x": 35,
+        "width": 320,
+        "height": 200
+      },
+      "video": {
+        "x": 35,
+        "width": 320,
+        "height": 200
+      },
+      "ratio": 1.6,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "skyfire",
+    "mode": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 47,
+        "width": 674
+      },
+      "stage": {
+        "x": 47,
+        "width": 674,
+        "height": 421.25
+      },
+      "video": {
+        "x": 47,
+        "width": 674,
+        "height": 421.25
+      },
+      "ratio": 1.6,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "skyfire",
+    "mode": "dark",
+    "width": 1522,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 185,
+        "width": 1152
+      },
+      "stage": {
+        "x": 185,
+        "width": 1152,
+        "height": 720
+      },
+      "video": {
+        "x": 185,
+        "width": 1152,
+        "height": 720
+      },
+      "ratio": 1.6,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "skyfire",
+    "mode": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 352.5,
+        "width": 1152
+      },
+      "stage": {
+        "x": 352.5,
+        "width": 1152,
+        "height": 720
+      },
+      "video": {
+        "x": 352.5,
+        "width": 1152,
+        "height": 720
+      },
+      "ratio": 1.6,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "maistra",
+    "mode": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 35,
+        "width": 250
+      },
+      "stage": {
+        "x": 35,
+        "width": 250,
+        "height": 140.625
+      },
+      "video": {
+        "x": 35,
+        "width": 250,
+        "height": 140.625
+      },
+      "ratio": 1.7777777777777777,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "maistra",
+    "mode": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 35,
+        "width": 320
+      },
+      "stage": {
+        "x": 35,
+        "width": 320,
+        "height": 180
+      },
+      "video": {
+        "x": 35,
+        "width": 320,
+        "height": 180
+      },
+      "ratio": 1.7777777777777777,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "maistra",
+    "mode": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 47,
+        "width": 674
+      },
+      "stage": {
+        "x": 47,
+        "width": 674,
+        "height": 379.125
+      },
+      "video": {
+        "x": 47,
+        "width": 674,
+        "height": 379.125
+      },
+      "ratio": 1.7777777777777777,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "maistra",
+    "mode": "light",
+    "width": 1522,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 121,
+        "width": 1280
+      },
+      "stage": {
+        "x": 121,
+        "width": 1280,
+        "height": 720
+      },
+      "video": {
+        "x": 121,
+        "width": 1280,
+        "height": 720
+      },
+      "ratio": 1.7777777777777777,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "maistra",
+    "mode": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 288.5,
+        "width": 1280
+      },
+      "stage": {
+        "x": 288.5,
+        "width": 1280,
+        "height": 720
+      },
+      "video": {
+        "x": 288.5,
+        "width": 1280,
+        "height": 720
+      },
+      "ratio": 1.7777777777777777,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "maistra",
+    "mode": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 35,
+        "width": 250
+      },
+      "stage": {
+        "x": 35,
+        "width": 250,
+        "height": 140.625
+      },
+      "video": {
+        "x": 35,
+        "width": 250,
+        "height": 140.625
+      },
+      "ratio": 1.7777777777777777,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "maistra",
+    "mode": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 35,
+        "width": 320
+      },
+      "stage": {
+        "x": 35,
+        "width": 320,
+        "height": 180
+      },
+      "video": {
+        "x": 35,
+        "width": 320,
+        "height": 180
+      },
+      "ratio": 1.7777777777777777,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "maistra",
+    "mode": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 47,
+        "width": 674
+      },
+      "stage": {
+        "x": 47,
+        "width": 674,
+        "height": 379.125
+      },
+      "video": {
+        "x": 47,
+        "width": 674,
+        "height": 379.125
+      },
+      "ratio": 1.7777777777777777,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "maistra",
+    "mode": "dark",
+    "width": 1522,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 121,
+        "width": 1280
+      },
+      "stage": {
+        "x": 121,
+        "width": 1280,
+        "height": 720
+      },
+      "video": {
+        "x": 121,
+        "width": 1280,
+        "height": 720
+      },
+      "ratio": 1.7777777777777777,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "maistra",
+    "mode": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "portrait": false,
+      "card": {
+        "x": 288.5,
+        "width": 1280
+      },
+      "stage": {
+        "x": 288.5,
+        "width": 1280,
+        "height": 720
+      },
+      "video": {
+        "x": 288.5,
+        "width": 1280,
+        "height": 720
+      },
+      "ratio": 1.7777777777777777,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "mode": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 258.15625
+      },
+      "stage": {
+        "x": 35,
+        "width": 258.15625,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 258.15625,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "mode": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 320
+      },
+      "stage": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "mode": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 47,
+        "width": 674
+      },
+      "stage": {
+        "x": 47,
+        "width": 674,
+        "height": 720
+      },
+      "video": {
+        "x": 217.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "mode": "light",
+    "width": 1522,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 61,
+        "width": 1400
+      },
+      "stage": {
+        "x": 61,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 594.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "mode": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 228.5,
+        "width": 1400
+      },
+      "stage": {
+        "x": 228.5,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 762.15625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "mode": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 258.15625
+      },
+      "stage": {
+        "x": 35,
+        "width": 258.15625,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 258.15625,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "mode": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 320
+      },
+      "stage": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "mode": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 47,
+        "width": 674
+      },
+      "stage": {
+        "x": 47,
+        "width": 674,
+        "height": 720
+      },
+      "video": {
+        "x": 217.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "mode": "dark",
+    "width": 1522,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 61,
+        "width": 1400
+      },
+      "stage": {
+        "x": 61,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 594.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "mode": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 228.5,
+        "width": 1400
+      },
+      "stage": {
+        "x": 228.5,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 762.15625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "pulso",
+    "mode": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 250
+      },
+      "stage": {
+        "x": 35,
+        "width": 250,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 250,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "pulso",
+    "mode": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 320
+      },
+      "stage": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "pulso",
+    "mode": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 47,
+        "width": 674
+      },
+      "stage": {
+        "x": 47,
+        "width": 674,
+        "height": 720
+      },
+      "video": {
+        "x": 217.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "pulso",
+    "mode": "light",
+    "width": 1522,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 61,
+        "width": 1400
+      },
+      "stage": {
+        "x": 61,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 594.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "pulso",
+    "mode": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 228.5,
+        "width": 1400
+      },
+      "stage": {
+        "x": 228.5,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 762.15625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "pulso",
+    "mode": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 250
+      },
+      "stage": {
+        "x": 35,
+        "width": 250,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 250,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "pulso",
+    "mode": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 320
+      },
+      "stage": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "pulso",
+    "mode": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 47,
+        "width": 674
+      },
+      "stage": {
+        "x": 47,
+        "width": 674,
+        "height": 720
+      },
+      "video": {
+        "x": 217.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "pulso",
+    "mode": "dark",
+    "width": 1522,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 61,
+        "width": 1400
+      },
+      "stage": {
+        "x": 61,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 594.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "pulso",
+    "mode": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 228.5,
+        "width": 1400
+      },
+      "stage": {
+        "x": 228.5,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 762.15625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "sige",
+    "mode": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 250
+      },
+      "stage": {
+        "x": 35,
+        "width": 250,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 250,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "sige",
+    "mode": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 320
+      },
+      "stage": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "sige",
+    "mode": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 47,
+        "width": 674
+      },
+      "stage": {
+        "x": 47,
+        "width": 674,
+        "height": 720
+      },
+      "video": {
+        "x": 217.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "sige",
+    "mode": "light",
+    "width": 1522,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 61,
+        "width": 1400
+      },
+      "stage": {
+        "x": 61,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 594.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "sige",
+    "mode": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 228.5,
+        "width": 1400
+      },
+      "stage": {
+        "x": 228.5,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 762.15625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "sige",
+    "mode": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 250
+      },
+      "stage": {
+        "x": 35,
+        "width": 250,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 250,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "sige",
+    "mode": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 35,
+        "width": 320
+      },
+      "stage": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "video": {
+        "x": 35,
+        "width": 320,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "sige",
+    "mode": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 47,
+        "width": 674
+      },
+      "stage": {
+        "x": 47,
+        "width": 674,
+        "height": 720
+      },
+      "video": {
+        "x": 217.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "sige",
+    "mode": "dark",
+    "width": 1522,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 61,
+        "width": 1400
+      },
+      "stage": {
+        "x": 61,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 594.65625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  },
+  {
+    "slug": "sige",
+    "mode": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "portrait": true,
+      "card": {
+        "x": 228.5,
+        "width": 1400
+      },
+      "stage": {
+        "x": 228.5,
+        "width": 1400,
+        "height": 720
+      },
+      "video": {
+        "x": 762.15625,
+        "width": 332.6875,
+        "height": 720
+      },
+      "ratio": 0.46208530805687204,
+      "controls": true,
+      "overflow": false
+    }
+  }
+]

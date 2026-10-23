@@ -1,0 +1,133 @@
+[
+  {
+    "name": "index.html: interests replace internship headline and motion initializes",
+    "pass": true,
+    "typing": true,
+    "motion": true,
+    "noSeeking": true
+  },
+  {
+    "name": "index.html: all three interests type and erase",
+    "pass": true,
+    "seen": [
+      "Artificial intelligence",
+      "Mobile apps",
+      "Web apps"
+    ],
+    "stable": true
+  },
+  {
+    "name": "index.html: typing does not move the actions",
+    "pass": true,
+    "seen": [
+      "Artificial intelligence",
+      "Mobile apps",
+      "Web apps"
+    ],
+    "stable": true
+  },
+  {
+    "name": "index.html: typing continues without a playback button",
+    "pass": true
+  },
+  {
+    "name": "index.html: fits at 320px",
+    "pass": true
+  },
+  {
+    "name": "index.html: fits at 390px",
+    "pass": true
+  },
+  {
+    "name": "index.html: fits at 768px",
+    "pass": true
+  },
+  {
+    "name": "index.html: fits at 1440px",
+    "pass": true
+  },
+  {
+    "name": "index.html: scrolling triggers section entrances",
+    "pass": true,
+    "running": true,
+    "scrollY": 2830,
+    "sectionTop": 144.5625
+  },
+  {
+    "name": "index.html: reduced motion shows all interests without movement",
+    "pass": true,
+    "static": true,
+    "hiddenVisual": true,
+    "noEntrances": true,
+    "fullCopy": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: interests replace internship headline and motion initializes",
+    "pass": true,
+    "typing": true,
+    "motion": true,
+    "noSeeking": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: all three interests type and erase",
+    "pass": true,
+    "seen": [
+      "Artificial intelligence",
+      "Mobile apps",
+      "Web apps"
+    ],
+    "stable": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: typing does not move the actions",
+    "pass": true,
+    "seen": [
+      "Artificial intelligence",
+      "Mobile apps",
+      "Web apps"
+    ],
+    "stable": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: typing continues without a playback button",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: fits at 320px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: fits at 390px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: fits at 768px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: fits at 1440px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: scrolling triggers section entrances",
+    "pass": true,
+    "running": true,
+    "scrollY": 3123,
+    "sectionTop": 116.359375
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: reduced motion shows all interests without movement",
+    "pass": true,
+    "static": true,
+    "hiddenVisual": true,
+    "noEntrances": true,
+    "fullCopy": true
+  },
+  {
+    "name": "without JavaScript the introduction stays readable",
+    "pass": true,
+    "staticVisible": true,
+    "visualHidden": true,
+    "headingVisible": true
+  }
+]

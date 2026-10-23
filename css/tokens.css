@@ -1,0 +1,94 @@
+:root {
+  --bg: #183d35;
+  --surface: #284b43;
+  --ink: #f8f8f4;
+  --muted: #cad8d1;
+  --accent: #176455;
+  --accent-ink: #ffffff;
+  --field-1: #f8f8f4;
+  --field-1-ink: #232b28;
+
+  --color-paper: var(--field-1);
+  --color-paper-deep: #e9eee7;
+  --color-ink: var(--field-1-ink);
+  --color-muted: #424c45;
+  --color-vermilion: var(--accent);
+  --color-vermilion-dark: #104c40;
+  --color-charcoal: var(--bg);
+  --color-rule: #d7e0d8;
+  --color-focus: var(--accent);
+  --color-preview: #e4ebe2;
+  --color-preview-alt: #dfece6;
+  --color-preview-hover: #d3e0d7;
+  --color-inverse-link: #c7e7d8;
+
+  --font-display: "Bodoni Moda", Georgia, serif;
+  --font-body: "Manrope", Arial, sans-serif;
+
+  --step--1: 1rem;
+  --step-0: 1rem;
+  --step-1: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+  --step-2: clamp(1.5rem, 1.3rem + 1vw, 2rem);
+  --step-3: clamp(2rem, 1.7rem + 2vw, 3rem);
+  --step-4: clamp(2rem, 1.7rem + 2vw, 3rem);
+
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4.5rem;
+  --space-8: 7rem;
+
+  --motion-fast: 140ms;
+  --motion-standard: 280ms;
+  --motion-slow: 1100ms;
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-rule: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --shell: 87.5rem;
+  --measure: 68ch;
+  --rule: 1px solid var(--color-rule);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #101b17;
+  --surface: #21342c;
+  --ink: #f0f4f0;
+  --muted: #c5d1c9;
+  --accent: #9ad5bc;
+  --accent-ink: #10241b;
+  --field-1: #171e1a;
+  --field-1-ink: #f0f4f0;
+  --color-paper-deep: #222d26;
+  --color-muted: #bbc8be;
+  --color-vermilion-dark: #b5e5cf;
+  --color-rule: #344139;
+  --color-preview: #253129;
+  --color-preview-alt: #243830;
+  --color-preview-hover: #314638;
+  --color-inverse-link: #b7e6cc;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --bg: #101b17;
+    --surface: #21342c;
+    --ink: #f0f4f0;
+    --muted: #c5d1c9;
+    --accent: #9ad5bc;
+    --accent-ink: #10241b;
+    --field-1: #171e1a;
+    --field-1-ink: #f0f4f0;
+    --color-paper-deep: #222d26;
+    --color-muted: #bbc8be;
+    --color-vermilion-dark: #b5e5cf;
+    --color-rule: #344139;
+    --color-preview: #253129;
+    --color-preview-alt: #243830;
+    --color-preview-hover: #314638;
+    --color-inverse-link: #b7e6cc;
+  }
+}

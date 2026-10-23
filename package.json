@@ -1,0 +1,10 @@
+{
+  "name": "jayrald-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node scripts/render-site.mjs",
+    "render:walkthroughs": "node scripts/render-walkthroughs.mjs",
+    "test": "node --test"
+  }
+}

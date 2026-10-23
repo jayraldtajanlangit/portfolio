@@ -1,0 +1,5 @@
+# Projects section introduction
+
+Rename Selected projects to Projects. Replace the general introductory sentence with a short line tied to the actual work: “Web and mobile projects, from flight bookings to handwritten code.” Align the title with the media column and the introduction with the project descriptions on desktop, using the same 1.5:1 grid and 40px gap. Match the intermediate 1.25:1 grid at 1000px; use a natural stacked heading/introduction below 900px. Keep the existing typography and avoid decorative labels or controls.
+
+Verification: the title regression assertion failed before implementation; all 44 tests now pass after regeneration. All 18 focused browser checks pass across 320–3840px in both themes, confirming copy/media alignment, title, narrow-screen stacking and no overflow. Light desktop/mobile screenshots reviewed. Source lint has zero failures/warnings; three-width inspector has zero failures and the two previously documented font-sheet/glyph-margin warnings. Evidence: `.taste-skill/projects-heading/`.

@@ -1,0 +1,927 @@
+[
+  {
+    "name": "all seven SVG masks decode locally",
+    "pass": true,
+    "detail": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "name": "icons have accessible names and local case-study destinations",
+    "pass": true,
+    "detail": [
+      {
+        "label": "TypeScript: view my work on mAIstra",
+        "valid": true,
+        "local": true,
+        "decorative": true
+      },
+      {
+        "label": "Dart: view my work on Pulso",
+        "valid": true,
+        "local": true,
+        "decorative": true
+      },
+      {
+        "label": "Python: view my work on Sige",
+        "valid": true,
+        "local": true,
+        "decorative": true
+      },
+      {
+        "label": "Angular: view my work on mAIstra",
+        "valid": true,
+        "local": true,
+        "decorative": true
+      },
+      {
+        "label": "Django REST Framework: view my work on SkyFire",
+        "valid": true,
+        "local": true,
+        "decorative": true
+      },
+      {
+        "label": "Flutter: view my work on Pulso",
+        "valid": true,
+        "local": true,
+        "decorative": true
+      },
+      {
+        "label": "FastAPI: view my work on Sige",
+        "valid": true,
+        "local": true,
+        "decorative": true
+      }
+    ]
+  },
+  {
+    "name": "light 320px: icon layout fits with accessible hit targets",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "light 320px: icon 1 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 320px: icon 2 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 320px: icon 3 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 320px: icon 4 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 320px: icon 5 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 320px: icon 6 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 320px: icon 7 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 390px: icon layout fits with accessible hit targets",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "light 390px: icon 1 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 390px: icon 2 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 390px: icon 3 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 390px: icon 4 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 390px: icon 5 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 390px: icon 6 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 390px: icon 7 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 768px: icon layout fits with accessible hit targets",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "light 768px: icon 1 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 768px: icon 2 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 768px: icon 3 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 768px: icon 4 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 768px: icon 5 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 768px: icon 6 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 768px: icon 7 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 1440px: icon layout fits with accessible hit targets",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "light 1440px: icon 1 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 1440px: icon 2 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 1440px: icon 3 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 1440px: icon 4 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 1440px: icon 5 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 1440px: icon 6 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "light 1440px: icon 7 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 320px: icon layout fits with accessible hit targets",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "dark 320px: icon 1 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 320px: icon 2 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 320px: icon 3 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 320px: icon 4 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 320px: icon 5 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 320px: icon 6 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 320px: icon 7 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 390px: icon layout fits with accessible hit targets",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "dark 390px: icon 1 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 390px: icon 2 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 390px: icon 3 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 390px: icon 4 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 390px: icon 5 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 390px: icon 6 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 390px: icon 7 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 768px: icon layout fits with accessible hit targets",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "dark 768px: icon 1 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 768px: icon 2 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 768px: icon 3 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 768px: icon 4 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 768px: icon 5 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 768px: icon 6 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 768px: icon 7 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 1440px: icon layout fits with accessible hit targets",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        },
+        {
+          "fits": true,
+          "large": true,
+          "hidden": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "dark 1440px: icon 1 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 1440px: icon 2 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 1440px: icon 3 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 1440px: icon 4 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 1440px: icon 5 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 1440px: icon 6 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "dark 1440px: icon 7 label appears on keyboard focus",
+    "pass": true,
+    "detail": {
+      "visible": true,
+      "fits": true,
+      "focus": true
+    }
+  },
+  {
+    "name": "reduced motion keeps logo feedback still",
+    "pass": true
+  },
+  {
+    "name": "icons and case-study links exist without JavaScript",
+    "pass": true
+  }
+]

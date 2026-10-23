@@ -1,0 +1,249 @@
+[
+  {
+    "name": "index.html: switch is visible and dropdown is removed",
+    "pass": true
+  },
+  {
+    "name": "index.html: Space enables and saves dark mode",
+    "pass": true
+  },
+  {
+    "name": "index.html: Enter returns to light mode without losing focus",
+    "pass": true,
+    "detail": {
+      "theme": "light",
+      "focused": true,
+      "checked": "false"
+    }
+  },
+  {
+    "name": "index.html: header and switch fit 320px",
+    "pass": true
+  },
+  {
+    "name": "index.html: header and switch fit 390px",
+    "pass": true
+  },
+  {
+    "name": "index.html: header and switch fit 768px",
+    "pass": true
+  },
+  {
+    "name": "index.html: header and switch fit 1440px",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: switch is visible and dropdown is removed",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: Space enables and saves dark mode",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: Enter returns to light mode without losing focus",
+    "pass": true,
+    "detail": {
+      "theme": "light",
+      "focused": true,
+      "checked": "false"
+    }
+  },
+  {
+    "name": "projects/maistra.html: header and switch fit 320px",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: header and switch fit 390px",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: header and switch fit 768px",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: header and switch fit 1440px",
+    "pass": true
+  },
+  {
+    "name": "projects/skyfire.html: switch is visible and dropdown is removed",
+    "pass": true
+  },
+  {
+    "name": "projects/skyfire.html: Space enables and saves dark mode",
+    "pass": true
+  },
+  {
+    "name": "projects/skyfire.html: Enter returns to light mode without losing focus",
+    "pass": true,
+    "detail": {
+      "theme": "light",
+      "focused": true,
+      "checked": "false"
+    }
+  },
+  {
+    "name": "projects/skyfire.html: header and switch fit 320px",
+    "pass": true
+  },
+  {
+    "name": "projects/skyfire.html: header and switch fit 390px",
+    "pass": true
+  },
+  {
+    "name": "projects/skyfire.html: header and switch fit 768px",
+    "pass": true
+  },
+  {
+    "name": "projects/skyfire.html: header and switch fit 1440px",
+    "pass": true
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: switch is visible and dropdown is removed",
+    "pass": true
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: Space enables and saves dark mode",
+    "pass": true
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: Enter returns to light mode without losing focus",
+    "pass": true,
+    "detail": {
+      "theme": "light",
+      "focused": true,
+      "checked": "false"
+    }
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: header and switch fit 320px",
+    "pass": true
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: header and switch fit 390px",
+    "pass": true
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: header and switch fit 768px",
+    "pass": true
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: header and switch fit 1440px",
+    "pass": true
+  },
+  {
+    "name": "projects/pulso.html: switch is visible and dropdown is removed",
+    "pass": true
+  },
+  {
+    "name": "projects/pulso.html: Space enables and saves dark mode",
+    "pass": true
+  },
+  {
+    "name": "projects/pulso.html: Enter returns to light mode without losing focus",
+    "pass": true,
+    "detail": {
+      "theme": "light",
+      "focused": true,
+      "checked": "false"
+    }
+  },
+  {
+    "name": "projects/pulso.html: header and switch fit 320px",
+    "pass": true
+  },
+  {
+    "name": "projects/pulso.html: header and switch fit 390px",
+    "pass": true
+  },
+  {
+    "name": "projects/pulso.html: header and switch fit 768px",
+    "pass": true
+  },
+  {
+    "name": "projects/pulso.html: header and switch fit 1440px",
+    "pass": true
+  },
+  {
+    "name": "projects/sige.html: switch is visible and dropdown is removed",
+    "pass": true
+  },
+  {
+    "name": "projects/sige.html: Space enables and saves dark mode",
+    "pass": true
+  },
+  {
+    "name": "projects/sige.html: Enter returns to light mode without losing focus",
+    "pass": true,
+    "detail": {
+      "theme": "light",
+      "focused": true,
+      "checked": "false"
+    }
+  },
+  {
+    "name": "projects/sige.html: header and switch fit 320px",
+    "pass": true
+  },
+  {
+    "name": "projects/sige.html: header and switch fit 390px",
+    "pass": true
+  },
+  {
+    "name": "projects/sige.html: header and switch fit 768px",
+    "pass": true
+  },
+  {
+    "name": "projects/sige.html: header and switch fit 1440px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: switch is visible and dropdown is removed",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: Space enables and saves dark mode",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: Enter returns to light mode without losing focus",
+    "pass": true,
+    "detail": {
+      "theme": "light",
+      "focused": true,
+      "checked": "false"
+    }
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: header and switch fit 320px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: header and switch fit 390px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: header and switch fit 768px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: header and switch fit 1440px",
+    "pass": true
+  },
+  {
+    "name": "navigation preserves the saved dark preference",
+    "pass": true
+  },
+  {
+    "name": "first visit follows device dark mode and reduces thumb motion",
+    "pass": true
+  },
+  {
+    "name": "saved light mode overrides device dark mode on reload",
+    "pass": true
+  },
+  {
+    "name": "storage denial leaves the switch usable",
+    "pass": true
+  }
+]

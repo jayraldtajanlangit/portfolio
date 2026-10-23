@@ -1,0 +1,1438 @@
+[
+  {
+    "name": "/index.html dark 320px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -451.328125,
+          595.859375,
+          1588.46875
+        ],
+        [
+          -370.953125,
+          644.046875,
+          1636.65625
+        ],
+        [
+          -303.765625,
+          711.234375,
+          1732.84375
+        ],
+        [
+          -153.796875,
+          861.203125,
+          1882.8125
+        ],
+        [
+          -105.015625,
+          909.984375,
+          1909.203125
+        ],
+        [
+          -44.234375,
+          948.375,
+          1947.59375
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html dark 390px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -370.984375,
+          669.609375,
+          1687.8125
+        ],
+        [
+          -322.796875,
+          717.796875,
+          1736
+        ],
+        [
+          -255.609375,
+          784.984375,
+          1832.1875
+        ],
+        [
+          -131.234375,
+          909.359375,
+          1956.5625
+        ],
+        [
+          -104.84375,
+          935.75,
+          1982.953125
+        ],
+        [
+          -44.0625,
+          974.140625,
+          2021.34375
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html dark 768px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -457.375,
+          140.875,
+          724.625
+        ],
+        [
+          -409.1875,
+          189.0625,
+          772.8125
+        ],
+        [
+          -342,
+          256.25,
+          869
+        ],
+        [
+          -217.625,
+          380.625,
+          993.375
+        ],
+        [
+          -191.234375,
+          407.015625,
+          1019.765625
+        ],
+        [
+          -152.84375,
+          445.40625,
+          1058.15625
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html dark 1000px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -459.15625,
+          194.515625,
+          833.6875
+        ],
+        [
+          -410.96875,
+          242.703125,
+          881.875
+        ],
+        [
+          -369.375,
+          284.296875,
+          952.46875
+        ],
+        [
+          -270.59375,
+          383.078125,
+          1051.25
+        ],
+        [
+          -244.203125,
+          409.46875,
+          1077.640625
+        ],
+        [
+          -205.8125,
+          447.859375,
+          1116.03125
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html dark 1024px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          633.859375,
+          633.859375,
+          633.859375
+        ],
+        [
+          710.234375,
+          710.234375,
+          710.234375
+        ],
+        [
+          802.421875,
+          802.421875,
+          802.421875
+        ],
+        [
+          948.390625,
+          948.390625,
+          948.390625
+        ],
+        [
+          997.171875,
+          997.171875,
+          997.171875
+        ],
+        [
+          1053.953125,
+          1053.953125,
+          1053.953125
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html dark 1200px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          634.140625,
+          634.140625,
+          634.140625
+        ],
+        [
+          678.328125,
+          678.328125,
+          678.328125
+        ],
+        [
+          770.515625,
+          770.515625,
+          770.515625
+        ],
+        [
+          890.890625,
+          890.890625,
+          890.890625
+        ],
+        [
+          917.28125,
+          917.28125,
+          917.28125
+        ],
+        [
+          974.0625,
+          974.0625,
+          974.0625
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html dark 1440px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          633.96875,
+          633.96875,
+          633.96875
+        ],
+        [
+          678.15625,
+          678.15625,
+          678.15625
+        ],
+        [
+          770.34375,
+          770.34375,
+          770.34375
+        ],
+        [
+          865.125,
+          865.125,
+          865.125
+        ],
+        [
+          891.515625,
+          891.515625,
+          891.515625
+        ],
+        [
+          925.90625,
+          925.90625,
+          925.90625
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html dark 1857px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          633.921875,
+          633.921875,
+          633.921875
+        ],
+        [
+          678.109375,
+          678.109375,
+          678.109375
+        ],
+        [
+          744.703125,
+          744.703125,
+          744.703125
+        ],
+        [
+          839.484375,
+          839.484375,
+          839.484375
+        ],
+        [
+          865.875,
+          865.875,
+          865.875
+        ],
+        [
+          900.265625,
+          900.265625,
+          900.265625
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html light 320px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -451.328125,
+          595.859375,
+          1588.46875
+        ],
+        [
+          -370.953125,
+          644.046875,
+          1636.65625
+        ],
+        [
+          -303.765625,
+          711.234375,
+          1732.84375
+        ],
+        [
+          -153.796875,
+          861.203125,
+          1882.8125
+        ],
+        [
+          -105.015625,
+          909.984375,
+          1909.203125
+        ],
+        [
+          -44.234375,
+          948.375,
+          1947.59375
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html light 390px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -370.984375,
+          669.609375,
+          1687.8125
+        ],
+        [
+          -322.796875,
+          717.796875,
+          1736
+        ],
+        [
+          -255.609375,
+          784.984375,
+          1832.1875
+        ],
+        [
+          -131.234375,
+          909.359375,
+          1956.5625
+        ],
+        [
+          -104.84375,
+          935.75,
+          1982.953125
+        ],
+        [
+          -44.0625,
+          974.140625,
+          2021.34375
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html light 768px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -457.375,
+          140.875,
+          724.625
+        ],
+        [
+          -409.1875,
+          189.0625,
+          772.8125
+        ],
+        [
+          -342,
+          256.25,
+          869
+        ],
+        [
+          -217.625,
+          380.625,
+          993.375
+        ],
+        [
+          -191.234375,
+          407.015625,
+          1019.765625
+        ],
+        [
+          -152.84375,
+          445.40625,
+          1058.15625
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html light 1000px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -459.15625,
+          194.515625,
+          833.6875
+        ],
+        [
+          -410.96875,
+          242.703125,
+          881.875
+        ],
+        [
+          -369.375,
+          284.296875,
+          952.46875
+        ],
+        [
+          -270.59375,
+          383.078125,
+          1051.25
+        ],
+        [
+          -244.203125,
+          409.46875,
+          1077.640625
+        ],
+        [
+          -205.8125,
+          447.859375,
+          1116.03125
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html light 1024px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          633.859375,
+          633.859375,
+          633.859375
+        ],
+        [
+          710.234375,
+          710.234375,
+          710.234375
+        ],
+        [
+          802.421875,
+          802.421875,
+          802.421875
+        ],
+        [
+          948.390625,
+          948.390625,
+          948.390625
+        ],
+        [
+          997.171875,
+          997.171875,
+          997.171875
+        ],
+        [
+          1053.953125,
+          1053.953125,
+          1053.953125
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html light 1200px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          634.140625,
+          634.140625,
+          634.140625
+        ],
+        [
+          678.328125,
+          678.328125,
+          678.328125
+        ],
+        [
+          770.515625,
+          770.515625,
+          770.515625
+        ],
+        [
+          890.890625,
+          890.890625,
+          890.890625
+        ],
+        [
+          917.28125,
+          917.28125,
+          917.28125
+        ],
+        [
+          974.0625,
+          974.0625,
+          974.0625
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html light 1440px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          633.96875,
+          633.96875,
+          633.96875
+        ],
+        [
+          678.15625,
+          678.15625,
+          678.15625
+        ],
+        [
+          770.34375,
+          770.34375,
+          770.34375
+        ],
+        [
+          865.125,
+          865.125,
+          865.125
+        ],
+        [
+          891.515625,
+          891.515625,
+          891.515625
+        ],
+        [
+          925.90625,
+          925.90625,
+          925.90625
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/index.html light 1857px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          633.921875,
+          633.921875,
+          633.921875
+        ],
+        [
+          678.109375,
+          678.109375,
+          678.109375
+        ],
+        [
+          744.703125,
+          744.703125,
+          744.703125
+        ],
+        [
+          839.484375,
+          839.484375,
+          839.484375
+        ],
+        [
+          865.875,
+          865.875,
+          865.875
+        ],
+        [
+          900.265625,
+          900.265625,
+          900.265625
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 320px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -451.46875,
+          594.671875,
+          1586.234375
+        ],
+        [
+          -371.09375,
+          642.859375,
+          1634.421875
+        ],
+        [
+          -303.90625,
+          710.046875,
+          1730.609375
+        ],
+        [
+          -153.9375,
+          860.015625,
+          1880.578125
+        ],
+        [
+          -105.15625,
+          908.796875,
+          1906.96875
+        ],
+        [
+          -44.375,
+          947.1875,
+          1945.359375
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 390px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -371.0625,
+          746.390625,
+          1841.453125
+        ],
+        [
+          -322.875,
+          794.578125,
+          1889.640625
+        ],
+        [
+          -255.6875,
+          861.765625,
+          1985.828125
+        ],
+        [
+          -131.3125,
+          986.140625,
+          2110.203125
+        ],
+        [
+          -104.921875,
+          1012.53125,
+          2136.59375
+        ],
+        [
+          -44.140625,
+          1050.921875,
+          2174.984375
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 768px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -456.828125,
+          140.375,
+          723.078125
+        ],
+        [
+          -408.640625,
+          188.5625,
+          771.265625
+        ],
+        [
+          -341.453125,
+          255.75,
+          867.453125
+        ],
+        [
+          -217.078125,
+          380.125,
+          991.828125
+        ],
+        [
+          -190.6875,
+          406.515625,
+          1018.21875
+        ],
+        [
+          -152.296875,
+          444.90625,
+          1056.609375
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 1000px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -531.703125,
+          266.328125,
+          1049.859375
+        ],
+        [
+          -483.515625,
+          314.515625,
+          1098.046875
+        ],
+        [
+          -441.921875,
+          356.109375,
+          1168.640625
+        ],
+        [
+          -343.140625,
+          454.890625,
+          1267.421875
+        ],
+        [
+          -316.75,
+          481.28125,
+          1293.8125
+        ],
+        [
+          -278.359375,
+          519.671875,
+          1332.203125
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 1024px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          631.640625,
+          631.640625,
+          631.640625
+        ],
+        [
+          708.015625,
+          708.015625,
+          708.015625
+        ],
+        [
+          800.203125,
+          800.203125,
+          800.203125
+        ],
+        [
+          946.171875,
+          946.171875,
+          946.171875
+        ],
+        [
+          994.953125,
+          994.953125,
+          994.953125
+        ],
+        [
+          1051.734375,
+          1051.734375,
+          1051.734375
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 1200px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          758.453125,
+          758.453125,
+          758.453125
+        ],
+        [
+          802.640625,
+          802.640625,
+          802.640625
+        ],
+        [
+          894.828125,
+          894.828125,
+          894.828125
+        ],
+        [
+          1015.203125,
+          1015.203125,
+          1015.203125
+        ],
+        [
+          1041.59375,
+          1041.59375,
+          1041.59375
+        ],
+        [
+          1098.375,
+          1098.375,
+          1098.375
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 1440px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          887.5625,
+          887.5625,
+          887.5625
+        ],
+        [
+          931.75,
+          931.75,
+          931.75
+        ],
+        [
+          1023.9375,
+          1023.9375,
+          1023.9375
+        ],
+        [
+          1118.71875,
+          1118.71875,
+          1118.71875
+        ],
+        [
+          1145.109375,
+          1145.109375,
+          1145.109375
+        ],
+        [
+          1179.5,
+          1179.5,
+          1179.5
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 1857px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          888.296875,
+          888.296875,
+          888.296875
+        ],
+        [
+          932.484375,
+          932.484375,
+          932.484375
+        ],
+        [
+          999.078125,
+          999.078125,
+          999.078125
+        ],
+        [
+          1093.859375,
+          1093.859375,
+          1093.859375
+        ],
+        [
+          1120.25,
+          1120.25,
+          1120.25
+        ],
+        [
+          1154.640625,
+          1154.640625,
+          1154.640625
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 320px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -451.46875,
+          594.671875,
+          1586.234375
+        ],
+        [
+          -371.09375,
+          642.859375,
+          1634.421875
+        ],
+        [
+          -303.90625,
+          710.046875,
+          1730.609375
+        ],
+        [
+          -153.9375,
+          860.015625,
+          1880.578125
+        ],
+        [
+          -105.15625,
+          908.796875,
+          1906.96875
+        ],
+        [
+          -44.375,
+          947.1875,
+          1945.359375
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 390px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -371.0625,
+          746.390625,
+          1841.453125
+        ],
+        [
+          -322.875,
+          794.578125,
+          1889.640625
+        ],
+        [
+          -255.6875,
+          861.765625,
+          1985.828125
+        ],
+        [
+          -131.3125,
+          986.140625,
+          2110.203125
+        ],
+        [
+          -104.921875,
+          1012.53125,
+          2136.59375
+        ],
+        [
+          -44.140625,
+          1050.921875,
+          2174.984375
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 768px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -456.828125,
+          140.375,
+          723.078125
+        ],
+        [
+          -408.640625,
+          188.5625,
+          771.265625
+        ],
+        [
+          -341.453125,
+          255.75,
+          867.453125
+        ],
+        [
+          -217.078125,
+          380.125,
+          991.828125
+        ],
+        [
+          -190.6875,
+          406.515625,
+          1018.21875
+        ],
+        [
+          -152.296875,
+          444.90625,
+          1056.609375
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 1000px: all copy fits in reading order",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          -531.703125,
+          266.328125,
+          1049.859375
+        ],
+        [
+          -483.515625,
+          314.515625,
+          1098.046875
+        ],
+        [
+          -441.921875,
+          356.109375,
+          1168.640625
+        ],
+        [
+          -343.140625,
+          454.890625,
+          1267.421875
+        ],
+        [
+          -316.75,
+          481.28125,
+          1293.8125
+        ],
+        [
+          -278.359375,
+          519.671875,
+          1332.203125
+        ]
+      ],
+      "aligned": false,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 1024px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          631.640625,
+          631.640625,
+          631.640625
+        ],
+        [
+          708.015625,
+          708.015625,
+          708.015625
+        ],
+        [
+          800.203125,
+          800.203125,
+          800.203125
+        ],
+        [
+          946.171875,
+          946.171875,
+          946.171875
+        ],
+        [
+          994.953125,
+          994.953125,
+          994.953125
+        ],
+        [
+          1051.734375,
+          1051.734375,
+          1051.734375
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 1200px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          758.453125,
+          758.453125,
+          758.453125
+        ],
+        [
+          802.640625,
+          802.640625,
+          802.640625
+        ],
+        [
+          894.828125,
+          894.828125,
+          894.828125
+        ],
+        [
+          1015.203125,
+          1015.203125,
+          1015.203125
+        ],
+        [
+          1041.59375,
+          1041.59375,
+          1041.59375
+        ],
+        [
+          1098.375,
+          1098.375,
+          1098.375
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 1440px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          887.5625,
+          887.5625,
+          887.5625
+        ],
+        [
+          931.75,
+          931.75,
+          931.75
+        ],
+        [
+          1023.9375,
+          1023.9375,
+          1023.9375
+        ],
+        [
+          1118.71875,
+          1118.71875,
+          1118.71875
+        ],
+        [
+          1145.109375,
+          1145.109375,
+          1145.109375
+        ],
+        [
+          1179.5,
+          1179.5,
+          1179.5
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 1857px: matching text rows align",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          888.296875,
+          888.296875,
+          888.296875
+        ],
+        [
+          932.484375,
+          932.484375,
+          932.484375
+        ],
+        [
+          999.078125,
+          999.078125,
+          999.078125
+        ],
+        [
+          1093.859375,
+          1093.859375,
+          1093.859375
+        ],
+        [
+          1120.25,
+          1120.25,
+          1120.25
+        ],
+        [
+          1154.640625,
+          1154.640625,
+          1154.640625
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  },
+  {
+    "name": "three copy blocks reveal together with a short stagger",
+    "pass": true,
+    "detail": [
+      [
+        {
+          "delay": 0,
+          "direction": "normal",
+          "duration": 560,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+          "endDelay": 0,
+          "fill": "backwards",
+          "iterationStart": 0,
+          "iterations": 1
+        }
+      ],
+      [
+        {
+          "delay": 70,
+          "direction": "normal",
+          "duration": 560,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+          "endDelay": 0,
+          "fill": "backwards",
+          "iterationStart": 0,
+          "iterations": 1
+        }
+      ],
+      [
+        {
+          "delay": 140,
+          "direction": "normal",
+          "duration": 560,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+          "endDelay": 0,
+          "fill": "backwards",
+          "iterationStart": 0,
+          "iterations": 1
+        }
+      ]
+    ]
+  },
+  {
+    "name": "reveal settles into aligned readable rows",
+    "pass": true
+  },
+  {
+    "name": "all three mobile previews keep playing after the reveal",
+    "pass": true
+  },
+  {
+    "name": "without JavaScript the aligned copy remains visible",
+    "pass": true,
+    "detail": {
+      "tops": [
+        [
+          633.96875,
+          633.96875,
+          633.96875
+        ],
+        [
+          678.15625,
+          678.15625,
+          678.15625
+        ],
+        [
+          770.34375,
+          770.34375,
+          770.34375
+        ],
+        [
+          865.125,
+          865.125,
+          865.125
+        ],
+        [
+          891.515625,
+          891.515625,
+          891.515625
+        ],
+        [
+          925.90625,
+          925.90625,
+          925.90625
+        ]
+      ],
+      "aligned": true,
+      "overflow": false,
+      "readable": true,
+      "phones": true
+    }
+  }
+]

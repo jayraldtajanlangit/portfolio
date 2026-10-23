@@ -1,0 +1,289 @@
+[
+  {
+    "name": "light 320px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "light 390px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "light 768px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "light 1440px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "dark 320px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "dark 390px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "dark 768px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "dark 1440px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "system 320px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "system 390px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "system 768px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "system 1440px: complete toolkit fits and keeps five project previews",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": 4,
+      "heading": "My toolkit",
+      "icons": true,
+      "visible": true,
+      "fiveProjects": true,
+      "links": [
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/pulso.html",
+        "http://127.0.0.1:63617/projects/bulk-buying-companion.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/skyfire.html",
+        "http://127.0.0.1:63617/projects/sige.html",
+        "http://127.0.0.1:63617/projects/maistra.html"
+      ],
+      "fitting": true
+    }
+  },
+  {
+    "name": "all toolkit project examples resolve",
+    "pass": true,
+    "detail": [
+      200,
+      200,
+      200,
+      200,
+      200
+    ]
+  },
+  {
+    "name": "project examples accept keyboard focus",
+    "pass": true
+  },
+  {
+    "name": "reduced motion keeps toolkit visible and removes link transitions",
+    "pass": true,
+    "detail": {
+      "transition": "0s",
+      "visible": true
+    }
+  }
+]

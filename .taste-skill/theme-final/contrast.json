@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Body text",
+    "foreground": "#232b28",
+    "background": "#f8f8f4",
+    "ratio": 13.63,
+    "pass": true
+  },
+  {
+    "name": "Secondary text on sage",
+    "foreground": "#424c45",
+    "background": "#e9eee7",
+    "ratio": 7.59,
+    "pass": true
+  },
+  {
+    "name": "Button label",
+    "foreground": "#ffffff",
+    "background": "#176455",
+    "ratio": 7.02,
+    "pass": true
+  },
+  {
+    "name": "Teal heading",
+    "foreground": "#176455",
+    "background": "#f8f8f4",
+    "ratio": 6.6,
+    "pass": true
+  },
+  {
+    "name": "Inverse text",
+    "foreground": "#f8f8f4",
+    "background": "#183d35",
+    "ratio": 11.22,
+    "pass": true
+  },
+  {
+    "name": "Inverse hover link",
+    "foreground": "#c7e7d8",
+    "background": "#183d35",
+    "ratio": 9.02,
+    "pass": true
+  }
+]

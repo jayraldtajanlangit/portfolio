@@ -1,0 +1,198 @@
+[
+  {
+    "name": "index.html: custom theme button replaces native select",
+    "pass": true
+  },
+  {
+    "name": "index.html: System follows device appearance",
+    "pass": true
+  },
+  {
+    "name": "index.html: choosing light applies, saves, and closes",
+    "pass": true,
+    "selected": true,
+    "saved": true,
+    "closed": true,
+    "icon": true
+  },
+  {
+    "name": "index.html: choosing dark applies, saves, and closes",
+    "pass": true,
+    "selected": true,
+    "saved": true,
+    "closed": true,
+    "icon": true
+  },
+  {
+    "name": "index.html: choosing system applies, saves, and closes",
+    "pass": true,
+    "selected": true,
+    "saved": true,
+    "closed": true,
+    "icon": true
+  },
+  {
+    "name": "index.html: arrow keys navigate the menu",
+    "pass": true
+  },
+  {
+    "name": "index.html: Escape closes and restores focus",
+    "pass": true
+  },
+  {
+    "name": "index.html: outside click dismisses menu",
+    "pass": true
+  },
+  {
+    "name": "index.html: reload preserves Light",
+    "pass": true
+  },
+  {
+    "name": "index.html: open menu fits 320px",
+    "pass": true
+  },
+  {
+    "name": "index.html: open menu fits 390px",
+    "pass": true
+  },
+  {
+    "name": "index.html: open menu fits 768px",
+    "pass": true
+  },
+  {
+    "name": "index.html: open menu fits 1440px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: custom theme button replaces native select",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: System follows device appearance",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: choosing light applies, saves, and closes",
+    "pass": true,
+    "selected": true,
+    "saved": true,
+    "closed": true,
+    "icon": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: choosing dark applies, saves, and closes",
+    "pass": true,
+    "selected": true,
+    "saved": true,
+    "closed": true,
+    "icon": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: choosing system applies, saves, and closes",
+    "pass": true,
+    "selected": true,
+    "saved": true,
+    "closed": true,
+    "icon": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: arrow keys navigate the menu",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: Escape closes and restores focus",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: outside click dismisses menu",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: reload preserves Light",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: open menu fits 320px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: open menu fits 390px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: open menu fits 768px",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: open menu fits 1440px",
+    "pass": true
+  },
+  {
+    "name": "reduced motion disables icon and menu animation",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: custom theme button replaces native select",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: System follows device appearance",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: choosing light applies, saves, and closes",
+    "pass": true,
+    "selected": true,
+    "saved": true,
+    "closed": true,
+    "icon": true
+  },
+  {
+    "name": "projects/maistra.html: choosing dark applies, saves, and closes",
+    "pass": true,
+    "selected": true,
+    "saved": true,
+    "closed": true,
+    "icon": true
+  },
+  {
+    "name": "projects/maistra.html: choosing system applies, saves, and closes",
+    "pass": true,
+    "selected": true,
+    "saved": true,
+    "closed": true,
+    "icon": true
+  },
+  {
+    "name": "projects/maistra.html: arrow keys navigate the menu",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: Escape closes and restores focus",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: outside click dismisses menu",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: reload preserves Light",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: open menu fits 320px",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: open menu fits 390px",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: open menu fits 768px",
+    "pass": true
+  },
+  {
+    "name": "projects/maistra.html: open menu fits 1440px",
+    "pass": true
+  }
+]

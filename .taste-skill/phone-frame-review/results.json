@@ -1,0 +1,1114 @@
+[
+  {
+    "name": "home light 320px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 238,
+          "height": 516.09375,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 238,
+          "height": 516.09375,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 238,
+          "height": 516.09375,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home light 390px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home light 768px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 246.390625,
+          "height": 534.25,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 246.390625,
+          "height": 534.25,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 246.390625,
+          "height": 534.25,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home light 1024px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home light 1440px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home light 1857px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home dark 320px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 238,
+          "height": 516.09375,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 238,
+          "height": 516.09375,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 238,
+          "height": 516.09375,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home dark 390px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home dark 768px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 246.390625,
+          "height": 534.25,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 246.390625,
+          "height": 534.25,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 246.390625,
+          "height": 534.25,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home dark 1024px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home dark 1440px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "home dark 1857px: three phones fit without side panels",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 3,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        },
+        {
+          "frameWidth": 272,
+          "height": 589.671875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ],
+      "panels": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion light 320px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 258.15625,
+          "height": 559.71875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "bulk-buying-companion light 390px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 320,
+          "height": 693.546875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "bulk-buying-companion light 768px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "bulk-buying-companion light 1440px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "bulk-buying-companion dark 320px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 258.15625,
+          "height": 559.71875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "bulk-buying-companion dark 390px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 320,
+          "height": 693.546875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "bulk-buying-companion dark 768px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "bulk-buying-companion dark 1440px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "bulk-buying-companion: manual playback and keyboard focus work",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "focused": true,
+      "controls": true
+    }
+  },
+  {
+    "name": "pulso light 320px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 250,
+          "height": 542.0625,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "pulso light 390px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 320,
+          "height": 693.546875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "pulso light 768px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "pulso light 1440px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "pulso dark 320px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 250,
+          "height": 542.0625,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "pulso dark 390px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 320,
+          "height": 693.546875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "pulso dark 768px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "pulso dark 1440px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "pulso: manual playback and keyboard focus work",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "focused": true,
+      "controls": true
+    }
+  },
+  {
+    "name": "sige light 320px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 250,
+          "height": 542.0625,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "sige light 390px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 320,
+          "height": 693.546875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "sige light 768px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "sige light 1440px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "sige dark 320px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 250,
+          "height": 542.0625,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "sige dark 390px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 320,
+          "height": 693.546875,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "sige dark 768px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "sige dark 1440px: framed player fits the viewport",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "count": 1,
+      "readableText": true,
+      "frames": [
+        {
+          "frameWidth": 332.203125,
+          "height": 719.953125,
+          "fit": true,
+          "screenFit": true,
+          "ratio": true,
+          "controls": true,
+          "decorative": true,
+          "topBezel": 23,
+          "bottomBezel": 17
+        }
+      ]
+    }
+  },
+  {
+    "name": "sige: manual playback and keyboard focus work",
+    "pass": true,
+    "detail": {
+      "playing": true,
+      "focused": true,
+      "controls": true
+    }
+  },
+  {
+    "name": "native video can enter fullscreen",
+    "pass": true,
+    "detail": {
+      "type": "boolean",
+      "value": true
+    }
+  },
+  {
+    "name": "failed video still displays its image inside the phone",
+    "pass": true,
+    "detail": {
+      "shown": true,
+      "fits": true,
+      "link": true
+    }
+  }
+]

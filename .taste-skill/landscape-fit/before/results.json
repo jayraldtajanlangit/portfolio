@@ -1,0 +1,930 @@
+[
+  {
+    "name": "/index.html dark 390px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        35,
+        235.734375,
+        320,
+        200
+      ],
+      "video": [
+        43,
+        243.734375,
+        304,
+        184
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html dark 390px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        35,
+        227.75352478027344,
+        320,
+        200.00001525878906
+      ],
+      "video": [
+        43,
+        235.75352478027344,
+        304,
+        184.00001525878906
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html dark 768px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        149.42681884765625,
+        674,
+        421.25
+      ],
+      "video": [
+        59,
+        161.42681884765625,
+        650,
+        397.25
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html dark 768px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        136.36764526367188,
+        674,
+        421.2500305175781
+      ],
+      "video": [
+        59,
+        148.36764526367188,
+        650,
+        397.2500305175781
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html dark 1381px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        282.52349853515625,
+        748.1875,
+        467.609375
+      ],
+      "video": [
+        59,
+        294.52349853515625,
+        724.1875,
+        443.609375
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html dark 1381px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        282.1275939941406,
+        748.1875,
+        467.6093444824219
+      ],
+      "video": [
+        59,
+        294.1275939941406,
+        724.1875,
+        443.6093444824219
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html dark 1857px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        228.5,
+        261.25,
+        816,
+        510
+      ],
+      "video": [
+        240.5,
+        273.25,
+        792,
+        486
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html dark 1857px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        228.5,
+        261.25,
+        816,
+        510
+      ],
+      "video": [
+        240.5,
+        273.25,
+        792,
+        486
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html light 390px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        35,
+        235.734375,
+        320,
+        200
+      ],
+      "video": [
+        43,
+        243.734375,
+        304,
+        184
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html light 390px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        35,
+        211.265625,
+        320,
+        200
+      ],
+      "video": [
+        43,
+        219.265625,
+        304,
+        184
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html light 768px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        149.109375,
+        674,
+        421.25
+      ],
+      "video": [
+        59,
+        161.109375,
+        650,
+        397.25
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html light 768px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        135.703125,
+        674,
+        421.25
+      ],
+      "video": [
+        59,
+        147.703125,
+        650,
+        397.25
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html light 1381px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        282.515625,
+        748.1875,
+        467.609375
+      ],
+      "video": [
+        59,
+        294.515625,
+        724.1875,
+        443.609375
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html light 1381px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        282.125,
+        748.1875,
+        467.609375
+      ],
+      "video": [
+        59,
+        294.125,
+        724.1875,
+        443.609375
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html light 1857px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        228.5,
+        261.25,
+        816,
+        510
+      ],
+      "video": [
+        240.5,
+        273.25,
+        792,
+        486
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/index.html light 1857px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        228.5,
+        261.25,
+        816,
+        510
+      ],
+      "video": [
+        240.5,
+        273.25,
+        792,
+        486
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 390px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        35,
+        243.8529815673828,
+        320,
+        199.99998474121094
+      ],
+      "video": [
+        43,
+        251.8529815673828,
+        304,
+        183.99998474121094
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 390px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        35,
+        211.890625,
+        320,
+        200
+      ],
+      "video": [
+        43,
+        219.890625,
+        304,
+        184
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 768px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        150.3402862548828,
+        674,
+        421.25006103515625
+      ],
+      "video": [
+        59,
+        162.3402862548828,
+        650,
+        397.25006103515625
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 768px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        140.40512084960938,
+        674,
+        421.2500305175781
+      ],
+      "video": [
+        59,
+        152.40512084960938,
+        650,
+        397.2500305175781
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 1381px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        55,
+        285.1876525878906,
+        738.59375,
+        461.6093444824219
+      ],
+      "video": [
+        67,
+        297.1876525878906,
+        714.59375,
+        437.6093444824219
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 1381px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        55,
+        286.7430725097656,
+        738.59375,
+        461.6093444824219
+      ],
+      "video": [
+        67,
+        298.7430725097656,
+        714.59375,
+        437.6093444824219
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 1857px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        208.5,
+        253.816162109375,
+        840,
+        525
+      ],
+      "video": [
+        220.5,
+        265.816162109375,
+        816,
+        501
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html dark 1857px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        208.5,
+        254.79000854492188,
+        840,
+        525
+      ],
+      "video": [
+        220.5,
+        266.7900085449219,
+        816,
+        500.9999694824219
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 390px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        35,
+        235.36419677734375,
+        320,
+        200
+      ],
+      "video": [
+        43,
+        243.36419677734375,
+        304,
+        184
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 390px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        35,
+        212.4651641845703,
+        320,
+        199.99998474121094
+      ],
+      "video": [
+        43,
+        220.4651641845703,
+        304,
+        183.99998474121094
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 768px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        149.1875,
+        674,
+        421.25
+      ],
+      "video": [
+        59,
+        161.1875,
+        650,
+        397.25
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 768px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        47,
+        135.8472900390625,
+        674,
+        421.25
+      ],
+      "video": [
+        59,
+        147.8472900390625,
+        650,
+        397.25
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 1381px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        55,
+        285.125,
+        738.59375,
+        461.609375
+      ],
+      "video": [
+        67,
+        297.125,
+        714.59375,
+        437.609375
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 1381px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        55,
+        284.7347106933594,
+        738.59375,
+        461.6094055175781
+      ],
+      "video": [
+        67,
+        296.7347106933594,
+        714.59375,
+        437.6094055175781
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 1857px skyfire",
+    "pass": false,
+    "detail": {
+      "figure": [
+        208.5,
+        253.796875,
+        840,
+        525
+      ],
+      "video": [
+        220.5,
+        265.796875,
+        816,
+        501
+      ],
+      "native": [
+        1440,
+        900
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  },
+  {
+    "name": "/.taste-skill/editorial-concept/index.html light 1857px maistra",
+    "pass": false,
+    "detail": {
+      "figure": [
+        208.5,
+        253.796875,
+        840,
+        525
+      ],
+      "video": [
+        220.5,
+        265.796875,
+        816,
+        501
+      ],
+      "native": [
+        1280,
+        720
+      ],
+      "ratioFits": false,
+      "edgeFits": false,
+      "transparent": false,
+      "playing": true,
+      "controls": false,
+      "overflow": false,
+      "phoneCount": 3
+    }
+  }
+]

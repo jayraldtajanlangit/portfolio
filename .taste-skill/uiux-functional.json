@@ -1,0 +1,512 @@
+[
+  {
+    "path": "index.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Full-stack &\nmobile engineer.",
+    "links": [
+      "#main",
+      "#top",
+      "#work",
+      "#about",
+      "#contact",
+      "#work",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/skyfire.html",
+      "projects/skyfire.html",
+      "projects/skyfire.html",
+      "projects/bulk-buying-companion.html",
+      "projects/bulk-buying-companion.html",
+      "projects/bulk-buying-companion.html",
+      "projects/pulso.html",
+      "projects/pulso.html",
+      "projects/pulso.html",
+      "projects/sige.html",
+      "projects/sige.html",
+      "projects/sige.html",
+      "projects/skyfire.html",
+      "projects/pulso.html",
+      "projects/maistra.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Full-stack &\nmobile engineer.",
+    "links": [
+      "#main",
+      "#top",
+      "#work",
+      "#about",
+      "#contact",
+      "#work",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/skyfire.html",
+      "projects/skyfire.html",
+      "projects/skyfire.html",
+      "projects/bulk-buying-companion.html",
+      "projects/bulk-buying-companion.html",
+      "projects/bulk-buying-companion.html",
+      "projects/pulso.html",
+      "projects/pulso.html",
+      "projects/pulso.html",
+      "projects/sige.html",
+      "projects/sige.html",
+      "projects/sige.html",
+      "projects/skyfire.html",
+      "projects/pulso.html",
+      "projects/maistra.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Full-stack &\nmobile engineer.",
+    "links": [
+      "#main",
+      "#top",
+      "#work",
+      "#about",
+      "#contact",
+      "#work",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/skyfire.html",
+      "projects/skyfire.html",
+      "projects/skyfire.html",
+      "projects/bulk-buying-companion.html",
+      "projects/bulk-buying-companion.html",
+      "projects/bulk-buying-companion.html",
+      "projects/pulso.html",
+      "projects/pulso.html",
+      "projects/pulso.html",
+      "projects/sige.html",
+      "projects/sige.html",
+      "projects/sige.html",
+      "projects/skyfire.html",
+      "projects/pulso.html",
+      "projects/maistra.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Full-stack &\nmobile engineer.",
+    "links": [
+      "#main",
+      "#top",
+      "#work",
+      "#about",
+      "#contact",
+      "#work",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/maistra.html",
+      "projects/skyfire.html",
+      "projects/skyfire.html",
+      "projects/skyfire.html",
+      "projects/bulk-buying-companion.html",
+      "projects/bulk-buying-companion.html",
+      "projects/bulk-buying-companion.html",
+      "projects/pulso.html",
+      "projects/pulso.html",
+      "projects/pulso.html",
+      "projects/sige.html",
+      "projects/sige.html",
+      "projects/sige.html",
+      "projects/skyfire.html",
+      "projects/pulso.html",
+      "projects/maistra.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/maistra.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "mAIstra",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "skyfire.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/maistra.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "mAIstra",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "skyfire.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/maistra.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "mAIstra",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "skyfire.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/maistra.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "mAIstra",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "skyfire.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/skyfire.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "SkyFire",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "bulk-buying-companion.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/skyfire.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "SkyFire",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "bulk-buying-companion.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/skyfire.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "SkyFire",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "bulk-buying-companion.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/skyfire.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "SkyFire",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "bulk-buying-companion.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/bulk-buying-companion.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Bulk Buying Companion",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "pulso.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/bulk-buying-companion.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Bulk Buying Companion",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "pulso.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/bulk-buying-companion.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Bulk Buying Companion",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "pulso.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/bulk-buying-companion.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Bulk Buying Companion",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "pulso.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/pulso.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Pulso",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "sige.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/pulso.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Pulso",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "sige.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/pulso.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Pulso",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "sige.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/pulso.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Pulso",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "sige.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/sige.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Sige",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "maistra.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/sige.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Sige",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "maistra.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/sige.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Sige",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "maistra.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "path": "projects/sige.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": [],
+    "h1": "Sige",
+    "links": [
+      "#main",
+      "../index.html",
+      "../index.html#work",
+      "../index.html#about",
+      "../index.html#contact",
+      "maistra.html",
+      "#top"
+    ],
+    "errors": []
+  },
+  {
+    "navigation": {
+      "initial": true,
+      "opened": true,
+      "escaped": true,
+      "closedAfterLink": true
+    }
+  },
+  {
+    "reducedMotion": {
+      "animations": 0,
+      "paused": true,
+      "headlineVisible": true
+    }
+  },
+  {
+    "noJS": {
+      "navVisible": true,
+      "projects": 5,
+      "videoControls": true
+    }
+  }
+]

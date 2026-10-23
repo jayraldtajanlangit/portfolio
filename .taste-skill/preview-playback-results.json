@@ -1,0 +1,298 @@
+[
+  {
+    "name": "index.html: desktop uses hover playback",
+    "pass": true
+  },
+  {
+    "name": "index.html: keyboard focus starts the visible player",
+    "pass": true
+  },
+  {
+    "name": "index.html: leaving keyboard focus pauses the player",
+    "pass": true
+  },
+  {
+    "name": "index.html: hovering skyfire plays only its polished video",
+    "pass": true,
+    "currentSrc": "http://127.0.0.1:58953/assets/videos/skyfire-polished.mp4",
+    "playing": 1,
+    "muted": true,
+    "loop": true,
+    "controls": true,
+    "pointerInside": true
+  },
+  {
+    "name": "index.html: leaving skyfire pauses it",
+    "pass": true
+  },
+  {
+    "name": "index.html: hovering maistra plays only its polished video",
+    "pass": true,
+    "currentSrc": "http://127.0.0.1:58953/assets/videos/maistra-polished.mp4",
+    "playing": 1,
+    "muted": true,
+    "loop": true,
+    "controls": true,
+    "pointerInside": true
+  },
+  {
+    "name": "index.html: leaving maistra pauses it",
+    "pass": true
+  },
+  {
+    "name": "index.html: hovering bulk-buying-companion plays only its polished video",
+    "pass": true,
+    "currentSrc": "http://127.0.0.1:58953/assets/videos/bulk-buying-companion-polished.mp4",
+    "playing": 1,
+    "muted": true,
+    "loop": true,
+    "controls": true,
+    "pointerInside": true
+  },
+  {
+    "name": "index.html: leaving bulk-buying-companion pauses it",
+    "pass": true
+  },
+  {
+    "name": "index.html: hovering pulso plays only its polished video",
+    "pass": true,
+    "currentSrc": "http://127.0.0.1:58953/assets/videos/pulso-polished.mp4",
+    "playing": 1,
+    "muted": true,
+    "loop": true,
+    "controls": true,
+    "pointerInside": true
+  },
+  {
+    "name": "index.html: leaving pulso pauses it",
+    "pass": true
+  },
+  {
+    "name": "index.html: hovering sige plays only its polished video",
+    "pass": true,
+    "currentSrc": "http://127.0.0.1:58953/assets/videos/sige-polished.mp4",
+    "playing": 1,
+    "muted": true,
+    "loop": true,
+    "controls": true,
+    "pointerInside": true
+  },
+  {
+    "name": "index.html: leaving sige pauses it",
+    "pass": true
+  },
+  {
+    "name": "index.html: manual pause survives while hovered",
+    "pass": true
+  },
+  {
+    "name": "index.html: a new hover resumes the preview",
+    "pass": true
+  },
+  {
+    "name": "index.html: leaving the viewport pauses playback",
+    "pass": true
+  },
+  {
+    "name": "index.html: reduced motion disables automatic playback",
+    "pass": true
+  },
+  {
+    "name": "index.html: explicit playback remains available under reduced motion",
+    "pass": true
+  },
+  {
+    "name": "index.html: rapid hover changes settle to playback",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: desktop uses hover playback",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: keyboard focus starts the visible player",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: leaving keyboard focus pauses the player",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: hovering skyfire plays only its polished video",
+    "pass": true,
+    "currentSrc": "http://127.0.0.1:58953/assets/videos/skyfire-polished.mp4",
+    "playing": 1,
+    "muted": true,
+    "loop": true,
+    "controls": true,
+    "pointerInside": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: leaving skyfire pauses it",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: hovering maistra plays only its polished video",
+    "pass": true,
+    "currentSrc": "http://127.0.0.1:58953/assets/videos/maistra-polished.mp4",
+    "playing": 1,
+    "muted": true,
+    "loop": true,
+    "controls": true,
+    "pointerInside": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: leaving maistra pauses it",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: hovering bulk-buying-companion plays only its polished video",
+    "pass": true,
+    "currentSrc": "http://127.0.0.1:58953/assets/videos/bulk-buying-companion-polished.mp4",
+    "playing": 1,
+    "muted": true,
+    "loop": true,
+    "controls": true,
+    "pointerInside": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: leaving bulk-buying-companion pauses it",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: hovering pulso plays only its polished video",
+    "pass": true,
+    "currentSrc": "http://127.0.0.1:58953/assets/videos/pulso-polished.mp4",
+    "playing": 1,
+    "muted": true,
+    "loop": true,
+    "controls": true,
+    "pointerInside": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: leaving pulso pauses it",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: hovering sige plays only its polished video",
+    "pass": true,
+    "currentSrc": "http://127.0.0.1:58953/assets/videos/sige-polished.mp4",
+    "playing": 1,
+    "muted": true,
+    "loop": true,
+    "controls": true,
+    "pointerInside": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: leaving sige pauses it",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: manual pause survives while hovered",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: a new hover resumes the preview",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: leaving the viewport pauses playback",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: reduced motion disables automatic playback",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: explicit playback remains available under reduced motion",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: rapid hover changes settle to playback",
+    "pass": true
+  },
+  {
+    "name": "native fullscreen keeps the polished video playing",
+    "pass": true
+  },
+  {
+    "name": "touch device uses visible-player autoplay",
+    "pass": true
+  },
+  {
+    "name": "touch: skyfire autoplays when visible",
+    "pass": true
+  },
+  {
+    "name": "touch: skyfire is the only playing preview",
+    "pass": true
+  },
+  {
+    "name": "touch: maistra autoplays when visible",
+    "pass": true
+  },
+  {
+    "name": "touch: maistra is the only playing preview",
+    "pass": true
+  },
+  {
+    "name": "touch: bulk-buying-companion autoplays when visible",
+    "pass": true
+  },
+  {
+    "name": "touch: bulk-buying-companion is the only playing preview",
+    "pass": true
+  },
+  {
+    "name": "touch: pulso autoplays when visible",
+    "pass": true
+  },
+  {
+    "name": "touch: pulso is the only playing preview",
+    "pass": true
+  },
+  {
+    "name": "touch: sige autoplays when visible",
+    "pass": true
+  },
+  {
+    "name": "touch: sige is the only playing preview",
+    "pass": true
+  },
+  {
+    "name": "touch: reduced motion pauses automatic previews",
+    "pass": true
+  },
+  {
+    "name": "touch: automatic playback resumes when reduced motion is turned off",
+    "pass": true
+  },
+  {
+    "name": "background page has no playing preview",
+    "pass": true,
+    "hidden": true,
+    "visibility": "hidden",
+    "players": [
+      {
+        "paused": true,
+        "time": 0.1083
+      },
+      {
+        "paused": true,
+        "time": 0.1114
+      },
+      {
+        "paused": true,
+        "time": 0.1174
+      },
+      {
+        "paused": true,
+        "time": 0.1194
+      },
+      {
+        "paused": true,
+        "time": 0.1854
+      }
+    ]
+  }
+]

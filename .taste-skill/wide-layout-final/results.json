@@ -1,0 +1,526 @@
+[
+  {
+    "name": "light 320px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 250,
+      "margin": 35,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 250,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "light 320px: expanded menu sits below header controls",
+    "pass": true,
+    "detail": {
+      "open": true,
+      "below": true,
+      "fit": true
+    }
+  },
+  {
+    "name": "light 390px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 320,
+      "margin": 35,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 320,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "light 390px: expanded menu sits below header controls",
+    "pass": true,
+    "detail": {
+      "open": true,
+      "below": true,
+      "fit": true
+    }
+  },
+  {
+    "name": "light 768px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 674,
+      "margin": 47,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 674,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "light 1024px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 930,
+      "margin": 47,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 534,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "light 1440px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 1346,
+      "margin": 47,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 783.59375,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "light 1857px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 1400,
+      "margin": 228.5,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 816,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "light 1920px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 1400,
+      "margin": 260,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 816,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "light 2560px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 1400,
+      "margin": 580,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 816,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "dark 320px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 250,
+      "margin": 35,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 250,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "dark 320px: expanded menu sits below header controls",
+    "pass": true,
+    "detail": {
+      "open": true,
+      "below": true,
+      "fit": true
+    }
+  },
+  {
+    "name": "dark 390px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 320,
+      "margin": 35,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 320,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "dark 390px: expanded menu sits below header controls",
+    "pass": true,
+    "detail": {
+      "open": true,
+      "below": true,
+      "fit": true
+    }
+  },
+  {
+    "name": "dark 768px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 674,
+      "margin": 47,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 674,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "dark 1024px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 930,
+      "margin": 47,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 534,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "dark 1440px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 1346,
+      "margin": 47,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 783.59375,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "dark 1857px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 1400,
+      "margin": 228.5,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 816,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "dark 1920px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 1400,
+      "margin": 260,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 816,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "dark 2560px: shared width, centered header and readable text",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "width": 1400,
+      "margin": 580,
+      "equal": true,
+      "aligned": true,
+      "centered": true,
+      "collisions": false,
+      "readable": true,
+      "previewWidth": 816,
+      "headingLines": true
+    }
+  },
+  {
+    "name": "maistra 320px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 250
+    }
+  },
+  {
+    "name": "maistra 390px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 320
+    }
+  },
+  {
+    "name": "maistra 768px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 674
+    }
+  },
+  {
+    "name": "maistra 1440px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 1346
+    }
+  },
+  {
+    "name": "maistra 1857px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 1400
+    }
+  },
+  {
+    "name": "skyfire 320px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 250
+    }
+  },
+  {
+    "name": "skyfire 390px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 320
+    }
+  },
+  {
+    "name": "skyfire 768px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 674
+    }
+  },
+  {
+    "name": "skyfire 1440px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 1346
+    }
+  },
+  {
+    "name": "skyfire 1857px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 1400
+    }
+  },
+  {
+    "name": "bulk-buying-companion 320px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 250
+    }
+  },
+  {
+    "name": "bulk-buying-companion 390px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 320
+    }
+  },
+  {
+    "name": "bulk-buying-companion 768px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 674
+    }
+  },
+  {
+    "name": "bulk-buying-companion 1440px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 1346
+    }
+  },
+  {
+    "name": "bulk-buying-companion 1857px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 1400
+    }
+  },
+  {
+    "name": "pulso 320px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 250
+    }
+  },
+  {
+    "name": "pulso 390px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 320
+    }
+  },
+  {
+    "name": "pulso 768px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 674
+    }
+  },
+  {
+    "name": "pulso 1440px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 1346
+    }
+  },
+  {
+    "name": "pulso 1857px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 1400
+    }
+  },
+  {
+    "name": "sige 320px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 250
+    }
+  },
+  {
+    "name": "sige 390px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 320
+    }
+  },
+  {
+    "name": "sige 768px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 674
+    }
+  },
+  {
+    "name": "sige 1440px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 1346
+    }
+  },
+  {
+    "name": "sige 1857px: case-study frame fits and aligns",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "aligned": true,
+      "width": 1400
+    }
+  },
+  {
+    "name": "1857px: existing entrance animations still run while scrolling",
+    "pass": true,
+    "detail": {
+      "count": 57
+    }
+  }
+]

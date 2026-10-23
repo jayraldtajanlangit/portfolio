@@ -1,0 +1,62 @@
+[
+  {
+    "name": "1440px bulk-buying-companion: new MP4 autoplays inside the phone",
+    "pass": true
+  },
+  {
+    "name": "1440px bulk-buying-companion: touch WebM fallback plays",
+    "pass": true
+  },
+  {
+    "name": "1440px pulso: new MP4 autoplays inside the phone",
+    "pass": true
+  },
+  {
+    "name": "1440px pulso: touch WebM fallback plays",
+    "pass": true
+  },
+  {
+    "name": "1440px sige: new MP4 autoplays inside the phone",
+    "pass": true
+  },
+  {
+    "name": "1440px sige: touch WebM fallback plays",
+    "pass": true
+  },
+  {
+    "name": "390px bulk-buying-companion: new MP4 autoplays inside the phone",
+    "pass": true
+  },
+  {
+    "name": "390px bulk-buying-companion: touch WebM fallback plays",
+    "pass": true
+  },
+  {
+    "name": "390px pulso: new MP4 autoplays inside the phone",
+    "pass": true
+  },
+  {
+    "name": "390px pulso: touch WebM fallback plays",
+    "pass": true
+  },
+  {
+    "name": "390px sige: new MP4 autoplays inside the phone",
+    "pass": true
+  },
+  {
+    "name": "390px sige: touch WebM fallback plays",
+    "pass": true
+  },
+  {
+    "name": "bulk-buying-companion: case-study touch walkthrough retains controls",
+    "pass": true
+  },
+  {
+    "name": "pulso: case-study touch walkthrough retains controls",
+    "pass": true
+  },
+  {
+    "name": "sige: case-study touch walkthrough retains controls",
+    "pass": true
+  }
+]

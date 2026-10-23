@@ -1,0 +1,463 @@
+[
+  {
+    "name": "index.html: usable Light, Dark, System selector",
+    "pass": true
+  },
+  {
+    "name": "index.html: light has its own animated icon",
+    "pass": true,
+    "matching": true,
+    "animated": true
+  },
+  {
+    "name": "index.html: dark has its own animated icon",
+    "pass": true,
+    "matching": true,
+    "animated": true
+  },
+  {
+    "name": "index.html: system has its own animated icon",
+    "pass": true,
+    "matching": true,
+    "animated": true
+  },
+  {
+    "name": "index.html: typing playback button is removed",
+    "pass": true
+  },
+  {
+    "name": "index.html: switching mode animates the icon",
+    "pass": true
+  },
+  {
+    "name": "index.html: reduced motion disables icon transitions",
+    "pass": true
+  },
+  {
+    "name": "index.html: default follows light system",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(248, 248, 244)",
+    "saved": null,
+    "overflow": false
+  },
+  {
+    "name": "index.html: system reacts live to dark",
+    "pass": true,
+    "theme": "dark",
+    "mode": "system",
+    "background": "rgb(23, 30, 26)",
+    "saved": null,
+    "overflow": false
+  },
+  {
+    "name": "index.html: explicit light overrides dark system",
+    "pass": true,
+    "theme": "light",
+    "mode": "light",
+    "background": "rgb(248, 248, 244)",
+    "saved": "light",
+    "overflow": false
+  },
+  {
+    "name": "index.html: explicit selection survives reload",
+    "pass": true,
+    "theme": "light",
+    "mode": "light",
+    "background": "rgb(248, 248, 244)",
+    "saved": "light",
+    "overflow": false
+  },
+  {
+    "name": "index.html: explicit dark overrides light system",
+    "pass": true,
+    "theme": "dark",
+    "mode": "dark",
+    "background": "rgb(23, 30, 26)",
+    "saved": "dark",
+    "overflow": false
+  },
+  {
+    "name": "index.html: returning to System uses current device setting",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(248, 248, 244)",
+    "saved": "system",
+    "overflow": false
+  },
+  {
+    "name": "index.html: mode control fits at 320px",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(248, 248, 244)",
+    "saved": "system",
+    "overflow": false
+  },
+  {
+    "name": "index.html: mode control fits at 390px",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(248, 248, 244)",
+    "saved": "system",
+    "overflow": false
+  },
+  {
+    "name": "index.html: mode control fits at 768px",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(248, 248, 244)",
+    "saved": "system",
+    "overflow": false
+  },
+  {
+    "name": "index.html: mode control fits at 1440px",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(248, 248, 244)",
+    "saved": "system",
+    "overflow": false
+  },
+  {
+    "name": "index.html: invalid saved mode falls back to System",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(248, 248, 244)",
+    "saved": "invalid-value",
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: usable Light, Dark, System selector",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: light has its own animated icon",
+    "pass": true,
+    "matching": true,
+    "animated": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: dark has its own animated icon",
+    "pass": true,
+    "matching": true,
+    "animated": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: system has its own animated icon",
+    "pass": true,
+    "matching": true,
+    "animated": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: typing playback button is removed",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: switching mode animates the icon",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: reduced motion disables icon transitions",
+    "pass": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: default follows light system",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(255, 255, 255)",
+    "saved": null,
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: system reacts live to dark",
+    "pass": true,
+    "theme": "dark",
+    "mode": "system",
+    "background": "rgb(23, 23, 23)",
+    "saved": null,
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: explicit light overrides dark system",
+    "pass": true,
+    "theme": "light",
+    "mode": "light",
+    "background": "rgb(255, 255, 255)",
+    "saved": "light",
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: explicit selection survives reload",
+    "pass": true,
+    "theme": "light",
+    "mode": "light",
+    "background": "rgb(255, 255, 255)",
+    "saved": "light",
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: explicit dark overrides light system",
+    "pass": true,
+    "theme": "dark",
+    "mode": "dark",
+    "background": "rgb(23, 23, 23)",
+    "saved": "dark",
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: returning to System uses current device setting",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(255, 255, 255)",
+    "saved": "system",
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: mode control fits at 320px",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(255, 255, 255)",
+    "saved": "system",
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: mode control fits at 390px",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(255, 255, 255)",
+    "saved": "system",
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: mode control fits at 768px",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(255, 255, 255)",
+    "saved": "system",
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: mode control fits at 1440px",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(255, 255, 255)",
+    "saved": "system",
+    "overflow": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: invalid saved mode falls back to System",
+    "pass": true,
+    "theme": "light",
+    "mode": "system",
+    "background": "rgb(255, 255, 255)",
+    "saved": "invalid-value",
+    "overflow": false
+  },
+  {
+    "name": "maistra: saved dark mode works on case study",
+    "pass": true,
+    "theme": "dark",
+    "mode": "dark",
+    "overflow": false
+  },
+  {
+    "name": "maistra: dark section text contrast",
+    "pass": true,
+    "measured": [
+      {
+        "name": "System description",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Media caption",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Next project label",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Footer",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      }
+    ]
+  },
+  {
+    "name": "skyfire: saved dark mode works on case study",
+    "pass": true,
+    "theme": "dark",
+    "mode": "dark",
+    "overflow": false
+  },
+  {
+    "name": "skyfire: dark section text contrast",
+    "pass": true,
+    "measured": [
+      {
+        "name": "System description",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Media caption",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Next project label",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Footer",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      }
+    ]
+  },
+  {
+    "name": "bulk-buying-companion: saved dark mode works on case study",
+    "pass": true,
+    "theme": "dark",
+    "mode": "dark",
+    "overflow": false
+  },
+  {
+    "name": "bulk-buying-companion: dark section text contrast",
+    "pass": true,
+    "measured": [
+      {
+        "name": "System description",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Media caption",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Next project label",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Footer",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      }
+    ]
+  },
+  {
+    "name": "pulso: saved dark mode works on case study",
+    "pass": true,
+    "theme": "dark",
+    "mode": "dark",
+    "overflow": false
+  },
+  {
+    "name": "pulso: dark section text contrast",
+    "pass": true,
+    "measured": [
+      {
+        "name": "System description",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Media caption",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Next project label",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Footer",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      }
+    ]
+  },
+  {
+    "name": "sige: saved dark mode works on case study",
+    "pass": true,
+    "theme": "dark",
+    "mode": "dark",
+    "overflow": false
+  },
+  {
+    "name": "sige: dark section text contrast",
+    "pass": true,
+    "measured": [
+      {
+        "name": "System description",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Media caption",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Next project label",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      },
+      {
+        "name": "Footer",
+        "foreground": "rgb(240, 244, 240)",
+        "background": "rgb(16, 27, 23)",
+        "ratio": 15.87
+      }
+    ]
+  },
+  {
+    "name": "theme remains usable when storage is unavailable",
+    "pass": true
+  },
+  {
+    "name": "without JavaScript the concept follows system dark mode",
+    "pass": true,
+    "dark": true,
+    "hiddenControl": true
+  }
+]

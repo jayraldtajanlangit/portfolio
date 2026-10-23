@@ -1,0 +1,703 @@
+[
+  {
+    "name": "skyfire: homepage project link opens a playable guided MP4",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/skyfire-polished.mp4",
+      "playing": true,
+      "width": 1440,
+      "height": 900,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "skyfire light 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 156.25,
+      "visible": true
+    }
+  },
+  {
+    "name": "skyfire light 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 200,
+      "visible": true
+    }
+  },
+  {
+    "name": "skyfire light 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.984375,
+      "visible": true
+    }
+  },
+  {
+    "name": "skyfire light 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.984375,
+      "visible": true
+    }
+  },
+  {
+    "name": "skyfire dark 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 156.25,
+      "visible": true
+    }
+  },
+  {
+    "name": "skyfire dark 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 200,
+      "visible": true
+    }
+  },
+  {
+    "name": "skyfire dark 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.984375,
+      "visible": true
+    }
+  },
+  {
+    "name": "skyfire dark 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.984375,
+      "visible": true
+    }
+  },
+  {
+    "name": "skyfire: manual playback works with reduced motion",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/skyfire-polished.mp4",
+      "playing": true,
+      "width": 1440,
+      "height": 900,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "skyfire: native player works without JavaScript",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/skyfire-polished.mp4",
+      "playing": true,
+      "width": 1440,
+      "height": 900,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "skyfire: local-file walkthrough works",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "file:///C:/Users/Jayrald/Desktop/Projects/portfolio/assets/videos/skyfire-polished.mp4",
+      "playing": true,
+      "width": 1440,
+      "height": 900,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "maistra: homepage project link opens a playable guided MP4",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/maistra-polished.mp4",
+      "playing": true,
+      "width": 1280,
+      "height": 720,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "maistra light 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 140.625,
+      "visible": true
+    }
+  },
+  {
+    "name": "maistra light 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 180,
+      "visible": true
+    }
+  },
+  {
+    "name": "maistra light 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "maistra light 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "maistra dark 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 140.625,
+      "visible": true
+    }
+  },
+  {
+    "name": "maistra dark 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 180,
+      "visible": true
+    }
+  },
+  {
+    "name": "maistra dark 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "maistra dark 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "maistra: manual playback works with reduced motion",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/maistra-polished.mp4",
+      "playing": true,
+      "width": 1280,
+      "height": 720,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "maistra: native player works without JavaScript",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/maistra-polished.mp4",
+      "playing": true,
+      "width": 1280,
+      "height": 720,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "maistra: local-file walkthrough works",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "file:///C:/Users/Jayrald/Desktop/Projects/portfolio/assets/videos/maistra-polished.mp4",
+      "playing": true,
+      "width": 1280,
+      "height": 720,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "bulk-buying-companion: homepage project link opens a playable guided MP4",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/bulk-buying-companion-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "bulk-buying-companion light 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.9999389648438,
+      "visible": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion light 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion light 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion light 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion dark 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion dark 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.9999389648438,
+      "visible": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion dark 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion dark 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "bulk-buying-companion: manual playback works with reduced motion",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/bulk-buying-companion-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "bulk-buying-companion: native player works without JavaScript",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/bulk-buying-companion-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "bulk-buying-companion: local-file walkthrough works",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "file:///C:/Users/Jayrald/Desktop/Projects/portfolio/assets/videos/bulk-buying-companion-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "pulso: homepage project link opens a playable guided MP4",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/pulso-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "pulso light 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648.0000610351562,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso light 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.9999389648438,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso light 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso light 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso dark 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.9999389648438,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso dark 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.9999389648438,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso dark 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 647.9999389648438,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso dark 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "pulso: manual playback works with reduced motion",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/pulso-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "pulso: native player works without JavaScript",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/pulso-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "pulso: local-file walkthrough works",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "file:///C:/Users/Jayrald/Desktop/Projects/portfolio/assets/videos/pulso-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "sige: homepage project link opens a playable guided MP4",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/sige-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "sige light 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "sige light 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "sige light 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "sige light 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "sige dark 320px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648.0000610351562,
+      "visible": true
+    }
+  },
+  {
+    "name": "sige dark 390px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "sige dark 1440px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "sige dark 1857px: player is visible and fits",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "fit": true,
+      "controls": true,
+      "height": 648,
+      "visible": true
+    }
+  },
+  {
+    "name": "sige: manual playback works with reduced motion",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/sige-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "sige: native player works without JavaScript",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/sige-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "sige: local-file walkthrough works",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "file:///C:/Users/Jayrald/Desktop/Projects/portfolio/assets/videos/sige-polished.mp4",
+      "playing": true,
+      "width": 390,
+      "height": 844,
+      "heading": "Project walkthrough"
+    }
+  },
+  {
+    "name": "autoplay denial leaves a visible player for manual play",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "visible": true,
+      "fallbackHidden": true
+    }
+  },
+  {
+    "name": "manual play succeeds after autoplay denial",
+    "pass": true,
+    "detail": {
+      "controls": true,
+      "source": "http://127.0.0.1:52066/assets/videos/maistra-polished.mp4",
+      "playing": true,
+      "width": 1280,
+      "height": 720,
+      "heading": "Project walkthrough"
+    }
+  }
+]

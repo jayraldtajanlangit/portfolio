@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="../js/theme.js"></script>
+  <title>mAIstra | Case study | Jayrald Tajanlangit</title>
+  <meta name="description" content="A web and mobile teaching system that extracts handwritten C code with OCR, supports teacher review, executes verified code, and records grades.">
+  <meta property="og:title" content="mAIstra | Case study | Jayrald Tajanlangit">
+  <meta property="og:description" content="A web and mobile teaching system that extracts handwritten C code with OCR, supports teacher review, executes verified code, and records grades.">
+  <meta property="og:type" content="article">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:site_name" content="Jayrald Tajanlangit">
+  <meta property="og:image" content="../assets/images/social-preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="../assets/images/social-preview.png">
+  <meta name="twitter:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
+  <meta name="theme-color" content="#f8f8f4">
+  <link rel="preload" href="../assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="../assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="../css/fonts.css">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/case-study.css">
+  <link rel="stylesheet" href="../css/theme.css">
+  <link rel="stylesheet" href="../css/motion.css">
+</head>
+<body class="case-page case-page--maistra">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="shell site-header-inner">
+      <a class="site-name" href="../index.html" aria-label="Jayrald Tajanlangit, home">
+        <span>Jayrald Tajanlangit</span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation" hidden>Menu</button>
+      <nav aria-label="Primary" id="primary-navigation" class="primary-nav">
+        <a href="../index.html#work">Projects</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#contact">Contact</a>
+        <a href="https://github.com/jayraldtajanlangit">GitHub</a>
+        <a href="https://www.linkedin.com/in/jayrald-tajanlangit-b8646a280/">LinkedIn</a>
+      </nav>
+      <div class="theme-control" hidden><button class="theme-trigger" data-theme-trigger type="button" role="switch" aria-label="Dark mode" aria-checked="false" title="Switch to dark mode"><span class="theme-track" aria-hidden="true"><span class="theme-thumb"></span><svg data-theme-icon="light" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg data-theme-icon="dark" viewBox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg></span></button></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="case-study">
+      <header class="case-hero shell">
+        <div class="case-title-block" data-intro-reveal="headline">
+          <h1>mAIstra</h1>
+          <p class="case-deck">A web and mobile teaching system that extracts handwritten C code with OCR, supports teacher review, executes verified code, and records grades.</p>
+        </div>
+        <dl class="case-dossier" aria-label="Project dossier" data-intro-reveal="intro">
+          <div><dt>Role</dt><dd>Team project · Submission review and grading</dd></div>
+          <div><dt>Built with</dt><dd>Angular 21 · TypeScript · Flutter · Python · FastAPI · OpenCV · PaddleOCR · Supabase · Judge0</dd></div>
+        </dl>
+        <div class="case-lead-media case-lead-media--landscape" style="--media-aspect: 1280 / 720" data-intro-reveal="portrait">
+          <h2 id="walkthrough-title">Project walkthrough</h2>
+          <figure class="project-media project-media--landscape" data-project-media>
+              <div class="project-media-stage" id="media-maistra" style="--media-aspect: 1280 / 720"><video data-project-video controls muted loop playsinline preload="metadata" poster="../assets/images/projects/maistra/poster.webp" width="1280" height="720" aria-describedby="media-maistra-caption" aria-label="mAIstra project walkthrough">
+                  <source src="../assets/videos/maistra-polished.mp4" type="video/mp4">
+                  <source src="../assets/videos/maistra.webm" type="video/webm">
+                  Your browser cannot play this walkthrough. <a href="../assets/videos/maistra-polished.mp4">Open the video</a>.
+                </video>
+                <img class="project-media-fallback" data-media-fallback src="../assets/images/projects/maistra/still-01.webp" alt="mAIstra handwritten submission beside an empty code panel and the Extract now button." width="1280" height="720" loading="lazy" hidden></div>
+              <figcaption id="media-maistra-caption">Handwritten submission → OCR extraction → teacher verification → demo grading. <a class="walkthrough-video-link" href="../assets/videos/maistra-polished.mp4">Open walkthrough video</a></figcaption>
+            </figure>
+        </div>
+      </header>
+
+      <section class="case-section case-section--problem shell" aria-labelledby="problem-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="problem-title">Problem</h2>
+        </header>
+        <div class="case-prose">
+          <p class="case-lede">Connect an instructor-facing review flow to remote code execution while keeping submission and grading state coherent.</p>
+          <p>The Flutter app captures handwritten C submissions and uploads them to Supabase. A Python FastAPI service preprocesses the images with OpenCV and extracts code with PaddleOCR. Instructors review and verify the extracted code in Angular before running it against question test cases through Judge0 and saving the grade.</p>
+        </div>
+      </section>
+
+      <section class="case-section shell" aria-labelledby="contribution-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="contribution-title">My contribution</h2>
+        </header>
+        <div class="case-prose contribution-note">
+          <p class="case-lede">Built the web submissions, code-review, and grading interface; integrated Judge0 execution; and implemented the Supabase persistence layer.</p>
+          <p><strong>Ownership boundary.</strong> Team project; Jayrald owned the web submissions, review, and grading interface, the Judge0 integration, and the Supabase data layer.</p>
+          <p>The pipeline describes the full team system: mobile capture and OCR extraction were developed by teammates. Jayrald&#39;s contribution covers web submission review, grading, Judge0 integration, and Supabase persistence.</p>
+        </div>
+      </section>
+
+      <section class="case-section case-section--system" aria-labelledby="system-title" data-reveal-group>
+        <div class="shell">
+          <header class="case-section-heading">
+            <h2 id="system-title">How it works</h2>
+          </header>
+          <ol class="system-flow">
+<li>
+                <div>
+                  <h3>1. Capture and upload</h3>
+                  <p>The Flutter mobile app captures handwritten C code and uploads the submission image to Supabase for extraction and review.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>2. Prepare the image</h3>
+                  <p>The FastAPI OCR service uses OpenCV to resize the image, convert it to grayscale, and reduce noise before recognition.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>3. Extract with PaddleOCR</h3>
+                  <p>A PP-OCRv6 detector locates text, and a fine-tuned recognizer reads the handwriting. Low-confidence detections are filtered before the text is reconstructed.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>4. Reconstruct the code</h3>
+                  <p>Detected text is grouped into lines in reading order. Conservative cleanup corrects misread C keywords and include directives, and the extracted code is saved in Supabase.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>5. Review and verify</h3>
+                  <p>The Angular review interface places the image beside editable code. The teacher checks and corrects the extraction, with OCR output kept separate from verified code.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>6. Execute and grade</h3>
+                  <p>Verified code runs against the selected question&#39;s test cases through Judge0. Execution results return to the review interface, and the final grade is recorded in Supabase.</p>
+                </div>
+              </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="case-section shell" aria-labelledby="decisions-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="decisions-title">Engineering choices</h2>
+        </header>
+        <div class="decision-table-wrap">
+          <table class="decision-ledger">
+            <thead><tr><th>Decision</th><th>Why</th><th>Tradeoff</th></tr></thead>
+            <tbody>
+<tr>
+                  <th scope="row">Isolate remote execution behind a Judge0 integration boundary.</th>
+                  <td data-label="Why">The review interface needed execution results without taking responsibility for running untrusted code itself.</td>
+                  <td data-label="Tradeoff">The workflow depends on a remote execution service and must surface its failure states clearly.</td>
+                </tr>
+<tr>
+                  <th scope="row">Use Supabase as the shared persistence layer for review and grading state.</th>
+                  <td data-label="Why">Submission context and the resulting grade needed one source of truth across the review sequence.</td>
+                  <td data-label="Tradeoff">Interface behavior stays coupled to the agreed data shape and access rules.</td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-section case-section--workflow shell" aria-labelledby="workflow-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="workflow-title">In use</h2>
+        </header>
+        <p class="capture-disclosure">Real Angular interface capture showing Extract now, the OCR result, teacher verification, and grading. The OCR result was produced by the local PaddleOCR service on an anonymous handwritten sample and is replayed with shortened waiting time. Storage and grading use isolated demo fixtures; Flutter mobile capture is not shown.</p>
+        <ol class="workflow-list">
+<li class="workflow-entry">
+                <div class="workflow-copy">
+                  <h3>Extract handwritten code</h3>
+                </div>
+                <figure class="workflow-media" data-capture-state="available">
+                  <div class="workflow-media-stage">
+                    <img src="../assets/images/projects/maistra/still-01.webp" alt="mAIstra handwritten submission beside an empty code panel and the Extract now button." width="1280" height="720" loading="lazy">
+                  </div>
+                  <figcaption>Extract the code: a handwritten submission starts with no extracted text. Extract now runs the OCR step before code can be verified.</figcaption>
+                </figure>
+              </li>
+<li class="workflow-entry">
+                <div class="workflow-copy">
+                  <h3>Review OCR output</h3>
+                </div>
+                <figure class="workflow-media" data-capture-state="available">
+                  <div class="workflow-media-stage">
+                    <img src="../assets/images/projects/maistra/still-02.webp" alt="mAIstra review dialog showing the handwritten page beside its recognized C code in the read-only OCR panel." width="1280" height="720" loading="lazy">
+                  </div>
+                  <figcaption>Review the OCR output: the read-only panel preserves the extracted text beside the photograph while the teacher prepares separate verified code.</figcaption>
+                </figure>
+              </li>
+<li class="workflow-entry">
+                <div class="workflow-copy">
+                  <h3>Run and grade</h3>
+                </div>
+                <figure class="workflow-media" data-capture-state="available">
+                  <div class="workflow-media-stage">
+                    <img src="../assets/images/projects/maistra/still-03.webp" alt="mAIstra run and grade step showing two accepted test cases and a score of 100 percent." width="1280" height="720" loading="lazy">
+                  </div>
+                  <figcaption>Run and grade: isolated demo execution results return to the review surface, where two accepted test cases produce a recorded 100% score.</figcaption>
+                </figure>
+              </li>
+        </ol>
+      </section>
+
+      <section class="case-section case-section--outcome shell" aria-labelledby="outcome-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="outcome-title">Outcome</h2>
+        </header>
+        <div class="case-prose">
+          <p class="case-lede">The instructor flow connects a handwritten submission, OCR-extracted code, teacher verification, execution results, and a recorded grade in one interface.</p>
+          <p><strong>Evidence.</strong> The captured sequence starts with an unprocessed handwritten submission, triggers extraction, displays a real local PaddleOCR result, verifies the code, and shows two accepted demo test cases with a recorded 100% grade.</p>
+          <p><strong>Current limits.</strong> OCR output comes from a real local run on an anonymous sample and is replayed in the interface with shortened waiting time. Submission storage and grading responses use isolated demo fixtures. Mobile capture is not shown, and this example does not establish general OCR accuracy, live-service reliability, or classroom adoption.</p>
+        </div>
+      </section>
+
+      <nav class="next-project" aria-label="Next case study">
+        <a class="shell" href="skyfire.html" aria-label="Next case study: SkyFire — Airline Booking System">
+          <span>Next project</span>
+          <strong>SkyFire</strong>
+          <span aria-hidden="true">→</span>
+        </a>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer-inner">
+      <p>© 2026 Jayrald Tajanlangit</p>
+      <p>Computer Science student · Web &amp; mobile development · Philippines</p>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+  <script type="module" src="../js/site.js"></script>
+  <script type="module" src="../js/motion.js"></script>
+</body>
+</html>

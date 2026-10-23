@@ -1,0 +1,184 @@
+[
+  {
+    "name": "light 320px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 20,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "light 390px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 20,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "light 768px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 20,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "light 1440px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 28,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "dark 320px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 20,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "dark 390px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 20,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "dark 768px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 20,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "dark 1440px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 28,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "system 320px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 20,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "system 390px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 20,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "system 768px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 20,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "system 1440px: contact actions and address fit",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "mailLinks": true,
+      "copyVisible": true,
+      "emailFont": 28,
+      "fitting": true,
+      "socials": 2,
+      "keyboard": true
+    }
+  },
+  {
+    "name": "copy action writes the email and announces success",
+    "pass": true,
+    "detail": {
+      "text": "jayraldtajanlangit123@gmail.com",
+      "label": "Copied",
+      "status": "Email copied to clipboard."
+    }
+  },
+  {
+    "name": "denied clipboard offers manual copying and retry",
+    "pass": true,
+    "detail": {
+      "label": "Copy email",
+      "status": "Couldn't copy automatically. Select the email address above to copy it.",
+      "disabled": false
+    }
+  },
+  {
+    "name": "reduced motion keeps contact visible without moving controls",
+    "pass": true
+  },
+  {
+    "name": "without enhancement the email remains usable and copy is hidden",
+    "pass": true
+  }
+]

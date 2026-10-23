@@ -1,0 +1,9 @@
+.worktrees/
+.capture/
+capture-*.png
+capture-*.webm
+*.capture.png
+*.capture.webm
+*.tmp.png
+*.tmp.webm
+

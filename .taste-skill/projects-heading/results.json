@@ -1,0 +1,254 @@
+[
+  {
+    "name": "light 320px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": false,
+      "stacked": true,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 390px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": false,
+      "stacked": true,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 768px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": false,
+      "stacked": true,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 900px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": false,
+      "stacked": true,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 1024px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": true,
+      "stacked": false,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 1440px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": true,
+      "stacked": false,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 1920px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": true,
+      "stacked": false,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 2560px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": true,
+      "stacked": false,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 3840px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": true,
+      "stacked": false,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 320px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": false,
+      "stacked": true,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 390px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": false,
+      "stacked": true,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 768px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": false,
+      "stacked": true,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 900px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": false,
+      "stacked": true,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 1024px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": true,
+      "stacked": false,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 1440px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": true,
+      "stacked": false,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 1920px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": true,
+      "stacked": false,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 2560px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": true,
+      "stacked": false,
+      "introFits": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 3840px: composed Projects introduction",
+    "pass": true,
+    "detail": {
+      "title": "Projects",
+      "wording": "Web and mobile projects, from flight bookings to handwritten code.",
+      "titleAligned": true,
+      "copyAligned": true,
+      "bottomAligned": true,
+      "stacked": false,
+      "introFits": true,
+      "overflow": false
+    }
+  }
+]

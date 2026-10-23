@@ -1,0 +1,46 @@
+{
+  "markers": [
+    {
+      "name": "submission",
+      "time": 0.001
+    },
+    {
+      "name": "details",
+      "time": 1.752
+    },
+    {
+      "name": "before-extraction",
+      "time": 3.282
+    },
+    {
+      "name": "extracting",
+      "time": 5.393
+    },
+    {
+      "name": "ocr-result",
+      "time": 7.205
+    },
+    {
+      "name": "teacher-verification",
+      "time": 11.312
+    },
+    {
+      "name": "grading",
+      "time": 13.516
+    },
+    {
+      "name": "grade-result",
+      "time": 15.077
+    },
+    {
+      "name": "end",
+      "time": 19.295
+    }
+  ],
+  "frameCount": 116,
+  "ocrSample": "bond/bond_writer1_1.jpg",
+  "extractionSeconds": 4.05,
+  "extractionCalls": 1,
+  "grade": 100,
+  "services": "Actual OCR output replay; isolated Supabase and Judge0 fixtures"
+}

@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="../js/theme.js"></script>
+  <title>SkyFire — Airline Booking System | Case study | Jayrald Tajanlangit</title>
+  <meta name="description" content="A full-stack airline booking application covering flight discovery, seats, add-ons, and booking management.">
+  <meta property="og:title" content="SkyFire — Airline Booking System | Case study | Jayrald Tajanlangit">
+  <meta property="og:description" content="A full-stack airline booking application covering flight discovery, seats, add-ons, and booking management.">
+  <meta property="og:type" content="article">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:site_name" content="Jayrald Tajanlangit">
+  <meta property="og:image" content="../assets/images/social-preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="../assets/images/social-preview.png">
+  <meta name="twitter:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
+  <meta name="theme-color" content="#f8f8f4">
+  <link rel="preload" href="../assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="../assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="../css/fonts.css">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/case-study.css">
+  <link rel="stylesheet" href="../css/theme.css">
+  <link rel="stylesheet" href="../css/motion.css">
+</head>
+<body class="case-page case-page--skyfire">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="shell site-header-inner">
+      <a class="site-name" href="../index.html" aria-label="Jayrald Tajanlangit, home">
+        <span>Jayrald Tajanlangit</span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation" hidden>Menu</button>
+      <nav aria-label="Primary" id="primary-navigation" class="primary-nav">
+        <a href="../index.html#work">Projects</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#contact">Contact</a>
+        <a href="https://github.com/jayraldtajanlangit">GitHub</a>
+        <a href="https://www.linkedin.com/in/jayrald-tajanlangit-b8646a280/">LinkedIn</a>
+      </nav>
+      <div class="theme-control" hidden><button class="theme-trigger" data-theme-trigger type="button" role="switch" aria-label="Dark mode" aria-checked="false" title="Switch to dark mode"><span class="theme-track" aria-hidden="true"><span class="theme-thumb"></span><svg data-theme-icon="light" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg data-theme-icon="dark" viewBox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg></span></button></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="case-study">
+      <header class="case-hero shell">
+        <div class="case-title-block" data-intro-reveal="headline">
+          <h1>SkyFire</h1>
+          <p class="case-deck">A full-stack airline booking application covering flight discovery, seats, add-ons, and booking management.</p>
+        </div>
+        <dl class="case-dossier" aria-label="Project dossier" data-intro-reveal="intro">
+          <div><dt>Role</dt><dd>Individual project · Full-stack development</dd></div>
+          <div><dt>Built with</dt><dd>Angular 21 · Django REST Framework · JWT · SQLite</dd></div>
+        </dl>
+        <div class="case-lead-media case-lead-media--landscape" style="--media-aspect: 1440 / 900" data-intro-reveal="portrait">
+          <h2 id="walkthrough-title">Project walkthrough</h2>
+          <figure class="project-media project-media--landscape" data-project-media>
+              <div class="project-media-stage" id="media-skyfire" style="--media-aspect: 1440 / 900"><video data-project-video controls muted loop playsinline preload="metadata" poster="../assets/images/projects/skyfire/poster.webp" width="1440" height="900" aria-describedby="media-skyfire-caption" aria-label="SkyFire project walkthrough">
+                  <source src="../assets/videos/skyfire-polished.mp4" type="video/mp4">
+                  <source src="../assets/videos/skyfire.webm" type="video/webm">
+                  Your browser cannot play this walkthrough. <a href="../assets/videos/skyfire-polished.mp4">Open the video</a>.
+                </video>
+                <img class="project-media-fallback" data-media-fallback src="../assets/images/projects/skyfire/still-01.webp" alt="SkyFire flight search page with discounted Manila to Tokyo and Cebu to Seoul results." width="1440" height="900" loading="lazy" hidden></div>
+              <figcaption id="media-skyfire-caption">Flight selection to seat and add-ons, then confirmation in My Bookings. <a class="walkthrough-video-link" href="../assets/videos/skyfire-polished.mp4">Open walkthrough video</a></figcaption>
+            </figure>
+        </div>
+      </header>
+
+      <section class="case-section case-section--problem shell" aria-labelledby="problem-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="problem-title">Problem</h2>
+        </header>
+        <div class="case-prose">
+          <p class="case-lede">Keep seat validation authoritative on the backend while carrying a user through a multi-step reservation flow.</p>
+          <p>An Angular booking client sends reservation requests to a Django API that validates and writes seat state inside transaction.atomic. The SQLite demo backend does not enforce SELECT FOR UPDATE row locks.</p>
+        </div>
+      </section>
+
+      <section class="case-section shell" aria-labelledby="contribution-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="contribution-title">My contribution</h2>
+        </header>
+        <div class="case-prose contribution-note">
+          <p class="case-lede">Designed and built the Angular client, Django backend, reservation workflow, and a transaction.atomic seat-validation boundary that expresses lock intent with select_for_update.</p>
+          <p><strong>Ownership boundary.</strong> Solo project designed and implemented by Jayrald.</p>
+          <p>Private solo repository. Source access is not offered publicly. The demo uses SQLite, so its select_for_update call documents the intended locking boundary without providing a row-lock guarantee.</p>
+        </div>
+      </section>
+
+      <section class="case-section case-section--system" aria-labelledby="system-title" data-reveal-group>
+        <div class="shell">
+          <header class="case-section-heading">
+            <h2 id="system-title">How it works</h2>
+          </header>
+          <ol class="system-flow">
+<li>
+                <div>
+                  <h3>Angular client</h3>
+                  <p>Guides search, seat choice, add-ons, confirmation, and booking review.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>Django REST API</h3>
+                  <p>Validates authenticated booking requests and coordinates reservation state.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>Transactional seat validation</h3>
+                  <p>Checks availability and writes the reservation inside one backend transaction boundary.</p>
+                </div>
+              </li>
+<li>
+                <div>
+                  <h3>SQLite record</h3>
+                  <p>Persists the confirmed booking for the My Bookings view.</p>
+                </div>
+              </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="case-section shell" aria-labelledby="decisions-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="decisions-title">Engineering choices</h2>
+        </header>
+        <div class="decision-table-wrap">
+          <table class="decision-ledger">
+            <thead><tr><th>Decision</th><th>Why</th><th>Tradeoff</th></tr></thead>
+            <tbody>
+<tr>
+                  <th scope="row">Put seat validation and the reservation write inside transaction.atomic, using select_for_update to express lock intent.</th>
+                  <td data-label="Why">Availability must be checked by the backend at the point where the booking is written, rather than trusted from client state.</td>
+                  <td data-label="Tradeoff">SQLite ignores SELECT FOR UPDATE, so the current demo cannot claim row-level conflict prevention; that guarantee requires a database backend that supports row locks.</td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-section case-section--workflow shell" aria-labelledby="workflow-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="workflow-title">In use</h2>
+        </header>
+        <p class="capture-disclosure">Real capture of the working local booking flow, using seeded flights and a locally isolated account so no production customer data appears.</p>
+        <ol class="workflow-list">
+<li class="workflow-entry">
+                <div class="workflow-copy">
+                  <h3>Search flights</h3>
+                </div>
+                <figure class="workflow-media" data-capture-state="available">
+                  <div class="workflow-media-stage">
+                    <img src="../assets/images/projects/skyfire/still-01.webp" alt="SkyFire flight search page with discounted Manila to Tokyo and Cebu to Seoul results." width="1440" height="900" loading="lazy">
+                  </div>
+                  <figcaption>Choose a flight: search controls, availability, cabin, and pricing stay together so the reservation starts with an explicit fare.</figcaption>
+                </figure>
+              </li>
+<li class="workflow-entry">
+                <div class="workflow-copy">
+                  <h3>Choose a seat</h3>
+                </div>
+                <figure class="workflow-media" data-capture-state="available">
+                  <div class="workflow-media-stage">
+                    <img src="../assets/images/projects/skyfire/still-02.webp" alt="SkyFire booking dialog with seat 1A selected, baggage options, meal preference, and total price." width="1440" height="900" loading="lazy">
+                  </div>
+                  <figcaption>Configure the trip: the booking step carries the selected seat, baggage, meal, and calculated total in one reviewable state.</figcaption>
+                </figure>
+              </li>
+<li class="workflow-entry">
+                <div class="workflow-copy">
+                  <h3>Confirm booking</h3>
+                </div>
+                <figure class="workflow-media" data-capture-state="available">
+                  <div class="workflow-media-stage">
+                    <img src="../assets/images/projects/skyfire/still-03.webp" alt="SkyFire My Bookings page showing the confirmed Manila to Tokyo reservation and booking reference." width="1440" height="900" loading="lazy">
+                  </div>
+                  <figcaption>Confirm the reservation: the completed write returns a booking reference, seat, add-ons, price, and status in My Bookings.</figcaption>
+                </figure>
+              </li>
+        </ol>
+      </section>
+
+      <section class="case-section case-section--outcome shell" aria-labelledby="outcome-title" data-reveal-group>
+        <header class="case-section-heading">
+          <h2 id="outcome-title">Outcome</h2>
+        </header>
+        <div class="case-prose">
+          <p class="case-lede">The local booking flow carries a selected flight, seat, and add-ons through to a confirmed reservation in My Bookings.</p>
+          <p><strong>Evidence.</strong> The captured sequence shows flight selection, a configured booking, and the resulting reservation with its reference, seat, price, and status.</p>
+          <p><strong>Current limits.</strong> The demonstration uses seeded flights and a local account. SQLite does not enforce SELECT FOR UPDATE row locks, so this demo does not establish protection against concurrent seat conflicts.</p>
+        </div>
+      </section>
+
+      <nav class="next-project" aria-label="Next case study">
+        <a class="shell" href="bulk-buying-companion.html" aria-label="Next case study: Bulk Buying Companion">
+          <span>Next project</span>
+          <strong>Bulk Buying Companion</strong>
+          <span aria-hidden="true">→</span>
+        </a>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer-inner">
+      <p>© 2026 Jayrald Tajanlangit</p>
+      <p>Computer Science student · Web &amp; mobile development · Philippines</p>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+  <script type="module" src="../js/site.js"></script>
+  <script type="module" src="../js/motion.js"></script>
+</body>
+</html>

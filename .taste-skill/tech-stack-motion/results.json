@@ -1,0 +1,202 @@
+[
+  {
+    "name": "dark 320px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 390px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 768px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 1440px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 2560px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark 3840px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 320px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 390px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 768px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 1440px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 2560px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light 3840px: Languages above Frameworks without extra copy",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "Languages",
+        "Frameworks"
+      ],
+      "stacked": true,
+      "intro": false,
+      "links": true,
+      "overflow": false
+    }
+  },
+  {
+    "name": "reduced motion leaves all seven logos still",
+    "pass": true
+  },
+  {
+    "name": "all seven local icon masks decode",
+    "pass": true
+  },
+  {
+    "name": "all seven logos have gentle floating animations",
+    "pass": true
+  },
+  {
+    "name": "logo positions change without moving the link targets",
+    "pass": true
+  },
+  {
+    "name": "hover pauses the language logos for reading",
+    "pass": true
+  },
+  {
+    "name": "keyboard focus pauses framework logos and shows their names",
+    "pass": true
+  },
+  {
+    "name": "enabling reduced motion cancels floating immediately",
+    "pass": true
+  },
+  {
+    "name": "category layout and named links remain without JavaScript",
+    "pass": true
+  }
+]

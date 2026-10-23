@@ -1,0 +1,2691 @@
+{
+ "url": "index.html",
+ "at": "2026-10-22T02:26:49.446Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.75,
+    0.25,
+    0.42,
+    0.63,
+    0.25,
+    0.54,
+    0.46,
+    0.25,
+    0.75,
+    0.5,
+    0.74,
+    0.5
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 29701,
+     "screens": 33,
+     "words": 822,
+     "img": 31,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 30,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-03.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": null,
+    "h1": {
+     "text": "Full-stack and mobile systems, from screen to state.",
+     "words": 8,
+     "lines": 2,
+     "size": 34,
+     "font": "Newsreader"
+    },
+    "headings": [
+     {
+      "text": "Full-stack and mobile systems, from screen to state.",
+      "words": 8,
+      "chars": 52,
+      "lines": 2,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 12905,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 8,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Newsreader",
+       "share": 0.03,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      13,
+      14,
+      17,
+      20,
+      26,
+      34
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.3
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 34,
+      "vw": 2.4,
+      "font": "Newsreader",
+      "text": "Full-stack and mobile systems,from scree"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "above": "Full-stack and mobile systems, from scre",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 17,
+      "top": 12880
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ecebe7",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.12,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#dcdedb",
+       "top": 28446,
+       "hsl": {
+        "h": 100,
+        "s": 0.04,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#203139",
+       "share": 0.97
+      },
+      {
+       "color": "#000000",
+       "share": 0.01
+      },
+      {
+       "color": "#ecebe7",
+       "share": 0.01
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      },
+      {
+       "color": "#111111",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#203139",
+      "hsl": {
+       "h": 199,
+       "s": 0.28,
+       "l": 0.17
+      },
+      "fg": "#ecebe7"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 31,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.71
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 28,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans",
+     "newsreader"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 29701,
+    "margins": {
+     "left": 0,
+     "right": 160
+    },
+    "sections": [
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--1",
+      "tag": "div",
+      "top": 0,
+      "height": 2492,
+      "words": 18,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 160,
+      "textLeft": 0,
+      "textRight": 1070,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--2",
+      "tag": "div",
+      "top": 2492,
+      "height": 2492,
+      "words": 19,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 160,
+      "textLeft": 0,
+      "textRight": 1088,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--3",
+      "tag": "div",
+      "top": 4984,
+      "height": 2492,
+      "words": 19,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 160,
+      "textLeft": 0,
+      "textRight": 1124,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--4",
+      "tag": "div",
+      "top": 7476,
+      "height": 1800,
+      "words": 14,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 1050,
+      "textLeft": 0,
+      "textRight": 1060,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--5",
+      "tag": "div",
+      "top": 9277,
+      "height": 1800,
+      "words": 15,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 1040,
+      "textLeft": 0,
+      "textRight": 1040,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--6",
+      "tag": "div",
+      "top": 11077,
+      "height": 1800,
+      "words": 15,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 993,
+      "textLeft": 0,
+      "textRight": 993,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.hero-panel.is-revealed",
+      "tag": "div",
+      "top": 12877,
+      "height": 272,
+      "words": 32,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Full-stack and mobile systems,",
+       "size": 34,
+       "tag": "h1"
+      },
+      "left": 0,
+      "right": 726,
+      "textLeft": 0,
+      "textRight": 726,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.workflow-dock.shell",
+      "tag": "div",
+      "top": 13268,
+      "height": 129,
+      "words": 18,
+      "media": 0,
+      "middle": 20,
+      "heading": null,
+      "left": 96,
+      "right": 805,
+      "textLeft": 96,
+      "textRight": 805,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 13397,
+      "height": 141,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 741,
+      "textLeft": 0,
+      "textRight": 741,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 13538,
+      "height": 2244,
+      "words": 61,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 120,
+      "textLeft": 40,
+      "textRight": 412,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 15799,
+      "height": 168,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 482,
+      "textLeft": 0,
+      "textRight": 482,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 15984,
+      "height": 141,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire — Airline Booking System",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 738,
+      "textLeft": 0,
+      "textRight": 738,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 16125,
+      "height": 2709,
+      "words": 59,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 471,
+      "textLeft": 40,
+      "textRight": 471,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 18851,
+      "height": 168,
+      "words": 37,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 571,
+      "textLeft": 0,
+      "textRight": 571,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 19036,
+      "height": 141,
+      "words": 27,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 718,
+      "textLeft": 0,
+      "textRight": 718,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 19177,
+      "height": 2616,
+      "words": 68,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 301,
+      "textLeft": 40,
+      "textRight": 301,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 21810,
+      "height": 168,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 465,
+      "textLeft": 0,
+      "textRight": 465,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 21995,
+      "height": 141,
+      "words": 23,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Pulso",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 733,
+      "textLeft": 0,
+      "textRight": 733,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 22136,
+      "height": 2616,
+      "words": 57,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 389,
+      "textLeft": 40,
+      "textRight": 389,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 24769,
+      "height": 168,
+      "words": 35,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 511,
+      "textLeft": 0,
+      "textRight": 511,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 24954,
+      "height": 141,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Sige",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 738,
+      "textLeft": 0,
+      "textRight": 738,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 25095,
+      "height": 2616,
+      "words": 56,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 435,
+      "textLeft": 40,
+      "textRight": 435,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 27728,
+      "height": 168,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 421,
+      "textLeft": 0,
+      "textRight": 421,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 28446,
+      "height": 1156,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 27896,
+      "height": 1708
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Full-stack and mobile systems, from screen to state.",
+      "size": 34,
+      "top": 12905,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "mAIstra · Open a submission",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Bulk Buying Companion · Browse the Split Board",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Sige · Tasks UI prototype",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "mAIstra · Review the code",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Bulk Buying Companion · Inspect the rice deal",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Sige · Open the prototype detail",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "mAIstra · Run and grade",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Bulk Buying Companion · Reserve a share",
+      "side": "left",
+      "px": 0
+     }
+    ],
+    "edges": [
+     {
+      "x": 0,
+      "n": 13
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.14,
+    "voidBox": {
+     "x": 420,
+     "y": 720,
+     "w": 1020,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.69,
+    0.5,
+    0.73,
+    0.5,
+    0.73,
+    0.5,
+    0.72,
+    0.6,
+    0.63,
+    0.74,
+    0.38,
+    0.87
+   ],
+   "motion": {
+    "elements": 4,
+    "css": 1,
+    "transitions": 3,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 25835,
+     "screens": 25.2,
+     "words": 822,
+     "img": 31,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 30,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-03.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": null,
+    "h1": {
+     "text": "Full-stack and mobile systems, from screen to state.",
+     "words": 8,
+     "lines": 2,
+     "size": 33.2,
+     "font": "Newsreader"
+    },
+    "headings": [
+     {
+      "text": "Full-stack and mobile systems, from screen to state.",
+      "words": 8,
+      "chars": 52,
+      "lines": 2,
+      "size": 33.2,
+      "vw": 4.3,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 10770,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 8,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Newsreader",
+       "share": 0.03,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      13,
+      17,
+      19,
+      25,
+      33
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 16.6,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.3
+     },
+     "measureChars": 20,
+     "max": {
+      "size": 33.2,
+      "vw": 4.3,
+      "font": "Newsreader",
+      "text": "Full-stack and mobile systems,from scree"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Jayrald Tajanlangit",
+      "above": "Full-stack and mobile systems, from scre",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 16.6,
+      "top": 10745
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ecebe7",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.12,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#dcdedb",
+       "top": 24897,
+       "hsl": {
+        "h": 100,
+        "s": 0.04,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#203139",
+       "share": 0.97
+      },
+      {
+       "color": "#000000",
+       "share": 0.01
+      },
+      {
+       "color": "#ecebe7",
+       "share": 0.01
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      },
+      {
+       "color": "#111111",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#203139",
+      "hsl": {
+       "h": 199,
+       "s": 0.28,
+       "l": 0.17
+      },
+      "fg": "#ecebe7"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 31,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.42
+     },
+     {
+      "type": "img",
+      "ratio": 0.28
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 27,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans",
+     "newsreader"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 25835,
+    "margins": {
+     "left": 0,
+     "right": 0
+    },
+    "sections": [
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--1",
+      "tag": "div",
+      "top": 0,
+      "height": 2202,
+      "words": 18,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 378,
+      "textLeft": 0,
+      "textRight": 407,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--2",
+      "tag": "div",
+      "top": 2202,
+      "height": 2202,
+      "words": 19,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 378,
+      "textLeft": 0,
+      "textRight": 425,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--3",
+      "tag": "div",
+      "top": 4404,
+      "height": 2202,
+      "words": 19,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 378,
+      "textLeft": 0,
+      "textRight": 459,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--4",
+      "tag": "div",
+      "top": 6606,
+      "height": 1379,
+      "words": 14,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 378,
+      "textLeft": 0,
+      "textRight": 397,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--5",
+      "tag": "div",
+      "top": 7985,
+      "height": 1379,
+      "words": 15,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 378,
+      "textLeft": 0,
+      "textRight": 378,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--6",
+      "tag": "div",
+      "top": 9364,
+      "height": 1379,
+      "words": 15,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 332,
+      "textLeft": 0,
+      "textRight": 332,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.hero-panel.is-revealed",
+      "tag": "div",
+      "top": 10743,
+      "height": 266,
+      "words": 32,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Full-stack and mobile systems,",
+       "size": 33,
+       "tag": "h1"
+      },
+      "left": 0,
+      "right": 71,
+      "textLeft": 0,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.workflow-dock.shell",
+      "tag": "div",
+      "top": 11125,
+      "height": 126,
+      "words": 18,
+      "media": 0,
+      "middle": 20,
+      "heading": null,
+      "left": 28,
+      "right": 202,
+      "textLeft": 28,
+      "textRight": 202,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 11251,
+      "height": 137,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 86,
+      "textLeft": 0,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 11389,
+      "height": 1393,
+      "words": 61,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 0,
+      "textLeft": 40,
+      "textRight": 6,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 12798,
+      "height": 192,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 8,
+      "textLeft": 0,
+      "textRight": 8,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 13006,
+      "height": 137,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire — Airline Booking System",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 83,
+      "textLeft": 0,
+      "textRight": 83,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 13143,
+      "height": 1529,
+      "words": 59,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 0,
+      "textLeft": 40,
+      "textRight": 7,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 14689,
+      "height": 192,
+      "words": 37,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 47,
+      "textLeft": 0,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 14897,
+      "height": 137,
+      "words": 27,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 63,
+      "textLeft": 0,
+      "textRight": 63,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 15035,
+      "height": 2696,
+      "words": 68,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 1,
+      "textLeft": 40,
+      "textRight": 1,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 17747,
+      "height": 192,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 13,
+      "textLeft": 0,
+      "textRight": 13,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 17956,
+      "height": 137,
+      "words": 23,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Pulso",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 78,
+      "textLeft": 0,
+      "textRight": 78,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 18093,
+      "height": 2696,
+      "words": 57,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 16,
+      "textLeft": 40,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 20806,
+      "height": 192,
+      "words": 35,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 4,
+      "textLeft": 0,
+      "textRight": 4,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 21014,
+      "height": 137,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Sige",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 83,
+      "textLeft": 0,
+      "textRight": 83,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 21151,
+      "height": 2696,
+      "words": 56,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 20,
+      "textLeft": 40,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 23864,
+      "height": 192,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 56,
+      "textLeft": 0,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 24897,
+      "height": 839,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 24056,
+      "height": 1680
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Full-stack and mobile systems, from screen to state.",
+      "size": 33,
+      "top": 10770,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "mAIstra · Open a submission",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Bulk Buying Companion · Browse the Split Board",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Sige · Tasks UI prototype",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "mAIstra · Review the code",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Bulk Buying Companion · Inspect the rice deal",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Sige · Open the prototype detail",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "mAIstra · Run and grade",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Bulk Buying Companion · Reserve a share",
+      "side": "left",
+      "px": 0
+     }
+    ],
+    "edges": [
+     {
+      "x": 0,
+      "n": 13
+     },
+     {
+      "x": 28,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 15,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    0.99,
+    0.97,
+    1,
+    0.94,
+    1,
+    1,
+    0.97,
+    1,
+    1,
+    0.95,
+    0.56
+   ],
+   "motion": {
+    "elements": 4,
+    "css": 1,
+    "transitions": 3,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 22645,
+     "screens": 26.8,
+     "words": 822,
+     "img": 31,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 30,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-01.webp",
+      "still-01.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-02.webp",
+      "still-03.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": null,
+    "h1": {
+     "text": "Full-stack and mobile systems, from screen to state.",
+     "words": 8,
+     "lines": 3,
+     "size": 32.1,
+     "font": "Newsreader"
+    },
+    "headings": [
+     {
+      "text": "Full-stack and mobile systems, from screen to state.",
+      "words": 8,
+      "chars": 52,
+      "lines": 3,
+      "size": 32.1,
+      "vw": 8.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 9436,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Work, in motion.",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 24.1,
+      "vw": 6.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9699,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 24.1,
+      "vw": 6.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 21424,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s build it properly.",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 24.1,
+      "vw": 6.2,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 22349,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Newsreader",
+       "share": 0.03,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      12,
+      13,
+      16,
+      19,
+      24,
+      32
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 16.1,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.3
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 32.1,
+      "vw": 8.2,
+      "font": "Newsreader",
+      "text": "Full-stack and mobile systems,from scree"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ecebe7",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.12,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#dcdedb",
+       "top": 21851,
+       "hsl": {
+        "h": 100,
+        "s": 0.04,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#203139",
+       "share": 0.97
+      },
+      {
+       "color": "#000000",
+       "share": 0.01
+      },
+      {
+       "color": "#ecebe7",
+       "share": 0.01
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      },
+      {
+       "color": "#111111",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#203139",
+      "hsl": {
+       "h": 199,
+       "s": 0.28,
+       "l": 0.17
+      },
+      "fg": "#ecebe7"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 31,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.71
+     },
+     {
+      "type": "img",
+      "ratio": 0.26
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 27,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans",
+     "newsreader"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 22645,
+    "margins": {
+     "left": 0,
+     "right": 0
+    },
+    "sections": [
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--1",
+      "tag": "div",
+      "top": 0,
+      "height": 1987,
+      "words": 18,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 41,
+      "textLeft": 0,
+      "textRight": 41,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--2",
+      "tag": "div",
+      "top": 1987,
+      "height": 1987,
+      "words": 19,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 58,
+      "textLeft": 0,
+      "textRight": 58,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--3",
+      "tag": "div",
+      "top": 3974,
+      "height": 1987,
+      "words": 19,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 91,
+      "textLeft": 0,
+      "textRight": 91,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--4",
+      "tag": "div",
+      "top": 5961,
+      "height": 1141,
+      "words": 14,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 31,
+      "textLeft": 0,
+      "textRight": 31,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--5",
+      "tag": "div",
+      "top": 7101,
+      "height": 1141,
+      "words": 15,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 12,
+      "textLeft": 0,
+      "textRight": 12,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.contact-sheet-column.contact-sheet-column--6",
+      "tag": "div",
+      "top": 8242,
+      "height": 1167,
+      "words": 15,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 53,
+      "textLeft": 0,
+      "textRight": 53,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.hero-panel.is-revealed",
+      "tag": "div",
+      "top": 9409,
+      "height": 290,
+      "words": 32,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Full-stack and mobile systems,",
+       "size": 32,
+       "tag": "h1"
+      },
+      "left": 0,
+      "right": 12,
+      "textLeft": 0,
+      "textRight": 12,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-work-intro.shell",
+      "tag": "header",
+      "top": 9699,
+      "height": 150,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Work, in motion.",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.workflow-dock.shell",
+      "tag": "div",
+      "top": 9865,
+      "height": 149,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 94,
+      "textLeft": 20,
+      "textRight": 94,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--1",
+      "tag": "article",
+      "top": 10014,
+      "height": 1216,
+      "words": 119,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "mAIstra",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 0,
+      "textRight": 12,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.proof-project.proof-project--2",
+      "tag": "article",
+      "top": 11246,
+      "height": 1282,
+      "words": 122,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire — Airline Booking System",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 0,
+      "textRight": 8,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 12544,
+      "height": 159,
+      "words": 27,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 196,
+      "textLeft": 0,
+      "textRight": 2,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 12704,
+      "height": 2537,
+      "words": 68,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 0,
+      "textLeft": 40,
+      "textRight": 3,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 15257,
+      "height": 239,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 2,
+      "textLeft": 0,
+      "textRight": 2,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 15512,
+      "height": 159,
+      "words": 23,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Pulso",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 237,
+      "textLeft": 0,
+      "textRight": 5,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 15671,
+      "height": 2511,
+      "words": 57,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 0,
+      "textLeft": 40,
+      "textRight": 2,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 18198,
+      "height": 212,
+      "words": 35,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 50,
+      "textLeft": 0,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.proof-project-heading",
+      "tag": "header",
+      "top": 18426,
+      "height": 159,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Sige",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 20,
+      "textLeft": 0,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.proof-sequence",
+      "tag": "ol",
+      "top": 18585,
+      "height": 2511,
+      "words": 56,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 0,
+      "textLeft": 40,
+      "textRight": 5,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "dl.proof-facts",
+      "tag": "dl",
+      "top": 21112,
+      "height": 212,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 25,
+      "textLeft": 0,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 21851,
+      "height": 697,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 21324,
+      "height": 1224
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Full-stack and mobile systems, from screen to state.",
+      "size": 32,
+      "top": 9436,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "mAIstra · Open a submission",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Bulk Buying Companion · Browse the Split Board",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Sige · Tasks UI prototype",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "mAIstra · Review the code",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Bulk Buying Companion · Inspect the rice deal",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Sige · Open the prototype detail",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "mAIstra · Run and grade",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Bulk Buying Companion · Reserve a share",
+      "side": "left",
+      "px": 0
+     }
+    ],
+    "edges": [
+     {
+      "x": 0,
+      "n": 13
+     },
+     {
+      "x": 20,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 15,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Jayrald Tajanlangit\" above \"Full-stack and mobile systems, from scre\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (IBM Plex Sans, Newsreader, Arial).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "no-hero",
+   "width": 1440,
+   "message": "No headline found in the first viewport.",
+   "fix": "The first screen needs a clear focal statement or image.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Libre Franklin and Source Serif 4, but the page renders IBM Plex Sans, Newsreader.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The page sits off-centre: its content comes to 0px from the left edge but only to 160px from the right, at 1440px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 1440,
+   "message": "A section keeps its content on one side and leaves 726px of the width empty: \"Full-stack and mobile systems,\".",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  },
+  {
+   "level": "FAIL",
+   "id": "blank-gap",
+   "width": 1440,
+   "message": "1 stretch(es) of the page hold nothing at all: 1708px at 27896px (the screen is 900px tall).",
+   "fix": "Close the gap: a section gap is 120–240px on desktop and 72–112px on a phone. Look for a min-height: 100vh on a short section, an empty grid row, a hidden element still holding its space, or a reveal that never fired. A deliberate rest is a placed picture or colour field, not nothing.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "no-title",
+   "width": 1440,
+   "message": "The h1 (\"Full-stack and mobile systems, from screen to stat\") is not on the first screen (it starts 12905px down).",
+   "fix": "The title belongs on the first screen, where a visitor decides whether to stay.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 1440,
+   "message": "8 text block(s) sit within 16px of the screen edge: \"mAIstra · Open a submission\" (0px from the left); \"Bulk Buying Companion · Browse\" (0px from the left); \"Sige · Tasks UI prototype\" (0px from the left); \"mAIstra · Review the code\" (0px from the left)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"Full-stack and mobile systems, from screen to st\" → 3 lines (8 words, 32.1px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\red-task3\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\red-task3\\desktop-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\red-task3\\desktop-page-02.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\red-task3\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\red-task3\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\red-task3\\tablet-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\red-task3\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\red-task3\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\red-task3\\mobile-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\red-task3\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

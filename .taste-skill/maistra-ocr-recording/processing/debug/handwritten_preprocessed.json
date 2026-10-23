@@ -1,0 +1,205 @@
+{
+  "source_image": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\maistra-ocr-recording\\handwritten.jpg",
+  "preprocessed_image": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\maistra-ocr-recording\\processing\\handwritten_preprocessed.jpg",
+  "raw_text": "#include <stdio.h>\nint main() {\n    int a, b;\n    printf(\"Enter two numbers: \");\n    scanf(\"%d %d\", &a, &b);\n    if (a > b) {\n      printf(\"Larger: %d\\n\", a);\n    } else {\n      printf(\"Larger: %d\\n\", b);\n    }\n    return 0;\n}",
+  "cleaned_text": "#include <stdio.h>\nint main() {\n    int a, b;\n    printf(\"Enter two numbers: \");\n    scanf(\"%d %d\", &a, &b);\n    if (a > b) {\n      printf(\"Larger: %d\\n\", a);\n    } else {\n      printf(\"Larger: %d\\n\", b);\n    }\n    return 0;\n}",
+  "average_confidence": 0.9709865947564443,
+  "rec_score_floor": 0.3,
+  "detections": [
+    {
+      "text": "#include <stdio.h>",
+      "score": 0.9719274044036865,
+      "box": [
+        19,
+        47,
+        269,
+        84
+      ]
+    },
+    {
+      "text": "int main() {",
+      "score": 0.9999595284461975,
+      "box": [
+        37,
+        102,
+        213,
+        140
+      ]
+    },
+    {
+      "text": "int a, b;",
+      "score": 0.9929459691047668,
+      "box": [
+        88,
+        151,
+        228,
+        189
+      ]
+    },
+    {
+      "text": "printf(\"Enter two numbers: \");",
+      "score": 0.9845560193061829,
+      "box": [
+        89,
+        203,
+        481,
+        246
+      ]
+    },
+    {
+      "text": "scanf(\"%d %d\", &a, &b);",
+      "score": 0.9351927042007446,
+      "box": [
+        94,
+        246,
+        409,
+        285
+      ]
+    },
+    {
+      "text": "if (a > b) {",
+      "score": 0.9765037894248962,
+      "box": [
+        98,
+        294,
+        303,
+        333
+      ]
+    },
+    {
+      "text": "printf(\"Larger: %d\\n\", a);",
+      "score": 0.958281397819519,
+      "box": [
+        174,
+        336,
+        561,
+        380
+      ]
+    },
+    {
+      "text": "} else {",
+      "score": 0.9999507069587708,
+      "box": [
+        99,
+        379,
+        226,
+        426
+      ]
+    },
+    {
+      "text": "printf(\"Larger: %d\\n\", b);",
+      "score": 0.9716736674308777,
+      "box": [
+        174,
+        426,
+        559,
+        466
+      ]
+    },
+    {
+      "text": "}",
+      "score": 0.9636934995651245,
+      "box": [
+        93,
+        469,
+        122,
+        512
+      ]
+    },
+    {
+      "text": "return 0;",
+      "score": 0.9778261184692383,
+      "box": [
+        97,
+        517,
+        222,
+        559
+      ]
+    },
+    {
+      "text": "}",
+      "score": 0.9193283319473267,
+      "box": [
+        40,
+        569,
+        76,
+        622
+      ]
+    }
+  ],
+  "dropped_low_confidence": [],
+  "grouped_lines": [
+    [
+      {
+        "text": "#include <stdio.h>",
+        "score": 0.9719274044036865
+      }
+    ],
+    [
+      {
+        "text": "int main() {",
+        "score": 0.9999595284461975
+      }
+    ],
+    [
+      {
+        "text": "int a, b;",
+        "score": 0.9929459691047668
+      }
+    ],
+    [
+      {
+        "text": "printf(\"Enter two numbers: \");",
+        "score": 0.9845560193061829
+      }
+    ],
+    [
+      {
+        "text": "scanf(\"%d %d\", &a, &b);",
+        "score": 0.9351927042007446
+      }
+    ],
+    [
+      {
+        "text": "if (a > b) {",
+        "score": 0.9765037894248962
+      }
+    ],
+    [
+      {
+        "text": "printf(\"Larger: %d\\n\", a);",
+        "score": 0.958281397819519
+      }
+    ],
+    [
+      {
+        "text": "} else {",
+        "score": 0.9999507069587708
+      }
+    ],
+    [
+      {
+        "text": "printf(\"Larger: %d\\n\", b);",
+        "score": 0.9716736674308777
+      }
+    ],
+    [
+      {
+        "text": "}",
+        "score": 0.9636934995651245
+      }
+    ],
+    [
+      {
+        "text": "return 0;",
+        "score": 0.9778261184692383
+      }
+    ],
+    [
+      {
+        "text": "}",
+        "score": 0.9193283319473267
+      }
+    ]
+  ]
+}

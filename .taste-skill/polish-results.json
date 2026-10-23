@@ -1,0 +1,487 @@
+[
+  {
+    "name": "index.html: both local fonts load with outside services blocked",
+    "pass": true,
+    "body": "Manrope, Arial, sans-serif",
+    "heading": "\"Bodoni Moda\", Georgia, serif",
+    "loaded": [
+      "Bodoni Moda",
+      "Manrope"
+    ]
+  },
+  {
+    "name": "index.html: walkthrough players replace all five selected-work previews",
+    "pass": true,
+    "count": 5,
+    "screenshots": 0,
+    "duplicate": false
+  },
+  {
+    "name": "index.html: skyfire walkthrough decodes and plays",
+    "pass": true,
+    "playing": true,
+    "controls": true,
+    "inline": true,
+    "dimensions": true,
+    "duration": 12.166667,
+    "noAutoplay": true
+  },
+  {
+    "name": "index.html: maistra walkthrough decodes and plays",
+    "pass": true,
+    "playing": true,
+    "controls": true,
+    "inline": true,
+    "dimensions": true,
+    "duration": 12,
+    "noAutoplay": true
+  },
+  {
+    "name": "index.html: bulk-buying-companion walkthrough decodes and plays",
+    "pass": true,
+    "playing": true,
+    "controls": true,
+    "inline": true,
+    "dimensions": true,
+    "duration": 10.033333,
+    "noAutoplay": true
+  },
+  {
+    "name": "index.html: pulso walkthrough decodes and plays",
+    "pass": true,
+    "playing": true,
+    "controls": true,
+    "inline": true,
+    "dimensions": true,
+    "duration": 8.883333,
+    "noAutoplay": true
+  },
+  {
+    "name": "index.html: sige walkthrough decodes and plays",
+    "pass": true,
+    "playing": true,
+    "controls": true,
+    "inline": true,
+    "dimensions": true,
+    "duration": 8.4,
+    "noAutoplay": true
+  },
+  {
+    "name": "index.html: readable headings and no overflow at 320px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "index.html: selected work uses the approved layout at 320px",
+    "pass": true,
+    "feature": true,
+    "pair": true,
+    "frame": true
+  },
+  {
+    "name": "index.html: readable headings and no overflow at 390px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "index.html: selected work uses the approved layout at 390px",
+    "pass": true,
+    "feature": true,
+    "pair": true,
+    "frame": true
+  },
+  {
+    "name": "index.html: readable headings and no overflow at 768px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "index.html: selected work uses the approved layout at 768px",
+    "pass": true,
+    "feature": true,
+    "pair": true,
+    "frame": true
+  },
+  {
+    "name": "index.html: readable headings and no overflow at 1440px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "index.html: selected work uses the approved layout at 1440px",
+    "pass": true,
+    "feature": true,
+    "pair": true,
+    "frame": true
+  },
+  {
+    "name": "portrait preview: project spacing is tighter than the previous design",
+    "pass": true,
+    "projectGap": 40,
+    "screenshotPadding": 12,
+    "pageHeight": 4248
+  },
+  {
+    "name": "index.html: project destinations remain available",
+    "pass": true,
+    "count": 5
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: both local fonts load with outside services blocked",
+    "pass": true,
+    "body": "Manrope, Arial, sans-serif",
+    "heading": "\"Bodoni Moda\", Georgia, serif",
+    "loaded": [
+      "Bodoni Moda",
+      "Manrope"
+    ]
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: walkthrough players replace all five selected-work previews",
+    "pass": true,
+    "count": 5,
+    "screenshots": 0,
+    "duplicate": false
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: skyfire walkthrough decodes and plays",
+    "pass": true,
+    "playing": true,
+    "controls": true,
+    "inline": true,
+    "dimensions": true,
+    "duration": 12.166667,
+    "noAutoplay": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: maistra walkthrough decodes and plays",
+    "pass": true,
+    "playing": true,
+    "controls": true,
+    "inline": true,
+    "dimensions": true,
+    "duration": 12,
+    "noAutoplay": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: bulk-buying-companion walkthrough decodes and plays",
+    "pass": true,
+    "playing": true,
+    "controls": true,
+    "inline": true,
+    "dimensions": true,
+    "duration": 10.033333,
+    "noAutoplay": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: pulso walkthrough decodes and plays",
+    "pass": true,
+    "playing": true,
+    "controls": true,
+    "inline": true,
+    "dimensions": true,
+    "duration": 8.883333,
+    "noAutoplay": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: sige walkthrough decodes and plays",
+    "pass": true,
+    "playing": true,
+    "controls": true,
+    "inline": true,
+    "dimensions": true,
+    "duration": 8.4,
+    "noAutoplay": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: readable headings and no overflow at 320px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: selected work uses the approved layout at 320px",
+    "pass": true,
+    "feature": true,
+    "pair": true,
+    "frame": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: readable headings and no overflow at 390px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: selected work uses the approved layout at 390px",
+    "pass": true,
+    "feature": true,
+    "pair": true,
+    "frame": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: readable headings and no overflow at 768px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: selected work uses the approved layout at 768px",
+    "pass": true,
+    "feature": true,
+    "pair": true,
+    "frame": true
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: readable headings and no overflow at 1440px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: selected work uses the approved layout at 1440px",
+    "pass": true,
+    "feature": true,
+    "pair": true,
+    "frame": true
+  },
+  {
+    "name": "portrait preview: project spacing is tighter than the previous design",
+    "pass": true,
+    "projectGap": 40,
+    "screenshotPadding": 12,
+    "pageHeight": 3518
+  },
+  {
+    "name": ".taste-skill/editorial-concept/index.html: project destinations remain available",
+    "pass": true,
+    "count": 5
+  },
+  {
+    "name": "projects/skyfire.html: both local fonts load with outside services blocked",
+    "pass": true,
+    "body": "Manrope, Arial, sans-serif",
+    "heading": "\"Bodoni Moda\", Georgia, serif",
+    "loaded": [
+      "Bodoni Moda",
+      "Manrope"
+    ]
+  },
+  {
+    "name": "projects/skyfire.html: readable headings and no overflow at 320px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/skyfire.html: readable headings and no overflow at 390px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/skyfire.html: readable headings and no overflow at 768px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/skyfire.html: readable headings and no overflow at 1440px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/skyfire.html: project destinations remain available",
+    "pass": true,
+    "count": 3
+  },
+  {
+    "name": "projects/maistra.html: both local fonts load with outside services blocked",
+    "pass": true,
+    "body": "Manrope, Arial, sans-serif",
+    "heading": "\"Bodoni Moda\", Georgia, serif",
+    "loaded": [
+      "Bodoni Moda",
+      "Manrope"
+    ]
+  },
+  {
+    "name": "projects/maistra.html: readable headings and no overflow at 320px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/maistra.html: readable headings and no overflow at 390px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/maistra.html: readable headings and no overflow at 768px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/maistra.html: readable headings and no overflow at 1440px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/maistra.html: project destinations remain available",
+    "pass": true,
+    "count": 3
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: both local fonts load with outside services blocked",
+    "pass": true,
+    "body": "Manrope, Arial, sans-serif",
+    "heading": "\"Bodoni Moda\", Georgia, serif",
+    "loaded": [
+      "Bodoni Moda",
+      "Manrope"
+    ]
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: readable headings and no overflow at 320px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: readable headings and no overflow at 390px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: readable headings and no overflow at 768px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: readable headings and no overflow at 1440px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/bulk-buying-companion.html: project destinations remain available",
+    "pass": true,
+    "count": 3
+  },
+  {
+    "name": "projects/pulso.html: both local fonts load with outside services blocked",
+    "pass": true,
+    "body": "Manrope, Arial, sans-serif",
+    "heading": "\"Bodoni Moda\", Georgia, serif",
+    "loaded": [
+      "Bodoni Moda",
+      "Manrope"
+    ]
+  },
+  {
+    "name": "projects/pulso.html: readable headings and no overflow at 320px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/pulso.html: readable headings and no overflow at 390px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/pulso.html: readable headings and no overflow at 768px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/pulso.html: readable headings and no overflow at 1440px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/pulso.html: project destinations remain available",
+    "pass": true,
+    "count": 3
+  },
+  {
+    "name": "projects/sige.html: both local fonts load with outside services blocked",
+    "pass": true,
+    "body": "Manrope, Arial, sans-serif",
+    "heading": "\"Bodoni Moda\", Georgia, serif",
+    "loaded": [
+      "Bodoni Moda",
+      "Manrope"
+    ]
+  },
+  {
+    "name": "projects/sige.html: readable headings and no overflow at 320px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/sige.html: readable headings and no overflow at 390px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/sige.html: readable headings and no overflow at 768px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/sige.html: readable headings and no overflow at 1440px",
+    "pass": true,
+    "overflow": false,
+    "long": [],
+    "broken": []
+  },
+  {
+    "name": "projects/sige.html: project destinations remain available",
+    "pass": true,
+    "count": 3
+  }
+]
