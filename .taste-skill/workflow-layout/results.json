@@ -1,0 +1,2052 @@
+[
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "rows": [
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        },
+        {
+          "gap": 16,
+          "aligned": true,
+          "round": "16px",
+          "plain": true,
+          "ratioError": 0.000008554759012457946,
+          "noLetterbox": true,
+          "fits": true,
+          "order": true
+        }
+      ]
+    }
+  }
+]

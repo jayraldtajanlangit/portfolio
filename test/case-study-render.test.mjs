@@ -68,3 +68,26 @@ test('every case study has a directly playable walkthrough without JavaScript', 
     assert.doesNotMatch(html, /data-media-toggle/);
   }
 });
+
+test('mobile case studies frame the recording and three captures as phones', () => {
+  for (const project of projects) {
+    const html = renderCaseStudy(project, projects[0]);
+    const frames = [...html.matchAll(/class="phone-frame"/g)];
+    if (project.media.orientation === 'portrait') {
+      assert.equal(frames.length, 4, `${project.slug}: main recording and three workflow captures use phone frames`);
+      assert.match(html, /class="phone-frame-screen"><video\b[^>]*data-project-video[^>]*controls/);
+      for (const still of project.media.stills) {
+        assert.ok(html.includes(`class="phone-frame-screen"><img src="../${still.src}"`));
+      }
+    } else {
+      assert.equal(frames.length, 0, `${project.slug}: desktop captures keep their landscape frame`);
+    }
+  }
+});
+
+test('Bulk Buying workflow headings match the recorded browse, inspect and reserve sequence', () => {
+  const project = projects.find(project => project.slug === 'bulk-buying-companion');
+  const html = renderCaseStudy(project, projects[0]);
+  const titles = [...html.matchAll(/class="workflow-copy">\s*<h3>([^<]+)<\/h3>/g)].map(match => match[1]);
+  assert.deepEqual(titles, ['Browse Split Board', 'Inspect a deal', 'Reserve a share']);
+});

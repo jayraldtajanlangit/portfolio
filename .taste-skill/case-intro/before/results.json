@@ -1,0 +1,1102 @@
+[
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 320,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 390,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 768,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -79.171875,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -79.171875,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 1440,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 1820,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 320,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 390,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 768,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -79.171875,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -79.171875,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 1440,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 1820,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 320,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 390,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 768,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -158.34375,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -158.34375,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 1440,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 1820,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 320,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 390,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 768,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -158.34375,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -158.34375,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 1440,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 1820,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 320,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 390,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 768,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -105.5625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -105.5625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 1440,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 1820,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 320,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 390,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 768,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -105.5625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -105.5625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 1440,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 1820,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 320,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 390,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 768,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -79.171875,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -79.171875,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 1440,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 1820,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 320,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 390,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 768,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -79.171875,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -79.171875,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 1440,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 1820,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 320,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 390,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 768,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 1440,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 1820,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 320,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 390,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 8,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 768,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -52.78125,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 1440,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 1820,
+    "pass": false,
+    "overflow": false,
+    "titleGap": 32,
+    "mediaGap": 48,
+    "rows": [
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      },
+      {
+        "gap": -26.390625,
+        "readable": true,
+        "stacked": false
+      }
+    ],
+    "controls": true
+  }
+]

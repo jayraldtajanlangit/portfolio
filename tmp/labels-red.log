@@ -1,0 +1,96 @@
+Γ£û homepage supplies a progressive-enhancement dialog before the page content (4.2798ms)
+Γ£ö the served index.html contains the current graph and inline controller (0.8921ms)
+Γ£û startup has readable stages and a welcome hold before completing at 4.5 seconds (1.5635ms)
+Γ£ö intro bypasses {"seen":true} (0.8949ms)
+Γ£ö intro bypasses {"reduced":true} (0.7647ms)
+Γ£ö intro bypasses {"hash":"#work"} (0.8827ms)
+Γ£ö intro bypasses {"history":true} (0.9598ms)
+Γ£ö skip click dismisses immediately and leaves no active work (1.5648ms)
+Γ£ö dialog cancel dismisses immediately and leaves no active work (1.0645ms)
+Γ£ö motion change dismisses immediately and leaves no active work (0.8578ms)
+Γ£ö window pagehide dismisses immediately and leaves no active work (0.8238ms)
+Γ£ö document visibilitychange dismisses immediately and leaves no active work (0.7735ms)
+Γ£ö blocked storage cannot prevent the homepage being revealed (0.9426ms)
+Γ£û the local preview runs a timed startup instead of freezing the welcome screen (1.1262ms)
+Γä╣ tests 14
+Γä╣ suites 0
+Γä╣ pass 11
+Γä╣ fail 3
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 129.2101
+
+Γ£û failing tests:
+
+test at test\startup.test.mjs:58:1
+Γ£û homepage supplies a progressive-enhancement dialog before the page content (4.2798ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  -   'Source',
+      'Build',
+      'Test',
+  +   'Lint',
+      'Deploy'
+    ]
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:66:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.start (node:internal/test_runner/test:1003:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'Build', 'Test', 'Lint', 'Deploy' ],
+    expected: [ 'Source', 'Build', 'Test', 'Deploy' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test\startup.test.mjs:83:1
+Γ£û startup has readable stages and a welcome hold before completing at 4.5 seconds (1.5635ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Building portfolio'
+  - 'Connecting ideas'
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:86:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Building portfolio',
+    expected: 'Connecting ideas',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\startup.test.mjs:143:1
+Γ£û the local preview runs a timed startup instead of freezing the welcome screen (1.1262ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Running checks'
+  - 'Building experiences'
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:150:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Running checks',
+    expected: 'Building experiences',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

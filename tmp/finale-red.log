@@ -1,0 +1,99 @@
+Γ£û homepage supplies a progressive-enhancement dialog before the page content (10.5509ms)
+Γ£ö the served index.html contains the current graph and inline controller (1.4696ms)
+Γ£û startup holds the personal finale before completing at five seconds (3.8721ms)
+Γ£ö intro bypasses {"seen":true} (1.7545ms)
+Γ£ö intro bypasses {"reduced":true} (1.5031ms)
+Γ£ö intro bypasses {"hash":"#work"} (1.866ms)
+Γ£ö intro bypasses {"history":true} (2.093ms)
+Γ£ö skip click dismisses immediately and leaves no active work (2.1748ms)
+Γ£ö dialog cancel dismisses immediately and leaves no active work (1.9957ms)
+Γ£ö motion change dismisses immediately and leaves no active work (1.6656ms)
+Γ£ö window pagehide dismisses immediately and leaves no active work (1.4251ms)
+Γ£ö document visibilitychange dismisses immediately and leaves no active work (1.3333ms)
+Γ£ö blocked storage cannot prevent the homepage being revealed (1.3488ms)
+Γ£ö the local preview runs a timed startup instead of freezing the welcome screen (1.303ms)
+Γä╣ tests 14
+Γä╣ suites 0
+Γä╣ pass 12
+Γä╣ fail 2
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 202.0255
+
+Γ£û failing tests:
+
+test at test\startup.test.mjs:58:1
+Γ£û homepage supplies a progressive-enhancement dialog before the page content (10.5509ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /class="startup-finale"/. Input:
+  
+  '<dialog class="startup" data-startup hidden aria-labelledby="startup-title" aria-describedby="startup-description">\n' +
+    '    <div class="startup-panel">\n' +
+    '      <section class="workflow-graph">\n' +
+    '        <header class="workflow-graph-header">\n' +
+    '          <div class="workflow-identity"><span class="workflow-file-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l4 4v14H7zM14 3v5h4M10 12l-2 2 2 2m5-4 2 2-2 2"/></svg></span><div><div class="workflow-title-line"><h2 id="startup-title">portfolio.yml</h2><span class="workflow-branch" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="4" cy="3" r="1.5"/><circle cx="12" cy="4" r="1.5"/><circle cx="4" cy="13" r="1.5"/><path d="M4 4.5v7m8-6v1c0 2-2 2.5-4 2.5H4"/></svg>main</span></div><p>Workflow preview <span class="workflow-stage-count">/ 4 stages</span></p></div></div>\n' +
+    '          <div class="workflow-run-state" aria-hidden="true"><span class="workflow-run-indicator"></span><span class="workflow-running-label">In progress</span><span class="workflow-success-label">Success</span></div>\n' +
+    '        </header>\n' +
+    '        <div class="workflow-canvas" aria-hidden="true">\n' +
+    '          <svg class="workflow-edges workflow-edges--desktop" viewBox="0 0 1000 340" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M280 170H308Q320 170 320 158V97Q320 85 332 85H360" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M280 170H308Q320 170 320 182V243Q320 255 332 255H360" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M640 85H668Q680 85 680 97V158Q680 170 692 170H720" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M640 255H668Q680 255 680 243V182Q680 170 692 170H720" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-test" d="M280 170H308Q320 170 320 158V97Q320 85 332 85H360" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-lint" d="M280 170H308Q320 170 320 182V243Q320 255 332 255H360" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="test-deploy" d="M640 85H668Q680 85 680 97V158Q680 170 692 170H720" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="lint-deploy" d="M640 255H668Q680 255 680 243V182Q680 170 692 170H720" pathLength="1" vector-effect="non-scaling-stroke"/></svg>\n' +
+    '          <svg class="workflow-edges workflow-edges--mobile" viewBox="0 0 1000 1000" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M500 215V288Q500 300 488 300H232Q220 300 220 312V405" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M500 215V288Q500 300 512 300H768Q780 300 780 312V405" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M220 595V688Q220 700 232 700H488Q500 700 500 712V785" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M780 595V688Q780 700 768 700H512Q500 700 500 712V785" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-test" d="M500 215V288Q500 300 488 300H232Q220 300 220 312V405" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-lint" d="M500 215V288Q500 300 512 300H768Q780 300 780 312V405" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="test-deploy" d="M220 595V688Q220 700 232 700H488Q500 700 500 712V785" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="lint-deploy" d="M780 595V688Q780 700 768 700H512Q500 700 500 712V785" pathLength="1" vector-effect="non-scaling-stroke"/></svg>\n' +
+    '          <ol class="startup-pipeline"><li class="pipeline-stage" data-pipeline-stage data-job="build" data-state="pending">\n' +
+    '\n' +
+    '            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Source</h3><p class="pipeline-description">Connecting ideas</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n' +
+    '            <span class="workflow-port workflow-port--out"></span>\n' +
+    '          </li><li class="pipeline-stage" data-pipeline-stage data-job="test" data-state="pending">\n' +
+    '            <span class="workflow-port workflow-port--in"></span>\n' +
+    '            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Build</h3><p class="pipeline-description">Building experiences</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n' +
+    '            <span class="workflow-port workflow-port--out"></span>\n' +
+    '          </li><li class="pipeline-stage" data-pipeline-stage data-job="lint" data-state="pending">\n' +
+    '            <span class="workflow-port workflow-port--in"></span>\n' +
+    '            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Test</h3><p class="pipeline-description">Checking the details</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n' +
+    '            <span class="workflow-port workflow-port--out"></span>\n' +
+    '          </li><li class="pipeline-stage" data-pipeline-stage data-job="deploy" data-state="pending">\n' +
+    '            <span class="workflow-port workflow-port--in"></span>\n' +
+    '            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Deploy</h3><p class="pipeline-description">Portfolio ready</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n' +
+    '\n' +
+    '          </li></ol>\n' +
+    '        </div>\n' +
+    '        <div class="workflow-bottom-bar"><p class="workflow-current" aria-hidden="true"><span class="workflow-current-dot"></span><span data-startup-status>Connecting ideas</span></p><div class="workflow-legend" aria-hidden="true"><span><i class="legend-queued"></i>Queued</span><span><i class="legend-running"></i>Running</span><span><i class="legend-complete"></i>Ready</span></div></div>\n' +
+    '      </section>\n' +
+    '      <p class="startup-welcome">Welcome. IΓÇÖm Jayrald.</p>\n' +
+    '      <p class="startup-caption" id="startup-description">Web ┬╖ Mobile ┬╖ AI</p>\n' +
+    '    </div>\n' +
+    '    <p class="startup-footer-note" aria-hidden="true">JAYRALD TAJANLANGIT <span>/ PORTFOLIO</span></p>\n' +
+    '    <button class="startup-skip" data-startup-skip type="button" autofocus>Skip intro <span aria-hidden="true">Γåù</span></button>\n' +
+    '  </dialog>'
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:73:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.start (node:internal/test_runner/test:1003:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '<dialog class="startup" data-startup hidden aria-labelledby="startup-title" aria-describedby="startup-description">\n    <div class="startup-panel">\n      <section class="workflow-graph">\n        <header class="workflow-graph-header">\n          <div class="workflow-identity"><span class="workflow-file-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l4 4v14H7zM14 3v5h4M10 12l-2 2 2 2m5-4 2 2-2 2"/></svg></span><div><div class="workflow-title-line"><h2 id="startup-title">portfolio.yml</h2><span class="workflow-branch" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="4" cy="3" r="1.5"/><circle cx="12" cy="4" r="1.5"/><circle cx="4" cy="13" r="1.5"/><path d="M4 4.5v7m8-6v1c0 2-2 2.5-4 2.5H4"/></svg>main</span></div><p>Workflow preview <span class="workflow-stage-count">/ 4 stages</span></p></div></div>\n          <div class="workflow-run-state" aria-hidden="true"><span class="workflow-run-indicator"></span><span class="workflow-running-label">In progress</span><span class="workflow-success-label">Success</span></div>\n        </header>\n        <div class="workflow-canvas" aria-hidden="true">\n          <svg class="workflow-edges workflow-edges--desktop" viewBox="0 0 1000 340" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M280 170H308Q320 170 320 158V97Q320 85 332 85H360" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M280 170H308Q320 170 320 182V243Q320 255 332 255H360" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M640 85H668Q680 85 680 97V158Q680 170 692 170H720" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M640 255H668Q680 255 680 243V182Q680 170 692 170H720" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-test" d="M280 170H308Q320 170 320 158V97Q320 85 332 85H360" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-lint" d="M280 170H308Q320 170 320 182V243Q320 255 332 255H360" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="test-deploy" d="M640 85H668Q680 85 680 97V158Q680 170 692 170H720" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="lint-deploy" d="M640 255H668Q680 255 680 243V182Q680 170 692 170H720" pathLength="1" vector-effect="non-scaling-stroke"/></svg>\n          <svg class="workflow-edges workflow-edges--mobile" viewBox="0 0 1000 1000" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M500 215V288Q500 300 488 300H232Q220 300 220 312V405" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M500 215V288Q500 300 512 300H768Q780 300 780 312V405" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M220 595V688Q220 700 232 700H488Q500 700 500 712V785" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M780 595V688Q780 700 768 700H512Q500 700 500 712V785" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-test" d="M500 215V288Q500 300 488 300H232Q220 300 220 312V405" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-lint" d="M500 215V288Q500 300 512 300H768Q780 300 780 312V405" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="test-deploy" d="M220 595V688Q220 700 232 700H488Q500 700 500 712V785" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="lint-deploy" d="M780 595V688Q780 700 768 700H512Q500 700 500 712V785" pathLength="1" vector-effect="non-scaling-stroke"/></svg>\n          <ol class="startup-pipeline"><li class="pipeline-stage" data-pipeline-stage data-job="build" data-state="pending">\n\n            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Source</h3><p class="pipeline-description">Connecting ideas</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n            <span class="workflow-port workflow-port--out"></span>\n          </li><li class="pipeline-stage" data-pipeline-stage data-job="test" data-state="pending">\n            <span class="workflow-port workflow-port--in"></span>\n            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Build</h3><p class="pipeline-description">Building experiences</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n            <span class="workflow-port workflow-port--out"></span>\n          </li><li class="pipeline-stage" data-pipeline-stage data-job="lint" data-state="pending">\n            <span class="workflow-port workflow-port--in"></span>\n            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Test</h3><p class="pipeline-description">Checking the details</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n            <span class="workflow-port workflow-port--out"></span>\n          </li><li class="pipeline-stage" data-pipeline-stage data-job="deploy" data-state="pending">\n            <span class="workflow-port workflow-port--in"></span>\n            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Deploy</h3><p class="pipeline-description">Portfolio ready</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n\n          </li></ol>\n        </div>\n        <div class="workflow-bottom-bar"><p class="workflow-current" aria-hidden="true"><span class="workflow-current-dot"></span><span data-startup-status>Connecting ideas</span></p><div class="workflow-legend" aria-hidden="true"><span><i class="legend-queued"></i>Queued</span><span><i class="legend-running"></i>Running</span><span><i class="legend-complete"></i>Ready</span></div></div>\n      </section>\n      <p class="startup-welcome">Welcome. IΓÇÖm Jayrald.</p>\n      <p class="startup-caption" id="startup-description">Web ┬╖ Mobile ┬╖ AI</p>\n    </div>\n    <p class="startup-footer-note" aria-hidden="true">JAYRALD TAJANLANGIT <span>/ PORTFOLIO</span></p>\n    <button class="startup-skip" data-startup-skip type="button" autofocus>Skip intro <span aria-hidden="true">Γåù</span></button>\n  </dialog>',
+    expected: /class="startup-finale"/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at test\startup.test.mjs:85:1
+Γ£û startup holds the personal finale before completing at five seconds (3.8721ms)
+  AssertionError [ERR_ASSERTION]: give the personal reveal time to land
+  
+  'exit' !== 'welcome'
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:105:31)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'exit',
+    expected: 'welcome',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

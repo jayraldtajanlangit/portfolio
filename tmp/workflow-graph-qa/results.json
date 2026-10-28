@@ -1,0 +1,350 @@
+[
+  {
+    "name": "light 320px: ports aligned, cards fit, homepage background",
+    "pass": true,
+    "detail": {
+      "modal": true,
+      "overflow": false,
+      "boundsFit": true,
+      "errors": [
+        1.0001220628628287,
+        1.0001423726775103,
+        1.0001220628628287,
+        1.0001423726775103
+      ],
+      "boxes": [
+        {
+          "x": 110.71875,
+          "right": 209.265625,
+          "width": 98.546875,
+          "fits": true
+        },
+        {
+          "x": 48,
+          "right": 146.546875,
+          "width": 98.546875,
+          "fits": true
+        },
+        {
+          "x": 173.4375,
+          "right": 271.984375,
+          "width": 98.546875,
+          "fits": true
+        },
+        {
+          "x": 110.71875,
+          "right": 209.265625,
+          "width": 98.546875,
+          "fits": true
+        }
+      ],
+      "bg": "rgb(248, 248, 244)",
+      "home": "rgb(248, 248, 244)"
+    }
+  },
+  {
+    "name": "light 390px: ports aligned, cards fit, homepage background",
+    "pass": true,
+    "detail": {
+      "modal": true,
+      "overflow": false,
+      "boundsFit": true,
+      "errors": [
+        1.0001220628628287,
+        1.0002673470752705,
+        1.0001220628628287,
+        1.0002673470752705
+      ],
+      "boxes": [
+        {
+          "x": 130.3125,
+          "right": 259.671875,
+          "width": 129.359375,
+          "fits": true
+        },
+        {
+          "x": 48,
+          "right": 177.359375,
+          "width": 129.359375,
+          "fits": true
+        },
+        {
+          "x": 212.625,
+          "right": 341.984375,
+          "width": 129.359375,
+          "fits": true
+        },
+        {
+          "x": 130.3125,
+          "right": 259.671875,
+          "width": 129.359375,
+          "fits": true
+        }
+      ],
+      "bg": "rgb(248, 248, 244)",
+      "home": "rgb(248, 248, 244)"
+    }
+  },
+  {
+    "name": "light 768px: ports aligned, cards fit, homepage background",
+    "pass": true,
+    "detail": {
+      "modal": true,
+      "overflow": false,
+      "boundsFit": true,
+      "errors": [
+        1.0081250000000068,
+        1.0081250000000068,
+        1.0118750000000318,
+        1.0118750000000318
+      ],
+      "boxes": [
+        {
+          "x": 63.03125,
+          "right": 242.765625,
+          "width": 179.734375,
+          "fits": true
+        },
+        {
+          "x": 294.125,
+          "right": 473.859375,
+          "width": 179.734375,
+          "fits": true
+        },
+        {
+          "x": 294.125,
+          "right": 473.859375,
+          "width": 179.734375,
+          "fits": true
+        },
+        {
+          "x": 525.21875,
+          "right": 704.953125,
+          "width": 179.734375,
+          "fits": true
+        }
+      ],
+      "bg": "rgb(248, 248, 244)",
+      "home": "rgb(248, 248, 244)"
+    }
+  },
+  {
+    "name": "light 1440px: ports aligned, cards fit, homepage background",
+    "pass": true,
+    "detail": {
+      "modal": true,
+      "overflow": false,
+      "boundsFit": true,
+      "errors": [
+        1.001875000000041,
+        1.001875000000041,
+        1.0087500000000773,
+        1.0087500000000773
+      ],
+      "boxes": [
+        {
+          "x": 177,
+          "right": 481.078125,
+          "width": 304.078125,
+          "fits": true
+        },
+        {
+          "x": 567.953125,
+          "right": 872.03125,
+          "width": 304.078125,
+          "fits": true
+        },
+        {
+          "x": 567.953125,
+          "right": 872.03125,
+          "width": 304.078125,
+          "fits": true
+        },
+        {
+          "x": 958.90625,
+          "right": 1262.984375,
+          "width": 304.078125,
+          "fits": true
+        }
+      ],
+      "bg": "rgb(248, 248, 244)",
+      "home": "rgb(248, 248, 244)"
+    }
+  },
+  {
+    "name": "dark 320px: ports aligned, cards fit, homepage background",
+    "pass": true,
+    "detail": {
+      "modal": true,
+      "overflow": false,
+      "boundsFit": true,
+      "errors": [
+        1.0001220628628287,
+        1.0001423726775103,
+        1.0001220628628287,
+        1.0001423726775103
+      ],
+      "boxes": [
+        {
+          "x": 110.71875,
+          "right": 209.265625,
+          "width": 98.546875,
+          "fits": true
+        },
+        {
+          "x": 48,
+          "right": 146.546875,
+          "width": 98.546875,
+          "fits": true
+        },
+        {
+          "x": 173.4375,
+          "right": 271.984375,
+          "width": 98.546875,
+          "fits": true
+        },
+        {
+          "x": 110.71875,
+          "right": 209.265625,
+          "width": 98.546875,
+          "fits": true
+        }
+      ],
+      "bg": "rgb(23, 30, 26)",
+      "home": "rgb(23, 30, 26)"
+    }
+  },
+  {
+    "name": "dark 390px: ports aligned, cards fit, homepage background",
+    "pass": true,
+    "detail": {
+      "modal": true,
+      "overflow": false,
+      "boundsFit": true,
+      "errors": [
+        1.0001220628628287,
+        1.0002673470752705,
+        1.0001220628628287,
+        1.0002673470752705
+      ],
+      "boxes": [
+        {
+          "x": 130.3125,
+          "right": 259.671875,
+          "width": 129.359375,
+          "fits": true
+        },
+        {
+          "x": 48,
+          "right": 177.359375,
+          "width": 129.359375,
+          "fits": true
+        },
+        {
+          "x": 212.625,
+          "right": 341.984375,
+          "width": 129.359375,
+          "fits": true
+        },
+        {
+          "x": 130.3125,
+          "right": 259.671875,
+          "width": 129.359375,
+          "fits": true
+        }
+      ],
+      "bg": "rgb(23, 30, 26)",
+      "home": "rgb(23, 30, 26)"
+    }
+  },
+  {
+    "name": "dark 768px: ports aligned, cards fit, homepage background",
+    "pass": true,
+    "detail": {
+      "modal": true,
+      "overflow": false,
+      "boundsFit": true,
+      "errors": [
+        1.0081250000000068,
+        1.0081250000000068,
+        1.0118750000000318,
+        1.0118750000000318
+      ],
+      "boxes": [
+        {
+          "x": 63.03125,
+          "right": 242.765625,
+          "width": 179.734375,
+          "fits": true
+        },
+        {
+          "x": 294.125,
+          "right": 473.859375,
+          "width": 179.734375,
+          "fits": true
+        },
+        {
+          "x": 294.125,
+          "right": 473.859375,
+          "width": 179.734375,
+          "fits": true
+        },
+        {
+          "x": 525.21875,
+          "right": 704.953125,
+          "width": 179.734375,
+          "fits": true
+        }
+      ],
+      "bg": "rgb(23, 30, 26)",
+      "home": "rgb(23, 30, 26)"
+    }
+  },
+  {
+    "name": "dark 1440px: ports aligned, cards fit, homepage background",
+    "pass": true,
+    "detail": {
+      "modal": true,
+      "overflow": false,
+      "boundsFit": true,
+      "errors": [
+        1.001875000000041,
+        1.001875000000041,
+        1.0087500000000773,
+        1.0087500000000773
+      ],
+      "boxes": [
+        {
+          "x": 177,
+          "right": 481.078125,
+          "width": 304.078125,
+          "fits": true
+        },
+        {
+          "x": 567.953125,
+          "right": 872.03125,
+          "width": 304.078125,
+          "fits": true
+        },
+        {
+          "x": 567.953125,
+          "right": 872.03125,
+          "width": 304.078125,
+          "fits": true
+        },
+        {
+          "x": 958.90625,
+          "right": 1262.984375,
+          "width": 304.078125,
+          "fits": true
+        }
+      ],
+      "bg": "rgb(23, 30, 26)",
+      "home": "rgb(23, 30, 26)"
+    }
+  },
+  {
+    "name": "real startup completes and removes modal",
+    "pass": true
+  }
+]

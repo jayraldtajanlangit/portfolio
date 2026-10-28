@@ -1,0 +1,63 @@
+Γ£ö typing cycles through the interests and holds every full phrase for two seconds (4.1479ms)
+Γ£ö typing can be paused, resumed, and cleaned up (0.4447ms)
+Γ£ö reduced motion keeps static content and changing the setting stops active typing (0.3491ms)
+Γ£ö typing pauses in a hidden tab and resumes without losing the chosen pause state (0.3628ms)
+Γ£ö project copy reveals as one aligned block, staggers across columns, and respects reduced motion (1.888ms)
+Γ£û homepage entrance waits for splash dismissal and staggers the hero in a stable order (1.3595ms)
+Γ£û entrance bypasses splash waiting on repeat visits and respects reduced motion (1.8409ms)
+Γ£û disposing before the splash closes removes the pending entrance listener (0.2456ms)
+Γä╣ tests 8
+Γä╣ suites 0
+Γä╣ pass 5
+Γä╣ fail 3
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 133.8746
+
+Γ£û failing tests:
+
+test at test\motion.test.mjs:164:1
+Γ£û homepage entrance waits for splash dismissal and staggers the hero in a stable order (1.3595ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/motion.test.mjs:166:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\motion.test.mjs:180:1
+Γ£û entrance bypasses splash waiting on repeat visits and respects reduced motion (1.8409ms)
+  TypeError: module.initPageMotion is not a function
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/motion.test.mjs:182:29)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7)
+
+test at test\motion.test.mjs:194:1
+Γ£û disposing before the splash closes removes the pending entrance listener (0.2456ms)
+  TypeError: module.initPageMotion is not a function
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/motion.test.mjs:196:23)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7)

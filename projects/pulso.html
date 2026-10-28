@@ -19,7 +19,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="../assets/images/social-preview.png">
   <meta name="twitter:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
-  <meta name="theme-color" content="#f8f8f4">
+  <meta name="theme-color" content="#f6f4ec">
   <link rel="preload" href="../assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="../assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../css/fonts.css">
@@ -51,10 +51,12 @@
 
   <main id="main">
     <article class="case-study">
-      <header class="case-hero shell">
+      <header class="case-hero case-hero--portrait shell">
         <div class="case-title-block" data-intro-reveal="headline">
+          <p class="section-kicker">Project / Case study</p>
           <h1>Pulso</h1>
           <p class="case-deck">A Flutter community app with account access, image posts, reactions, saved content, and personalized profiles.</p>
+          <p class="case-description">Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.</p>
         </div>
         <dl class="case-dossier" aria-label="Project dossier" data-intro-reveal="intro">
           <div><dt>Role</dt><dd>Team project · Mobile and backend development</dd></div>
@@ -74,7 +76,7 @@
         </div>
       </header>
 
-      <section class="case-section case-section--problem shell" aria-labelledby="problem-title" data-reveal-group>
+      <section class="case-section case-section--problem case-section--reading shell" aria-labelledby="problem-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="problem-title">Problem</h2>
         </header>
@@ -84,11 +86,11 @@
         </div>
       </section>
 
-      <section class="case-section shell" aria-labelledby="contribution-title" data-reveal-group>
+      <section class="case-section case-section--reading shell" aria-labelledby="contribution-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="contribution-title">My contribution</h2>
         </header>
-        <div class="case-prose contribution-note">
+        <div class="case-prose">
           <p class="case-lede">Built the Flutter scaffold, Supabase and Riverpod foundation, authentication, and major social, profile, saved-content, and realtime features.</p>
           <p><strong>Ownership boundary.</strong> Team project; Jayrald established the application foundation and built major social and realtime product features.</p>
           <p>Public team repository. Jayrald built the app foundation and major social, profile, saved-content, and realtime features; unreleased direct messages are not presented as shipped.</p>
@@ -157,36 +159,36 @@
           <h2 id="workflow-title">In use</h2>
         </header>
         <p class="capture-disclosure">Real Flutter screens with isolated in-memory authentication, post, profile, and media storage. The walkthrough previews registration, signs in with a fictional local account, selects an image, publishes and interacts with the post, edits the profile/avatar, and signs out. No real account is registered and no live authentication or community services are contacted.</p>
-        <ol class="workflow-list">
-<li class="workflow-entry">
+        <ol class="workflow-list workflow-list--portrait">
+<li class="workflow-entry workflow-entry--portrait">
                 <div class="workflow-copy">
                   <h3>Sign in</h3>
                 </div>
                 <figure class="workflow-media" data-capture-state="available">
                   <div class="workflow-media-stage">
-                    <img src="../assets/images/projects/pulso/still-01.webp" alt="Pulso welcome and sign-in screen showing email and password fields, Sign in, and Create account." width="390" height="844" loading="lazy">
+                    <div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><img src="../assets/images/projects/pulso/still-01.webp" alt="Pulso welcome and sign-in screen showing email and password fields, Sign in, and Create account." width="390" height="844" loading="lazy"></div></div>
                   </div>
                   <figcaption>Access an account: the walkthrough previews Create account, then returns to sign in with a fictional local demo account.</figcaption>
                 </figure>
               </li>
-<li class="workflow-entry">
+<li class="workflow-entry workflow-entry--portrait">
                 <div class="workflow-copy">
                   <h3>Publish to the feed</h3>
                 </div>
                 <figure class="workflow-media" data-capture-state="available">
                   <div class="workflow-media-stage">
-                    <img src="../assets/images/projects/pulso/still-02.webp" alt="Pulso feed showing the newly published image post with its caption, liked heart, and active bookmark." width="390" height="844" loading="lazy">
+                    <div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><img src="../assets/images/projects/pulso/still-02.webp" alt="Pulso feed showing the newly published image post with its caption, liked heart, and active bookmark." width="390" height="844" loading="lazy"></div></div>
                   </div>
                   <figcaption>Publish and interact: the image and caption appear together in the feed, where the member can like and bookmark the new post.</figcaption>
                 </figure>
               </li>
-<li class="workflow-entry">
+<li class="workflow-entry workflow-entry--portrait">
                 <div class="workflow-copy">
                   <h3>Update your profile</h3>
                 </div>
                 <figure class="workflow-media" data-capture-state="available">
                   <div class="workflow-media-stage">
-                    <img src="../assets/images/projects/pulso/still-03.webp" alt="Pulso demo profile showing the updated avatar, display name, bio, and published image in its post grid." width="390" height="844" loading="lazy">
+                    <div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><img src="../assets/images/projects/pulso/still-03.webp" alt="Pulso demo profile showing the updated avatar, display name, bio, and published image in its post grid." width="390" height="844" loading="lazy"></div></div>
                   </div>
                   <figcaption>Personalize the profile: saved edits update the display name, bio, and avatar, while the published image appears in the member&#39;s post grid.</figcaption>
                 </figure>
@@ -194,7 +196,7 @@
         </ol>
       </section>
 
-      <section class="case-section case-section--outcome shell" aria-labelledby="outcome-title" data-reveal-group>
+      <section class="case-section case-section--outcome case-section--reading shell" aria-labelledby="outcome-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="outcome-title">Outcome</h2>
         </header>

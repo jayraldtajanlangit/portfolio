@@ -46,6 +46,8 @@ export const projects = [
     platform: 'Web and mobile application',
     summary:
       'A web and mobile teaching system that extracts handwritten C code with OCR, supports teacher review, executes verified code, and records grades.',
+    description:
+      'mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.',
     role: 'Team project · Submission review and grading',
     ownership:
       'Team project; Jayrald owned the web submissions, review, and grading interface, the Judge0 integration, and the Supabase data layer.',
@@ -125,6 +127,8 @@ export const projects = [
     platform: 'Web application',
     summary:
       'A full-stack airline booking application covering flight discovery, seats, add-ons, and booking management.',
+    description:
+      'SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.',
     role: 'Individual project · Full-stack development',
     ownership: 'Solo project designed and implemented by Jayrald.',
     repositoryStatus: 'private',
@@ -201,6 +205,8 @@ export const projects = [
     platform: 'Mobile application',
     summary:
       'A mobile coordination tool for discovering nearby bulk deals, splitting quantities, and managing pickup and payment updates.',
+    description:
+      'Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.',
     role: 'Team project · Mobile and backend development',
     ownership:
       'Team project; Jayrald delivered defined product slices across authentication, discovery, collaboration, and fulfillment.',
@@ -278,6 +284,8 @@ export const projects = [
     platform: 'Mobile application',
     summary:
       'A Flutter community app with account access, image posts, reactions, saved content, and personalized profiles.',
+    description:
+      'Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.',
     role: 'Team project · Mobile and backend development',
     ownership:
       'Team project; Jayrald established the application foundation and built major social and realtime product features.',
@@ -355,6 +363,8 @@ export const projects = [
     platform: 'Mobile application',
     summary:
       'A mobile accountability coach that turns conversational guidance into a focused view of next actions.',
+    description:
+      'Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.',
     role: 'Individual project · Mobile development',
     ownership: 'Solo project designed and implemented by Jayrald.',
     repositoryStatus: 'public',

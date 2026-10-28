@@ -1,0 +1,1752 @@
+[
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 32,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 43.2,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 1857,
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "sections": [
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        },
+        {
+          "aligned": true,
+          "gap": 16,
+          "fontSize": 44,
+          "plain": true,
+          "fits": true,
+          "readable": true
+        }
+      ]
+    }
+  }
+]

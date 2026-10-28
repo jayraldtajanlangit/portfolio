@@ -1,0 +1,2006 @@
+{
+ "url": "projects\\skyfire.html",
+ "at": "2026-10-24T15:42:50.301Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.52,
+    0.54,
+    0.73,
+    0.36,
+    0.55,
+    0.47,
+    0.53
+   ],
+   "motion": {
+    "elements": 23,
+    "css": 23,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5885,
+     "screens": 6.5,
+     "words": 504,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-02.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "SkyFire",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 86.4,
+     "vw": 6,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.89,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "SkyFire",
+     "words": 1,
+     "lines": 1,
+     "size": 86.4,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "SkyFire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Problem",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 1392,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "My contribution",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 1650,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How it works",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2045,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering choices",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 2606,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "In use",
+      "words": 2,
+      "chars": 6,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 2928,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Outcome",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 5350,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "→",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Manrope",
+      "weight": 400,
+      "tracking": -0.005,
+      "leading": 1.65,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 5681,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.006,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 5681,
+      "tag": "strong",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.97,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      18,
+      24,
+      26,
+      40,
+      48,
+      56,
+      86
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": -0.015,
+      "contrast": 15.3
+     },
+     "measureChars": 88,
+     "max": {
+      "size": 86.4,
+      "vw": 6,
+      "font": "Bodoni Moda",
+      "text": "SkyFire"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#171e1a",
+     "bodyBgHsl": {
+      "h": 146,
+      "s": 0.13,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#101b17",
+       "top": 488,
+       "hsl": {
+        "h": 158,
+        "s": 0.26,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#131b20",
+       "top": 545,
+       "hsl": {
+        "h": 203,
+        "s": 0.25,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f0f4f0",
+       "share": 0.88
+      },
+      {
+       "color": "#bbc8be",
+       "share": 0.12
+      },
+      {
+       "color": "#171e1a",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f0f4f0",
+      "hsl": {
+       "h": 120,
+       "s": 0.15,
+       "l": 0.95
+      },
+      "fg": "#171e1a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.28
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5885,
+    "margins": {
+     "left": 47,
+     "right": 47
+    },
+    "sections": [
+     {
+      "sel": "header.case-hero.shell",
+      "tag": "header",
+      "top": 80,
+      "height": 1264,
+      "words": 94,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire",
+       "size": 86,
+       "tag": "h1"
+      },
+      "left": 47,
+      "right": 202,
+      "textLeft": 47,
+      "textRight": 503,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--problem",
+      "tag": "section",
+      "top": 1344,
+      "height": 259,
+      "words": 51,
+      "media": 0,
+      "middle": 230,
+      "heading": {
+       "text": "Problem",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 258,
+      "textLeft": 47,
+      "textRight": 258,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.shell",
+      "tag": "section",
+      "top": 1602,
+      "height": 395,
+      "words": 72,
+      "media": 0,
+      "middle": 92,
+      "heading": {
+       "text": "My contribution",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 287,
+      "textLeft": 47,
+      "textRight": 287,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--system",
+      "tag": "section",
+      "top": 1997,
+      "height": 561,
+      "words": 54,
+      "media": 0,
+      "middle": 151,
+      "heading": {
+       "text": "How it works",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 117,
+      "textLeft": 47,
+      "textRight": 117,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.shell",
+      "tag": "section",
+      "top": 2558,
+      "height": 322,
+      "words": 75,
+      "media": 0,
+      "middle": 159,
+      "heading": {
+       "text": "Engineering choices",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 75,
+      "textLeft": 47,
+      "textRight": 75,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--workflow",
+      "tag": "section",
+      "top": 2880,
+      "height": 2422,
+      "words": 93,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "In use",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 47,
+      "textLeft": 47,
+      "textRight": 123,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--outcome",
+      "tag": "section",
+      "top": 5302,
+      "height": 327,
+      "words": 79,
+      "media": 0,
+      "middle": 219,
+      "heading": {
+       "text": "Outcome",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 303,
+      "textLeft": 47,
+      "textRight": 303,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "nav.next-project",
+      "tag": "nav",
+      "top": 5629,
+      "height": 144,
+      "words": 5,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 40,
+       "tag": "strong"
+      },
+      "left": 47,
+      "right": 948,
+      "textLeft": 47,
+      "textRight": 948,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "SkyFire",
+      "size": 86,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 47,
+      "n": 10
+     },
+     {
+      "x": 484,
+      "n": 5
+     },
+     {
+      "x": 524,
+      "n": 2
+     },
+     {
+      "x": 218,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.16,
+    "voidBox": {
+     "x": 960,
+     "y": 120,
+     "w": 480,
+     "h": 420
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.67,
+    0.56,
+    0.59,
+    0.4,
+    0.47,
+    0.61
+   ],
+   "motion": {
+    "elements": 28,
+    "css": 28,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5234,
+     "screens": 5.1,
+     "words": 504,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-02.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "SkyFire",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 52,
+     "vw": 6.8,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 120,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "SkyFire",
+     "words": 1,
+     "lines": 1,
+     "size": 52,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "SkyFire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 52,
+      "vw": 6.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 120,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Problem",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 1157,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "My contribution",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 1492,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How it works",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 1964,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering choices",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 2558,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "In use",
+      "words": 2,
+      "chars": 6,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 3037,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Outcome",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 4622,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "→",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 42.6,
+      "vw": 5.5,
+      "font": "Manrope",
+      "weight": 400,
+      "tracking": -0.006,
+      "leading": 1.65,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.06,
+      "top": 5034,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.009,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5034,
+      "tag": "strong",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.97,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      18,
+      23,
+      24,
+      28,
+      43,
+      44,
+      52
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": -0.015,
+      "contrast": 15.3
+     },
+     "measureChars": 84,
+     "max": {
+      "size": 52,
+      "vw": 6.8,
+      "font": "Bodoni Moda",
+      "text": "SkyFire"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#171e1a",
+     "bodyBgHsl": {
+      "h": 146,
+      "s": 0.13,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#101b17",
+       "top": 480,
+       "hsl": {
+        "h": 158,
+        "s": 0.26,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#131b20",
+       "top": 537,
+       "hsl": {
+        "h": 203,
+        "s": 0.25,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f0f4f0",
+       "share": 0.88
+      },
+      {
+       "color": "#bbc8be",
+       "share": 0.12
+      },
+      {
+       "color": "#171e1a",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f0f4f0",
+      "hsl": {
+       "h": 120,
+       "s": 0.15,
+       "l": 0.95
+      },
+      "fg": "#171e1a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.36
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5234,
+    "margins": {
+     "left": 47,
+     "right": 47
+    },
+    "sections": [
+     {
+      "sel": "header.case-hero.shell",
+      "tag": "header",
+      "top": 88,
+      "height": 1021,
+      "words": 94,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire",
+       "size": 52,
+       "tag": "h1"
+      },
+      "left": 47,
+      "right": 47,
+      "textLeft": 47,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--problem",
+      "tag": "section",
+      "top": 1109,
+      "height": 335,
+      "words": 51,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Problem",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 75,
+      "textLeft": 47,
+      "textRight": 75,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.shell",
+      "tag": "section",
+      "top": 1444,
+      "height": 472,
+      "words": 72,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "My contribution",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 88,
+      "textLeft": 47,
+      "textRight": 88,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--system",
+      "tag": "section",
+      "top": 1916,
+      "height": 595,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "How it works",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 69,
+      "textLeft": 47,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.shell",
+      "tag": "section",
+      "top": 2510,
+      "height": 478,
+      "words": 75,
+      "media": 0,
+      "middle": 34,
+      "heading": {
+       "text": "Engineering choices",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 63,
+      "textLeft": 47,
+      "textRight": 63,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--workflow",
+      "tag": "section",
+      "top": 2989,
+      "height": 1585,
+      "words": 93,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "In use",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 47,
+      "textLeft": 47,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-section.case-section--outcome",
+      "tag": "section",
+      "top": 4574,
+      "height": 404,
+      "words": 79,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Outcome",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 69,
+      "textLeft": 47,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "nav.next-project",
+      "tag": "nav",
+      "top": 4978,
+      "height": 144,
+      "words": 5,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Bulk Buying Companion",
+       "size": 28,
+       "tag": "strong"
+      },
+      "left": 47,
+      "right": 410,
+      "textLeft": 47,
+      "textRight": 410,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "SkyFire",
+      "size": 52,
+      "top": 120,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 47,
+      "n": 15
+     },
+     {
+      "x": 87,
+      "n": 2
+     },
+     {
+      "x": 63,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.53,
+    0.63,
+    0.88,
+    0.78,
+    0.46,
+    0.69,
+    0.46,
+    0.66
+   ],
+   "motion": {
+    "elements": 28,
+    "css": 28,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6138,
+     "screens": 7.3,
+     "words": 500,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "still-01.webp",
+      "still-02.webp",
+      "still-03.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "SkyFire",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 52,
+     "vw": 13.3,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 176,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "SkyFire",
+     "words": 1,
+     "lines": 1,
+     "size": 52,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "SkyFire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 52,
+      "vw": 13.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 176,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Problem",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1218,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "My contribution",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1636,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How it works",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2286,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering choices",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3013,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "In use",
+      "words": 2,
+      "chars": 6,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3677,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Search flights",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.025,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3972,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Choose a seat",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.025,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4395,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Confirm booking",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 650,
+      "tracking": -0.025,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4819,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Outcome",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5307,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "→",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 35,
+      "vw": 9,
+      "font": "Manrope",
+      "weight": 400,
+      "tracking": -0.007,
+      "leading": 1.65,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.09,
+      "top": 5861,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Bulk Buying Companion",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.009,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 5861,
+      "tag": "strong",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.97,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      18,
+      20,
+      24,
+      28,
+      35,
+      44,
+      52
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": -0.015,
+      "contrast": 15.3
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 52,
+      "vw": 13.3,
+      "font": "Bodoni Moda",
+      "text": "SkyFire"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#171e1a",
+     "bodyBgHsl": {
+      "h": 146,
+      "s": 0.13,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#101b17",
+       "top": 718,
+       "hsl": {
+        "h": 158,
+        "s": 0.26,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#222d26",
+       "top": 1713,
+       "hsl": {
+        "h": 142,
+        "s": 0.14,
+        "l": 0.15
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f0f4f0",
+       "share": 0.88
+      },
+      {
+       "color": "#bbc8be",
+       "share": 0.11
+      },
+      {
+       "color": "#171e1a",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f0f4f0",
+      "hsl": {
+       "h": 120,
+       "s": 0.15,
+       "l": 0.95
+      },
+      "fg": "#171e1a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 144,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6138,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header#top.site-header",
+      "tag": "header",
+      "top": 0,
+      "height": 144,
+      "words": 3,
+      "media": 0,
+      "middle": 115,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "main#main",
+      "tag": "main",
+      "top": 144,
+      "height": 5799,
+      "words": 520,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "SkyFire",
+       "size": 52,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 5943,
+      "height": 195,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 72,
+      "textLeft": 20,
+      "textRight": 72,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "SkyFire",
+      "size": 52,
+      "top": 176,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 15
+     },
+     {
+      "x": 52,
+      "n": 2
+     },
+     {
+      "x": 36,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Gambarino and General Sans, but the page renders Manrope, Bodoni Moda.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-intro\\inspection\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-intro\\inspection\\desktop-page-01.jpg",
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-intro\\inspection\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-intro\\inspection\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-intro\\inspection\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-intro\\inspection\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Jayrald\\Desktop\\Projects\\portfolio\\.taste-skill\\case-intro\\inspection\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

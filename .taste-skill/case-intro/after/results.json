@@ -1,0 +1,1152 @@
+[
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "description": "SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "description": "SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "description": "SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "description": "SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "dark",
+    "width": 1820,
+    "pass": true,
+    "description": "SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "description": "SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "description": "SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "description": "SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "description": "SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "skyfire",
+    "theme": "light",
+    "width": 1820,
+    "pass": true,
+    "description": "SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "description": "mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "description": "mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "description": "mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "description": "mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "dark",
+    "width": 1820,
+    "pass": true,
+    "description": "mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "description": "mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "description": "mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "description": "mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "description": "mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "maistra",
+    "theme": "light",
+    "width": 1820,
+    "pass": true,
+    "description": "mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "description": "Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "description": "Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "description": "Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "description": "Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "dark",
+    "width": 1820,
+    "pass": true,
+    "description": "Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "description": "Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "description": "Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "description": "Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "description": "Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "bulk-buying-companion",
+    "theme": "light",
+    "width": 1820,
+    "pass": true,
+    "description": "Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "description": "Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "description": "Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "description": "Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "description": "Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "dark",
+    "width": 1820,
+    "pass": true,
+    "description": "Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "description": "Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "description": "Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "description": "Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "description": "Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "pulso",
+    "theme": "light",
+    "width": 1820,
+    "pass": true,
+    "description": "Pulso gives community members a place to share captioned images and keep up with one another. The mobile experience connects account access, posting, likes and bookmarks, and profile editing so members can publish, save, and revisit content in one app.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 320,
+    "pass": true,
+    "description": "Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "description": "Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "description": "Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "description": "Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "dark",
+    "width": 1820,
+    "pass": true,
+    "description": "Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 320,
+    "pass": true,
+    "description": "Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "description": "Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "description": "Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "description": "Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  },
+  {
+    "slug": "sige",
+    "theme": "light",
+    "width": 1820,
+    "pass": true,
+    "description": "Sige connects a coaching conversation with the next practical step. Its implemented chat integration supports conversational guidance, while the Tasks and Insights UI prototypes explore how people could review planned actions, open task details, and acknowledge progress. The walkthrough shows the Tasks prototype.",
+    "overflow": false,
+    "titleGap": 24,
+    "mediaGap": 24,
+    "rows": [
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      },
+      {
+        "gap": 4,
+        "readable": true,
+        "stacked": true
+      }
+    ],
+    "controls": true
+  }
+]

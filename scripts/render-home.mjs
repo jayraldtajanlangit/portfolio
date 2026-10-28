@@ -2,6 +2,12 @@ import { contacts, site } from '../js/projects.js';
 import { escapeHtml as e, renderThemeControl, renderTypingLine, renderPageMetadata } from './render-utils.mjs';
 import { renderSelectedWork } from './render-selected-work.mjs';
 import { renderToolkit } from './render-toolkit.mjs';
+import { renderStartup } from './render-startup.mjs';
+import { renderHeroComposition } from './render-hero-composition.mjs';
+import { readFileSync } from 'node:fs';
+
+// Inline this small controller so startup never waits on another script request.
+const startupController = readFileSync(new URL('../js/startup.js', import.meta.url), 'utf8');
 
 export function renderHomePage() {
   return `<!doctype html>
@@ -16,18 +22,22 @@ export function renderHomePage() {
   <meta property="og:description" content="A Computer Science student portfolio featuring web and mobile projects, individual contributions, and interests in artificial intelligence.">
   <meta property="og:type" content="website">
   ${renderPageMetadata()}
-  <meta name="theme-color" content="#f8f8f4">
+  <meta name="theme-color" content="#f6f4ec">
   <link rel="preload" href="assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/hero.css">
   <link rel="stylesheet" href="css/selected-work.css">
   <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/motion.css">
+  <link rel="stylesheet" href="css/startup.css">
 </head>
 <body class="home-page">
+  ${renderStartup()}
+  <script data-startup-controller>${startupController}</script>
   <a class="skip-link" href="#main">Skip to main content</a>
   <header class="portfolio-header" id="top">
     <div class="shell header-layout">
@@ -41,24 +51,26 @@ export function renderHomePage() {
   <main id="main">
     <section class="intro-section shell" aria-labelledby="hero-title">
       <div class="intro-layout">
-        <div class="intro-copy"><h1 id="hero-title">Jayrald<br>Tajanlangit</h1>${renderTypingLine()}</div>
+        <div class="intro-copy"><h1 id="hero-title"><span data-hero-name>Jayrald</span><br>Tajanlangit</h1>${renderTypingLine()}
         <div class="intro-description"><p>I build web and mobile applications, from booking flows to tools for learning and community.</p><p>${e(site.education.program)} student at the ${e(site.education.school)} in the Philippines.</p><div class="intro-actions"><a class="button-link" href="#work">View projects</a><a href="assets/documents/jayrald-tajanlangit-resume.pdf" type="application/pdf">Résumé <span class="resume-format">PDF</span></a></div></div>
+        </div>
+        ${renderHeroComposition()}
       </div>
     </section>
     <section class="work-section shell" id="work" aria-labelledby="work-title">
-      <header class="section-heading"><h2 id="work-title">Projects</h2><p>Web and mobile projects, from flight bookings to handwritten code.</p></header>
+      <header class="section-heading"><p class="section-kicker">01 / Selected work</p><h2 id="work-title">Projects</h2><p>Web and mobile applications, built independently and with a team.</p></header>
       ${renderSelectedWork()}
     </section>
     ${renderToolkit()}
     <section class="about-section" id="about" aria-labelledby="about-title">
       <div class="shell about-layout">
-        <div class="about-profile"><h2 id="about-title">A little about me</h2><figure class="intro-portrait"><img src="assets/pp/583917390_25203520672616248_2951040891851883210_n.jpg" alt="Portrait of Jayrald Tajanlangit" width="864" height="852" loading="lazy"><figcaption>Jayrald Tajanlangit · Philippines</figcaption></figure><div class="education-detail"><h3>Education</h3><p>${e(site.education.program)}<br>${e(site.education.school)}</p></div></div>
+        <div class="about-profile"><p class="section-kicker">03 / About</p><h2 id="about-title">A little about me</h2><figure class="intro-portrait"><img src="assets/pp/583917390_25203520672616248_2951040891851883210_n.jpg" alt="Portrait of Jayrald Tajanlangit" width="864" height="852" loading="lazy"><figcaption>Jayrald Tajanlangit · Philippines</figcaption></figure><div class="education-detail"><h3>Education</h3><p>${e(site.education.program)}<br>${e(site.education.school)}</p></div></div>
         <div class="about-copy"><p>I'm a student learning by building applications for the web and mobile.</p><p>I've worked independently on SkyFire and Sige, and with teammates on mAIstra, Bulk Buying Companion, and Pulso. That work has given me practice connecting interfaces, APIs, and databases.</p><h3>What I want to learn</h3><p>I'd like to contribute to development tasks, get feedback through code reviews, and learn how a team builds and maintains software.</p><div class="about-links"><a href="${contacts.github}">GitHub</a><a href="${contacts.linkedin}">LinkedIn</a><a href="assets/documents/jayrald-tajanlangit-resume.pdf" download>Download résumé</a></div></div>
       </div>
     </section>
     <section class="contact-section" id="contact" aria-labelledby="contact-title">
       <div class="shell contact-layout" data-reveal-group>
-        <div class="contact-intro"><h2 id="contact-title">Let’s talk.</h2><p>Have a project or a question about my work? I’d be glad to hear from you.</p><p class="contact-location">Based in the Philippines.</p></div>
+        <div class="contact-intro"><p class="section-kicker">04 / Get in touch</p><h2 id="contact-title">Let’s talk.</h2><p>Have a project or a question about my work? I’d be glad to hear from you.</p><p class="contact-location">Based in the Philippines.</p></div>
         <div class="contact-details">
           <a class="contact-email" href="mailto:${contacts.email}">${e(contacts.email).replace('@', '<wbr>@')}</a>
           <div class="contact-actions">

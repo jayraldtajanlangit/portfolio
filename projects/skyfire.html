@@ -19,7 +19,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="../assets/images/social-preview.png">
   <meta name="twitter:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
-  <meta name="theme-color" content="#f8f8f4">
+  <meta name="theme-color" content="#f6f4ec">
   <link rel="preload" href="../assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="../assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../css/fonts.css">
@@ -51,10 +51,12 @@
 
   <main id="main">
     <article class="case-study">
-      <header class="case-hero shell">
+      <header class="case-hero case-hero--landscape shell">
         <div class="case-title-block" data-intro-reveal="headline">
+          <p class="section-kicker">Project / Case study</p>
           <h1>SkyFire</h1>
           <p class="case-deck">A full-stack airline booking application covering flight discovery, seats, add-ons, and booking management.</p>
+          <p class="case-description">SkyFire brings the reservation process into one flow: find a flight, choose a seat, add baggage or a meal, and review the total before confirming. The completed reservation appears in My Bookings with its reference, trip details, and booking status.</p>
         </div>
         <dl class="case-dossier" aria-label="Project dossier" data-intro-reveal="intro">
           <div><dt>Role</dt><dd>Individual project · Full-stack development</dd></div>
@@ -74,7 +76,7 @@
         </div>
       </header>
 
-      <section class="case-section case-section--problem shell" aria-labelledby="problem-title" data-reveal-group>
+      <section class="case-section case-section--problem case-section--reading shell" aria-labelledby="problem-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="problem-title">Problem</h2>
         </header>
@@ -84,11 +86,11 @@
         </div>
       </section>
 
-      <section class="case-section shell" aria-labelledby="contribution-title" data-reveal-group>
+      <section class="case-section case-section--reading shell" aria-labelledby="contribution-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="contribution-title">My contribution</h2>
         </header>
-        <div class="case-prose contribution-note">
+        <div class="case-prose">
           <p class="case-lede">Designed and built the Angular client, Django backend, reservation workflow, and a transaction.atomic seat-validation boundary that expresses lock intent with select_for_update.</p>
           <p><strong>Ownership boundary.</strong> Solo project designed and implemented by Jayrald.</p>
           <p>Private solo repository. Source access is not offered publicly. The demo uses SQLite, so its select_for_update call documents the intended locking boundary without providing a row-lock guarantee.</p>
@@ -152,8 +154,8 @@
           <h2 id="workflow-title">In use</h2>
         </header>
         <p class="capture-disclosure">Real capture of the working local booking flow, using seeded flights and a locally isolated account so no production customer data appears.</p>
-        <ol class="workflow-list">
-<li class="workflow-entry">
+        <ol class="workflow-list workflow-list--landscape">
+<li class="workflow-entry workflow-entry--landscape">
                 <div class="workflow-copy">
                   <h3>Search flights</h3>
                 </div>
@@ -164,7 +166,7 @@
                   <figcaption>Choose a flight: search controls, availability, cabin, and pricing stay together so the reservation starts with an explicit fare.</figcaption>
                 </figure>
               </li>
-<li class="workflow-entry">
+<li class="workflow-entry workflow-entry--landscape">
                 <div class="workflow-copy">
                   <h3>Choose a seat</h3>
                 </div>
@@ -175,7 +177,7 @@
                   <figcaption>Configure the trip: the booking step carries the selected seat, baggage, meal, and calculated total in one reviewable state.</figcaption>
                 </figure>
               </li>
-<li class="workflow-entry">
+<li class="workflow-entry workflow-entry--landscape">
                 <div class="workflow-copy">
                   <h3>Confirm booking</h3>
                 </div>
@@ -189,7 +191,7 @@
         </ol>
       </section>
 
-      <section class="case-section case-section--outcome shell" aria-labelledby="outcome-title" data-reveal-group>
+      <section class="case-section case-section--outcome case-section--reading shell" aria-labelledby="outcome-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="outcome-title">Outcome</h2>
         </header>

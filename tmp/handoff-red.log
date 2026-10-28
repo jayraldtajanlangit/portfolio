@@ -1,0 +1,95 @@
+Γ£ö typing cycles through the interests and holds every full phrase for two seconds (4.8743ms)
+Γ£ö typing can be paused, resumed, and cleaned up (0.5941ms)
+Γ£ö reduced motion keeps static content and changing the setting stops active typing (0.7656ms)
+Γ£ö typing pauses in a hidden tab and resumes without losing the chosen pause state (0.9503ms)
+Γ£ö project copy reveals as one aligned block, staggers across columns, and respects reduced motion (3.3823ms)
+Γ£û homepage entrance is primed synchronously before the splash exposes the page (1.4658ms)
+Γ£û closing without an exit event still starts the entrance for Skip and Escape (0.6443ms)
+Γ£ö entrance bypasses splash waiting on repeat visits and respects reduced motion (0.4128ms)
+Γ£ö disposing before the splash closes removes the pending entrance listener (0.401ms)
+Γ£ö homepage supplies a progressive-enhancement dialog before the page content (6.6147ms)
+Γ£û startup has readable stages and a welcome hold before completing at 4.5 seconds (5.2352ms)
+Γ£ö intro bypasses {"seen":true} (1.6748ms)
+Γ£ö intro bypasses {"reduced":true} (1.4769ms)
+Γ£ö intro bypasses {"hash":"#work"} (2.102ms)
+Γ£ö intro bypasses {"history":true} (1.5915ms)
+Γ£ö skip click dismisses immediately and leaves no active work (1.4404ms)
+Γ£ö dialog cancel dismisses immediately and leaves no active work (1.2017ms)
+Γ£ö motion change dismisses immediately and leaves no active work (1.4893ms)
+Γ£ö window pagehide dismisses immediately and leaves no active work (1.9383ms)
+Γ£ö document visibilitychange dismisses immediately and leaves no active work (1.423ms)
+Γ£ö blocked storage cannot prevent the homepage being revealed (1.464ms)
+Γ£ö the local preview runs a timed startup instead of freezing the welcome screen (1.519ms)
+Γä╣ tests 22
+Γä╣ suites 0
+Γä╣ pass 19
+Γä╣ fail 3
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 237.8266
+
+Γ£û failing tests:
+
+test at test\motion.test.mjs:167:1
+Γ£û homepage entrance is primed synchronously before the splash exposes the page (1.4658ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/motion.test.mjs:173:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\motion.test.mjs:185:1
+Γ£û closing without an exit event still starts the entrance for Skip and Escape (0.6443ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 6
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/motion.test.mjs:189:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 6,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\startup.test.mjs:65:1
+Γ£û startup has readable stages and a welcome hold before completing at 4.5 seconds (5.2352ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:76:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

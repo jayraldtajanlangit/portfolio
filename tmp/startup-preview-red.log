@@ -1,0 +1,46 @@
+Γ£ö homepage supplies a progressive-enhancement dialog before the page content (2.7508ms)
+Γ£ö startup has readable stages and a welcome hold before completing at 4.5 seconds (2.9143ms)
+Γ£ö intro bypasses {"seen":true} (1.622ms)
+Γ£ö intro bypasses {"reduced":true} (1.803ms)
+Γ£ö intro bypasses {"hash":"#work"} (1.5806ms)
+Γ£ö intro bypasses {"history":true} (1.5209ms)
+Γ£ö skip click dismisses immediately and leaves no active work (1.471ms)
+Γ£ö dialog cancel dismisses immediately and leaves no active work (1.0435ms)
+Γ£ö motion change dismisses immediately and leaves no active work (0.9373ms)
+Γ£ö window pagehide dismisses immediately and leaves no active work (1.1577ms)
+Γ£ö document visibilitychange dismisses immediately and leaves no active work (1.3247ms)
+Γ£ö blocked storage cannot prevent the homepage being revealed (1.3601ms)
+Γ£û the local preview runs a timed startup instead of freezing the welcome screen (2.6574ms)
+Γä╣ tests 13
+Γä╣ suites 0
+Γä╣ pass 12
+Γä╣ fail 1
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 142.1697
+
+Γ£û failing tests:
+
+test at test\startup.test.mjs:107:1
+Γ£û the local preview runs a timed startup instead of freezing the welcome screen (2.6574ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + ''
+  - 'Loading projectsΓÇª'
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:114:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: 'Loading projectsΓÇª',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

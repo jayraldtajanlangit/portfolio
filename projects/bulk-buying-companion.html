@@ -19,7 +19,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="../assets/images/social-preview.png">
   <meta name="twitter:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
-  <meta name="theme-color" content="#f8f8f4">
+  <meta name="theme-color" content="#f6f4ec">
   <link rel="preload" href="../assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="../assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../css/fonts.css">
@@ -51,10 +51,12 @@
 
   <main id="main">
     <article class="case-study">
-      <header class="case-hero shell">
+      <header class="case-hero case-hero--portrait shell">
         <div class="case-title-block" data-intro-reveal="headline">
+          <p class="section-kicker">Project / Case study</p>
           <h1>Bulk Buying Companion</h1>
           <p class="case-deck">A mobile coordination tool for discovering nearby bulk deals, splitting quantities, and managing pickup and payment updates.</p>
+          <p class="case-description">Bulk Buying Companion helps people organize a shared purchase without losing track of individual shares. Participants can browse nearby offers on the Split Board, check the quantity and cost of a share, reserve a slot, and follow payment and pickup updates.</p>
         </div>
         <dl class="case-dossier" aria-label="Project dossier" data-intro-reveal="intro">
           <div><dt>Role</dt><dd>Team project · Mobile and backend development</dd></div>
@@ -74,7 +76,7 @@
         </div>
       </header>
 
-      <section class="case-section case-section--problem shell" aria-labelledby="problem-title" data-reveal-group>
+      <section class="case-section case-section--problem case-section--reading shell" aria-labelledby="problem-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="problem-title">Problem</h2>
         </header>
@@ -84,11 +86,11 @@
         </div>
       </section>
 
-      <section class="case-section shell" aria-labelledby="contribution-title" data-reveal-group>
+      <section class="case-section case-section--reading shell" aria-labelledby="contribution-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="contribution-title">My contribution</h2>
         </header>
-        <div class="case-prose contribution-note">
+        <div class="case-prose">
           <p class="case-lede">Implemented authentication, the geolocation hub, Split Board search, realtime notifications and payment flows, profiles and purchase history, pickup and reporting tools, and the barcode extension. Receipt OCR was team work.</p>
           <p><strong>Ownership boundary.</strong> Team project; Jayrald delivered defined product slices across authentication, discovery, collaboration, and fulfillment.</p>
           <p>Team repository, not currently linked publicly. Jayrald&#39;s scope is listed above; receipt OCR belongs to the wider team rather than to him.</p>
@@ -157,36 +159,36 @@
           <h2 id="workflow-title">In use</h2>
         </header>
         <p class="capture-disclosure">Genuine Flutter interface captured with the repository&#39;s locally isolated mock data source. It demonstrates the implemented interaction states, not live participant data.</p>
-        <ol class="workflow-list">
-<li class="workflow-entry">
+        <ol class="workflow-list workflow-list--portrait">
+<li class="workflow-entry workflow-entry--portrait">
                 <div class="workflow-copy">
-                  <h3>Explore Split Board</h3>
+                  <h3>Browse Split Board</h3>
                 </div>
                 <figure class="workflow-media" data-capture-state="available">
                   <div class="workflow-media-stage">
-                    <img src="../assets/images/projects/bulk-buying-companion/still-01.webp" alt="Bulk Buying Companion Split Board listing bottled water, rice, and detergent deals at Colon Street Hub." width="390" height="844" loading="lazy">
+                    <div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><img src="../assets/images/projects/bulk-buying-companion/still-01.webp" alt="Bulk Buying Companion Split Board listing bottled water, rice, and detergent deals at Colon Street Hub." width="390" height="844" loading="lazy"></div></div>
                   </div>
                   <figcaption>Browse the Split Board: searchable deal cards expose share price, quantity, slot availability, and closing date from one mobile surface.</figcaption>
                 </figure>
               </li>
-<li class="workflow-entry">
+<li class="workflow-entry workflow-entry--portrait">
+                <div class="workflow-copy">
+                  <h3>Inspect a deal</h3>
+                </div>
+                <figure class="workflow-media" data-capture-state="available">
+                  <div class="workflow-media-stage">
+                    <div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><img src="../assets/images/projects/bulk-buying-companion/still-02.webp" alt="Bulk Buying Companion rice deal detail showing a 180 peso share, three open slots, and a Reserve a slot button." width="390" height="844" loading="lazy"></div></div>
+                  </div>
+                  <figcaption>Inspect the rice deal: the detail view makes the participant&#39;s quantity, cost, capacity, pickup point, and payment state explicit before reservation.</figcaption>
+                </figure>
+              </li>
+<li class="workflow-entry workflow-entry--portrait">
                 <div class="workflow-copy">
                   <h3>Reserve a share</h3>
                 </div>
                 <figure class="workflow-media" data-capture-state="available">
                   <div class="workflow-media-stage">
-                    <img src="../assets/images/projects/bulk-buying-companion/still-02.webp" alt="Bulk Buying Companion rice deal detail showing a 180 peso share, three open slots, and a Reserve a slot button." width="390" height="844" loading="lazy">
-                  </div>
-                  <figcaption>Inspect the rice deal: the detail view makes the participant&#39;s quantity, cost, capacity, pickup point, and payment state explicit before reservation.</figcaption>
-                </figure>
-              </li>
-<li class="workflow-entry">
-                <div class="workflow-copy">
-                  <h3>Track pickup</h3>
-                </div>
-                <figure class="workflow-media" data-capture-state="available">
-                  <div class="workflow-media-stage">
-                    <img src="../assets/images/projects/bulk-buying-companion/still-03.webp" alt="Bulk Buying Companion rice deal after reservation, with two slots open and a Cancel my slot action." width="390" height="844" loading="lazy">
+                    <div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><img src="../assets/images/projects/bulk-buying-companion/still-03.webp" alt="Bulk Buying Companion rice deal after reservation, with two slots open and a Cancel my slot action." width="390" height="844" loading="lazy"></div></div>
                   </div>
                   <figcaption>Reserve a share: locally isolated capture data updates the remaining capacity and exposes the participant&#39;s payment and cancellation state.</figcaption>
                 </figure>
@@ -194,7 +196,7 @@
         </ol>
       </section>
 
-      <section class="case-section case-section--outcome shell" aria-labelledby="outcome-title" data-reveal-group>
+      <section class="case-section case-section--outcome case-section--reading shell" aria-labelledby="outcome-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="outcome-title">Outcome</h2>
         </header>

@@ -19,7 +19,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="../assets/images/social-preview.png">
   <meta name="twitter:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
-  <meta name="theme-color" content="#f8f8f4">
+  <meta name="theme-color" content="#f6f4ec">
   <link rel="preload" href="../assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="../assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../css/fonts.css">
@@ -51,10 +51,12 @@
 
   <main id="main">
     <article class="case-study">
-      <header class="case-hero shell">
+      <header class="case-hero case-hero--landscape shell">
         <div class="case-title-block" data-intro-reveal="headline">
+          <p class="section-kicker">Project / Case study</p>
           <h1>mAIstra</h1>
           <p class="case-deck">A web and mobile teaching system that extracts handwritten C code with OCR, supports teacher review, executes verified code, and records grades.</p>
+          <p class="case-description">mAIstra helps instructors work through handwritten C programming submissions, from the captured page to a recorded grade. Teachers can compare the image with extracted code, correct it, and run verified code against test cases before saving their assessment.</p>
         </div>
         <dl class="case-dossier" aria-label="Project dossier" data-intro-reveal="intro">
           <div><dt>Role</dt><dd>Team project · Submission review and grading</dd></div>
@@ -74,7 +76,7 @@
         </div>
       </header>
 
-      <section class="case-section case-section--problem shell" aria-labelledby="problem-title" data-reveal-group>
+      <section class="case-section case-section--problem case-section--reading shell" aria-labelledby="problem-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="problem-title">Problem</h2>
         </header>
@@ -84,11 +86,11 @@
         </div>
       </section>
 
-      <section class="case-section shell" aria-labelledby="contribution-title" data-reveal-group>
+      <section class="case-section case-section--reading shell" aria-labelledby="contribution-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="contribution-title">My contribution</h2>
         </header>
-        <div class="case-prose contribution-note">
+        <div class="case-prose">
           <p class="case-lede">Built the web submissions, code-review, and grading interface; integrated Judge0 execution; and implemented the Supabase persistence layer.</p>
           <p><strong>Ownership boundary.</strong> Team project; Jayrald owned the web submissions, review, and grading interface, the Judge0 integration, and the Supabase data layer.</p>
           <p>The pipeline describes the full team system: mobile capture and OCR extraction were developed by teammates. Jayrald&#39;s contribution covers web submission review, grading, Judge0 integration, and Supabase persistence.</p>
@@ -169,8 +171,8 @@
           <h2 id="workflow-title">In use</h2>
         </header>
         <p class="capture-disclosure">Real Angular interface capture showing Extract now, the OCR result, teacher verification, and grading. The OCR result was produced by the local PaddleOCR service on an anonymous handwritten sample and is replayed with shortened waiting time. Storage and grading use isolated demo fixtures; Flutter mobile capture is not shown.</p>
-        <ol class="workflow-list">
-<li class="workflow-entry">
+        <ol class="workflow-list workflow-list--landscape">
+<li class="workflow-entry workflow-entry--landscape">
                 <div class="workflow-copy">
                   <h3>Extract handwritten code</h3>
                 </div>
@@ -181,7 +183,7 @@
                   <figcaption>Extract the code: a handwritten submission starts with no extracted text. Extract now runs the OCR step before code can be verified.</figcaption>
                 </figure>
               </li>
-<li class="workflow-entry">
+<li class="workflow-entry workflow-entry--landscape">
                 <div class="workflow-copy">
                   <h3>Review OCR output</h3>
                 </div>
@@ -192,7 +194,7 @@
                   <figcaption>Review the OCR output: the read-only panel preserves the extracted text beside the photograph while the teacher prepares separate verified code.</figcaption>
                 </figure>
               </li>
-<li class="workflow-entry">
+<li class="workflow-entry workflow-entry--landscape">
                 <div class="workflow-copy">
                   <h3>Run and grade</h3>
                 </div>
@@ -206,7 +208,7 @@
         </ol>
       </section>
 
-      <section class="case-section case-section--outcome shell" aria-labelledby="outcome-title" data-reveal-group>
+      <section class="case-section case-section--outcome case-section--reading shell" aria-labelledby="outcome-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="outcome-title">Outcome</h2>
         </header>

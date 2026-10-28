@@ -71,7 +71,7 @@ function renderWorkflow(project) {
   const workflowTitles = {
     maistra: ['Extract handwritten code', 'Review OCR output', 'Run and grade'],
     skyfire: ['Search flights', 'Choose a seat', 'Confirm booking'],
-    'bulk-buying-companion': ['Explore Split Board', 'Reserve a share', 'Track pickup'],
+    'bulk-buying-companion': ['Browse Split Board', 'Inspect a deal', 'Reserve a share'],
     pulso: ['Sign in', 'Publish to the feed', 'Update your profile'],
     sige: ['Tasks prototype', 'Task detail', 'Completion state'],
   };
@@ -79,19 +79,20 @@ function renderWorkflow(project) {
     .map(
       (still, index) => {
         const step = project.workflow[index] ?? still.caption;
-        return `<li class="workflow-entry">
+        const image = `<img${renderAttrs({
+          src: `../${still.src}`,
+          alt: still.alt,
+          width: project.media.width,
+          height: project.media.height,
+          loading: 'lazy',
+        })}>`;
+        return `<li class="workflow-entry workflow-entry--${escapeHtml(project.media.orientation)}">
                 <div class="workflow-copy">
                   <h3>${escapeHtml(workflowTitles[project.slug]?.[index] ?? step)}</h3>
                 </div>
                 <figure class="workflow-media" data-capture-state="available">
                   <div class="workflow-media-stage">
-                    <img${renderAttrs({
-                      src: `../${still.src}`,
-                      alt: still.alt,
-                      width: project.media.width,
-                      height: project.media.height,
-                      loading: 'lazy',
-                    })}>
+                    ${project.media.orientation === 'portrait' ? renderPhoneFrame(image, project.media.aspect) : image}
                   </div>
                   <figcaption>${escapeHtml(still.caption.replaceAll(' — ', ': '))}</figcaption>
                 </figure>
@@ -120,7 +121,7 @@ export function renderCaseStudy(project, nextProject) {
   <meta property="og:description" content="${escapeHtml(project.summary)}">
   <meta property="og:type" content="article">
   ${renderPageMetadata({ pathPrefix: '../' })}
-  <meta name="theme-color" content="#f8f8f4">
+  <meta name="theme-color" content="#f6f4ec">
   <link rel="preload" href="../assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="../assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../css/fonts.css">
@@ -152,10 +153,12 @@ export function renderCaseStudy(project, nextProject) {
 
   <main id="main">
     <article class="case-study">
-      <header class="case-hero shell">
+      <header class="case-hero case-hero--${escapeHtml(project.media.orientation)} shell">
         <div class="case-title-block" data-intro-reveal="headline">
+          <p class="section-kicker">Project / Case study</p>
           <h1>${escapeHtml(project.title.split(" — ")[0])}</h1>
           <p class="case-deck">${escapeHtml(project.summary)}</p>
+          <p class="case-description">${escapeHtml(project.description)}</p>
         </div>
         <dl class="case-dossier" aria-label="Project dossier" data-intro-reveal="intro">
           <div><dt>Role</dt><dd>${escapeHtml(project.role)}</dd></div>
@@ -167,7 +170,7 @@ export function renderCaseStudy(project, nextProject) {
         </div>
       </header>
 
-      <section class="case-section case-section--problem shell" aria-labelledby="problem-title" data-reveal-group>
+      <section class="case-section case-section--problem case-section--reading shell" aria-labelledby="problem-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="problem-title">Problem</h2>
         </header>
@@ -177,11 +180,11 @@ export function renderCaseStudy(project, nextProject) {
         </div>
       </section>
 
-      <section class="case-section shell" aria-labelledby="contribution-title" data-reveal-group>
+      <section class="case-section case-section--reading shell" aria-labelledby="contribution-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="contribution-title">My contribution</h2>
         </header>
-        <div class="case-prose contribution-note">
+        <div class="case-prose">
           <p class="case-lede">${escapeHtml(project.contribution)}</p>
           <p><strong>Ownership boundary.</strong> ${escapeHtml(project.ownership)}</p>
           <p>${escapeHtml(project.repositoryDisclosure)}</p>
@@ -218,12 +221,12 @@ ${renderDecisionLedger(project)}
           <h2 id="workflow-title">In use</h2>
         </header>
         <p class="capture-disclosure">${escapeHtml(project.media.disclosure)}</p>
-        <ol class="workflow-list">
+        <ol class="workflow-list workflow-list--${escapeHtml(project.media.orientation)}">
 ${renderWorkflow(project)}
         </ol>
       </section>
 
-      <section class="case-section case-section--outcome shell" aria-labelledby="outcome-title" data-reveal-group>
+      <section class="case-section case-section--outcome case-section--reading shell" aria-labelledby="outcome-title" data-reveal-group>
         <header class="case-section-heading">
           <h2 id="outcome-title">Outcome</h2>
         </header>

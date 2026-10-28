@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/theme.js"></script>
+  <title>Jayrald Tajanlangit | Student developer portfolio</title>
+  <meta name="description" content="Jayrald Tajanlangit is a Computer Science student in the Philippines interested in artificial intelligence and web and mobile applications. Explore his projects, contributions, and tech stack.">
+  <meta property="og:title" content="Jayrald Tajanlangit | Student developer portfolio">
+  <meta property="og:description" content="A Computer Science student portfolio featuring web and mobile projects, individual contributions, and interests in artificial intelligence.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:site_name" content="Jayrald Tajanlangit">
+  <meta property="og:image" content="assets/images/social-preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="assets/images/social-preview.png">
+  <meta name="twitter:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
+  <meta name="theme-color" content="#f8f8f4">
+  <link rel="preload" href="assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/selected-work.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/motion.css">
+  <link rel="stylesheet" href="css/startup.css">
+</head>
+<body class="home-page">
+  <dialog class="startup" data-startup hidden aria-labelledby="startup-title" aria-describedby="startup-description">
+    <div class="startup-panel">
+      <section class="workflow-graph">
+        <header class="workflow-graph-header">
+          <div><h2 id="startup-title">portfolio.yml</h2><p>Workflow preview</p></div>
+          <div class="workflow-run-state" aria-hidden="true"><span class="workflow-run-indicator"></span><span class="workflow-running-label">In progress</span><span class="workflow-success-label">Success</span></div>
+        </header>
+        <div class="workflow-canvas" aria-hidden="true">
+          <svg class="workflow-edges workflow-edges--desktop" viewBox="0 0 1000 340" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M280 170H308Q320 170 320 158V97Q320 85 332 85H360" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M280 170H308Q320 170 320 182V243Q320 255 332 255H360" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M640 85H668Q680 85 680 97V158Q680 170 692 170H720" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M640 255H668Q680 255 680 243V182Q680 170 692 170H720" vector-effect="non-scaling-stroke"/></svg>
+          <svg class="workflow-edges workflow-edges--mobile" viewBox="0 0 1000 1000" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M500 215V288Q500 300 488 300H232Q220 300 220 312V405" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M500 215V288Q500 300 512 300H768Q780 300 780 312V405" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M220 595V688Q220 700 232 700H488Q500 700 500 712V785" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M780 595V688Q780 700 768 700H512Q500 700 500 712V785" vector-effect="non-scaling-stroke"/></svg>
+          <ol class="startup-pipeline"><li class="pipeline-stage" data-pipeline-stage data-job="build" data-state="pending">
+
+            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Source</h3><p class="pipeline-description">Connecting ideas</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>
+            <span class="workflow-port workflow-port--out"></span>
+          </li><li class="pipeline-stage" data-pipeline-stage data-job="test" data-state="pending">
+            <span class="workflow-port workflow-port--in"></span>
+            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Build</h3><p class="pipeline-description">Building experiences</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>
+            <span class="workflow-port workflow-port--out"></span>
+          </li><li class="pipeline-stage" data-pipeline-stage data-job="lint" data-state="pending">
+            <span class="workflow-port workflow-port--in"></span>
+            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Test</h3><p class="pipeline-description">Checking the details</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>
+            <span class="workflow-port workflow-port--out"></span>
+          </li><li class="pipeline-stage" data-pipeline-stage data-job="deploy" data-state="pending">
+            <span class="workflow-port workflow-port--in"></span>
+            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Deploy</h3><p class="pipeline-description">Portfolio ready</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>
+
+          </li></ol>
+        </div>
+        <p class="workflow-current" aria-hidden="true"><span class="workflow-current-dot"></span><span data-startup-status>Connecting ideas</span></p>
+      </section>
+      <p class="startup-welcome">Welcome. I’m Jayrald.</p>
+      <p class="startup-caption" id="startup-description">Web · Mobile · AI</p>
+    </div>
+    <p class="startup-footer-note" aria-hidden="true">JAYRALD TAJANLANGIT <span>/ PORTFOLIO</span></p>
+    <button class="startup-skip" data-startup-skip type="button" autofocus>Skip intro <span aria-hidden="true">↗</span></button>
+  </dialog>
+  <script data-startup-controller>// Runs beside the hidden dialog, before the homepage paints. No media or imports.
+(() => {
+  const dialog = document.querySelector('[data-startup]');
+  if (!dialog) return;
+  const key = 'portfolio-startup-graph-seen';
+  const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let seen = false;
+  try { seen = window.sessionStorage.getItem(key) === '1'; } catch { /* Private/blocked storage. */ }
+  const returning = window.performance?.getEntriesByType('navigation')[0]?.type === 'back_forward';
+  if (seen || motion.matches || window.location.hash || returning || document.hidden || !dialog.showModal) {
+    dialog.remove();
+    return;
+  }
+
+  const status = document.querySelector('[data-startup-status]');
+  const skip = document.querySelector('[data-startup-skip]');
+  const stages = [...document.querySelectorAll('[data-pipeline-stage]')];
+  const updateJobs = (states, message, step) => {
+    stages.forEach((stage, index) => { stage.dataset.state = states[index]; });
+    dialog.dataset.workflow = states.every(state => state === 'complete') ? 'complete' : 'running';
+    dialog.dataset.step = step;
+    status.textContent = message;
+  };
+  const timers = [];
+  let finished = false, revealed = false;
+  const later = (fn, delay) => timers.push(window.setTimeout(fn, delay));
+  const reveal = () => {
+    if (revealed) return;
+    revealed = true;
+    dialog.dispatchEvent(new window.Event('startup:reveal'));
+  };
+  const finish = () => {
+    if (finished) return;
+    finished = true;
+    timers.forEach(timer => window.clearTimeout(timer));
+    skip.removeEventListener('click', finish);
+    dialog.removeEventListener('cancel', cancel);
+    motion.removeEventListener('change', finish);
+    document.removeEventListener('visibilitychange', onVisibility);
+    window.removeEventListener('pagehide', finish);
+    if (dialog.open) {
+      reveal();
+      dialog.close();
+    }
+    dialog.remove();
+  };
+  const cancel = event => { event.preventDefault(); finish(); };
+  const onVisibility = () => { if (document.hidden) finish(); };
+
+  // Schedule the hard deadline before opening: never depend on animationend,
+  // fonts, videos, window.load, or a successful storage write to unlock the page.
+  later(finish, 4500);
+  skip.addEventListener('click', finish);
+  dialog.addEventListener('cancel', cancel);
+  motion.addEventListener('change', finish);
+  document.addEventListener('visibilitychange', onVisibility);
+  window.addEventListener('pagehide', finish);
+  updateJobs(['active', 'pending', 'pending', 'pending'], 'Connecting ideas', 'build');
+  dialog.hidden = false;
+  try { dialog.showModal(); } catch { finish(); return; }
+  try { window.sessionStorage.setItem(key, '1'); } catch { /* Intro still completes. */ }
+  later(() => updateJobs(['complete', 'active', 'active', 'pending'], 'Building experiences', 'checks'), 1200);
+  later(() => updateJobs(['complete', 'complete', 'active', 'pending'], 'Checking the details', 'lint'), 2000);
+  later(() => updateJobs(['complete', 'complete', 'complete', 'active'], 'Portfolio ready', 'deploy'), 2600);
+  later(() => {
+    updateJobs(['complete', 'complete', 'complete', 'complete'], 'Portfolio ready', 'ready');
+    dialog.dataset.phase = 'welcome';
+  }, 3200);
+  later(() => { reveal(); dialog.dataset.phase = 'exit'; }, 4100);
+})();
+</script>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="portfolio-header" id="top">
+    <div class="shell header-layout">
+      <a class="wordmark" href="#top" aria-label="Jayrald Tajanlangit, home">Jayrald T.</a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation" hidden>Menu</button>
+      <nav class="primary-nav" id="primary-navigation" aria-label="Primary"><a href="#work">Projects</a><a href="#tech-stack">Tech stack</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+      <div class="header-actions"><a class="header-email" href="mailto:jayraldtajanlangit123@gmail.com"><span>Email me</span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+      <div class="theme-control" hidden><button class="theme-trigger" data-theme-trigger type="button" role="switch" aria-label="Dark mode" aria-checked="false" title="Switch to dark mode"><span class="theme-track" aria-hidden="true"><span class="theme-thumb"></span><svg data-theme-icon="light" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg data-theme-icon="dark" viewBox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg></span></button></div></div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="intro-section shell" aria-labelledby="hero-title">
+      <div class="intro-layout">
+        <div class="intro-copy"><h1 id="hero-title">Jayrald<br>Tajanlangit</h1><p class="intro-role typing-line"><span class="typing-static">I’m interested in web development, mobile development, and artificial intelligence.</span><span class="typing-visual" aria-hidden="true">I’m interested in <span class="typing-slot"><span class="typing-measure">artificial intelligence|</span><span class="typing-text" data-typing-words="[&quot;web development&quot;,&quot;mobile development&quot;,&quot;artificial intelligence&quot;]">web development</span></span></span></p></div>
+        <div class="intro-description"><p>I build web and mobile applications, from booking flows to tools for learning and community.</p><p>Computer Science student at the University of San Jose Recoletos in the Philippines.</p><div class="intro-actions"><a class="button-link" href="#work">View projects</a><a href="assets/documents/jayrald-tajanlangit-resume.pdf" type="application/pdf">Résumé <span class="resume-format">PDF</span></a></div></div>
+      </div>
+    </section>
+    <section class="work-section shell" id="work" aria-labelledby="work-title">
+      <header class="section-heading"><h2 id="work-title">Projects</h2><p>Web and mobile projects, from flight bookings to handwritten code.</p></header>
+      <div class="selected-work"><article class="selected-project selected-project--skyfire selected-project--featured" id="project-skyfire" aria-labelledby="selected-skyfire-title" data-walkthrough-preview>
+    <figure class="selected-project-media"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/skyfire/poster.webp" width="1440" height="900" aria-label="SkyFire guided project walkthrough"><source src="assets/videos/skyfire-polished.mp4" type="video/mp4"><source src="assets/videos/skyfire.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="assets/videos/skyfire-polished.mp4">Open the video</a> or <a href="projects/skyfire.html">view the case study</a>.</video></figure>
+    <div class="selected-project-copy">
+      <h3 class="selected-project-title" id="selected-skyfire-title"><a href="projects/skyfire.html">SkyFire</a></h3>
+      <div class="selected-project-overview"><p class="selected-project-summary">Find flights, choose seats, and manage reservations.</p>
+        </div>
+      <p class="selected-project-contribution"><strong>My contribution</strong>Built the Angular frontend, Django API, and reservation flow with backend seat validation.</p>
+      <div class="selected-project-meta"><p class="selected-project-role">Individual project · Full-stack development</p><p class="selected-project-stack">Angular 21 · Django REST Framework · JWT · SQLite</p></div>
+      <div class="selected-project-links"><a href="projects/skyfire.html">View case study <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </article><article class="selected-project selected-project--maistra selected-project--wide" id="project-maistra" aria-labelledby="selected-maistra-title" data-walkthrough-preview>
+    <figure class="selected-project-media"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/maistra/poster.webp" width="1280" height="720" aria-label="mAIstra guided project walkthrough"><source src="assets/videos/maistra-polished.mp4" type="video/mp4"><source src="assets/videos/maistra.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="assets/videos/maistra-polished.mp4">Open the video</a> or <a href="projects/maistra.html">view the case study</a>.</video></figure>
+    <div class="selected-project-copy">
+      <h3 class="selected-project-title" id="selected-maistra-title"><a href="projects/maistra.html">mAIstra</a></h3>
+      <div class="selected-project-overview"><p class="selected-project-summary">A web and mobile teaching system that extracts handwritten code with OCR for teacher review and grading.</p>
+        </div>
+      <p class="selected-project-contribution"><strong>My contribution</strong>Built the web submission review and grading interface, Judge0 integration, and Supabase persistence.</p>
+      <div class="selected-project-meta"><p class="selected-project-role">Team project · Submission review and grading</p><p class="selected-project-stack">Angular 21 · TypeScript · Flutter · Python · FastAPI · OpenCV · PaddleOCR · Supabase · Judge0</p></div>
+      <div class="selected-project-links"><a href="projects/maistra.html">View case study <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </article><div class="selected-projects-mobile"><article class="selected-project selected-project--bulk-buying-companion" id="project-bulk-buying-companion" aria-labelledby="selected-bulk-buying-companion-title" data-walkthrough-preview>
+    <figure class="selected-project-media selected-project-media--mobile"><div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/bulk-buying-companion/poster.webp" width="390" height="844" aria-label="Bulk Buying Companion guided project walkthrough"><source src="assets/videos/bulk-buying-companion-polished.mp4" type="video/mp4"><source src="assets/videos/bulk-buying-companion-polished.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="assets/videos/bulk-buying-companion-polished.mp4">Open the video</a> or <a href="projects/bulk-buying-companion.html">view the case study</a>.</video></div></div></figure>
+    <div class="selected-project-copy">
+      <h3 class="selected-project-title" id="selected-bulk-buying-companion-title"><a href="projects/bulk-buying-companion.html">Bulk Buying Companion</a></h3>
+      <div class="selected-project-overview"><p class="selected-project-summary">Find nearby group buys, split quantities, and coordinate pickup.</p>
+        </div>
+      <p class="selected-project-contribution"><strong>My contribution</strong>Built authentication, nearby discovery, Split Board search, realtime updates, and pickup tools with the team.</p>
+      <div class="selected-project-meta"><p class="selected-project-role">Team project · Mobile and backend development</p><p class="selected-project-stack">Flutter · Supabase · Realtime · Geolocation · On-device ML</p></div>
+      <div class="selected-project-links"><a href="projects/bulk-buying-companion.html">View case study <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </article><article class="selected-project selected-project--pulso" id="project-pulso" aria-labelledby="selected-pulso-title" data-walkthrough-preview>
+    <figure class="selected-project-media selected-project-media--mobile"><div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/pulso/poster.webp" width="390" height="844" aria-label="Pulso guided project walkthrough"><source src="assets/videos/pulso-polished.mp4" type="video/mp4"><source src="assets/videos/pulso-polished.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="assets/videos/pulso-polished.mp4">Open the video</a> or <a href="projects/pulso.html">view the case study</a>.</video></div></div></figure>
+    <div class="selected-project-copy">
+      <h3 class="selected-project-title" id="selected-pulso-title"><a href="projects/pulso.html">Pulso</a></h3>
+      <div class="selected-project-overview"><p class="selected-project-summary">Sign in, share image posts, and personalize your profile.</p>
+        </div>
+      <p class="selected-project-contribution"><strong>My contribution</strong>Built the Flutter and Riverpod foundation, authentication, feed, profiles, saved posts, and realtime features.</p>
+      <div class="selected-project-meta"><p class="selected-project-role">Team project · Mobile and backend development</p><p class="selected-project-stack">Flutter · Riverpod · Supabase · Realtime</p></div>
+      <div class="selected-project-links"><a href="projects/pulso.html">View case study <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </article><article class="selected-project selected-project--sige" id="project-sige" aria-labelledby="selected-sige-title" data-walkthrough-preview>
+    <figure class="selected-project-media selected-project-media--mobile"><div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/sige/poster.webp" width="390" height="844" aria-label="Sige Tasks UI prototype guided project walkthrough"><source src="assets/videos/sige-polished.mp4" type="video/mp4"><source src="assets/videos/sige-polished.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="assets/videos/sige-polished.mp4">Open the video</a> or <a href="projects/sige.html">view the case study</a>.</video></div></div></figure>
+    <div class="selected-project-copy">
+      <h3 class="selected-project-title" id="selected-sige-title"><a href="projects/sige.html">Sige</a></h3>
+      <div class="selected-project-overview"><p class="selected-project-summary">An AI accountability coach for turning conversation into action.</p>
+        <p class="selected-project-disclosure">Walkthrough: Tasks UI prototype</p></div>
+      <p class="selected-project-contribution"><strong>My contribution</strong>Designed and built the Flutter coaching interface and chat service integration. Tasks and Insights are UI prototypes.</p>
+      <div class="selected-project-meta"><p class="selected-project-role">Individual project · Mobile development</p><p class="selected-project-stack">Flutter · Supabase · FastAPI · Groq · FCM</p></div>
+      <div class="selected-project-links"><a href="projects/sige.html">View case study <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </article></div></div>
+    </section>
+    <section class="tech-section shell" id="tech-stack" aria-labelledby="tech-stack-title" data-reveal-group>
+    <header class="section-heading"><h2 id="tech-stack-title">Tech stack</h2></header>
+    <div class="tech-stack-groups"><div class="tech-stack-group">
+      <h3>Languages</h3>
+      <ul class="tech-logo-list" aria-label="Languages"><li><a class="tech-logo-link" href="projects/maistra.html" aria-label="TypeScript: view my work on mAIstra"><svg class="tech-logo tech-logo--typescript" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="currentColor" d="M2 63.91v62.5h125v-125H2zm100.73-5a15.56 15.56 0 017.82 4.5 20.58 20.58 0 013 4c0 .16-5.4 3.81-8.69 5.85-.12.08-.6-.44-1.13-1.23a7.09 7.09 0 00-5.87-3.53c-3.79-.26-6.23 1.73-6.21 5a4.58 4.58 0 00.54 2.34c.83 1.73 2.38 2.76 7.24 4.86 8.95 3.85 12.78 6.39 15.16 10 2.66 4 3.25 10.46 1.45 15.24-2 5.2-6.9 8.73-13.83 9.9a38.32 38.32 0 01-9.52-.1A23 23 0 0180 109.19c-1.15-1.27-3.39-4.58-3.25-4.82a9.34 9.34 0 011.15-.73l4.6-2.64 3.59-2.08.75 1.11a16.78 16.78 0 004.74 4.54c4 2.1 9.46 1.81 12.16-.62a5.43 5.43 0 00.69-6.92c-1-1.39-3-2.56-8.59-5-6.45-2.78-9.23-4.5-11.77-7.24a16.48 16.48 0 01-3.43-6.25 25 25 0 01-.22-8c1.33-6.23 6-10.58 12.82-11.87a31.66 31.66 0 019.49.26zm-29.34 5.24v5.12H57.16v46.23H45.65V69.26H29.38v-5a49.19 49.19 0 01.14-5.16c.06-.08 10-.12 22-.1h21.81z"/></svg><span class="tech-logo-name" aria-hidden="true">TypeScript</span></a></li><li><a class="tech-logo-link" href="projects/pulso.html" aria-label="Dart: view my work on Pulso"><svg class="tech-logo tech-logo--dart" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><g fill="currentColor"><path d="M86.6 25l3 .1c1.1.1 2.2.3 3.4.5l-2.5-7.4L75.7 3.5c-3.4-3.4-8-4.4-10.4-2.3L29.2 25.1l57.4-.1zm6.1 3.6c-1.2-.2-2.3-.4-3.3-.5l-2.9-.1-56 .1 78.6 78.6 6.1-13.8-22.5-64.3zM28.9 92.2l64.3 22.7 13.8-6.1-78.6-78.6v56.1l.1 2.7c0 .9.1 2 .4 3.2z"/><path d="M106.9 34.3c-2.6-2.6-7-5.1-11.3-6.5L118.4 93l-6.9 15.7 15.8-5.2V54.8l-20.4-20.5zm-13.5 83.8l-65-22.9c1.4 4.3 3.8 8.7 6.5 11.4l21.3 21.2 47.6.1 5.3-16.7-15.7 6.9zm-67.9-29l-.1-2.7V28.9L1.7 65.1C-.4 67.3.7 72 4 75.5l14.7 14.8 7.3 2.6c-.3-1.3-.5-2.5-.5-3.8z"/></g></svg><span class="tech-logo-name" aria-hidden="true">Dart</span></a></li><li><a class="tech-logo-link" href="projects/sige.html" aria-label="Python: view my work on Sige"><svg class="tech-logo tech-logo--python" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="currentColor" d="M49.33 62h29.159C86.606 62 93 55.132 93 46.981V19.183c0-7.912-6.632-13.856-14.555-15.176-5.014-.835-10.195-1.215-15.187-1.191-4.99.023-9.612.448-13.805 1.191C37.098 6.188 35 10.758 35 19.183V30h29v4H23.776c-8.484 0-15.914 5.108-18.237 14.811-2.681 11.12-2.8 17.919 0 29.53C7.614 86.983 12.569 93 21.054 93H31V79.952C31 70.315 39.428 62 49.33 62zm-1.838-39.11c-3.026 0-5.478-2.479-5.478-5.545 0-3.079 2.451-5.581 5.478-5.581 3.015 0 5.479 2.502 5.479 5.581-.001 3.066-2.465 5.545-5.479 5.545zm74.789 25.921C120.183 40.363 116.178 34 107.682 34H97v12.981C97 57.031 88.206 65 78.489 65H49.33C41.342 65 35 72.326 35 80.326v27.8c0 7.91 6.745 12.564 14.462 14.834 9.242 2.717 17.994 3.208 29.051 0C85.862 120.831 93 116.549 93 108.126V97H64v-4h43.682c8.484 0 11.647-5.776 14.599-14.66 3.047-9.145 2.916-17.799 0-29.529zm-41.955 55.606c3.027 0 5.479 2.479 5.479 5.547 0 3.076-2.451 5.579-5.479 5.579-3.015 0-5.478-2.502-5.478-5.579 0-3.068 2.463-5.547 5.478-5.547z"/></svg><span class="tech-logo-name" aria-hidden="true">Python</span></a></li></ul>
+    </div><div class="tech-stack-group">
+      <h3>Frameworks</h3>
+      <ul class="tech-logo-list" aria-label="Frameworks"><li><a class="tech-logo-link" href="projects/maistra.html" aria-label="Angular: view my work on mAIstra"><svg class="tech-logo tech-logo--angular" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="m78.36 0 41.77 89.9 4.34-68.57L78.36 0M38.87 94.47l-6.42 15.54L64 128l31.55-17.99-6.42-15.54H38.87M80.53 74.3 64 34.11 47.47 74.3h33.06m-77-52.97L7.87 89.9 49.64 0 3.53 21.33"/></svg>
+<span class="tech-logo-name" aria-hidden="true">Angular</span></a></li><li><a class="tech-logo-link" href="projects/skyfire.html" aria-label="Django REST Framework: view my work on SkyFire"><svg class="tech-logo tech-logo--django" aria-hidden="true" focusable="false" fill="currentColor" version="1.0" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M59.448 0h20.93v96.88c-10.737 2.04-18.62 2.855-27.181 2.855-25.551-.001-38.87-11.551-38.87-33.705 0-21.338 14.135-35.2 36.015-35.2 3.398 0 5.98.272 9.106 1.087zm0 48.765c-2.446-.815-4.485-1.086-7.067-1.086-10.6 0-16.717 6.523-16.717 17.939 0 11.145 5.845 17.26 16.582 17.26 2.309 0 4.212-.136 7.202-.542z"/><path d="M113.672 32.321V80.84c0 16.717-1.224 24.735-4.893 31.666-3.398 6.661-7.883 10.873-17.124 15.494l-19.435-9.241c9.242-4.35 13.726-8.153 16.58-14 2.99-5.979 3.943-12.91 3.943-31.122V32.321zM92.742.111h20.93v21.474h-20.93z"/></svg>
+<span class="tech-logo-name" aria-hidden="true">Django REST Framework</span></a></li><li><a class="tech-logo-link" href="projects/pulso.html" aria-label="Flutter: view my work on Pulso"><svg class="tech-logo tech-logo--flutter" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="currentColor" d="M12.3 64.2L76.3 0h39.4L32.1 83.6zM76.3 128h39.4L81.6 93.9l34.1-34.8H76.3L42.2 93.5z"/></svg><span class="tech-logo-name" aria-hidden="true">Flutter</span></a></li><li><a class="tech-logo-link" href="projects/sige.html" aria-label="FastAPI: view my work on Sige"><svg class="tech-logo tech-logo--fastapi" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="M56.813 127.586c-1.903-.227-3.899-.52-4.434-.652a48.078 48.078 0 00-2.375-.5 36.042 36.042 0 01-2.703-.633c-4.145-1.188-4.442-1.285-7.567-2.563-2.875-1.172-8.172-3.91-9.984-5.156-.496-.344-.96-.621-1.031-.621-.07 0-1.23-.816-2.578-1.813-8.57-6.343-15.004-14.043-19.653-23.527-.8-1.629-1.453-3.074-1.453-3.21 0-.134-.144-.505-.32-.817-.363-.649-.88-2.047-1.297-3.492a20.047 20.047 0 00-.625-1.813c-.195-.46-.352-1.02-.352-1.246 0-.227-.195-.965-.433-1.645-.238-.675-.43-1.472-.43-1.77 0-.296-.187-1.32-.418-2.276C.598 73.492 0 67.379 0 63.953c0-3.422.598-9.535 1.16-11.894.23-.957.418-2 .418-2.32 0-.321.145-.95.32-1.4.18-.448.41-1.253.516-1.788.11-.535.36-1.457.563-2.055l.59-1.726c.433-1.293.835-2.387 1.027-2.813.11-.238.539-1.21.957-2.16.676-1.535 2.125-4.43 2.972-5.945.309-.555.426-.739 2.098-3.352 2.649-4.148 7.176-9.309 11.39-12.988 1.485-1.297 6.446-5.063 6.669-5.063.062 0 .53-.281 1.043-.625 1.347-.902 2.668-1.668 4.39-2.531a53.06 53.06 0 001.836-.953c.285-.164.82-.41 3.567-1.64.605-.27 1.257-.516 3.136-1.173.414-.144 1.246-.449 1.84-.672.598-.222 1.301-.406 1.563-.406.258 0 .937-.18 1.508-.402.57-.223 1.605-.477 2.304-.563.696-.082 1.621-.277 2.055-.43.43-.148 1.61-.34 2.621-.425a72.572 72.572 0 003.941-.465c2.688-.394 8.532-.394 11.192 0a75.02 75.02 0 003.781.445c.953.079 2.168.278 2.703.442.535.16 1.461.36 2.055.433.594.079 1.594.325 2.222.551.63.23 1.344.414 1.59.414s.754.137 1.125.309c.375.168 1.168.449 1.766.625.594.18 1.613.535 2.27.797.652.261 1.527.605 1.945.761.77.29 6.46 3.137 7.234 3.622 6.281 3.917 9.512 6.476 13.856 10.964 5.238 5.414 8.715 10.57 12.254 18.16.25.536.632 1.329.851 1.758.215.434.395.942.395 1.13 0 .19.18.76.402 1.269.602 1.383 1.117 2.957 1.36 4.16.12.59.343 1.32.495 1.621.153.3.332 1.063.403 1.688.07.624.277 1.648.453 2.269 1.02 3.531 1.527 13.934.91 18.535-.183 1.367-.39 3.02-.46 3.672-.118 1.117-.708 4.004-1.212 5.945l-.52 2.055c-.98 3.957-3.402 9.594-6.359 14.809-1.172 2.07-5.101 7.668-5.843 8.324-.067.058-.399.45-.735.863-.336.418-1.414 1.586-2.39 2.594-4.301 4.441-7.77 7.187-13.86 10.969-.722.449-6.847 3.441-7.992 3.906-.594.238-1.586.64-2.203.89-.613.247-1.297.454-1.512.458-.215.003-.781.195-1.258.425-.476.23-1.082.422-1.351.426-.266.004-1.043.192-1.727.418-.683.23-1.633.477-2.11.55-.476.075-1.495.278-2.269.45-.773.172-3.11.508-5.187.746a59.06 59.06 0 01-13.945-.031zm4.703-12.5c.3-.234.609-.7.691-1.027.18-.723 29.234-58.97 29.781-59.7.461-.617.504-1.605.082-1.953-.222-.187-3.004-.246-10.43-.234-5.57.012-10.253.016-10.406.012-.226-.008-.273-3.73-.25-19.672.016-10.817-.035-19.766-.113-19.89-.078-.126-.383-.227-.68-.227-.418 0-.613.18-.87.808-.485 1.168-1.825 3.82-8.348 16.485a3554.569 3554.569 0 00-4.055 7.89c-1.156 2.262-2.98 5.813-4.047 7.89a8751.248 8751.248 0 00-8.598 16.759c-4.933 9.636-5.53 10.785-5.742 11.039-.41.496-.633 1.64-.402 2.07.21.394.629.41 11.043.394 5.953-.007 10.863.024 10.914.07.137.141.086 37.31-.055 38.196-.093.582-.031.89.235 1.156.46.461.586.457 1.25-.066zm0 0" fill="currentColor"/></svg>
+<span class="tech-logo-name" aria-hidden="true">FastAPI</span></a></li></ul>
+    </div><div class="tech-stack-group">
+      <h3>Tools</h3>
+      <ul class="tech-logo-list" aria-label="Tools"><li><a class="tech-logo-link" href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" aria-label="VS Code: official website (opens in a new tab)"><svg class="tech-logo tech-logo--vscode" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill-rule="evenodd" d="M90.767 127.126a7.968 7.968 0 0 0 6.35-.244l26.353-12.681a8 8 0 0 0 4.53-7.209V21.009a8 8 0 0 0-4.53-7.21L97.117 1.12a7.97 7.97 0 0 0-9.093 1.548l-50.45 46.026L15.6 32.013a5.328 5.328 0 0 0-6.807.302l-7.048 6.411a5.335 5.335 0 0 0-.006 7.888L20.796 64 1.74 81.387a5.336 5.336 0 0 0 .006 7.887l7.048 6.411a5.327 5.327 0 0 0 6.807.303l21.974-16.68 50.45 46.025a7.96 7.96 0 0 0 2.743 1.793Zm5.252-92.183L57.74 64l38.28 29.058V34.943Z" clip-rule="evenodd"/></svg>
+<span class="tech-logo-name" aria-hidden="true">VS Code</span></a></li><li><a class="tech-logo-link" href="https://developer.android.com/studio" target="_blank" rel="noopener noreferrer" aria-label="Android Studio: official website (opens in a new tab)"><svg class="tech-logo tech-logo--androidstudio" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="currentColor" d="M25.1 17.7l13.4.1c-4.9 4.9-7.8 11.2-8.8 18.3l-5.1-.1c-5.5-.2-9.8-4.3-9.7-9.3 0-5.1 4.5-9 10.2-9zm40.2 77.2c.9 2.2 6.9 14.4 6.9 14.4H55.1s5.5-11.5 6.7-14.4c1-2.2 2.5-2.3 3.5 0z"/><path fill="currentColor" d="M114.9 47.9c-1.1 4.3-5.5 7.5-10.9 7.5h-5c-.3.1-.5.3-.4.6v53.3h-9.1L72 73.1c1.8-2 2.9-4.7 2.9-7.6 0-4.8-2.8-9.1-7-10.8v-4.9c0-2.1-1.8-3.6-3.9-3.6h-.2c-2.1 0-3.9 1.8-3.9 3.9v4.6c-4.6 1.5-8 5.8-8 11 0 3 1.2 5.8 3.1 7.8l-17 35.9H23.1c-5.7 0-10.2-4.6-10.2-10.3V29.7s0-.6.1 0c.8 4.8 5 8.5 10.1 8.6H100c-.1 0 14.6-1.3 14.9 9.6z"/><path fill="currentColor" d="M63.3 59.8c3.1 0 5.7 2.6 5.6 5.8 0 3.1-2.6 5.7-5.8 5.6-3.1 0-5.6-2.6-5.6-5.7 0-1.5.6-2.9 1.7-4 1.2-1.1 2.6-1.7 4.1-1.7zm2.3-3.3v-6c0-.7-.3-1.3-.9-1.6-.9-.5-2-.2-2.5.7-.2.3-.3.6-.2 1v5.8c-5 .8-8.5 5.5-7.7 10.6v.1c.4 2.4 1.7 4.6 3.7 6l-21.3 45.7c-.8 1.6-.7 3.6.4 5.1 1.6 2.3 4.7 2.9 7 1.3.8-.5 1.4-1.3 1.8-2.1L60 92.5c.9-2 3.3-2.9 5.4-1.9.8.4 1.5 1.1 1.9 1.9l14.5 30.3c1.2 2.5 4.2 3.5 6.7 2.3s3.5-4.2 2.3-6.7L69 72.9c4-3.2 4.7-9.1 1.5-13.1-1.2-1.6-2.9-2.7-4.9-3.3m14-43.6h-.1l5.3-9.2c.3-.5.1-1.1-.3-1.5-.5-.2-1-.1-1.3.3L77.6 12c-8.7-3.9-18.7-3.9-27.5 0l-5.4-9.4c-.2-.3-.6-.6-1-.6s-.8.2-1 .6c-.2.4-.2.8 0 1.1l5.4 9.2c-8.8 4.9-14.6 13.3-16 23.1h63.8c-1.5-9.8-7.5-18.2-16.3-23.1zM51.2 28l-.4.4c-.5.5-1.2.8-1.9.8h.1c-1.5 0-2.7-1.2-2.7-2.6v-.1c0-.7.3-1.4.8-1.9.9-1.1 2.6-1.3 3.7-.4 1.3.9 1.4 2.6.4 3.8zm27.4 1c-1.5.1-2.7-1.1-2.7-2.6v-.1c0-.7.3-1.4.8-1.9 1-1 2.7-1 3.8 0 .5.5.8 1.2.8 1.9 0 1.6-1.2 2.7-2.7 2.7zm27.1 29h-4.2c-.2.1-.4.3-.4.6v66.5c0 .3.2.5.5.5h4.4c5.1 0 9.2-4.2 9.2-9.2 0 0-.1-61.1 0-63.4.1-2.4-.5-.7-.7-.2-1.5 3.2-4.8 5.3-8.6 5.3h-.2z"/><circle fill="currentColor" cx="63.3" cy="65.5" r="3.2"/></svg>
+<span class="tech-logo-name" aria-hidden="true">Android Studio</span></a></li><li><a class="tech-logo-link" href="https://git-scm.com/" target="_blank" rel="noopener noreferrer" aria-label="Git: official website (opens in a new tab)"><svg class="tech-logo tech-logo--git" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="currentColor" d="M124.742 58.378L69.625 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.685 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314a9.66 9.66 0 012.293 9.993L87.42 55.529c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 01-13.683 0 9.677 9.677 0 01-2.105-10.521L68.578 47.933l-.002 34.341a9.708 9.708 0 012.559 1.828c3.779 3.777 3.779 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-4.088-9.905-.311-13.683.934-.933 1.855-1.638 2.855-2.11V47.333c-1-.472-1.92-1.172-2.856-2.111-2.861-2.86-3.396-7.06-1.928-10.576L40.983 20.333 3.229 58.123c-3.175 3.177-3.155 8.325.02 11.5l55.126 55.114c3.173 3.174 8.325 3.174 11.503 0l54.86-54.858c3.175-3.176 3.178-8.327.004-11.501z"/></svg><span class="tech-logo-name" aria-hidden="true">Git</span></a></li><li><a class="tech-logo-link" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub: official website (opens in a new tab)"><svg class="tech-logo tech-logo--github" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><g fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"/><path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"/></g></svg><span class="tech-logo-name" aria-hidden="true">GitHub</span></a></li><li><a class="tech-logo-link" href="https://www.gitkraken.com/" target="_blank" rel="noopener noreferrer" aria-label="GitKraken: official website (opens in a new tab)"><svg class="tech-logo tech-logo--gitkraken" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="currentColor" d="M123.92 33.219a2.532 2.532 0 0 0-4.923.914 1.758 1.758 0 0 0 .141.844 58.091 58.091 0 0 1 3.727 20.747 58.935 58.935 0 0 1-51.128 58.372V86.598a42.338 42.338 0 0 0 5.134-1.336v23.067A54.153 54.153 0 0 0 90.233 8.322a2.602 2.602 0 0 0-3.587 1.126 3.165 3.165 0 0 0-.21 1.125 2.532 2.532 0 0 0 1.265 2.25 49.019 49.019 0 0 1-5.696 88.544V80.9a7.877 7.877 0 0 0 5.485-7.454 7.736 7.736 0 0 0-3.868-6.822c1.829-17.653 9.917-13.011 9.917-18.637v-3.235c0-8.51-19.552-35.938-28.694-36.642h-1.688c-9.143.704-28.694 28.132-28.694 36.642v3.235c0 5.626 8.088.984 9.916 18.637A7.877 7.877 0 0 0 46.067 80.9v20.466A49.019 49.019 0 0 1 40.3 12.823a2.532 2.532 0 0 0 1.055-3.375 2.461 2.461 0 0 0-2.32-1.407 2.32 2.32 0 0 0-1.196.281A54.153 54.153 0 0 0 51.2 108.33V85.262a42.338 42.338 0 0 0 5.134 1.336v27.498a58.935 58.935 0 0 1-51.2-58.372 59.638 59.638 0 0 1 3.728-20.747 2.532 2.532 0 0 0-1.336-3.235 2.813 2.813 0 0 0-1.055-.211 2.602 2.602 0 0 0-2.391 1.688 63.999 63.999 0 0 0 57.317 86.433v-32.35h5.205v32.35a63.928 63.928 0 0 0 61.396-63.928 62.663 62.663 0 0 0-4.079-22.505zm-48.104 36.5a5.275 5.275 0 1 1 7.455 7.455 5.275 5.275 0 1 1-7.455-7.455zm-23.63 7.455a5.204 5.204 0 0 1-7.385 0 5.275 5.275 0 0 1 0-7.455 5.204 5.204 0 0 1 7.384 0 5.275 5.275 0 0 1 0 7.455z" /></svg>
+<span class="tech-logo-name" aria-hidden="true">GitKraken</span></a></li><li><a class="tech-logo-link" href="https://www.postman.com/" target="_blank" rel="noopener noreferrer" aria-label="Postman: official website (opens in a new tab)"><svg class="tech-logo tech-logo--postman" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M62.988 1.943c-12.929.2-25.904 4.428-36.925 12.94-27.125 20.953-32.13 59.93-11.176 87.055 20.957 27.123 59.937 32.124 87.058 11.167 27.114-20.952 32.118-59.918 11.172-87.039C100.68 9.96 81.884 1.65 62.988 1.943zm28.875 23.139a9.27 9.27 0 0 1 5.586 1.914l-8.068 8.117a.84.84 0 0 0-.076.098.83.83 0 0 0-.239.55.832.832 0 0 0 .313.65h.002l6.1 6.1a9.044 9.044 0 0 1-10.028-1.913c-2.586-2.6-3.336-6.504-1.953-9.891 1.383-3.39 4.68-5.605 8.363-5.625zm7.12 3.432a8.87 8.87 0 0 1 2.033 5.674 9.15 9.15 0 0 1-2.688 6.464 9.989 9.989 0 0 1-1.098.895L92.307 36.7l-.963-.963.265-.265 7.373-6.96zm-.366 4.193a.777.777 0 0 0-.55.031.731.731 0 0 0-.36.426.73.73 0 0 0 .05.559 2.226 2.226 0 0 1-.257 2.328.64.64 0 0 0-.195.488c.004.184.07.36.195.492a.58.58 0 0 0 .414 0 .68.68 0 0 0 .672-.207 3.573 3.573 0 0 0 .465-3.777v.004a.777.777 0 0 0-.434-.344zM79.34 39.43a5.584 5.584 0 0 1 3.31 1.226 4.756 4.756 0 0 0-2.681 1.34L57.162 64.701l-4.476-4.476c11.828-11.772 19.06-17.921 23.556-19.936a5.584 5.584 0 0 1 3.098-.86zm3.965 2.96a2.895 2.895 0 0 1 2.043.844 2.786 2.786 0 0 1 .879 2.121 2.869 2.869 0 0 1-.985 2.07l-24.25 21.106-2.617-2.617 22.887-22.68a2.895 2.895 0 0 1 2.043-.843zm2.994 6.698c-1.69 6.702-10.647 15.783-19.987 24.607l-3.777-3.773L86.3 49.088zM51.367 61.547l.274.27 3.513 3.513-9.63 2.06 5.843-5.843zm5.793 5.84.004.004 1.168 1.195a1.086 1.086 0 0 0 .018.084l.078.012.248.254.82.84-5.385.66 3.05-3.05zm3.867 4.076 3.578 3.576A126.992 126.992 0 0 1 38.75 91.695a1.44 1.44 0 0 0-.777 1.653l1.035 4.5a.31.31 0 0 1 0 .363.31.31 0 0 1-.414 0l-6.102-6.152L51.3 72.975l9.728-1.512zm-29.933 21.94.869.814 4.492 4.492-10.016-.648 4.655-4.659z"/>
+</svg>
+<span class="tech-logo-name" aria-hidden="true">Postman</span></a></li></ul>
+    </div><div class="tech-stack-group">
+      <h3>AI tools</h3>
+      <ul class="tech-logo-list" aria-label="AI tools"><li><a class="tech-logo-link" href="https://openai.com/codex/" target="_blank" rel="noopener noreferrer" aria-label="Codex: official website (opens in a new tab)"><svg class="tech-logo tech-logo--codex" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><path fill-rule="evenodd" d="M202.2 11.4a153 153 0 0 1 76.1-10.3q50 5.7 89.1 42.5a3 3 0 0 0 2.7.7q52.8-13 101.5 9.1l1.6.8L477 56a153 153 0 0 1 83.5 133 141 141 0 0 1-4.5 41 4 4 0 0 0 1 3.8 150 150 0 0 1 39.5 72.3q14.4 71.3-29.6 128.5l-4.6 5.5a152 152 0 0 1-73.3 46.3 4 4 0 0 0-2.7 2.5 169 169 0 0 1-24.7 49.8c-30 39.6-74 61.6-123.7 61.3a151 151 0 0 1-105.2-43.4 4 4 0 0 0-3.6-.8 121 121 0 0 1-40 4.6 148 148 0 0 1-65-15.5 152 152 0 0 1-53.6-44.5c-5-6.8-10-13.1-13.8-20.6a194 194 0 0 1-12.3-32 153 153 0 0 1-.5-76.6 4 4 0 0 0 .2-1.9 3 3 0 0 0-.9-1.6 149 149 0 0 1-34.5-55 130 130 0 0 1-8.3-39.8 173 173 0 0 1 4.7-53.3 156 156 0 0 1 84.5-98.2q10.7-4.5 21.5-7.6a3 3 0 0 0 2.2-2.2 150 150 0 0 1 27.6-53.8 151 151 0 0 1 61.3-46.4M182 207.7a21.2 21.2 0 0 0-36.9 21l42.4 74.2-42.2 71.2a21.2 21.2 0 0 0 36.5 21.5l48.5-81.7a21 21 0 0 0 .2-21.4zm136.1 156a21.2 21.2 0 0 0 0 42.4h121.2a21.2 21.2 0 0 0 0-42.5z" clip-rule="evenodd"/></svg><span class="tech-logo-name" aria-hidden="true">Codex</span></a></li><li><a class="tech-logo-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer" aria-label="ChatGPT: official website (opens in a new tab)"><svg class="tech-logo tech-logo--chatgpt" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><path fill="currentColor" d="M557 245.5a150 150 0 0 0-12.8-122.7 151 151 0 0 0-162.8-72.5 151.6 151.6 0 0 0-256.9 54.2 150 150 0 0 0-100 72.5 151 151 0 0 0 18.6 177.5c-13.6 40.8-9 85.6 12.8 122.7 32.8 57 98.6 86.3 162.9 72.5a151.4 151.4 0 0 0 257-54.9A151.4 151.4 0 0 0 557 245.6M331.5 560.7c-26.3 0-51.7-9.1-72-26l3.6-2 119.5-69c6-3.5 9.8-10 9.8-17V278.3l50.5 29.2q.8.4 1 1.3v139.6c-.2 62-50.4 112.2-112.4 112.3M90 457.6a112 112 0 0 1-13.4-75.3l3.6 2 119.5 69c6 3.6 13.5 3.6 19.6 0l146-84.2v58.3a2 2 0 0 1-.8 1.6l-121 69.8A112.5 112.5 0 0 1 90 457.6M58.5 197.4c13.3-23 34.2-40.4 59.2-49.3V290c-.1 7 3.6 13.5 9.7 17l145.3 83.8-50.5 29.2q-.8.5-1.8 0L99.7 350.3a112.6 112.6 0 0 1-41.2-153.5zm415 96.4-146-84.7 50.5-29q.8-.6 1.8 0l120.7 69.7a112.4 112.4 0 0 1-16.9 202.6v-142c-.2-6.9-4-13.2-10.2-16.6m50.2-75.6-3.6-2.1-119.3-69.6c-6-3.5-13.6-3.5-19.6 0l-146 84.2v-58.3q0-1 .7-1.5l120.8-69.7a112.5 112.5 0 0 1 167 116.5zm-316 103.4-50.5-29.1a2 2 0 0 1-1-1.4V151.9a112.5 112.5 0 0 1 184.4-86.4l-3.5 2-119.5 69c-6 3.5-9.8 10-9.8 17zm27.4-59.2 65-37.4 65.2 37.4v75l-65 37.5-65-37.5z"/></svg><span class="tech-logo-name" aria-hidden="true">ChatGPT</span></a></li><li><a class="tech-logo-link" href="https://claude.ai/" target="_blank" rel="noopener noreferrer" aria-label="Claude: official website (opens in a new tab)"><svg class="tech-logo tech-logo--claude" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600"><path fill="currentColor" d="M119 398.8 236.3 333l2-5.8-2-3.1h-5.7l-19.6-1.2-67-1.9-58.2-2.4-56.3-3-14.2-3L2 295l1.4-8.8 11.9-8 17 1.5 37.8 2.6 56.6 3.9 41 2.4 61 6.3h9.6l1.4-3.9-3.3-2.4-2.6-2.4-58.6-39.7-63.4-42-33.2-24.1-18-12.3-9-11.4-4-25 16.3-18 22 1.4 5.5 1.5 22.2 17.1 47.4 36.7 62 45.6 9 7.5 3.6-2.6.4-1.8-4-6.8-33.7-60.8-36-62L146.5 64l-4.2-15.4a75 75 0 0 1-2.6-18l18.6-25.3L168.4 2l24.8 3.3 10.4 9L219 49.7l25 55.4 38.6 75.3 11.3 22.4 6 20.7 2.3 6.3h4V226l3-42.5 6-52.1 5.7-67 2-19 9.3-22.6 18.6-12.2 14.5 7 11.9 17-1.7 11-7 46.1-14 72.2-9 48.3h5.3l6-6 24.4-32.5 41.1-51.4 18.1-20.3 21.2-22.5 13.6-10.8h25.6L519.7 97l-8.5 29-26.4 33.5-21.9 28.4-31.4 42.3-19.6 33.8 1.8 2.7 4.7-.4 71-15.1 38.3-7 45.7-7.8 20.7 9.6 2.3 9.9-8.2 20-48.9 12.1-57.4 11.5-85.4 20.2-1 .8 1.1 1.5 38.5 3.6 16.5.9h40.3l75 5.6 19.7 13 11.7 15.8-2 12.1-30.1 15.4-40.8-9.7-95.1-22.6-32.6-8.1h-4.5v2.7l27.1 26.5 49.9 45 62.3 58 3.2 14.3-8 11.4-8.5-1.2-54.8-41.3-21.1-18.5-47.9-40.4h-3.2v4.3l11 16.1 58.3 87.6 3 26.9-4.2 8.7-15 5.3-16.7-3-34-48-35.3-53.8L331 400l-3.5 2-16.8 180.4-7.8 9.3-18.1 6.9-15.1-11.5-8-18.5 8-36.7 9.6-48 7.9-38 7-47.2 4.3-15.7-.3-1-3.4.4-35.7 48.9-54.2 73.2-42.9 46-10.2 4-17.8-9.2 1.6-16.5 10-14.6 59.3-75.5 35.8-46.8 23.1-27-.1-4h-1.4L104.6 463.4l-28 3.6-12.1-11.3 1.5-18.6 5.7-6 47.4-32.6-.2.1z"/></svg><span class="tech-logo-name" aria-hidden="true">Claude</span></a></li></ul>
+    </div></div>
+  </section>
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="shell about-layout">
+        <div class="about-profile"><h2 id="about-title">A little about me</h2><figure class="intro-portrait"><img src="assets/pp/583917390_25203520672616248_2951040891851883210_n.jpg" alt="Portrait of Jayrald Tajanlangit" width="864" height="852" loading="lazy"><figcaption>Jayrald Tajanlangit · Philippines</figcaption></figure><div class="education-detail"><h3>Education</h3><p>Computer Science<br>University of San Jose Recoletos</p></div></div>
+        <div class="about-copy"><p>I'm a student learning by building applications for the web and mobile.</p><p>I've worked independently on SkyFire and Sige, and with teammates on mAIstra, Bulk Buying Companion, and Pulso. That work has given me practice connecting interfaces, APIs, and databases.</p><h3>What I want to learn</h3><p>I'd like to contribute to development tasks, get feedback through code reviews, and learn how a team builds and maintains software.</p><div class="about-links"><a href="https://github.com/jayraldtajanlangit">GitHub</a><a href="https://www.linkedin.com/in/jayrald-tajanlangit-b8646a280/">LinkedIn</a><a href="assets/documents/jayrald-tajanlangit-resume.pdf" download>Download résumé</a></div></div>
+      </div>
+    </section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-layout" data-reveal-group>
+        <div class="contact-intro"><h2 id="contact-title">Let’s talk.</h2><p>Have a project or a question about my work? I’d be glad to hear from you.</p><p class="contact-location">Based in the Philippines.</p></div>
+        <div class="contact-details">
+          <a class="contact-email" href="mailto:jayraldtajanlangit123@gmail.com">jayraldtajanlangit123<wbr>@gmail.com</a>
+          <div class="contact-actions">
+            <a class="button-link contact-compose" href="mailto:jayraldtajanlangit123@gmail.com">Email me <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+            <button class="contact-copy" type="button" data-email-copy data-email="jayraldtajanlangit123@gmail.com" hidden><svg class="copy-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V4H4v12h4"/></svg><svg class="copied-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg><span data-copy-label>Copy email</span></button>
+          </div>
+          <p class="contact-copy-status" data-copy-status role="status" aria-live="polite" aria-atomic="true"></p>
+          <div class="contact-socials"><a href="https://github.com/jayraldtajanlangit">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/jayrald-tajanlangit-b8646a280/">LinkedIn <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="portfolio-footer"><div class="shell"><p>© 2026 Jayrald Tajanlangit</p><a href="#top">Back to top ↑</a></div></footer>
+  <script type="module" src="js/site.js"></script>
+  <script type="module" src="js/motion.js"></script>
+  <script type="module" src="js/walkthrough.js"></script>
+  <script type="module" src="js/contact.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>

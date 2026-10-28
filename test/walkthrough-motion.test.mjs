@@ -2,6 +2,15 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { walkthroughMotion, sampleTrack, smoothStep } from '../scripts/walkthrough-motion.mjs';
 
+test('desktop walkthroughs preserve the complete application screen throughout playback', () => {
+  for (const slug of ['skyfire', 'maistra']) {
+    const profile = walkthroughMotion[slug];
+    for (let time = 0; time <= profile.duration; time += 1 / 60) {
+      assert.deepEqual(sampleTrack(profile.camera, time), [.5, .5, 1], `${slug}: cropped frame at ${time}s`);
+    }
+  }
+});
+
 test('guided camera and cursor tracks stay within source coordinates and return to a wide shot', () => {
   for (const profile of Object.values(walkthroughMotion)) {
     for (let time = 0; time <= profile.duration; time += 1 / 60) {

@@ -15,5 +15,5 @@
 @media (min-width: 48rem) { .header-layout { gap: 1.5rem; } }
 @media (max-width: 47.99rem) {
   .portfolio-header .theme-control { margin-left: auto; }
-  .case-page .site-header-inner > .theme-control { grid-column: 1 / -1; justify-self: end; }
+  .case-page .site-header-inner > .theme-control { grid-column: 3; grid-row: 1; justify-self: end; }
 }

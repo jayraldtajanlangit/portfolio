@@ -22,3 +22,17 @@ test('confirmed tools have named links to official sites and retain safe new-tab
   assert.equal([...html.matchAll(/target="_blank" rel="noopener noreferrer"/g)].length, 9);
   assert.doesNotMatch(html, /(?:href|src)="(?:undefined|null)/);
 });
+
+test('every technology has a self-contained icon without external mask requests', () => {
+  const html = renderToolkit();
+  const icons = [...html.matchAll(/<svg\b[^>]*class="tech-logo tech-logo--[^"]+"[^>]*>[\s\S]*?<\/svg>/g)].map(match => match[0]);
+  assert.equal(icons.length, 16, 'all technology links must contain visible SVG geometry');
+  for (const icon of icons) {
+    assert.match(icon, /viewBox="[^"]+"/);
+    assert.match(icon, /<path\b/);
+    assert.match(icon, /aria-hidden="true"/);
+    assert.match(icon, /currentColor/);
+    assert.doesNotMatch(icon, /<(?:image|use)\b|(?:href|src)=|url\(/);
+    assert.doesNotMatch(icon, /(?:fill|stroke)="#/);
+  }
+});

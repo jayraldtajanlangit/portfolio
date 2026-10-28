@@ -1,0 +1,129 @@
+Γ£û homepage supplies a progressive-enhancement dialog before the page content (6.172ms)
+Γ£ö first visit completes the startup and clears every timer/listener by two seconds (2.3399ms)
+Γ£ö intro bypasses {"seen":true} (1.5553ms)
+Γ£ö intro bypasses {"reduced":true} (0.9512ms)
+Γ£ö intro bypasses {"hash":"#work"} (1.4293ms)
+Γ£ö intro bypasses {"history":true} (0.9849ms)
+Γ£ö skip click dismisses immediately and leaves no active work (1.296ms)
+Γ£ö dialog cancel dismisses immediately and leaves no active work (1.318ms)
+Γ£ö motion change dismisses immediately and leaves no active work (1.0291ms)
+Γ£ö window pagehide dismisses immediately and leaves no active work (1.0809ms)
+Γ£ö document visibilitychange dismisses immediately and leaves no active work (0.9646ms)
+Γ£ö blocked storage cannot prevent the homepage being revealed (0.9599ms)
+Γä╣ tests 12
+Γä╣ suites 0
+Γä╣ pass 11
+Γä╣ fail 1
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 186.0169
+
+Γ£û failing tests:
+
+test at test\startup.test.mjs:53:1
+Γ£û homepage supplies a progressive-enhancement dialog before the page content (6.172ms)
+  AssertionError [ERR_ASSERTION]: The input was expected to not match the regular expression /src="js\/startup.js"/. Input:
+  
+  '<!doctype html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '  <meta charset="utf-8">\n' +
+    '  <meta name="viewport" content="width=device-width, initial-scale=1">\n' +
+    '  <script src="js/theme.js"></script>\n' +
+    '  <title>Jayrald Tajanlangit | Student developer portfolio</title>\n' +
+    '  <meta name="description" content="Jayrald Tajanlangit is a Computer Science student in the Philippines interested in artificial intelligence and web and mobile applications. Explore his projects, contributions, and tech stack.">\n' +
+    '  <meta property="og:title" content="Jayrald Tajanlangit | Student developer portfolio">\n' +
+    '  <meta property="og:description" content="A Computer Science student portfolio featuring web and mobile projects, individual contributions, and interests in artificial intelligence.">\n' +
+    '  <meta property="og:type" content="website">\n' +
+    '  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">\n' +
+    '  <meta property="og:site_name" content="Jayrald Tajanlangit">\n' +
+    '  <meta property="og:image" content="assets/images/social-preview.png">\n' +
+    '  <meta property="og:image:type" content="image/png">\n' +
+    '  <meta property="og:image:width" content="1200">\n' +
+    '  <meta property="og:image:height" content="630">\n' +
+    '  <meta property="og:image:alt" content="Jayrald Tajanlangit ΓÇö Computer Science student building web and mobile applications.">\n' +
+    '  <meta name="twitter:card" content="summary_large_image">\n' +
+    '  <meta name="twitter:image" content="assets/images/social-preview.png">\n' +
+    '  <meta name="twitter:image:alt" content="Jayrald Tajanlangit ΓÇö Computer Science student building web and mobile applications.">\n' +
+    '  <meta name="theme-color" content="#f8f8f4">\n' +
+    '  <link rel="preload" href="assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>\n' +
+    '  <link rel="preload" href="assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>\n' +
+    '  <link rel="stylesheet" href="css/fonts.css">\n' +
+    '  <link rel="stylesheet" href="css/tokens.css">\n' +
+    '  <link rel="stylesheet" href="css/global.css">\n' +
+    '  <link rel="stylesheet" href="css/home.css">\n' +
+    '  <link rel="stylesheet" href="css/selected-work.css">\n' +
+    '  <link rel="stylesheet" href="css/theme.css">\n' +
+    '  <link rel="stylesheet" href="css/motion.css">\n' +
+    '  <link rel="stylesheet" href="css/startup.css">\n' +
+    '</head>\n' +
+    '<body class="home-page">\n' +
+    '  <dialog class="startup" data-startup hidden aria-labelledby="startup-title" aria-describedby="startup-description">\n' +
+    '    <div class="startup-panel">\n' +
+    '      <p class="startup-label" id="startup-title">JT SYSTEM <span>/ PORTFOLIO</span></p>\n' +
+    '      <div class="startup-scanner" aria-hidden="true"><span class="startup-orbit"></span><span class="startup-core">JT</span></div>\n' +
+    '      <div class="startup-console" aria-hidden="true">\n' +
+    '        <p class="startup-status"><span class="startup-prompt">&gt;</span> <span data-startup-status>Initializing interfaceΓÇª</span><span class="startup-cursor">_</span></p>\n' +
+    '        <div class="startup-progress"></div>\n' +
+    '      </div>\n' +
+    '      <p class="startup-welcome">Welcome. IΓÇÖm Jayrald.</p>\n' +
+    '      <p class="startup-caption" id="startup-description">Web ┬╖ Mobile ┬╖ AI</p>\n' +
+    '    </div>\n' +
+    '    <button class="startup-skip" data-startup-skip type="button" autofocus>Skip intro <span aria-hidden="true">Γåù</span></button>\n' +
+    '  </dialog>\n' +
+    '  <script src="js/startup.js"></script>\n' +
+    '  <a class="skip-link" href="#main">Skip to main content</a>\n' +
+    '  <header class="portfolio-header" id="top">\n' +
+    '    <div class="shell header-layout">\n' +
+    '      <a class="wordmark" href="#top" aria-label="Jayrald Tajanlangit, home">Jayrald T.</a>\n' +
+    '      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation" hidden>Menu</button>\n' +
+    '      <nav class="primary-nav" id="primary-navigation" aria-label="Primary"><a href="#work">Projects</a><a href="#tech-stack">Tech stack</a><a href="#about">About</a><a href="#contact">Contact</a></nav>\n' +
+    '      <div class="header-actions"><a class="header-email" href="mailto:jayraldtajanlangit123@gmail.com"><span>Email me</span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>\n' +
+    '      <div class="theme-control" hidden><button class="theme-trigger" data-theme-trigger type="button" role="switch" aria-label="Dark mode" aria-checked="false" title="Switch to dark mode"><span class="theme-track" aria-hidden="true"><span class="theme-thumb"></span><svg data-theme-icon="light" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg data-theme-icon="dark" viewBox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg></span></button></div></div>\n' +
+    '    </div>\n' +
+    '  </header>\n' +
+    '  <main id="main">\n' +
+    '    <section class="intro-section shell" aria-labelledby="hero-title">\n' +
+    '      <div class="intro-layout">\n' +
+    '        <div class="intro-copy"><h1 id="hero-title">Jayrald<br>Tajanlangit</h1><p class="intro-role typing-line"><span class="typing-static">IΓÇÖm interested in web development, mobile development, and artificial intelligence.</span><span class="typing-visual" aria-hidden="true">IΓÇÖm interested in <span class="typing-slot"><span class="typing-measure">artificial intelligence|</span><span class="typing-text" data-typing-words="[&quot;web development&quot;,&quot;mobile development&quot;,&quot;artificial intelligence&quot;]">web development</span></span></span></p></div>\n' +
+    '        <div class="intro-description"><p>I build web and mobile applications, from booking flows to tools for learning and community.</p><p>Computer Science student at the University of San Jose Recoletos in the Philippines.</p><div class="intro-actions"><a class="button-link" href="#work">View projects</a><a href="assets/documents/jayrald-tajanlangit-resume.pdf" type="application/pdf">R├⌐sum├⌐ <span class="resume-format">PDF</span></a></div></div>\n' +
+    '      </div>\n' +
+    '    </section>\n' +
+    '    <section class="work-section shell" id="work" aria-labelledby="work-title">\n' +
+    '      <header class="section-heading"><h2 id="work-title">Projects</h2><p>Web and mobile projects, from flight bookings to handwritten code.</p></header>\n' +
+    '      <div class="selected-work"><article class="selected-project selected-project--skyfire selected-project--featured" id="project-skyfire" aria-labelledby="selected-skyfire-title" data-walkthrough-preview>\n' +
+    '    <figure class="selected-project-media"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/skyfire/poster.webp" width="1440" height="900" aria-label="SkyFire guided project walkthrough"><source src="assets/videos/skyfire-polished.mp4" type="video/mp4"><source src="assets/videos/skyfire.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="assets/videos/skyfire-polished.mp4">Open the video</a> or <a href="projects/skyfire.html">view the case study</a>.</video></figure>\n' +
+    '    <div class="selected-project-copy">\n' +
+    '      <h3 class="selected-project-title" id="selected-skyfire-title"><a href="projects/skyfire.html">SkyFire</a></h3>\n' +
+    '      <div class="selected-project-overview"><p class="selected-project-summary">Find flights, choose seats, and manage reservations.</p>\n' +
+    '        </div>\n' +
+    '      <p class="selected-project-contribution"><strong>My contribution</strong>Built the Angular frontend, Django API, and reservation flow with backend seat validation.</p>\n' +
+    '      <div class="selected-project-meta"><p class="selected-project-role">Individual project ┬╖ Full-stack development</p><p class="selected-project-stack">Angular 21 ┬╖ Django REST Framework ┬╖ JWT ┬╖ SQLite</p></div>\n' +
+    '      <div class="selected-project-links"><a href="projects/skyfire.html">View case study <span aria-hidden="true">Γåù</span></a></div>\n' +
+    '    </div>\n' +
+    '  </article><article class="selected-project selected-project--maistra selected-project--wide" id="project-maistra" aria-labelledby="selected-maistra-title" data-walkthrough-preview>\n' +
+    '    <figure class="selected-project-media"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/maistra/poster.webp" width="1280" height="720" aria-label="mAIstra guided project walkthrough"><source src="assets/videos/maistra-polished.mp4" type="video/mp4"><source src="assets/videos/maistra.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="assets/videos/maistra-polished.mp4">Open the video</a> or <a href="projects/maistra.html">view the case study</a>.</video></figure>\n' +
+    '    <div class="selected-project-copy">\n' +
+    '      <h3 class="selected-project-title" id="selected-maistra-title"><a href="projects/maistra.html">mAIstra</a></h3>\n' +
+    '      <div class="selected-project-overview"><p class="selected-project-summary">A web and mobile teaching system that extracts handwritten code with OCR for teacher review and grading.</p>\n' +
+    '        </div>\n' +
+    '      <p class="selected-project-contribution"><strong>My contribution</strong>Built the web submission review and grading interface, Judge0 integration, and Supabase persistence.</p>\n' +
+    '      <div class="selected-project-meta"><p class="selected-project-role">Team project ┬╖ Submission review and grading</p><p class="selected-project-stack">Angular 21 ┬╖ TypeScript ┬╖ Flutter ┬╖ Python ┬╖ FastAPI ┬╖ OpenCV ┬╖ PaddleOCR ┬╖ Supabase ┬╖ Judge0</p></div>\n' +
+    '      <div class="selected-project-links"><a href="projects/maistra.html">View case study <span aria-hidden="true">Γåù</span></a></div>\n' +
+    '    </div>\n' +
+    '  </article><div class="selected-projects-mobile"><article class="selected-project selected-project--bulk-buying-companion" id="project-bulk-buying-companion" aria-labelledby="selected-bulk-buying-companion-title" data-walkthrough-preview>\n' +
+    '    <figure class="selected-project-media selected-project-media--mobile"><div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/bulk-buying-companion/poster.webp" width="39'... 13898 more characters
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:57:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.start (node:internal/test_runner/test:1003:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '<!doctype html>\n<html lang="en">\n<head>\n  <meta charset="utf-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1">\n  <script src="js/theme.js"></script>\n  <title>Jayrald Tajanlangit | Student developer portfolio</title>\n  <meta name="description" content="Jayrald Tajanlangit is a Computer Science student in the Philippines interested in artificial intelligence and web and mobile applications. Explore his projects, contributions, and tech stack.">\n  <meta property="og:title" content="Jayrald Tajanlangit | Student developer portfolio">\n  <meta property="og:description" content="A Computer Science student portfolio featuring web and mobile projects, individual contributions, and interests in artificial intelligence.">\n  <meta property="og:type" content="website">\n  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">\n  <meta property="og:site_name" content="Jayrald Tajanlangit">\n  <meta property="og:image" content="assets/images/social-preview.png">\n  <meta property="og:image:type" content="image/png">\n  <meta property="og:image:width" content="1200">\n  <meta property="og:image:height" content="630">\n  <meta property="og:image:alt" content="Jayrald Tajanlangit ΓÇö Computer Science student building web and mobile applications.">\n  <meta name="twitter:card" content="summary_large_image">\n  <meta name="twitter:image" content="assets/images/social-preview.png">\n  <meta name="twitter:image:alt" content="Jayrald Tajanlangit ΓÇö Computer Science student building web and mobile applications.">\n  <meta name="theme-color" content="#f8f8f4">\n  <link rel="preload" href="assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>\n  <link rel="preload" href="assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>\n  <link rel="stylesheet" href="css/fonts.css">\n  <link rel="stylesheet" href="css/tokens.css">\n  <link rel="stylesheet" href="css/global.css">\n  <link rel="stylesheet" href="css/home.css">\n  <link rel="stylesheet" href="css/selected-work.css">\n  <link rel="stylesheet" href="css/theme.css">\n  <link rel="stylesheet" href="css/motion.css">\n  <link rel="stylesheet" href="css/startup.css">\n</head>\n<body class="home-page">\n  <dialog class="startup" data-startup hidden aria-labelledby="startup-title" aria-describedby="startup-description">\n    <div class="startup-panel">\n      <p class="startup-label" id="startup-title">JT SYSTEM <span>/ PORTFOLIO</span></p>\n      <div class="startup-scanner" aria-hidden="true"><span class="startup-orbit"></span><span class="startup-core">JT</span></div>\n      <div class="startup-console" aria-hidden="true">\n        <p class="startup-status"><span class="startup-prompt">&gt;</span> <span data-startup-status>Initializing interfaceΓÇª</span><span class="startup-cursor">_</span></p>\n        <div class="startup-progress"></div>\n      </div>\n      <p class="startup-welcome">Welcome. IΓÇÖm Jayrald.</p>\n      <p class="startup-caption" id="startup-description">Web ┬╖ Mobile ┬╖ AI</p>\n    </div>\n    <button class="startup-skip" data-startup-skip type="button" autofocus>Skip intro <span aria-hidden="true">Γåù</span></button>\n  </dialog>\n  <script src="js/startup.js"></script>\n  <a class="skip-link" href="#main">Skip to main content</a>\n  <header class="portfolio-header" id="top">\n    <div class="shell header-layout">\n      <a class="wordmark" href="#top" aria-label="Jayrald Tajanlangit, home">Jayrald T.</a>\n      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation" hidden>Menu</button>\n      <nav class="primary-nav" id="primary-navigation" aria-label="Primary"><a href="#work">Projects</a><a href="#tech-stack">Tech stack</a><a href="#about">About</a><a href="#contact">Contact</a></nav>\n      <div class="header-actions"><a class="header-email" href="mailto:jayraldtajanlangit123@gmail.com"><span>Email me</span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>\n      <div class="theme-control" hidden><button class="theme-trigger" data-theme-trigger type="button" role="switch" aria-label="Dark mode" aria-checked="false" title="Switch to dark mode"><span class="theme-track" aria-hidden="true"><span class="theme-thumb"></span><svg data-theme-icon="light" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg data-theme-icon="dark" viewBox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg></span></button></div></div>\n    </div>\n  </header>\n  <main id="main">\n    <section class="intro-section shell" aria-labelledby="hero-title">\n      <div class="intro-layout">\n        <div class="intro-copy"><h1 id="hero-title">Jayrald<br>Tajanlangit</h1><p class="intro-role typing-line"><span class="typing-static">IΓÇÖm interested in web development, mobile development, and artificial intelligence.</span><span class="typing-visual" aria-hidden="true">IΓÇÖm interested in <span class="typing-slot"><span class="typing-measure">artificial intelligence|</span><span class="typing-text" data-typing-words="[&quot;web development&quot;,&quot;mobile development&quot;,&quot;artificial intelligence&quot;]">web development</span></span></span></p></div>\n        <div class="intro-description"><p>I build web and mobile applications, from booking flows to tools for learning and community.</p><p>Computer Science student at the University of San Jose Recoletos in the Philippines.</p><div class="intro-actions"><a class="button-link" href="#work">View projects</a><a href="assets/documents/jayrald-tajanlangit-resume.pdf" type="application/pdf">R├⌐sum├⌐ <span class="resume-format">PDF</span></a></div></div>\n      </div>\n    </section>\n    <section class="work-section shell" id="work" aria-labelledby="work-title">\n      <header class="section-heading"><h2 id="work-title">Projects</h2><p>Web and mobile projects, from flight bookings to handwritten code.</p></header>\n      <div class="selected-work"><article class="selected-project selected-project--skyfire selected-project--featured" id="project-skyfire" aria-labelledby="selected-skyfire-title" data-walkthrough-preview>\n    <figure class="selected-project-media"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/skyfire/poster.webp" width="1440" height="900" aria-label="SkyFire guided project walkthrough"><source src="assets/videos/skyfire-polished.mp4" type="video/mp4"><source src="assets/videos/skyfire.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="assets/videos/skyfire-polished.mp4">Open the video</a> or <a href="projects/skyfire.html">view the case study</a>.</video></figure>\n    <div class="selected-project-copy">\n      <h3 class="selected-project-title" id="selected-skyfire-title"><a href="projects/skyfire.html">SkyFire</a></h3>\n      <div class="selected-project-overview"><p class="selected-project-summary">Find flights, choose seats, and manage reservations.</p>\n        </div>\n      <p class="selected-project-contribution"><strong>My contribution</strong>Built the Angular frontend, Django API, and reservation flow with backend seat validation.</p>\n      <div class="selected-project-meta"><p class="selected-project-role">Individual project ┬╖ Full-stack development</p><p class="selected-project-stack">Angular 21 ┬╖ Django REST Framework ┬╖ JWT ┬╖ SQLite</p></div>\n      <div class="selected-project-links"><a href="projects/skyfire.html">View case study <span aria-hidden="true">Γåù</span></a></div>\n    </div>\n  </article><article class="selected-project selected-project--maistra selected-project--wide" id="project-maistra" aria-labelledby="selected-maistra-title" data-walkthrough-preview>\n    <figure class="selected-project-media"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/maistra/poster.webp" width="1280" height="720" aria-label="mAIstra guided project walkthrough"><source src="assets/videos/maistra-polished.mp4" type="video/mp4"><source src="assets/videos/maistra.webm" type="video/webm">Your browser cannot play this walkthrough. <a href="assets/videos/maistra-polished.mp4">Open the video</a> or <a href="projects/maistra.html">view the case study</a>.</video></figure>\n    <div class="selected-project-copy">\n      <h3 class="selected-project-title" id="selected-maistra-title"><a href="projects/maistra.html">mAIstra</a></h3>\n      <div class="selected-project-overview"><p class="selected-project-summary">A web and mobile teaching system that extracts handwritten code with OCR for teacher review and grading.</p>\n        </div>\n      <p class="selected-project-contribution"><strong>My contribution</strong>Built the web submission review and grading interface, Judge0 integration, and Supabase persistence.</p>\n      <div class="selected-project-meta"><p class="selected-project-role">Team project ┬╖ Submission review and grading</p><p class="selected-project-stack">Angular 21 ┬╖ TypeScript ┬╖ Flutter ┬╖ Python ┬╖ FastAPI ┬╖ OpenCV ┬╖ PaddleOCR ┬╖ Supabase ┬╖ Judge0</p></div>\n      <div class="selected-project-links"><a href="projects/maistra.html">View case study <span aria-hidden="true">Γåù</span></a></div>\n    </div>\n  </article><div class="selected-projects-mobile"><article class="selected-project selected-project--bulk-buying-companion" id="project-bulk-buying-companion" aria-labelledby="selected-bulk-buying-companion-title" data-walkthrough-preview>\n    <figure class="selected-project-media selected-project-media--mobile"><div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/projects/bulk-buying-companion/poster.webp" width="39'... 13898 more characters,
+    expected: /src="js\/startup.js"/,
+    operator: 'doesNotMatch',
+    diff: 'simple'
+  }

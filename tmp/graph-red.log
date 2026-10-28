@@ -1,0 +1,95 @@
+Γ£û homepage supplies a progressive-enhancement dialog before the page content (11.7004ms)
+Γ£û startup has readable stages and a welcome hold before completing at 4.5 seconds (2.403ms)
+Γ£ö intro bypasses {"seen":true} (1.4665ms)
+Γ£ö intro bypasses {"reduced":true} (1.0967ms)
+Γ£ö intro bypasses {"hash":"#work"} (1.2974ms)
+Γ£ö intro bypasses {"history":true} (1.1717ms)
+Γ£ö skip click dismisses immediately and leaves no active work (2.1638ms)
+Γ£ö dialog cancel dismisses immediately and leaves no active work (1.5516ms)
+Γ£ö motion change dismisses immediately and leaves no active work (1.3344ms)
+Γ£ö window pagehide dismisses immediately and leaves no active work (1.718ms)
+Γ£ö document visibilitychange dismisses immediately and leaves no active work (1.4248ms)
+Γ£ö blocked storage cannot prevent the homepage being revealed (1.3631ms)
+Γ£û the local preview runs a timed startup instead of freezing the welcome screen (1.7305ms)
+Γä╣ tests 13
+Γä╣ suites 0
+Γä╣ pass 10
+Γä╣ fail 3
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 216.8589
+
+Γ£û failing tests:
+
+test at test\startup.test.mjs:58:1
+Γ£û homepage supplies a progressive-enhancement dialog before the page content (11.7004ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   'Checkout',
+      'Build',
+      'Test',
+  -   'Lint',
+      'Deploy'
+    ]
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:66:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.start (node:internal/test_runner/test:1003:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'Checkout', 'Build', 'Test', 'Deploy' ],
+    expected: [ 'Build', 'Test', 'Lint', 'Deploy' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test\startup.test.mjs:74:1
+Γ£û startup has readable stages and a welcome hold before completing at 4.5 seconds (2.403ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Portfolio ready'
+  - 'Building portfolio'
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:77:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Portfolio ready',
+    expected: 'Building portfolio',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test\startup.test.mjs:134:1
+Γ£û the local preview runs a timed startup instead of freezing the welcome screen (1.7305ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Portfolio ready'
+  - 'Running checks'
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:141:10)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Portfolio ready',
+    expected: 'Running checks',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

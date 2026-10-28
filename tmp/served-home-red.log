@@ -1,0 +1,97 @@
+Γ£ö homepage supplies a progressive-enhancement dialog before the page content (5.7869ms)
+Γ£û the served index.html contains the current graph and inline controller (3.3526ms)
+Γ£ö startup has readable stages and a welcome hold before completing at 4.5 seconds (3.1811ms)
+Γ£ö intro bypasses {"seen":true} (1.4123ms)
+Γ£ö intro bypasses {"reduced":true} (0.9988ms)
+Γ£ö intro bypasses {"hash":"#work"} (1.0849ms)
+Γ£ö intro bypasses {"history":true} (1.3237ms)
+Γ£ö skip click dismisses immediately and leaves no active work (2.7004ms)
+Γ£ö dialog cancel dismisses immediately and leaves no active work (2.0887ms)
+Γ£ö motion change dismisses immediately and leaves no active work (2.0618ms)
+Γ£ö window pagehide dismisses immediately and leaves no active work (2.2415ms)
+Γ£ö document visibilitychange dismisses immediately and leaves no active work (1.6802ms)
+Γ£ö blocked storage cannot prevent the homepage being revealed (1.48ms)
+Γ£ö the local preview runs a timed startup instead of freezing the welcome screen (1.3301ms)
+Γä╣ tests 14
+Γä╣ suites 0
+Γä╣ pass 13
+Γä╣ fail 1
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 171.029
+
+Γ£û failing tests:
+
+test at test\startup.test.mjs:74:1
+Γ£û the served index.html contains the current graph and inline controller (3.3526ms)
+  AssertionError [ERR_ASSERTION]: rebuild index.html after changing the startup renderer or controller
+  + actual - expected
+  
+    '<dialog class="startup" data-startup hidden aria-labelledby="startup-title" aria-describedby="startup-description">\n' +
+  +   '    <div class="startup-grid" aria-hidden="true"></div>\n' +
+  +   '    <div class="startup-sweep" aria-hidden="true"></div>\n' +
+  +   '    <div class="startup-frame" aria-hidden="true"></div>\n' +
+  +   '    <div class="startup-topline">\n' +
+  +   '      <p class="startup-label" id="startup-title"><span class="startup-indicator" aria-hidden="true"></span> JT SYSTEM <span>/ PORTFOLIO</span></p>\n' +
+  +   '      <p class="startup-version" aria-hidden="true">PERSONAL INTERFACE <span>V1.0</span></p>\n' +
+  +   '    </div>\n' +
+  +   '    <div class="startup-telemetry startup-telemetry--left" aria-hidden="true"><span>01 / IDENTITY</span><i></i><span>JAYRALD T.</span></div>\n' +
+  +   '    <div class="startup-telemetry startup-telemetry--right" aria-hidden="true"><span>02 / ENVIRONMENT</span><i></i><span>WEB &amp; MOBILE</span></div>\n' +
+      '    <div class="startup-panel">\n' +
+  +   '      <p class="startup-eyebrow" aria-hidden="true">A PERSONAL DIGITAL SPACE</p>\n' +
+  +   '      <div class="startup-scanner" aria-hidden="true"><span class="startup-orbit"></span><span class="startup-inner-orbit"></span><span class="startup-crosshair"></span><span class="startup-core">JT<span>IDENTITY VERIFIED</span></span></div>\n' +
+  +   '      <div class="startup-console" aria-hidden="true">\n' +
+  +   '        <p class="startup-status"><span class="startup-prompt">&gt;</span> <span data-startup-status>Initializing interfaceΓÇª</span><span class="startup-cursor">_</span></p>\n' +
+  +   '        <div class="startup-progress"></div>\n' +
+  +   '      </div>\n' +
+  -   '      <section class="workflow-graph">\n' +
+  -   '        <header class="workflow-graph-header">\n' +
+  -   '          <div><h2 id="startup-title">portfolio.yml</h2><p>Workflow preview</p></div>\n' +
+  -   '          <div class="workflow-run-state" aria-hidden="true"><span class="workflow-run-indicator"></span><span class="workflow-running-label">In progress</span><span class="workflow-success-label">Success</span></div>\n' +
+  -   '        </header>\n' +
+  -   '        <div class="workflow-canvas" aria-hidden="true">\n' +
+  -   '          <svg class="workflow-edges workflow-edges--desktop" viewBox="0 0 1000 340" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M280 170H308Q320 170 320 158V97Q320 85 332 85H360" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M280 170H308Q320 170 320 182V243Q320 255 332 255H360" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M640 85H668Q680 85 680 97V158Q680 170 692 170H720" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M640 255H668Q680 255 680 243V182Q680 170 692 170H720" vector-effect="non-scaling-stroke"/></svg>\n' +
+  -   '          <svg class="workflow-edges workflow-edges--mobile" viewBox="0 0 1000 1000" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M500 190V288Q500 300 488 300H232Q220 300 220 312V430" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M500 190V288Q500 300 512 300H768Q780 300 780 312V430" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M220 570V688Q220 700 232 700H488Q500 700 500 712V810" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M780 570V688Q780 700 768 700H512Q500 700 500 712V810" vector-effect="non-scaling-stroke"/></svg>\n' +
+  -   '          <ol class="startup-pipeline"><li class="pipeline-stage" data-pipeline-stage data-job="build" data-state="pending">\n' +
+  -   '            \n' +
+  -   '            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><h3>Build</h3><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n' +
+  -   '            <span class="workflow-port workflow-port--out"></span>\n' +
+  -   '          </li><li class="pipeline-stage" data-pipeline-stage data-job="test" data-state="pending">\n' +
+  -   '            <span class="workflow-port workflow-port--in"></span>\n' +
+  -   '            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><h3>Test</h3><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n' +
+  -   '            <span class="workflow-port workflow-port--out"></span>\n' +
+  -   '          </li><li class="pipeline-stage" data-pipeline-stage data-job="lint" data-state="pending">\n' +
+  -   '            <span class="workflow-port workflow-port--in"></span>\n' +
+  -   '            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><h3>Lint</h3><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n' +
+  -   '            <span class="workflow-port workflow-port--out"></span>\n' +
+  -   '          </li><li class="pipeline-stage" data-pipeline-stage data-job="deploy" data-state="pending">\n' +
+  -   '            <span class="workflow-port workflow-port--in"></span>\n' +
+  -   '            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><h3>Deploy</h3><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n' +
+  -   '            \n' +
+  -   '          </li></ol>\n' +
+  -   '        </div>\n' +
+  -   '        <p class="workflow-current" aria-hidden="true"><span class="workflow-current-dot"></span><span data-startup-status>Building portfolio</span></p>\n' +
+  -   '      </section>\n' +
+      '      <p class="startup-welcome">Welcome. IΓÇÖm Jayrald.</p>\n' +
+      '      <p class="startup-caption" id="startup-description">Web ┬╖ Mobile ┬╖ AI</p>\n' +
+      '    </div>\n' +
+  +   '    <div class="startup-footer-note" aria-hidden="true"><span class="startup-indicator"></span><span>BUILT TO EXPLORE<span>JAYRALD TAJANLANGIT / PORTFOLIO</span></span></div>\n' +
+  -   '    <p class="startup-footer-note" aria-hidden="true">JAYRALD TAJANLANGIT <span>/ PORTFOLIO</span></p>\n' +
+      '    <button class="startup-skip" data-startup-skip type="button" autofocus>Skip intro <span aria-hidden="true">Γåù</span></button>\n' +
+      '  </dialog>'
+  
+      at TestContext.<anonymous> (file:///C:/Users/Jayrald/Desktop/Projects/portfolio/test/startup.test.mjs:78:12)
+      at Test.runInAsyncScope (node:async_hooks:213:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '<dialog class="startup" data-startup hidden aria-labelledby="startup-title" aria-describedby="startup-description">\n    <div class="startup-grid" aria-hidden="true"></div>\n    <div class="startup-sweep" aria-hidden="true"></div>\n    <div class="startup-frame" aria-hidden="true"></div>\n    <div class="startup-topline">\n      <p class="startup-label" id="startup-title"><span class="startup-indicator" aria-hidden="true"></span> JT SYSTEM <span>/ PORTFOLIO</span></p>\n      <p class="startup-version" aria-hidden="true">PERSONAL INTERFACE <span>V1.0</span></p>\n    </div>\n    <div class="startup-telemetry startup-telemetry--left" aria-hidden="true"><span>01 / IDENTITY</span><i></i><span>JAYRALD T.</span></div>\n    <div class="startup-telemetry startup-telemetry--right" aria-hidden="true"><span>02 / ENVIRONMENT</span><i></i><span>WEB &amp; MOBILE</span></div>\n    <div class="startup-panel">\n      <p class="startup-eyebrow" aria-hidden="true">A PERSONAL DIGITAL SPACE</p>\n      <div class="startup-scanner" aria-hidden="true"><span class="startup-orbit"></span><span class="startup-inner-orbit"></span><span class="startup-crosshair"></span><span class="startup-core">JT<span>IDENTITY VERIFIED</span></span></div>\n      <div class="startup-console" aria-hidden="true">\n        <p class="startup-status"><span class="startup-prompt">&gt;</span> <span data-startup-status>Initializing interfaceΓÇª</span><span class="startup-cursor">_</span></p>\n        <div class="startup-progress"></div>\n      </div>\n      <p class="startup-welcome">Welcome. IΓÇÖm Jayrald.</p>\n      <p class="startup-caption" id="startup-description">Web ┬╖ Mobile ┬╖ AI</p>\n    </div>\n    <div class="startup-footer-note" aria-hidden="true"><span class="startup-indicator"></span><span>BUILT TO EXPLORE<span>JAYRALD TAJANLANGIT / PORTFOLIO</span></span></div>\n    <button class="startup-skip" data-startup-skip type="button" autofocus>Skip intro <span aria-hidden="true">Γåù</span></button>\n  </dialog>',
+    expected: '<dialog class="startup" data-startup hidden aria-labelledby="startup-title" aria-describedby="startup-description">\n    <div class="startup-panel">\n      <section class="workflow-graph">\n        <header class="workflow-graph-header">\n          <div><h2 id="startup-title">portfolio.yml</h2><p>Workflow preview</p></div>\n          <div class="workflow-run-state" aria-hidden="true"><span class="workflow-run-indicator"></span><span class="workflow-running-label">In progress</span><span class="workflow-success-label">Success</span></div>\n        </header>\n        <div class="workflow-canvas" aria-hidden="true">\n          <svg class="workflow-edges workflow-edges--desktop" viewBox="0 0 1000 340" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M280 170H308Q320 170 320 158V97Q320 85 332 85H360" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M280 170H308Q320 170 320 182V243Q320 255 332 255H360" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M640 85H668Q680 85 680 97V158Q680 170 692 170H720" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M640 255H668Q680 255 680 243V182Q680 170 692 170H720" vector-effect="non-scaling-stroke"/></svg>\n          <svg class="workflow-edges workflow-edges--mobile" viewBox="0 0 1000 1000" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M500 190V288Q500 300 488 300H232Q220 300 220 312V430" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M500 190V288Q500 300 512 300H768Q780 300 780 312V430" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M220 570V688Q220 700 232 700H488Q500 700 500 712V810" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M780 570V688Q780 700 768 700H512Q500 700 500 712V810" vector-effect="non-scaling-stroke"/></svg>\n          <ol class="startup-pipeline"><li class="pipeline-stage" data-pipeline-stage data-job="build" data-state="pending">\n            \n            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><h3>Build</h3><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n            <span class="workflow-port workflow-port--out"></span>\n          </li><li class="pipeline-stage" data-pipeline-stage data-job="test" data-state="pending">\n            <span class="workflow-port workflow-port--in"></span>\n            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><h3>Test</h3><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n            <span class="workflow-port workflow-port--out"></span>\n          </li><li class="pipeline-stage" data-pipeline-stage data-job="lint" data-state="pending">\n            <span class="workflow-port workflow-port--in"></span>\n            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><h3>Lint</h3><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n            <span class="workflow-port workflow-port--out"></span>\n          </li><li class="pipeline-stage" data-pipeline-stage data-job="deploy" data-state="pending">\n            <span class="workflow-port workflow-port--in"></span>\n            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><h3>Deploy</h3><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>\n            \n          </li></ol>\n        </div>\n        <p class="workflow-current" aria-hidden="true"><span class="workflow-current-dot"></span><span data-startup-status>Building portfolio</span></p>\n      </section>\n      <p class="startup-welcome">Welcome. IΓÇÖm Jayrald.</p>\n      <p class="startup-caption" id="startup-description">Web ┬╖ Mobile ┬╖ AI</p>\n    </div>\n    <p class="startup-footer-note" aria-hidden="true">JAYRALD TAJANLANGIT <span>/ PORTFOLIO</span></p>\n    <button class="startup-skip" data-startup-skip type="button" autofocus>Skip intro <span aria-hidden="true">Γåù</span></button>\n  </dialog>',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
