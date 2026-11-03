@@ -4,18 +4,16 @@ import { projects } from '../js/projects.js';
 import { renderCaseStudy } from '../scripts/render-site.mjs';
 import { renderHomePage } from '../scripts/render-home.mjs';
 
-test('hero previews link real web and mobile project captures without adding video players', () => {
+test('hero layers one centered portrait in front of the accessible full name', () => {
   const html = renderHomePage();
-  const composition = html.match(/<figure class="hero-composition"[\s\S]*?<\/figure>/)?.[0];
-  assert.ok(composition, 'hero has a web and mobile composition');
-  for (const slug of ['skyfire', 'bulk-buying-companion']) {
-    const project = projects.find(project => project.slug === slug);
-    assert.ok(composition.includes(`href="projects/${slug}.html"`));
-    assert.ok(composition.includes(`src="${project.media.poster}"`));
-    assert.ok(composition.includes(`width="${project.media.width}" height="${project.media.height}"`));
-  }
-  assert.equal([...composition.matchAll(/<img\b[^>]+alt="[^"]+"/g)].length, 2);
-  assert.doesNotMatch(composition, /<video\b|startup-watermark/);
+  const hero=html.match(/<section class="intro-section[^]*?<\/section>/)?.[0];
+  assert.ok(hero);
+  assert.equal([...hero.matchAll(/<h1\b/g)].length,1);
+  assert.match(hero,/<h1[^>]+id="hero-title"[^]*?Jayrald[^]*?Tajanlangit[^]*?<\/h1>/);
+  assert.match(hero,/<img[^>]+class="hero-portrait"[^>]+src="assets\/pp\/jayrald-hero-cutout.png"[^>]+alt="[^"]+"/);
+  assert.ok(hero.indexOf('</h1>')<hero.indexOf('class="hero-portrait"'));
+  assert.match(hero,/href="#work"/);
+  assert.doesNotMatch(hero,/hero-preview|<video\b/);
 });
 
 test('every project retains all three workflow screenshots and disclosures in its case study', () => {

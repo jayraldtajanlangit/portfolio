@@ -6,4 +6,5 @@ capture-*.webm
 *.capture.webm
 *.tmp.png
 *.tmp.webm
+tmp/pdfs/cv-content-update/
 

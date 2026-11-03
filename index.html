@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="js/theme.js"></script>
+  <script data-swarm-bootstrap>(()=>{const r=document.documentElement;try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&!location.hash&&performance.getEntriesByType('navigation')[0]?.type!=='back_forward'){r.dataset.swarmBuild='pending';setTimeout(()=>{if(r.dataset.swarmBuild==='pending')delete r.dataset.swarmBuild;},4000);}}catch{delete r.dataset.swarmBuild;}})();</script>
   <title>Jayrald Tajanlangit | Student developer portfolio</title>
   <meta name="description" content="Jayrald Tajanlangit is a Computer Science student in the Philippines interested in artificial intelligence and web and mobile applications. Explore his projects, contributions, and tech stack.">
   <meta property="og:title" content="Jayrald Tajanlangit | Student developer portfolio">
@@ -19,150 +20,21 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="assets/images/social-preview.png">
   <meta name="twitter:image:alt" content="Jayrald Tajanlangit — Computer Science student building web and mobile applications.">
-  <meta name="theme-color" content="#f6f4ec">
+  <meta name="theme-color" content="#ffffff">
   <link rel="preload" href="assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/pp/jayrald-hero-cutout.png" as="image" fetchpriority="high">
   <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/tokens.css?v=20261103-petrol">
   <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="stylesheet" href="css/hero.css">
-  <link rel="stylesheet" href="css/selected-work.css">
+  <link rel="stylesheet" href="css/home.css?v=20261103-cobalt">
+  <link rel="stylesheet" href="css/hero.css?v=20261103-name-motion">
+  <link rel="stylesheet" href="css/selected-work.css?v=20261103-petrol">
   <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/motion.css">
-  <link rel="stylesheet" href="css/startup.css">
+  <link rel="stylesheet" href="css/swarm-rebuild.css">
 </head>
 <body class="home-page">
-  <dialog class="startup" data-startup hidden aria-labelledby="startup-title" aria-describedby="startup-description">
-    <div class="startup-ambience" aria-hidden="true"></div>
-    <div class="startup-panel">
-      <div class="startup-brandbar" aria-hidden="true"><div class="startup-brand"><span class="startup-monogram">JT<span>.</span></span><p class="startup-brand-name">Jayrald Tajanlangit<span>Personal portfolio</span></p></div><p class="startup-brand-kind">WEB / MOBILE / AI</p></div>
-      <section class="workflow-graph">
-        <header class="workflow-graph-header">
-          <div class="workflow-identity"><span class="workflow-file-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l4 4v14H7zM14 3v5h4M10 12l-2 2 2 2m5-4 2 2-2 2"/></svg></span><div><div class="workflow-title-line"><h2 id="startup-title">portfolio.yml</h2><span class="workflow-branch" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="4" cy="3" r="1.5"/><circle cx="12" cy="4" r="1.5"/><circle cx="4" cy="13" r="1.5"/><path d="M4 4.5v7m8-6v1c0 2-2 2.5-4 2.5H4"/></svg>main</span></div><p>Workflow preview <span class="workflow-stage-count">/ 4 stages</span></p></div></div>
-          <div class="workflow-run-state" aria-hidden="true"><span class="workflow-run-indicator"></span><span class="workflow-running-label">In progress</span><span class="workflow-success-label">Success</span></div>
-        </header>
-        <div class="workflow-canvas" aria-hidden="true">
-          <svg class="workflow-edges workflow-edges--desktop" viewBox="0 0 1000 340" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M280 170H308Q320 170 320 158V97Q320 85 332 85H360" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M280 170H308Q320 170 320 182V243Q320 255 332 255H360" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M640 85H668Q680 85 680 97V158Q680 170 692 170H720" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M640 255H668Q680 255 680 243V182Q680 170 692 170H720" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-test" d="M280 170H308Q320 170 320 158V97Q320 85 332 85H360" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-lint" d="M280 170H308Q320 170 320 182V243Q320 255 332 255H360" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="test-deploy" d="M640 85H668Q680 85 680 97V158Q680 170 692 170H720" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="lint-deploy" d="M640 255H668Q680 255 680 243V182Q680 170 692 170H720" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
-          <svg class="workflow-edges workflow-edges--mobile" viewBox="0 0 1000 1000" preserveAspectRatio="none" fill="none" aria-hidden="true"><path data-from="build" data-to="test" d="M500 215V288Q500 300 488 300H232Q220 300 220 312V405" vector-effect="non-scaling-stroke"/><path data-from="build" data-to="lint" d="M500 215V288Q500 300 512 300H768Q780 300 780 312V405" vector-effect="non-scaling-stroke"/><path data-from="test" data-to="deploy" d="M220 595V688Q220 700 232 700H488Q500 700 500 712V785" vector-effect="non-scaling-stroke"/><path data-from="lint" data-to="deploy" d="M780 595V688Q780 700 768 700H512Q500 700 500 712V785" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-test" d="M500 215V288Q500 300 488 300H232Q220 300 220 312V405" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="build-lint" d="M500 215V288Q500 300 512 300H768Q780 300 780 312V405" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="test-deploy" d="M220 595V688Q220 700 232 700H488Q500 700 500 712V785" pathLength="1" vector-effect="non-scaling-stroke"/><path class="workflow-signal" data-route="lint-deploy" d="M780 595V688Q780 700 768 700H512Q500 700 500 712V785" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
-          <ol class="startup-pipeline"><li class="pipeline-stage" data-pipeline-stage data-job="build" data-state="pending">
-
-            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Source</h3><p class="pipeline-description">Connecting ideas</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>
-            <span class="workflow-port workflow-port--out"></span>
-          </li><li class="pipeline-stage" data-pipeline-stage data-job="test" data-state="pending">
-            <span class="workflow-port workflow-port--in"></span>
-            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Build</h3><p class="pipeline-description">Building experiences</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>
-            <span class="workflow-port workflow-port--out"></span>
-          </li><li class="pipeline-stage" data-pipeline-stage data-job="lint" data-state="pending">
-            <span class="workflow-port workflow-port--in"></span>
-            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Test</h3><p class="pipeline-description">Checking the details</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>
-            <span class="workflow-port workflow-port--out"></span>
-          </li><li class="pipeline-stage" data-pipeline-stage data-job="deploy" data-state="pending">
-            <span class="workflow-port workflow-port--in"></span>
-            <span class="pipeline-badge"><span class="pipeline-queued"></span><span class="pipeline-runner"></span><svg class="pipeline-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4 10-10"/></svg></span><div class="pipeline-copy"><h3>Deploy</h3><p class="pipeline-description">Portfolio ready</p></div><p class="pipeline-meta"><span class="job-queued">Queued</span><span class="job-running">Running</span><span class="job-success">Success</span></p>
-
-          </li></ol>
-        </div>
-        <div class="workflow-bottom-bar"><p class="workflow-current" aria-hidden="true"><span class="workflow-current-dot"></span><span data-startup-status>Connecting ideas</span></p><div class="workflow-legend" aria-hidden="true"><span><i class="legend-queued"></i>Queued</span><span><i class="legend-running"></i>Running</span><span><i class="legend-complete"></i>Ready</span></div></div>
-      </section>
-      <div class="startup-finale">
-        <p class="startup-finale-eyebrow"><span aria-hidden="true">✓</span> READY TO EXPLORE</p>
-        <h2 class="startup-welcome"><span>Hi, I'm</span><strong data-startup-name>Jayrald</strong></h2>
-        <p class="startup-finale-description">I build web and mobile experiences.</p>
-        <p class="startup-caption" id="startup-description">Web · Mobile · AI</p>
-      </div>
-    </div>
-    <p class="startup-footer-note" aria-hidden="true">JAYRALD TAJANLANGIT <span>/ PORTFOLIO</span></p>
-    <button class="startup-skip" data-startup-skip type="button" autofocus>Skip intro <span aria-hidden="true">↗</span></button>
-  </dialog>
-  <script data-startup-controller>// Runs beside the hidden dialog, before the homepage paints. No media or imports.
-(() => {
-  const dialog = document.querySelector('[data-startup]');
-  if (!dialog) return;
-  const key = 'portfolio-startup-canvas-seen';
-  const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  let seen = false;
-  try { seen = window.sessionStorage.getItem(key) === '1'; } catch { /* Private/blocked storage. */ }
-  const returning = window.performance?.getEntriesByType('navigation')[0]?.type === 'back_forward';
-  if (seen || motion.matches || window.location.hash || returning || document.hidden || !dialog.showModal) {
-    dialog.remove();
-    return;
-  }
-
-  const status = document.querySelector('[data-startup-status]');
-  const skip = document.querySelector('[data-startup-skip]');
-  const stages = [...document.querySelectorAll('[data-pipeline-stage]')];
-  const updateJobs = (states, message, step) => {
-    stages.forEach((stage, index) => { stage.dataset.state = states[index]; });
-    dialog.dataset.workflow = states.every(state => state === 'complete') ? 'complete' : 'running';
-    dialog.dataset.step = step;
-    status.textContent = message;
-  };
-  const timers = [];
-  let finished = false, revealed = false, nameAnimation;
-  const later = (fn, delay) => timers.push(window.setTimeout(fn, delay));
-  const moveNameToHero = () => {
-    // Measure before the homepage entrance applies its initial transforms.
-    // A missing target, unsupported API or geometry failure uses the plain fade.
-    try {
-      const name = dialog.querySelector('[data-startup-name]');
-      const target = document.querySelector('[data-hero-name]');
-      if (!name?.animate || !target?.getBoundingClientRect) return;
-      const from = name.getBoundingClientRect(), to = target.getBoundingClientRect();
-      if (![from.left, from.top, from.width, from.height, to.left, to.top, to.width, to.height].every(Number.isFinite)
-        || from.width <= 0 || from.height <= 0 || to.width <= 0 || to.height <= 0) return;
-      nameAnimation = name.animate([
-        { transformOrigin: 'top left', transform: 'translate(0, 0) scale(1)' },
-        { transformOrigin: 'top left', transform: `translate(${to.left - from.left}px, ${to.top - from.top}px) scale(${to.width / from.width})` },
-      ], { duration: 400, fill: 'both', easing: 'cubic-bezier(.16,1,.3,1)' });
-    } catch { /* The hard deadline still reveals the homepage. */ }
-  };
-  const reveal = () => {
-    if (revealed) return;
-    revealed = true;
-    dialog.dispatchEvent(new window.Event('startup:reveal'));
-  };
-  const finish = () => {
-    if (finished) return;
-    finished = true;
-    timers.forEach(timer => window.clearTimeout(timer));
-    nameAnimation?.cancel();
-    skip.removeEventListener('click', finish);
-    dialog.removeEventListener('cancel', cancel);
-    motion.removeEventListener('change', finish);
-    document.removeEventListener('visibilitychange', onVisibility);
-    window.removeEventListener('pagehide', finish);
-    if (dialog.open) {
-      reveal();
-      dialog.close();
-    }
-    dialog.remove();
-  };
-  const cancel = event => { event.preventDefault(); finish(); };
-  const onVisibility = () => { if (document.hidden) finish(); };
-
-  // Schedule the hard deadline before opening: never depend on animationend,
-  // fonts, videos, window.load, or a successful storage write to unlock the page.
-  later(finish, 5000);
-  skip.addEventListener('click', finish);
-  dialog.addEventListener('cancel', cancel);
-  motion.addEventListener('change', finish);
-  document.addEventListener('visibilitychange', onVisibility);
-  window.addEventListener('pagehide', finish);
-  updateJobs(['active', 'pending', 'pending', 'pending'], 'Connecting ideas', 'build');
-  dialog.hidden = false;
-  try { dialog.showModal(); } catch { finish(); return; }
-  try { window.sessionStorage.setItem(key, '1'); } catch { /* Intro still completes. */ }
-  later(() => updateJobs(['complete', 'active', 'active', 'pending'], 'Building experiences', 'checks'), 1200);
-  later(() => updateJobs(['complete', 'complete', 'active', 'pending'], 'Checking the details', 'lint'), 2000);
-  later(() => updateJobs(['complete', 'complete', 'complete', 'active'], 'Portfolio ready', 'deploy'), 2600);
-  later(() => {
-    updateJobs(['complete', 'complete', 'complete', 'complete'], 'Portfolio ready', 'ready');
-    dialog.dataset.phase = 'welcome';
-  }, 3200);
-  later(() => { moveNameToHero(); reveal(); dialog.dataset.phase = 'exit'; }, 4600);
-})();
-</script>
   <a class="skip-link" href="#main">Skip to main content</a>
   <header class="portfolio-header" id="top">
     <div class="shell header-layout">
@@ -176,23 +48,17 @@
   <main id="main">
     <section class="intro-section shell" aria-labelledby="hero-title">
       <div class="intro-layout">
-        <div class="intro-copy"><h1 id="hero-title"><span data-hero-name>Jayrald</span><br>Tajanlangit</h1><p class="intro-role typing-line"><span class="typing-static">I’m interested in web development, mobile development, and artificial intelligence.</span><span class="typing-visual" aria-hidden="true">I’m interested in <span class="typing-slot"><span class="typing-measure">artificial intelligence|</span><span class="typing-text" data-typing-words="[&quot;web development&quot;,&quot;mobile development&quot;,&quot;artificial intelligence&quot;]">web development</span></span></span></p>
-        <div class="intro-description"><p>I build web and mobile applications, from booking flows to tools for learning and community.</p><p>Computer Science student at the University of San Jose Recoletos in the Philippines.</p><div class="intro-actions"><a class="button-link" href="#work">View projects</a><a href="assets/documents/jayrald-tajanlangit-resume.pdf" type="application/pdf">Résumé <span class="resume-format">PDF</span></a></div></div>
+        <div class="hero-composition">
+    <h1 class="hero-name" id="hero-title" aria-label="Jayrald Tajanlangit"><span class="hero-name-line" data-hero-name><span class="hero-name-word">Jayrald</span></span><span class="hero-name-line"><span class="hero-name-word">Tajanlangit</span></span></h1>
+    <img class="hero-portrait" src="assets/pp/jayrald-hero-cutout.png" alt="Black-and-white portrait of Jayrald Tajanlangit seated on a chair" width="1254" height="1254" fetchpriority="high" decoding="async">
+  </div>
+        <div class="intro-copy">
+          <div class="intro-description"><p class="intro-role">Web &amp; mobile developer</p><p>I build web and mobile applications, from booking flows to tools for learning and community.</p></div>
+          <div class="hero-aside">
+            <div class="hero-context"><p>Computer Science student</p><p>USJ-R · Philippines</p></div>
+            <div class="intro-actions"><a class="button-link" href="#work">View projects <span aria-hidden="true">↗</span></a><a href="assets/documents/jayrald-tajanlangit-resume.pdf?v=20261103-education-summary" type="application/pdf">Résumé <span class="resume-format">PDF</span></a></div>
+          </div>
         </div>
-        <figure class="hero-composition" aria-label="A selection of my web and mobile work">
-    <div class="hero-stage">
-      <a class="hero-preview hero-preview--web" href="projects/skyfire.html" aria-label="Explore the SkyFire case study">
-        <div class="hero-browser-bar" aria-hidden="true"><span class="hero-browser-dots"><i></i><i></i><i></i></span><span>SkyFire / Web</span><span>↗</span></div>
-        <img src="assets/images/projects/skyfire/poster.webp" width="1440" height="900" alt="SkyFire — Airline Booking System application interface" decoding="async">
-      </a>
-      <a class="hero-preview hero-preview--mobile" href="projects/bulk-buying-companion.html" aria-label="Explore the Bulk Buying Companion case study">
-        <div class="phone-frame" style="--phone-screen-aspect: 390 / 844"><span class="phone-frame-buttons" aria-hidden="true"></span><div class="phone-frame-screen"><img src="assets/images/projects/bulk-buying-companion/poster.webp" width="390" height="844" alt="Bulk Buying Companion application interface" decoding="async"></div></div>
-        <span class="hero-mobile-label" aria-hidden="true">Mobile ↗</span>
-      </a>
-    </div>
-    <ol class="hero-build-trail" aria-hidden="true"><li>Source</li><li>Build</li><li>Test</li><li>Deploy</li></ol>
-    <figcaption class="hero-composition-caption"><span>Selected builds</span><span>Web + Mobile</span></figcaption>
-  </figure>
       </div>
     </section>
     <section class="work-section shell" id="work" aria-labelledby="work-title">
@@ -277,7 +143,7 @@
     <section class="about-section" id="about" aria-labelledby="about-title">
       <div class="shell about-layout">
         <div class="about-profile"><p class="section-kicker">03 / About</p><h2 id="about-title">A little about me</h2><figure class="intro-portrait"><img src="assets/pp/583917390_25203520672616248_2951040891851883210_n.jpg" alt="Portrait of Jayrald Tajanlangit" width="864" height="852" loading="lazy"><figcaption>Jayrald Tajanlangit · Philippines</figcaption></figure><div class="education-detail"><h3>Education</h3><p>Computer Science<br>University of San Jose Recoletos</p></div></div>
-        <div class="about-copy"><p>I'm a student learning by building applications for the web and mobile.</p><p>I've worked independently on SkyFire and Sige, and with teammates on mAIstra, Bulk Buying Companion, and Pulso. That work has given me practice connecting interfaces, APIs, and databases.</p><h3>What I want to learn</h3><p>I'd like to contribute to development tasks, get feedback through code reviews, and learn how a team builds and maintains software.</p><div class="about-links"><a href="https://github.com/jayraldtajanlangit">GitHub</a><a href="https://www.linkedin.com/in/jayrald-tajanlangit-b8646a280/">LinkedIn</a><a href="assets/documents/jayrald-tajanlangit-resume.pdf" download>Download résumé</a></div></div>
+        <div class="about-copy"><p>I'm a student learning by building applications for the web and mobile.</p><p>I've worked independently on SkyFire and Sige, and with teammates on mAIstra, Bulk Buying Companion, and Pulso. That work has given me practice connecting interfaces, APIs, and databases.</p><h3>What I want to learn</h3><p>I'd like to contribute to development tasks, get feedback through code reviews, and learn how a team builds and maintains software.</p><div class="about-links"><a href="https://github.com/jayraldtajanlangit">GitHub</a><a href="https://www.linkedin.com/in/jayrald-tajanlangit-b8646a280/">LinkedIn</a><a href="assets/documents/jayrald-tajanlangit-resume.pdf?v=20261103-education-summary" download>Download résumé</a></div></div>
       </div>
     </section>
     <section class="contact-section" id="contact" aria-labelledby="contact-title">
@@ -298,6 +164,7 @@
   <footer class="portfolio-footer"><div class="shell"><p>© 2026 Jayrald Tajanlangit</p><a href="#top">Back to top ↑</a></div></footer>
   <script type="module" src="js/site.js"></script>
   <script type="module" src="js/motion.js"></script>
+  <script type="module" src="js/swarm-rebuild.js?v=20261103-calm"></script>
   <script type="module" src="js/walkthrough.js"></script>
   <script type="module" src="js/contact.js"></script>
 </body>

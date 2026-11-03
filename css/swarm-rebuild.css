@@ -1,0 +1,5 @@
+/* Keep the initial page blank only until Swarm's own canvas is mounted. */
+html[data-swarm-build="pending"] body { visibility:hidden; }
+@media (prefers-reduced-motion:reduce) {
+ html[data-swarm-build="pending"] body { visibility:visible; }
+}

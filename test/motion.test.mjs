@@ -166,25 +166,24 @@ function entranceEnvironment({ splash = true, reduced = false } = {}) {
   };
 }
 
-test('homepage entrance is primed synchronously before the splash exposes the page', () => {
+test('homepage entrance starts immediately on the actual page', () => {
   const env = entranceEnvironment();
   assert.equal(typeof module.initPageMotion, 'function');
   const stop = module.initPageMotion(env.root);
-  assert.equal(env.observers.length, 0, 'do not spend the entrance underneath the splash');
-  env.reveal();
+  assert.equal(env.observers.length, 1);
   assert.equal(env.closeListeners.size, 0);
-  assert.equal(env.animations.length, 5, 'prime the copy and composition before the splash fades');
+  assert.equal(env.animations.length, 5, 'animate the visible homepage without waiting for an intro');
   assert.deepEqual(env.animations.map(a => a.options.delay), [0, 100, 200, 300, 400]);
   const observer = env.observers[0];
   assert.deepEqual(observer.observed, [], 'scroll observer must not replay the already-started hero');
   env.close();
-  assert.equal(env.animations.length, 5, 'closing the splash must not restart the entrance');
+  assert.equal(env.animations.length, 5);
   assert.ok(env.animations.every(a => a.options.fill === 'backwards' && a.frames.at(-1).opacity === 1));
   stop();
   assert.ok(env.animations.every(a => a.cancelled));
 });
 
-test('closing without an exit event still starts the entrance for Skip and Escape', () => {
+test('homepage entrance needs no dialog events', () => {
   const env = entranceEnvironment();
   const stop = module.initPageMotion(env.root);
   env.close();
@@ -193,7 +192,7 @@ test('closing without an exit event still starts the entrance for Skip and Escap
   stop();
 });
 
-test('entrance bypasses splash waiting on repeat visits and respects reduced motion', () => {
+test('homepage entrance runs on visits and respects reduced motion', () => {
   const repeat = entranceEnvironment({ splash: false });
   const stopRepeat = module.initPageMotion(repeat.root);
   assert.equal(repeat.observers.length, 1);
@@ -207,10 +206,11 @@ test('entrance bypasses splash waiting on repeat visits and respects reduced mot
   stopReduced();
 });
 
-test('disposing before the splash closes removes the pending entrance listener', () => {
+test('disposing the homepage cancels its entrance animations', () => {
   const env = entranceEnvironment();
   const stop = module.initPageMotion(env.root);
   stop(); env.close();
   assert.equal(env.closeListeners.size, 0);
-  assert.equal(env.observers.length, 0);
+  assert.equal(env.observers.length, 1);
+  assert.ok(env.animations.every(animation => animation.cancelled));
 });

@@ -1,80 +1,72 @@
-/* Real project captures give the opening a visual focus without more players. */
-.intro-layout { grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(32px, 4vw, 72px); }
-.intro-copy { min-width: 0; align-self: start; }
-[data-hero-name] { display: inline-block; }
-.intro-copy > .intro-description { margin-top: 24px; }
-.intro-copy .intro-description > p:first-child { font-size: clamp(1.125rem, 1.15vw, 1.375rem); line-height: 1.65; }
-.intro-copy .intro-description > p:nth-child(2) { max-width: 44ch; }
-.hero-composition { width: 100%; max-width: 44rem; min-width: 0; margin: 0 0 0 auto; }
-.hero-stage { position: relative; aspect-ratio: 1.25; isolation: isolate; }
-.hero-stage::before { content: ''; position: absolute; inset: 0; z-index: -1; background-image: radial-gradient(circle, color-mix(in srgb, var(--accent) 22%, transparent) 0.8px, transparent 1px); background-size: 20px 20px; mask-image: radial-gradient(ellipse closest-side, #000, transparent); pointer-events: none; }
-.hero-preview { position: absolute; display: block; color: var(--color-ink); text-decoration: none; transition: transform 220ms var(--ease-editorial), box-shadow 220ms ease; }
-.hero-preview--web { top: 10%; left: 2%; width: 86%; overflow: hidden; border: 1px solid var(--color-rule); border-radius: var(--radius-media); background: var(--color-paper-deep); box-shadow: 0 16px 40px color-mix(in srgb, var(--bg) 18%, transparent); }
-.hero-preview img { display: block; width: 100%; height: auto; }
-.hero-browser-bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 32px; padding: 7px 12px; color: var(--color-muted); font: 0.625rem/1.4 var(--font-mono); }
-.hero-browser-dots { display: flex; gap: 4px; }
-.hero-browser-dots i { width: 4px; height: 4px; border-radius: 50%; background: currentColor; opacity: 0.5; }
-.hero-preview--mobile { --phone-width: 100%; right: 1%; bottom: 0; width: 29%; }
-.hero-preview--mobile .phone-frame { box-shadow: inset 0 0 0 2px #303834, 0 16px 36px color-mix(in srgb, var(--bg) 24%, transparent); }
-.hero-mobile-label { position: absolute; bottom: 22px; left: -12px; display: block; padding: 7px 10px; border: 1px solid var(--color-rule); border-radius: 6px; background: var(--color-paper); color: var(--color-ink); font: 0.625rem/1.3 var(--font-mono); white-space: nowrap; }
-.hero-preview:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
-.hero-build-trail { display: flex; align-items: center; gap: 10px; margin: 24px 0 14px; padding: 0; color: var(--color-muted); font: 0.625rem/1.5 var(--font-mono); list-style: none; }
-.hero-build-trail li { display: flex; flex: 1; align-items: center; gap: 7px; }
-.hero-build-trail li::before { content: ''; width: 5px; height: 5px; flex-shrink: 0; border: 1px solid var(--accent); border-radius: 50%; }
-.hero-build-trail li::after { content: ''; flex: 1; border-top: 1px solid var(--color-rule); }
-.hero-build-trail li:last-child { flex: 0; color: var(--accent); }
-.hero-build-trail li:last-child::before { background: var(--accent); }
-.hero-build-trail li:last-child::after { display: none; }
+/* The portrait sits in front of live, accessible name typography. */
+.intro-section { padding-block: 18px 36px; }
+.intro-layout { position: relative; display: block; }
+.hero-composition { position: relative; isolation: isolate; container-type: inline-size; height: clamp(460px, calc(100svh - 270px), 820px); overflow: clip; }
+.home-page .hero-name { position: absolute; z-index: 0; inset: 22px 0 auto; display: grid; justify-items: center; gap: 0; margin: 0; color: var(--color-ink); font-family: var(--font-display); font-weight: 400; line-height: .82; letter-spacing: -.055em; text-align: center; text-transform: uppercase; }
+.hero-name > span { display: block; width: max-content; max-width: 100%; }
+.hero-name > span:first-child { font-size: clamp(96px, 18.1vw, 290px); }
+.hero-name > span:last-child { font-size: clamp(68px, 12.35vw, 198px); }
+.hero-name-word { display: block; }
+/* The text settles behind the portrait; the final type geometry stays intact. */
 @media (prefers-reduced-motion: no-preference) {
-  .hero-build-trail li { --trail-offset: 0s; }
-  .hero-build-trail li:nth-child(2) { --trail-offset: 1.6s; }
-  .hero-build-trail li:nth-child(3) { --trail-offset: 3.2s; }
-  .hero-build-trail li:nth-child(4) { --trail-offset: 4.8s; }
-  .hero-build-trail li::before { animation: hero-trail-pulse 6.4s ease-out var(--trail-offset) infinite; }
-  .hero-build-trail li:last-child::before { background: transparent; }
-  .hero-build-trail li:not(:last-child)::after {
-    height: 1px;
-    border: 0;
-    background-color: var(--color-rule);
-    background-image: linear-gradient(90deg, transparent, var(--accent), transparent);
-    background-size: 36% 100%;
-    background-repeat: no-repeat;
-    background-position: -60% 0;
-    animation: hero-trail-flow 6.4s linear infinite;
-    animation-delay: calc(var(--trail-offset) + 0.3s);
-  }
+ .hero-name-line { clip-path: inset(-20% -4% -20%); }
+ .hero-name-word { animation: hero-name-arrive 900ms cubic-bezier(.16,1,.3,1) both; }
+ .hero-name-line:last-child .hero-name-word { animation-delay: 140ms; }
+ @supports (animation-timeline: view()) {
+  .hero-name-line { animation: hero-name-separate linear both; animation-timeline: view(); animation-range: exit 0% exit 100%; }
+  .hero-name-line:first-child { --name-travel: -18px; }
+  .hero-name-line:last-child { --name-travel: 18px; }
+ }
 }
-@keyframes hero-trail-pulse {
-  0% { background-color: var(--accent); box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 35%, transparent); }
-  12% { background-color: var(--accent); box-shadow: 0 0 0 5px transparent; }
-  20%, 100% { background-color: transparent; box-shadow: 0 0 0 0 transparent; }
+@keyframes hero-name-arrive {
+ from { opacity: .25; transform: translateY(72%) rotate(3deg); }
+ to { opacity: 1; transform: translateY(0) rotate(0); }
 }
-@keyframes hero-trail-flow {
-  from { background-position: -60% 0; }
-  20%, 100% { background-position: 160% 0; }
+@keyframes hero-name-separate {
+ from { transform: translateX(0); }
+ to { transform: translateX(var(--name-travel)); }
 }
-.hero-composition-caption { display: flex; justify-content: space-between; gap: 16px; color: var(--color-muted); font-size: 0.75rem; line-height: 1.5; }
-@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
-  .hero-preview:hover { transform: translateY(-4px); }
+.hero-portrait { position: absolute; z-index: 1; bottom: 0; left: 50%; width: auto; max-width: none; height: 100%; object-fit: contain; transform: translateX(-50%); pointer-events: none; user-select: none; }
+.intro-copy { display: flex; align-items: end; justify-content: space-between; gap: 32px; padding-top: 24px; }
+.intro-copy > .intro-description { max-width: 54ch; min-width: 0; }
+.intro-copy .intro-description p { margin: 0; }
+.intro-copy .intro-description > p:last-child { max-width: 49ch; font-size: 1rem; line-height: 1.65; color: var(--color-muted); }
+.intro-copy .intro-description > .intro-role { margin-bottom: 12px; color: var(--accent); font-size: clamp(1.375rem, 1.8vw, 2rem); font-weight: 650; letter-spacing: -.04em; line-height: 1.2; }
+.intro-copy .intro-actions { flex-shrink: 0; padding-bottom: 3px; }
+.hero-aside { display: flex; flex-direction: column; gap: 22px; flex-shrink: 0; }
+.hero-context p { margin: 0; font-size: 1rem; line-height: 1.6; }
+.hero-context p:first-child { font-weight: 600; }
+.hero-context p:last-child { color: var(--color-muted); font-size: .875rem; }
+.intro-actions .button-link { gap: 14px; }
+@media (min-width: 1101px) {
+ .hero-composition { height: clamp(540px, calc(100svh - 150px), 900px); }
+ .intro-copy { position: absolute; z-index: 2; inset: auto 0 24px; align-items: end; padding-top: 0; pointer-events: none; }
+ .intro-copy > .intro-description { width: 28%; max-width: 340px; pointer-events: auto; }
+ .hero-aside { width: 28%; max-width: 320px; pointer-events: auto; }
+ .intro-copy .intro-actions { gap: 20px; }
 }
-@media (max-width: 1000px) {
-  .intro-layout { grid-template-columns: minmax(0, 1fr); gap: 32px; }
-  .hero-composition { width: min(100%, 36rem); margin-inline: auto; }
-  .intro-copy .intro-description > p { max-width: 52ch; }
+@media (min-width: 1600px) {
+ .intro-copy .intro-description > p:last-child { font-size: 1.125rem; }
 }
-@media (max-width: 47.99rem) {
-  .intro-copy > .intro-description { margin-top: 20px; }
-  .hero-composition { max-width: 28rem; }
-  .hero-browser-bar { min-height: 25px; padding: 5px 8px; font-size: 0.5rem; }
-  .hero-preview--mobile { width: 30%; }
-  .hero-preview--mobile .phone-frame { padding: 15px 5px 11px; border-radius: 22px; }
-  .hero-preview--mobile .phone-frame::before { top: 7px; width: 20px; height: 2px; }
-  .hero-preview--mobile .phone-frame::after { bottom: 5px; height: 2px; }
-  .hero-preview--mobile .phone-frame-screen { border-radius: 14px; }
-  .hero-preview--mobile .phone-frame-buttons::before { top: 40px; height: 15px; }
-  .hero-preview--mobile .phone-frame-buttons::after { top: 60px; height: 26px; }
-  .hero-mobile-label { left: -9px; bottom: 15px; padding: 5px 7px; font-size: 0.5rem; }
-  .hero-build-trail { gap: 6px; margin-top: 18px; }
-  .hero-build-trail li { gap: 5px; }
+@media (max-width: 900px) {
+ .hero-composition { height: clamp(460px, 58svh, 650px); }
+ .intro-copy { gap: 24px; align-items: start; }
+ .intro-copy > .intro-description { max-width: 42ch; }
+ .intro-copy .intro-actions { flex-direction: column; align-items: start; gap: 8px; }
 }
-@media (prefers-reduced-motion: reduce) { .hero-preview { transition: none; } }
+@media (max-width: 600px) {
+ .intro-section { padding-block: 18px 32px; }
+ .hero-composition { height: clamp(420px, 62svh, 570px); }
+ .home-page .hero-name { inset-block-start: 12px; gap: 6px; }
+ .hero-name > span:first-child { font-size: 22cqw; }
+ .hero-name > span:last-child { font-size: 14cqw; }
+ .hero-portrait { height: calc(100% - 70px); max-height: 145cqw; }
+ .intro-copy { display: block; padding-top: 22px; }
+ .intro-copy > .intro-description { max-width: none; }
+ .intro-copy .intro-description > .intro-role { font-size: 1.375rem; }
+ .intro-copy .intro-description > p:last-child { font-size: .9375rem; }
+ .hero-aside { gap: 18px; margin-top: 22px; }
+ .hero-aside .intro-actions { order: 0; }
+ .hero-aside .hero-context { order: 1; }
+ .intro-copy .intro-actions { flex-direction: row; align-items: center; gap: 24px; }
+}

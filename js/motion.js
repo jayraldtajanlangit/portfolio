@@ -74,6 +74,8 @@ export function initTypingLoop(root = document, options = {}) {
 
 export function initPortfolioMotion(root = document, options = {}) {
   const doc = root.ownerDocument ?? root;
+  // The build tour owns the actual content entrance while it assembles the page.
+  if (doc.documentElement?.dataset?.swarmBuild) return () => {};
   const view = doc.defaultView ?? globalThis;
   if (!view.IntersectionObserver) return () => {};
   const reduced = view.matchMedia?.('(prefers-reduced-motion: reduce)');
@@ -149,30 +151,11 @@ export function initPortfolioMotion(root = document, options = {}) {
 }
 
 export function initPageMotion(root = document) {
-  const splash = root.querySelector?.('[data-startup]');
-  const waiting = Boolean(splash?.open);
-  let started = false, stopTyping, stopMotion;
-  const start = () => {
-    if (started) return;
-    started = true;
-    splash?.removeEventListener('close', start);
-    splash?.removeEventListener('startup:reveal', start);
-    stopTyping = initTypingLoop(root);
-    stopMotion = initPortfolioMotion(root, { entrance: waiting });
-  };
-  // Begin before the overlay exits; native close is a fallback for Skip/Escape
-  // and older cached startup controllers. Start only once across both events.
-  if (waiting) {
-    splash.addEventListener('startup:reveal', start, { once: true });
-    splash.addEventListener('close', start, { once: true });
-  }
-  else start();
+  const stopTyping = initTypingLoop(root);
+  const stopMotion = initPortfolioMotion(root, { entrance: true });
   return () => {
-    started = true;
-    splash?.removeEventListener('close', start);
-    splash?.removeEventListener('startup:reveal', start);
-    stopTyping?.();
-    stopMotion?.();
+    stopTyping();
+    stopMotion();
   };
 }
 

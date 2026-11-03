@@ -17,7 +17,7 @@
 .header-email svg { transition: transform 220ms var(--ease-editorial); }
 .header-email:is(:hover, :focus-visible) svg { transform: translate(3px, -3px); }
 .portfolio-header a:hover { color: var(--accent); text-decoration: underline; }
-.intro-section { padding-block: 64px; border-bottom: 1px solid var(--color-rule); background: radial-gradient(ellipse closest-side, color-mix(in srgb, var(--accent) 8%, transparent), transparent); }
+.intro-section { padding-block: 64px; border-bottom: 1px solid var(--color-rule); background: var(--color-paper); }
 .intro-copy h1 { color: var(--color-ink); font-size: clamp(4rem, 7.8vw, 7rem); line-height: .92; margin-bottom: 1.5rem; font-weight: 400; letter-spacing: -.035em; }
 .intro-copy > p { max-width: 55ch; font-size: 1rem; line-height: 1.75; color: var(--color-muted); margin-bottom: 1.5rem; }
 .intro-copy .intro-role { color: var(--color-muted); font-size: 1rem; font-weight: 400; margin: 0; }

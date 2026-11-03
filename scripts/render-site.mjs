@@ -121,11 +121,11 @@ export function renderCaseStudy(project, nextProject) {
   <meta property="og:description" content="${escapeHtml(project.summary)}">
   <meta property="og:type" content="article">
   ${renderPageMetadata({ pathPrefix: '../' })}
-  <meta name="theme-color" content="#f6f4ec">
+  <meta name="theme-color" content="#ffffff">
   <link rel="preload" href="../assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="../assets/fonts/bodoni-moda-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../css/fonts.css">
-  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/tokens.css?v=20261103-petrol">
   <link rel="stylesheet" href="../css/global.css">
   <link rel="stylesheet" href="../css/case-study.css">
   <link rel="stylesheet" href="../css/theme.css">
