@@ -11,6 +11,24 @@
 .theme-trigger[aria-checked="true"] [data-theme-icon="light"] { color: var(--color-muted); }
 .theme-trigger[aria-checked="true"] [data-theme-icon="dark"] { color: var(--accent-ink); }
 .theme-trigger:hover .theme-track { background: var(--color-preview-hover); }
+.theme-track svg { transition: transform 320ms var(--ease-editorial); transform-origin: center; }
+.theme-track [data-theme-icon="dark"] { transform: rotate(-30deg); }
+.theme-trigger[aria-checked="true"] [data-theme-icon="light"] { transform: rotate(90deg); }
+.theme-trigger[aria-checked="true"] [data-theme-icon="dark"] { transform: rotate(0); }
+/* Reveal the new palette from the switch without moving page content. */
+:root[data-theme-transition="reveal"]::view-transition { pointer-events: none; }
+:root[data-theme-transition="reveal"]::view-transition-group(root) { animation: none; }
+:root[data-theme-transition="reveal"]::view-transition-image-pair(root) { isolation: isolate; }
+:root[data-theme-transition="reveal"]::view-transition-old(root) { animation: none; mix-blend-mode: normal; z-index: 1; }
+:root[data-theme-transition="reveal"]::view-transition-new(root) { animation: theme-reveal 480ms cubic-bezier(.2,.65,.3,1) both; mix-blend-mode: normal; z-index: 2; }
+@keyframes theme-reveal {
+  from { clip-path: circle(0px at var(--theme-reveal-x) var(--theme-reveal-y)); }
+  to { clip-path: circle(var(--theme-reveal-radius) at var(--theme-reveal-x) var(--theme-reveal-y)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .theme-track svg { transition: none; transform: none !important; }
+  :root[data-theme-transition="reveal"]::view-transition-new(root) { animation: none; }
+}
 @media (prefers-reduced-motion: reduce) { .theme-thumb { transition: none; } }
 @media (min-width: 48rem) { .header-layout { gap: 1.5rem; } }
 @media (max-width: 47.99rem) {

@@ -15,7 +15,13 @@ export function initWalkthroughPreviews(root = document) {
   };
   const fullscreen = record => doc.fullscreenElement === record.video;
   const updateLabel = record => {
-    record.video.setAttribute?.('aria-label', `${record.video.paused ? 'Play' : 'Pause'} ${record.label}`);
+    const action = record.video.paused ? 'Play' : 'Pause';
+    record.video.setAttribute?.('aria-label', `${action} ${record.label}`);
+    if (record.button) {
+      record.button.textContent = `${action} preview`;
+      record.button.setAttribute?.('aria-label', `${action} ${record.label}`);
+      record.button.setAttribute?.('aria-pressed', String(!record.video.paused));
+    }
   };
   const pause = record => {
     record.generation++;
@@ -49,8 +55,9 @@ export function initWalkthroughPreviews(root = document) {
   for (const card of root.querySelectorAll?.('[data-walkthrough-preview]') ?? []) {
     const video = card.querySelector('video');
     const frame = card.querySelector('.selected-project-media');
+    const button = card.querySelector('[data-preview-toggle]');
     if (!video || !frame) continue;
-    const record = { card, video, frame, label: video.getAttribute?.('aria-label') ?? 'project preview', intersecting: !hasObserver, userPaused: false, manual: false, generation: 0, wanted: false, autoRequested: false };
+    const record = { card, video, frame, button, label: video.getAttribute?.('aria-label') ?? 'project preview', intersecting: !hasObserver, userPaused: false, manual: false, generation: 0, wanted: false, autoRequested: false };
     records.push(record);
     video.muted = true;
     video.loop = true;
@@ -64,6 +71,10 @@ export function initWalkthroughPreviews(root = document) {
       record.manual = video.paused;
       sync();
     };
+    if (button) {
+      button.hidden = false;
+      listen(button, 'click', toggle);
+    }
     listen(video, 'click', toggle);
     listen(video, 'keydown', event => {
       if (![' ', 'Enter', 'Spacebar'].includes(event.key)) return;

@@ -40,14 +40,14 @@ const icons = new Map(areas.flatMap(area => area.tools.map(({ icon }) => {
 
 export function renderToolkit() {
   return `<section class="tech-section shell" id="tech-stack" aria-labelledby="tech-stack-title" data-reveal-group>
-    <header class="section-heading"><p class="section-kicker">02 / Toolkit</p><h2 id="tech-stack-title">Tech stack</h2></header>
+    <header class="section-heading"><h2 id="tech-stack-title">Tech stack</h2></header>
     <div class="tech-stack-groups">${areas.map(area => `<div class="tech-stack-group">
       <h3>${e(area.title)}</h3>
       <ul class="tech-logo-list" aria-label="${e(area.title)}">${area.tools.map(tool => {
         const project = tool.project ? projects.find(item => item.slug === tool.project) : null;
         const href = project ? `projects/${project.slug}.html` : tool.href;
         const label = project ? `${tool.name}: view my work on ${project.title.split(' — ')[0]}` : `${tool.name}: official website (opens in a new tab)`;
-        return `<li><a class="tech-logo-link" href="${e(href)}"${project ? '' : ' target="_blank" rel="noopener noreferrer"'} aria-label="${e(label)}">${icons.get(tool.icon)}<span class="tech-logo-name" aria-hidden="true">${e(tool.name)}</span></a></li>`;
+        return `<li><a class="tech-logo-link" href="${e(href)}"${project ? '' : ' target="_blank" rel="noopener noreferrer"'} aria-label="${e(label)}">${icons.get(tool.icon)}<span class="tech-logo-name">${e(tool.name)}</span></a></li>`;
       }).join('')}</ul>
     </div>`).join('')}</div>
   </section>`;

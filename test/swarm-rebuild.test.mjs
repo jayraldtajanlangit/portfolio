@@ -97,9 +97,9 @@ test('following a link while fonts load prevents a late animation takeover',asyn
  assert.equal(loads,0);assert.equal(e.root.documentElement.dataset.swarmBuild,undefined);
 });
 
-test('homepage loads the actual Swarm Rebuild integration without the custom cursor tour',()=>{
+test('homepage remains immediately readable without an automatic scrolling tour',()=>{
  const html=renderHomePage();
- assert.match(html,/src="js\/swarm-rebuild.js(?:\?[^\"]*)?"/);
+ assert.doesNotMatch(html,/src="js\/swarm-rebuild.js|data-swarm-bootstrap|data-swarm-build/);
  assert.doesNotMatch(html,/src="js\/home-agents.js"|data-homepage-agents|css\/home-agents.css/);
  assert.doesNotMatch(html,/<dialog/);
 });

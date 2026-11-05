@@ -5,6 +5,7 @@
   const normalize = value => ['light', 'dark', 'system'].includes(value) ? value : 'system';
   const system = window.matchMedia?.('(prefers-color-scheme: dark)') ?? { matches: false };
   let preference = 'system';
+  let activeTransition = null;
   try { preference = normalize(window.localStorage.getItem(storageKey)); } catch { /* Storage may be disabled. */ }
 
   const apply = () => {
@@ -22,6 +23,44 @@
     }
   };
 
+  const revealTheme = trigger => {
+    // Repeated input wins immediately, even before the first snapshot has updated.
+    if (activeTransition) {
+      activeTransition.skipTransition();
+      activeTransition = null;
+      delete root.dataset.themeTransition;
+      apply();
+      return;
+    }
+    if (!document.startViewTransition || window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) {
+      apply();
+      return;
+    }
+    try {
+      const bounds = trigger.getBoundingClientRect();
+      const x = bounds.left + bounds.width / 2;
+      const y = bounds.top + bounds.height / 2;
+      const radius = Math.hypot(Math.max(x, window.innerWidth - x), Math.max(y, window.innerHeight - y));
+      root.style.setProperty('--theme-reveal-x', `${x}px`);
+      root.style.setProperty('--theme-reveal-y', `${y}px`);
+      root.style.setProperty('--theme-reveal-radius', `${Math.ceil(radius)}px`);
+      root.dataset.themeTransition = 'reveal';
+      const transition = document.startViewTransition(apply);
+      activeTransition = transition;
+      const cleanUp = () => {
+        if (activeTransition !== transition) return;
+        activeTransition = null;
+        delete root.dataset.themeTransition;
+      };
+      transition.ready.catch(() => {}); // Skipped snapshots still apply the theme.
+      transition.finished.then(cleanUp, cleanUp);
+    } catch {
+      activeTransition = null;
+      delete root.dataset.themeTransition;
+      apply();
+    }
+  };
+
   apply();
   const onSystemChange = () => { if (preference === 'system') apply(); };
   if (system.addEventListener) system.addEventListener('change', onSystemChange);
@@ -32,9 +71,10 @@
       const trigger = control.querySelector('[data-theme-trigger]');
       if (!trigger) return;
       trigger.addEventListener('click', () => {
-        preference = root.dataset.theme === 'dark' ? 'light' : 'dark';
-        apply();
+        const current = preference === 'system' ? root.dataset.theme : preference;
+        preference = current === 'dark' ? 'light' : 'dark';
         try { window.localStorage.setItem(storageKey, preference); } catch { /* The switch still works for this visit. */ }
+        revealTheme(trigger);
       });
       control.removeAttribute('hidden');
     });

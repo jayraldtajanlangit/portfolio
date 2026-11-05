@@ -36,3 +36,9 @@ test('every technology has a self-contained icon without external mask requests'
     assert.doesNotMatch(icon, /(?:fill|stroke)="#/);
   }
 });
+
+test('technology names are visible without hovering or recognizing a logo', () => {
+  const html = renderToolkit();
+  assert.equal([...html.matchAll(/class="tech-logo-name"/g)].length, 16);
+  assert.doesNotMatch(html, /class="tech-logo-name" aria-hidden/);
+});

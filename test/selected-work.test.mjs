@@ -30,7 +30,7 @@ test('all five projects have full previews and Sige identifies the demonstrated 
   const sige = html.slice(html.indexOf('id="project-sige"'));
   assert.match(sige, /Tasks UI prototype/);
   assert.match(sige, /Tasks and Insights are UI prototypes/);
-  assert.match(sige, /My contribution/);
+  assert.match(sige, /My work:/);
 });
 
 test('all five homepage previews loop automatically without playback bars', () => {
@@ -53,39 +53,28 @@ test('selected work keeps contributions and case studies without repository acti
   assert.match(skyfire, /backend seat validation/);
   assert.doesNotMatch(html, /href="https:\/\/github\.com\//);
   assert.doesNotMatch(html, />Source code<|>Private source<|>Team source not public</);
-  assert.equal([...html.matchAll(/>View case study /g)].length, 5);
+  assert.equal([...html.matchAll(/>View project /g)].length, 5);
 });
 
-test('every project introduces its role before the title and keeps every technology in a named chip list', () => {
+test('every project leads with its title and keeps ownership and all technologies available', () => {
   const html = module.renderSelectedWork();
   for (const project of projects) {
     const article = html.match(new RegExp(`<article[^>]*id="project-${project.slug}"[\\s\\S]*?<\\/article>`))?.[0];
     assert.ok(article, `${project.slug} card exists`);
     const role = article.indexOf('class="selected-project-role"');
-    assert.ok(role >= 0 && role < article.indexOf('<h3'), `${project.slug} role comes before its title`);
+    assert.ok(role >= 0 && role > article.indexOf('<h3'), `${project.slug} ownership follows its title`);
     assert.match(article, /<ul class="selected-project-stack" aria-label="[^"]+ technologies">/);
     assert.deepEqual([...article.matchAll(/<li class="selected-project-chip">([^<]+)<\/li>/g)].map(match => match[1]), project.technologies);
   }
 });
 
-test('all five cards are numbered in display order and explain their captured three-step flow', () => {
+test('homepage previews use one media surface and a clear project link', () => {
   const html = module.renderSelectedWork();
-  const flows = [
-    ['skyfire', ['Search flights', 'Choose seats', 'Confirm booking']],
-    ['maistra', ['Extract code', 'Review code', 'Run &amp; grade']],
-    ['bulk-buying-companion', ['Browse deals', 'Inspect a deal', 'Reserve a share']],
-    ['pulso', ['Sign in', 'Share a post', 'Edit profile']],
-    ['sige', ['Review tasks', 'Open task', 'Mark complete']],
-  ];
-  for (const [index, [slug, steps]] of flows.entries()) {
-    const project = projects.find(project => project.slug === slug);
-    const article = html.match(new RegExp(`<article[^>]*id="project-${slug}"[\\s\\S]*?<\\/article>`))?.[0];
-    assert.ok(article.includes(`<span class="selected-project-number">${String(index + 1).padStart(2, '0')}</span>`));
-    assert.ok(article.includes(`<span class="selected-project-platform">${project.platform}</span>`));
-    const caption = article.match(/<figcaption class="selected-project-flow">[\s\S]*?<\/figcaption>/)?.[0];
-    assert.ok(caption, `${slug} has a walkthrough caption`);
-    assert.match(caption, /<ol class="selected-project-steps" aria-label="[^"]+ walkthrough steps">/);
-    assert.deepEqual([...caption.matchAll(/class="project-step-label">([^<]+)<\/span>/g)].map(match => match[1]), steps);
-    if (slug === 'sige') assert.match(caption, /Tasks UI prototype/);
+  assert.doesNotMatch(html, /project-browser|project-preview-bar|selected-project-number|selected-project-steps/);
+  assert.equal([...html.matchAll(/class="phone-frame"/g)].length, 3, 'mobile projects retain phone mockups');
+  assert.equal([...html.matchAll(/data-preview-toggle/g)].length, 5);
+  for (const project of projects) {
+    assert.ok(html.includes(`aria-label="View ${project.title.split(' \u2014 ')[0]} project"`));
+    assert.ok(html.includes(`href="projects/${project.slug}.html"`));
   }
 });

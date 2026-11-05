@@ -31,7 +31,7 @@ test('an old play promise cannot pause a newly visible preview', async () => {
     play() { this.paused = false; handlers.get('video:play')?.(); return new Promise(resolve => pending.push(resolve)); },
     pause() { if (!this.paused) { this.paused = true; handlers.get('video:pause')?.(); } },
   };
-  const card = { ...events('card'), querySelector: selector => selector === 'video' ? video : frame, contains: () => false };
+  const card = { ...events('card'), querySelector: selector => selector === 'video' ? video : selector === '.selected-project-media' ? frame : null, contains: () => false };
   let intersect;
   const doc = { ...events('doc'), hidden: false, querySelectorAll: () => [card], defaultView: {
     matchMedia: query => ({ ...events(query), matches: query.includes('hover: hover') }),
@@ -59,7 +59,9 @@ test('all visible previews play together, support individual pause, and stop in 
       play() { this.paused = false; fire(`video${index}`, 'play'); return Promise.resolve(); },
       pause() { if (!this.paused) { this.paused = true; fire(`video${index}`, 'pause'); } },
     };
-    return { video, frame, card: { ...events(`card${index}`), querySelector: selector => selector === 'video' ? video : frame, contains: () => false } };
+    const toggleAttributes = {};
+    const toggle = { ...events(`toggle${index}`), hidden: true, setAttribute(name, value) { toggleAttributes[name] = value; } };
+    return { video, frame, toggle, toggleAttributes, card: { ...events(`card${index}`), querySelector: selector => selector === 'video' ? video : selector === '.selected-project-media' ? frame : selector === '[data-preview-toggle]' ? toggle : null, contains: () => false } };
   });
   let intersect;
   const reduced = { ...events('reduced'), matches: false };
@@ -72,7 +74,10 @@ test('all visible previews play together, support individual pause, and stop in 
   visible([0, 1, 2]);
   assert.ok(items.every(({ video }) => !video.paused), 'all three visible projects should play together');
   assert.ok(items.every(({ video }) => video.controls === false), 'preview control bars should be hidden');
-  fire('video0', 'click');
+  assert.ok(items.every(({ toggle }) => !toggle.hidden && toggle.textContent === 'Pause preview'));
+  fire('toggle0', 'click');
+  assert.equal(items[0].toggle.textContent, 'Play preview');
+  assert.equal(items[0].toggleAttributes['aria-pressed'], 'false');
   assert.deepEqual(items.map(({ video }) => video.paused), [true, false, false]);
   assert.match(items[0].video.getAttribute('aria-label'), /^Play /);
   visible([1, 2]); visible([0, 1, 2]);

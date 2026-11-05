@@ -4,7 +4,7 @@ import { projects } from '../js/projects.js';
 import { renderCaseStudy } from '../scripts/render-site.mjs';
 import { renderHomePage } from '../scripts/render-home.mjs';
 
-test('hero layers one centered portrait in front of the accessible full name', () => {
+test('hero introduces the developer with one accessible name and portrait', () => {
   const html = renderHomePage();
   const hero=html.match(/<section class="intro-section[^]*?<\/section>/)?.[0];
   assert.ok(hero);
@@ -12,8 +12,12 @@ test('hero layers one centered portrait in front of the accessible full name', (
   assert.match(hero,/<h1[^>]+id="hero-title"[^]*?Jayrald[^]*?Tajanlangit[^]*?<\/h1>/);
   assert.match(hero,/<img[^>]+class="hero-portrait"[^>]+src="assets\/pp\/jayrald-hero-cutout.png"[^>]+alt="[^"]+"/);
   assert.ok(hero.indexOf('</h1>')<hero.indexOf('class="hero-portrait"'));
-  assert.match(hero,/href="#work"/);
+  assert.doesNotMatch(hero,/View projects|class="button-link"/);
+  assert.match(hero,/resume\.pdf/);
   assert.doesNotMatch(hero,/hero-preview|<video\b/);
+  const roles = hero.match(/data-typing-words='([^']+)'/);
+  assert.ok(roles, 'the hero has a typing role');
+  assert.deepEqual(JSON.parse(roles[1]), ['AI Engineer', 'Mobile Developer', 'Web Developer']);
 });
 
 test('every project retains all three workflow screenshots and disclosures in its case study', () => {

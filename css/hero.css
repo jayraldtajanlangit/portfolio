@@ -2,7 +2,7 @@
 .intro-section { padding-block: 18px 36px; }
 .intro-layout { position: relative; display: block; }
 .hero-composition { position: relative; isolation: isolate; container-type: inline-size; height: clamp(460px, calc(100svh - 270px), 820px); overflow: clip; }
-.home-page .hero-name { position: absolute; z-index: 0; inset: 22px 0 auto; display: grid; justify-items: center; gap: 0; margin: 0; color: var(--color-ink); font-family: var(--font-display); font-weight: 400; line-height: .82; letter-spacing: -.055em; text-align: center; text-transform: uppercase; }
+.home-page .hero-name { position: absolute; z-index: 0; inset: 22px 0 auto; display: grid; justify-items: center; gap: 0; margin: 0; color: var(--hero-title); font-family: "Bodoni Moda", Georgia, serif; font-weight: 400; line-height: .82; letter-spacing: -.055em; text-align: center; text-transform: uppercase; }
 .hero-name > span { display: block; width: max-content; max-width: 100%; }
 .hero-name > span:first-child { font-size: clamp(96px, 18.1vw, 290px); }
 .hero-name > span:last-child { font-size: clamp(68px, 12.35vw, 198px); }
@@ -70,3 +70,21 @@
  .hero-aside .hero-context { order: 1; }
  .intro-copy .intro-actions { flex-direction: row; align-items: center; gap: 24px; }
 }
+
+/* The retained hero has its own brand palette and full-width composition. */
+.home-page .intro-section { --color-ink: var(--hero-text); --color-muted: var(--hero-muted); --color-hero-ink: var(--hero-title); --accent: var(--hero-action); --accent-ink: var(--hero-action-ink); --color-vermilion-dark: var(--hero-hover); width: 100%; max-width: none; padding-inline: var(--hero-gutter); background: var(--hero-background); }
+.intro-copy .intro-description { margin: 0; }
+.intro-copy .hero-context { margin: 0; }
+.intro-copy .intro-role { margin: 0; }
+.intro-copy .intro-actions .button-link { font-size: 16px; border-radius: 10px; padding: 12px 20px; }
+.intro-copy .resume-link { font-size: 16px; gap: 8px; font-weight: 400; text-decoration: underline; }
+.resume-format { color: var(--hero-muted); font-size: 14px; }
+@media (max-width: 767px) { .home-page .intro-section { padding-inline: 20px; } }
+
+.home-page .intro-copy .intro-description > .intro-role.typing-line { display: flex; align-items: center; gap: 10px; font-size: clamp(22px, 1.8vw, 32px); font-weight: 650; line-height: 1.4; min-height: 44px; }
+.typing-toggle { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 50%; color: var(--hero-muted); background: transparent; font: 500 16px/1 var(--font-body); cursor: pointer; }
+.typing-toggle[hidden] { display: none; }
+.typing-toggle:hover { background: var(--hero-track); }
+.typing-toggle[aria-pressed="true"] span { font-size: 0; }
+.typing-toggle[aria-pressed="true"] span::after { content: '\25b6'; font-size: 12px; }
+@media (max-width: 600px) { .home-page .intro-copy .intro-description > .intro-role.typing-line { font-size: 22px; } }

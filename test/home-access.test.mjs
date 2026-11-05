@@ -32,3 +32,24 @@ test('homepage keeps all projects inspectable with ownership and honest prototyp
   assert.match(html, /Tasks and Insights are UI prototypes/);
   assert.doesNotMatch(html, /href="https:\/\/github\.com\/[^"/]+\//);
 });
+
+test('homepage avoids decorative numbered labels and gives every project a direct action', () => {
+  const html = renderHomePage();
+  assert.doesNotMatch(html, /section-kicker|View case study/);
+  assert.equal([...html.matchAll(/>View project /g)].length, 5);
+});
+
+test('About follows the hero before Projects and Tech stack', () => {
+  const html = renderHomePage();
+  const about = html.indexOf('id="about"');
+  assert.ok(about > html.indexOf('id="hero-title"'));
+  assert.ok(about < html.indexOf('id="work"'));
+  assert.ok(html.indexOf('id="work"') < html.indexOf('id="tech-stack"'));
+});
+
+test('header contains section navigation and appearance controls without duplicate name or email links', () => {
+  const header = renderHomePage().match(/<header class="portfolio-header"[\s\S]*?<\/header>/)[0];
+  assert.doesNotMatch(header, /wordmark|header-email|Email me/);
+  assert.match(header, /id="primary-navigation"/);
+  assert.match(header, /data-theme-trigger/);
+});
