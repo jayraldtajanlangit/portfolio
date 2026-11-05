@@ -4,6 +4,7 @@ import { renderSelectedWork } from './render-selected-work.mjs';
 import { renderToolkit } from './render-toolkit.mjs';
 import { renderHeroComposition } from './render-hero-composition.mjs';
 import { renderCertifications } from './render-certifications.mjs';
+import { renderSwarmBootstrap } from './render-swarm-rebuild.mjs';
 
 export function renderHomePage() {
   return `<!doctype html>
@@ -12,6 +13,7 @@ export function renderHomePage() {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="js/theme.js?v=20261105-reveal"></script>
+  ${renderSwarmBootstrap()}
   <title>${e(site.name)} | Web &amp; mobile developer</title>
   <meta name="description" content="Jayrald Tajanlangit is a Computer Science student in the Philippines building web and mobile applications. Explore his projects, contributions, and tech stack.">
   <meta property="og:title" content="${e(site.name)} | Web &amp; mobile developer">
@@ -30,6 +32,7 @@ export function renderHomePage() {
   <link rel="stylesheet" href="css/selected-work.css?v=20261105-redesign">
   <link rel="stylesheet" href="css/theme.css?v=20261105-reveal">
   <link rel="stylesheet" href="css/motion.css">
+  <link rel="stylesheet" href="css/swarm-rebuild.css">
 </head>
 <body class="home-page">
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -83,6 +86,7 @@ export function renderHomePage() {
   <footer class="portfolio-footer"><div class="shell"><p>© 2026 ${e(site.name)}</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
   <script type="module" src="js/site.js"></script>
   <script type="module" src="js/motion.js"></script>
+  <script type="module" src="js/swarm-rebuild.js?v=20261105-ten-agents"></script>
   <script type="module" src="js/walkthrough.js"></script>
   <script type="module" src="js/contact.js"></script>
 </body>

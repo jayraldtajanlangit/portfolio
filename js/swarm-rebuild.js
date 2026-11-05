@@ -9,7 +9,7 @@ export async function initSwarmRebuild(root = document, load = () => import('./v
  const view=root.defaultView;
  const release=()=>delete root.documentElement.dataset.swarmBuild;
  if(!shouldBuildHomepage(view,root)){release();return ()=>{};}
- const agents=view.innerWidth<700?{min:2,max:6,intro:3,flock:6}:{min:4,max:10,intro:6,flock:10};
+ const agents={min:4,max:10,intro:6,flock:10};
  view.__swarmRebuildOptions={intro:false,autoScroll:true,autoExit:true,sound:false,homepage:true,agents};
  try {
   await Promise.race([root.fonts.ready,new Promise(resolve=>view.setTimeout(resolve,1200))]);

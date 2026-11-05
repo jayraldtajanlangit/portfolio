@@ -76,7 +76,7 @@ for(const changes of [{reduced:true},{hidden:true},{hash:'#work'},{scroll:400},{
  });
 }
 
-for(const [width,max] of [[1280,10],[390,6]])test(`the ${width}px engine keeps automatic tour/exit with a ${max}-cursor cap`,async()=>{
+for(const [width,max] of [[1280,10],[390,10]])test(`the ${width}px engine keeps automatic tour/exit with a ${max}-cursor cap`,async()=>{
  const e=environment({width});let options;
  const cleanup=await initSwarmRebuild(e.root,async()=>{options=e.view.__swarmRebuildOptions;});
  assert.equal(options.intro,false);assert.equal(options.autoScroll,true);assert.equal(options.autoExit,true);
@@ -97,9 +97,11 @@ test('following a link while fonts load prevents a late animation takeover',asyn
  assert.equal(loads,0);assert.equal(e.root.documentElement.dataset.swarmBuild,undefined);
 });
 
-test('homepage remains immediately readable without an automatic scrolling tour',()=>{
+test('homepage retains the Swarm rebuild animation with its startup guard and styles',()=>{
  const html=renderHomePage();
- assert.doesNotMatch(html,/src="js\/swarm-rebuild.js|data-swarm-bootstrap|data-swarm-build/);
+ assert.match(html,/src="js\/swarm-rebuild.js\?v=/);
+ assert.match(html,/data-swarm-bootstrap/);
+ assert.match(html,/href="css\/swarm-rebuild.css/);
  assert.doesNotMatch(html,/src="js\/home-agents.js"|data-homepage-agents|css\/home-agents.css/);
  assert.doesNotMatch(html,/<dialog/);
 });
