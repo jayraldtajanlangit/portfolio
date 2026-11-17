@@ -7,7 +7,7 @@ import { escapeHtml } from '../scripts/render-utils.mjs';
 test('homepage provides navigation and usable contact paths without JavaScript', () => {
   const html = renderHomePage();
   assert.equal([...html.matchAll(/<h1[ >]/g)].length, 1);
-  assert.match(html, /<h2 id="work-title">Projects<\/h2>/);
+  assert.match(html, /<h2 id="work-title">Selected <em>projects<\/em><\/h2>/);
   assert.doesNotMatch(html, /with a closer look at what I built/);
   for (const id of ['work', 'about', 'contact']) {
     assert.ok(html.includes(`href="#${id}"`));
@@ -27,16 +27,24 @@ test('homepage keeps all projects inspectable with ownership and honest prototyp
   for (const project of projects) {
     assert.ok(html.includes(`href="projects/${project.slug}.html"`));
     assert.ok(html.includes(escapeHtml(project.role)));
-    assert.ok(html.includes(project.media.poster));
+    assert.ok(html.includes(`poster="assets/images/projects/${project.slug}/`));
   }
   assert.match(html, /Tasks and Insights are UI prototypes/);
   assert.doesNotMatch(html, /href="https:\/\/github\.com\/[^"/]+\//);
 });
 
-test('homepage avoids decorative numbered labels and gives every project a direct action', () => {
+test('section titles carry a hidden index number and every project has a direct action', () => {
   const html = renderHomePage();
   assert.doesNotMatch(html, /section-kicker|View case study/);
+  const indexes = [...html.matchAll(/<span class="section-index" aria-hidden="true">(\d\d)<\/span><h2 id="([a-z-]+)"/g)].map(match => [match[1], match[2]]);
+  assert.deepEqual(indexes, [['01', 'about-title'], ['02', 'work-title'], ['03', 'tech-stack-title'], ['04', 'certifications-title']]);
   assert.equal([...html.matchAll(/>View project /g)].length, 5);
+});
+
+test('contact is a dark burgundy band with a serif invitation', () => {
+  const contact = renderHomePage().match(/<section class="contact-section"[^>]*>/)?.[0];
+  assert.match(contact, /data-surface="dark"/);
+  assert.match(renderHomePage(), /<h2 id="contact-title">Let’s work <em>together\.<\/em><\/h2>/);
 });
 
 test('About follows the hero before Projects and Tech stack', () => {

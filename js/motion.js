@@ -80,13 +80,13 @@ export function initPortfolioMotion(root = document, options = {}) {
   if (!view.IntersectionObserver) return () => {};
   const reduced = view.matchMedia?.('(prefers-reduced-motion: reduce)');
   const animations = new Set(), seen = new WeakSet();
-  const entranceSelector = '.portfolio-header, .intro-copy h1, .intro-role, .intro-copy > .intro-description, .hero-composition';
+  const entranceSelector = '.portfolio-header, .intro-copy h1, .intro-role, .intro-copy > .intro-description';
   const entranceOrder = new Map(options.entrance
     ? [...(root.querySelectorAll?.(entranceSelector) ?? [])].map((element, index) => [element, index])
     : []);
   const selector = [
     ...(options.entrance ? ['.portfolio-header'] : []),
-    '.intro-copy h1', '.intro-role', '.intro-copy > .intro-description', '.hero-composition', '.actions',
+    '.intro-copy h1', '.intro-role', '.intro-copy > .intro-description', '.actions',
     '.portrait img', '.intro-portrait img', '.section-heading > *', '.section-intro > *',
     '.selected-project-media', '.selected-project-copy',
     '.work-copy > h3', '.work-copy > p', '.work-copy > .work-links', '.work-visual img',
@@ -150,12 +150,51 @@ export function initPortfolioMotion(root = document, options = {}) {
   return () => { cancel(); reduced?.removeEventListener?.('change', start); };
 }
 
+// Runs fn now, or once the Swarm tour announces its end when the tour is pending.
+export function afterSwarm(root, fn) {
+  const doc = root.ownerDocument ?? root;
+  if (!doc.documentElement?.dataset?.swarmBuild) { fn(); return () => {}; }
+  const handler = () => { doc.removeEventListener?.('swarm-rebuild:end', handler); fn(); };
+  doc.addEventListener?.('swarm-rebuild:end', handler);
+  return () => doc.removeEventListener?.('swarm-rebuild:end', handler);
+}
+
+// The name stays still for Swarm's snapshot, then rises letter by letter (css/hero.css).
+// Swarm's tour ends at the bottom of the page, so the letters wait below their line
+// ("ready") until the hero is back in view, and only then rise ("play").
+export function initNameRise(root = document) {
+  const doc = root.ownerDocument ?? root;
+  const view = doc.defaultView ?? globalThis;
+  const data = doc.documentElement.dataset;
+  if (view.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches) return () => {};
+  let watcher;
+  const stop = afterSwarm(doc, () => {
+    if (data.nameRise === 'play') return;
+    const hero = doc.querySelector?.('.hero-name');
+    if (!hero || typeof view.IntersectionObserver !== 'function') { data.nameRise = 'play'; return; }
+    data.nameRise = 'ready';
+    watcher = new view.IntersectionObserver(entries => {
+      if (!entries.some(entry => entry.isIntersecting)) return;
+      watcher.disconnect();
+      data.nameRise = 'play';
+    }, { threshold: .3 });
+    watcher.observe(hero);
+  });
+  return () => {
+    stop();
+    watcher?.disconnect();
+    if (data.nameRise === 'ready') data.nameRise = 'play';
+  };
+}
+
 export function initPageMotion(root = document) {
   const stopTyping = initTypingLoop(root);
   const stopMotion = initPortfolioMotion(root, { entrance: true });
+  const stopName = root.querySelector?.('.hero-name') ? initNameRise(root) : () => {};
   return () => {
     stopTyping();
     stopMotion();
+    stopName();
   };
 }
 

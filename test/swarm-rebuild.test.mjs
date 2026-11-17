@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { renderHomePage } from '../scripts/render-home.mjs';
+import { renderSwarmBootstrap } from '../scripts/render-swarm-rebuild.mjs';
 import { initSwarmRebuild } from '../js/swarm-rebuild.js';
 import vm from 'node:vm';
 
@@ -61,11 +62,11 @@ test('the vendor entry point checks navigation again when the module finally arr
 });
 
 function environment(changes={}) {
- const warnings=[],stops=[];
- const view={innerWidth:changes.width??1280,matchMedia:()=>({matches:changes.reduced??false}),location:{hash:changes.hash??''},scrollY:changes.scroll??0,performance:{getEntriesByType:()=>[{type:changes.navigation??'navigate'}]},setTimeout:()=>0,console:{warn:(...args)=>warnings.push(args)}};
- const root={hidden:changes.hidden??false,defaultView:view,fonts:{ready:changes.fonts??Promise.resolve()},documentElement:{dataset:{swarmBuild:'pending'}}};
+ const warnings=[],stops=[],events=[],intervals=new Map();let ids=0;
+ const view={innerWidth:changes.width??1280,matchMedia:()=>({matches:changes.reduced??false}),location:{hash:changes.hash??''},scrollY:changes.scroll??0,performance:{getEntriesByType:()=>[{type:changes.navigation??'navigate'}]},setTimeout:()=>0,setInterval:fn=>{intervals.set(++ids,fn);return ids;},clearInterval:id=>intervals.delete(id),CustomEvent:class{constructor(type){this.type=type;}},console:{warn:(...args)=>warnings.push(args)}};
+ const root={hidden:changes.hidden??false,defaultView:view,fonts:{ready:changes.fonts??Promise.resolve()},documentElement:{dataset:{swarmBuild:'pending'}},dispatchEvent:event=>events.push(event.type)};
  view.__swarmRebuild={stop:reveal=>stops.push(reveal)};
- return {view,root,warnings,stops};
+ return {view,root,warnings,stops,events,intervals,tick:()=>[...intervals.values()].forEach(fn=>fn())};
 }
 
 for(const changes of [{reduced:true},{hidden:true},{hash:'#work'},{scroll:400},{navigation:'back_forward'}]) {
@@ -73,8 +74,22 @@ for(const changes of [{reduced:true},{hidden:true},{hash:'#work'},{scroll:400},{
   const e=environment(changes);let loads=0;
   await initSwarmRebuild(e.root,async()=>loads++);
   assert.equal(loads,0);assert.equal(e.root.documentElement.dataset.swarmBuild,undefined);
+  assert.deepEqual(e.events,['swarm-rebuild:end'],'skipping Swarm still lets the name rise start');
  });
 }
+
+test('the adapter announces the end once, after the running engine stops',async()=>{
+ const e=environment();
+ await initSwarmRebuild(e.root,async()=>{e.view.__swarmRebuild.app={};});
+ e.tick();assert.deepEqual(e.events,[],'no end signal while the tour is running');
+ e.view.__swarmRebuild.app=null;e.tick();e.tick();
+ assert.deepEqual(e.events,['swarm-rebuild:end']);
+ assert.equal(e.intervals.size,0,'the watcher stops after the end');
+});
+
+test('the bootstrap starts the name rise at once when Swarm will not run',()=>{
+ assert.match(renderSwarmBootstrap(),/else if\(!reduced\)r\.dataset\.nameRise='play'/);
+});
 
 for(const [width,max] of [[1280,10],[390,10]])test(`the ${width}px engine keeps automatic tour/exit with a ${max}-cursor cap`,async()=>{
  const e=environment({width});let options;
@@ -88,6 +103,7 @@ test('loading failure reveals the usable original page and stops any partial ove
  const e=environment();
  await initSwarmRebuild(e.root,async()=>{throw Error('offline');});
  assert.equal(e.root.documentElement.dataset.swarmBuild,undefined);assert.deepEqual(e.stops,[false]);assert.equal(e.warnings.length,1);
+ assert.deepEqual(e.events,['swarm-rebuild:end']);
 });
 
 test('following a link while fonts load prevents a late animation takeover',async()=>{

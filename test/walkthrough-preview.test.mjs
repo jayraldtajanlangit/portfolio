@@ -4,7 +4,7 @@ const module = await import('../js/walkthrough.js').catch(error => {
   if (error.code === 'ERR_MODULE_NOT_FOUND') return {};
   throw error;
 });
-const base = { hoverable: true, hovered: false, focused: false, intersecting: true, documentVisible: true, reducedMotion: false, userPaused: false, manual: false };
+const base = { hoverable: true, hovered: false, focused: false, intersecting: true, documentVisible: true, reducedMotion: false };
 test('desktop walkthroughs autoplay without hover or keyboard engagement', () => {
   assert.equal(typeof module.shouldPreviewPlay, 'function');
   assert.equal(module.shouldPreviewPlay(base), true);
@@ -12,14 +12,13 @@ test('desktop walkthroughs autoplay without hover or keyboard engagement', () =>
   assert.equal(module.shouldPreviewPlay({ ...base, focused: true }), true);
   assert.equal(module.shouldPreviewPlay({ ...base, hovered: true, intersecting: false }), false);
 });
-test('touch previews autoplay visibly and respect motion, user pause, and tab visibility', () => {
+test('previews play whenever they are on screen, and rest in a hidden tab or with reduced motion', () => {
   assert.equal(typeof module.shouldPreviewPlay, 'function');
   const touch = { ...base, hoverable: false };
   assert.equal(module.shouldPreviewPlay(touch), true);
   assert.equal(module.shouldPreviewPlay({ ...touch, reducedMotion: true }), false);
-  assert.equal(module.shouldPreviewPlay({ ...touch, reducedMotion: true, manual: true }), true);
   assert.equal(module.shouldPreviewPlay({ ...touch, documentVisible: false }), false);
-  assert.equal(module.shouldPreviewPlay({ ...touch, userPaused: true }), false);
+  assert.equal(module.shouldPreviewPlay({ ...touch, intersecting: false }), false);
 });
 
 test('an old play promise cannot pause a newly visible preview', async () => {
@@ -48,7 +47,7 @@ test('an old play promise cannot pause a newly visible preview', async () => {
   stop();
 });
 
-test('all visible previews play together, support individual pause, and stop in a hidden tab', () => {
+test('all visible previews play on their own together, with no pause, and rest off screen or in a hidden tab', () => {
   const handlers = new Map();
   const events = key => ({ addEventListener(name, fn) { handlers.set(`${key}:${name}`, fn); }, removeEventListener(name) { handlers.delete(`${key}:${name}`); } });
   const fire = (key, name, event = {}) => handlers.get(`${key}:${name}`)?.(event);
@@ -59,9 +58,7 @@ test('all visible previews play together, support individual pause, and stop in 
       play() { this.paused = false; fire(`video${index}`, 'play'); return Promise.resolve(); },
       pause() { if (!this.paused) { this.paused = true; fire(`video${index}`, 'pause'); } },
     };
-    const toggleAttributes = {};
-    const toggle = { ...events(`toggle${index}`), hidden: true, setAttribute(name, value) { toggleAttributes[name] = value; } };
-    return { video, frame, toggle, toggleAttributes, card: { ...events(`card${index}`), querySelector: selector => selector === 'video' ? video : selector === '.selected-project-media' ? frame : selector === '[data-preview-toggle]' ? toggle : null, contains: () => false } };
+    return { video, attrs, frame, card: { ...events(`card${index}`), querySelector: selector => selector === 'video' ? video : selector === '.selected-project-media' ? frame : null, contains: () => false } };
   });
   let intersect;
   const reduced = { ...events('reduced'), matches: false };
@@ -74,24 +71,18 @@ test('all visible previews play together, support individual pause, and stop in 
   visible([0, 1, 2]);
   assert.ok(items.every(({ video }) => !video.paused), 'all three visible projects should play together');
   assert.ok(items.every(({ video }) => video.controls === false), 'preview control bars should be hidden');
-  assert.ok(items.every(({ toggle }) => !toggle.hidden && toggle.textContent === 'Pause preview'));
-  fire('toggle0', 'click');
-  assert.equal(items[0].toggle.textContent, 'Play preview');
-  assert.equal(items[0].toggleAttributes['aria-pressed'], 'false');
-  assert.deepEqual(items.map(({ video }) => video.paused), [true, false, false]);
-  assert.match(items[0].video.getAttribute('aria-label'), /^Play /);
-  visible([1, 2]); visible([0, 1, 2]);
-  assert.equal(items[0].video.paused, true, 'intentional pause survives scrolling');
-  let prevented = false;
-  fire('video0', 'keydown', { key: 'Enter', preventDefault() { prevented = true; } });
-  assert.ok(prevented); assert.ok(items.every(({ video }) => !video.paused));
+  assert.ok(![0, 1, 2].some(index => handlers.has(`video${index}:click`) || handlers.has(`video${index}:keydown`)), 'clicking a preview opens its project instead of pausing it');
+  assert.ok(items.every(({ video, attrs }) => video.tabIndex === undefined && !attrs.has('role')), 'previews are pictures, not buttons');
+  assert.equal(items[0].video.getAttribute('aria-label'), 'Project 0 walkthrough', 'the label stays a plain description');
+  visible([1, 2]);
+  assert.deepEqual(items.map(({ video }) => video.paused), [true, false, false], 'a preview scrolled away rests');
+  visible([0, 1, 2]);
+  assert.ok(items.every(({ video }) => !video.paused), 'and plays again when it comes back');
   doc.hidden = true; fire('doc', 'visibilitychange');
   assert.ok(items.every(({ video }) => video.paused));
   doc.hidden = false; fire('doc', 'visibilitychange');
   assert.ok(items.every(({ video }) => !video.paused));
   reduced.matches = true; fire('reduced', 'change');
   assert.ok(items.every(({ video }) => video.paused));
-  fire('video1', 'click');
-  assert.deepEqual(items.map(({ video }) => video.paused), [true, false, true]);
   stop(); assert.ok(items.every(({ video }) => video.paused));
 });

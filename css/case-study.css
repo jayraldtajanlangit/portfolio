@@ -558,3 +558,12 @@
 @media (min-width: 1100px) {
   .workflow-list--portrait { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 32px; }
 }
+
+/* Each case study takes its project's colour as the accent. */
+.case-page--skyfire { --accent: var(--tone-skyfire); --color-secondary: var(--tone-skyfire); --case-tint: #f0a07a; }
+.case-page--maistra { --accent: var(--tone-maistra); --color-secondary: var(--tone-maistra); --case-tint: #7fc4d4; }
+.case-page--bulk-buying-companion { --accent: var(--tone-bulk-buying-companion); --color-secondary: var(--tone-bulk-buying-companion); --case-tint: #a9cf8a; }
+.case-page--pulso { --accent: var(--tone-pulso); --color-secondary: var(--tone-pulso); --case-tint: #9dbcf0; }
+.case-page--sige { --accent: var(--tone-sige); --color-secondary: var(--tone-sige); --case-tint: #e2bd7c; }
+:root[data-theme="dark"] .case-page { --color-secondary: var(--case-tint, #e3a9bb); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme]) .case-page { --color-secondary: var(--case-tint, #e3a9bb); } }

@@ -8,3 +8,4 @@ capture-*.webm
 *.tmp.webm
 tmp/pdfs/cv-content-update/
 
+.superpowers/brainstorm/

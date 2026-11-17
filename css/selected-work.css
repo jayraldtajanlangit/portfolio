@@ -1,54 +1,101 @@
-.selected-work { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
-.selected-project { min-width: 0; display: flex; flex-direction: column; overflow: hidden; background: var(--color-project-surface); border-radius: 10px; scroll-margin-top: 24px; }
-.selected-project-media { margin: 0; min-width: 0; background: var(--color-preview); }
-.selected-project--maistra .selected-project-media { background: var(--color-preview-alt); }
-.selected-project-preview { display: flex; align-items: center; justify-content: center; height: 250px; padding: 16px; min-width: 0; }
-.selected-project-preview video { display: block; width: 100%; height: 100%; object-fit: contain; border-radius: 4px; cursor: pointer; }
-.selected-project-caption { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 48px; padding: 2px 20px; background: var(--color-project-surface); color: var(--color-muted); font-size: 14px; line-height: 1.5; }
-.preview-toggle { display: inline-flex; align-items: center; justify-content: center; gap: 6px; flex-shrink: 0; min-height: 44px; border: 0; padding: 4px 0 4px 12px; font: 600 13px/1.4 var(--font-body); color: var(--color-ink); background: transparent; cursor: pointer; }
-.preview-toggle[hidden] { display: none; }
-.preview-toggle::before { content: '▶'; font-size: 10px; }
-.preview-toggle[aria-pressed="true"]::before { content: 'Ⅱ'; font-size: 14px; }
-.preview-toggle:hover { color: var(--color-secondary); }
-.selected-project-copy { display: flex; flex-direction: column; flex: 1; gap: 14px; padding: 8px 24px 24px; min-width: 0; }
-.selected-project-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-.home-page .selected-project-title { margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -.04em; line-height: 1.2; }
-.selected-project-title a { text-decoration: none; }
-.selected-project-title a:hover { color: var(--color-secondary); }
-.selected-project-case-study { display: inline-flex; align-items: center; justify-content: end; gap: 8px; min-height: 44px; flex-shrink: 0; color: var(--color-ink); background: transparent; font-size: 14px; font-weight: 650; text-decoration: none; white-space: nowrap; }
-.selected-project-case-study:hover { color: var(--color-secondary); text-decoration: underline; }
+/* Projects: one row per project on a wine band. Without JavaScript (or with reduced
+   motion) each row is its own full-bleed color band; showcase.js swaps that for one
+   section background that changes color as each project reaches the middle of the screen.
+   A fine grain (an 8% noise tile) gives the flat color a printed texture, and its sides fall into shade. */
+.home-page .work-section { --color-ink: var(--on-tone); --color-muted: rgba(251, 243, 238, .8); --color-secondary: var(--on-tone); --color-rule: rgba(251, 243, 238, .18); --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncR type='linear' slope='2.2' intercept='-.6'/%3E%3CfeFuncG type='linear' slope='2.2' intercept='-.6'/%3E%3CfeFuncB type='linear' slope='2.2' intercept='-.6'/%3E%3CfeFuncA type='linear' slope='0' intercept='.08'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E"); --edges: linear-gradient(to right, rgba(0, 0, 0, .2), transparent 24%, transparent 76%, rgba(0, 0, 0, .2)); padding-block: 96px 0; overflow-x: clip; background-color: var(--wine); background-image: var(--grain), var(--edges); color: var(--on-tone); }
+.work-section .section-index { color: #eba985; }
+.selected-work { display: flex; flex-direction: column; }
+.selected-project { --band: var(--tone-skyfire); --glow: var(--glow-skyfire); position: relative; isolation: isolate; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); align-items: center; gap: 64px; min-width: 0; padding-block: 80px; background: var(--band); box-shadow: 0 0 0 100vmax var(--band); clip-path: inset(0 -100vmax); scroll-margin-top: 24px; }
+.selected-project--maistra { --band: var(--tone-maistra); --glow: var(--glow-maistra); }
+.selected-project--bulk-buying-companion { --band: var(--tone-bulk-buying-companion); --glow: var(--glow-bulk-buying-companion); }
+.selected-project--pulso { --band: var(--tone-pulso); --glow: var(--glow-pulso); }
+.selected-project--sige { --band: var(--tone-sige); --glow: var(--glow-sige); }
+.selected-project:nth-child(even) .selected-project-media { order: 2; }
+
+.selected-project-media { position: relative; z-index: 1; margin: 0; min-width: 0; }
+.selected-project-preview { position: relative; aspect-ratio: var(--media-aspect, 16 / 10); overflow: hidden; border-radius: 14px; background: #ffffff; box-shadow: 0 24px 60px rgba(0, 0, 0, .28); }
+.selected-project-preview video { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+/* The whole preview opens the case study. */
+.selected-project-preview-link { position: absolute; inset: 0; z-index: 2; border-radius: inherit; }
+.selected-project-media--mobile .selected-project-preview { --phone-width: 250px; width: min(100%, var(--phone-width)); margin-inline: auto; aspect-ratio: auto; overflow: visible; border-radius: 38px; background: none; box-shadow: none; }
+.selected-project-media--mobile .phone-frame { box-shadow: inset 0 0 0 2px #303834, 0 24px 60px rgba(0, 0, 0, .32); }
+.selected-project-media--mobile .phone-frame video { width: 100%; height: 100%; border-radius: 0; object-fit: contain; }
+
+.selected-project-caption { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; padding-top: 12px; color: var(--color-muted); font-size: 13px; letter-spacing: .08em; line-height: 1.5; text-transform: uppercase; }
+.selected-project-media--mobile .selected-project-caption { max-width: 360px; margin-inline: auto; }
+
+.selected-project-copy { position: relative; z-index: 1; display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.selected-project-heading { display: contents; }
+.home-page .selected-project-title { margin: 0; font-family: "Bodoni Moda", Georgia, serif; font-size: clamp(40px, 4.2vw, 56px); font-weight: 500; letter-spacing: -.02em; line-height: 1.05; color: var(--on-tone); }
+.selected-project-title a { color: inherit; text-decoration: none; }
+.selected-project-title a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .12em; }
+.selected-project-case-study { order: 10; align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; flex-shrink: 0; color: var(--on-tone); font-size: 15px; font-weight: 650; text-decoration: underline; text-underline-offset: .3em; white-space: nowrap; }
 .selected-project-case-study span { transition: transform 180ms ease; }
 .selected-project-case-study:hover span { transform: translate(2px, -2px); }
-.selected-project-role { font-size: 14px; line-height: 1.5; color: var(--color-muted); margin: -6px 0 0; }
-.selected-project-summary { color: var(--color-ink); font-size: 16px; line-height: 1.65; margin: 0; }
-.selected-project-contribution { color: var(--color-muted); font-size: 14px; line-height: 1.65; margin: 0; }
-.selected-project-contribution strong { font-weight: 650; color: var(--color-ink); }
-.selected-project-stack { display: flex; flex-wrap: wrap; gap: 6px 14px; padding: 10px 0 0; margin: auto 0 0; list-style: none; }
-.selected-project-chip { color: var(--color-muted); font-size: 14px; line-height: 1.5; }
-.selected-projects-mobile { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; min-width: 0; }
-.selected-project-media--mobile .selected-project-preview { --phone-width: 220px; height: 520px; padding: 20px; }
-.selected-project-media--mobile .phone-frame { box-shadow: none; }
-.selected-project-media--mobile .phone-frame video { width: 100%; height: 100%; border-radius: 0; object-fit: contain; }
-.selected-projects-mobile .selected-project-heading { flex-wrap: wrap; align-items: start; gap: 2px 16px; }
-.home-page .selected-projects-mobile .selected-project-title { font-size: 22px; }
-.selected-projects-mobile .selected-project-case-study { min-height: 44px; font-size: 14px; }
-.selected-project-disclosure { margin: 0; color: var(--color-muted); font-size: 14px; line-height: 1.5; }
-@media (max-width: 1050px) {
-  .selected-work { gap: 24px; }
-  .selected-projects-mobile { gap: 20px; }
-  .selected-project-copy { padding-inline: 20px; }
-  .home-page .selected-project-title { font-size: 22px; }
-  .selected-projects-mobile .selected-project-copy { padding: 8px 16px 20px; }
-  .selected-project-caption { padding-inline: 16px; }
-  .selected-projects-mobile .selected-project-caption { flex-wrap: wrap; gap: 0 8px; }
+.selected-project-role { margin: -6px 0 0; color: var(--color-muted); font-size: 13px; letter-spacing: .08em; line-height: 1.5; text-transform: uppercase; }
+.selected-project-summary { margin: 0; color: var(--on-tone); font-size: 19px; line-height: 1.55; }
+.selected-project-contribution { margin: 0; max-width: 52ch; color: var(--color-muted); font-size: 15px; line-height: 1.65; }
+.selected-project-contribution strong { font-weight: 650; color: var(--on-tone); }
+.selected-project-stack { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 6px 0 0; list-style: none; }
+.selected-project-chip { padding: 5px 12px; border-radius: 99px; background: rgba(255, 255, 255, .14); color: var(--on-tone); font-size: 13px; line-height: 1.4; }
+.selected-project-chip--more { background: none; box-shadow: inset 0 0 0 1px rgba(251, 243, 238, .32); color: var(--color-muted); }
+
+/* Depth: a soft glow in the project's color behind the media, and the project's name set huge and
+   faint along the bottom edge on the media side. The row's clip-path crops the name's foot. */
+.selected-project::before { content: ''; position: absolute; z-index: 0; top: 0; bottom: 0; left: -14%; width: 76%; background: radial-gradient(closest-side, var(--glow), transparent); opacity: .45; pointer-events: none; }
+.selected-project:nth-child(even)::before { left: auto; right: -14%; }
+/* Light also falls off between projects, so each one sits in its own pool of light. A project ends
+   exactly as dark as the next begins, so the rows meet without a seam. */
+.selected-project::after { --shade-top: rgba(0, 0, 0, .16); --shade: linear-gradient(to bottom, var(--shade-top), transparent 34%, transparent 66%, rgba(0, 0, 0, .16)); content: ''; position: absolute; z-index: -1; top: 0; bottom: 0; left: calc(50% - 50vw); right: calc(50% - 50vw); background: var(--shade), var(--grain), var(--edges); pointer-events: none; }
+.selected-project:first-child::after { --shade-top: transparent; }
+:root.project-colors .selected-project::after { background: var(--shade); }
+.selected-project-ghost { position: absolute; z-index: 0; bottom: 0; left: 0; translate: -.04em .17em; color: transparent; font: 500 clamp(140px, 15vw, 240px)/.8 "Bodoni Moda", Georgia, serif; letter-spacing: -.03em; white-space: nowrap; -webkit-text-stroke: 1.5px rgba(251, 243, 238, .16); pointer-events: none; user-select: none; }
+.selected-project:nth-child(even) .selected-project-ghost { left: auto; right: 0; translate: .04em .17em; }
+
+/* Mobile projects: two more app screens fanned behind the playing phone (decorative). */
+.selected-project-fan { --fan-x: 52%; --fan-turn: 9deg; --fan-scale: .86; --fan-open: 0%; position: absolute; inset: 0; pointer-events: none; }
+.selected-project-fan-phone { position: absolute; top: 0; left: 0; width: 100%; transition: transform 600ms var(--ease-editorial); }
+.selected-project-fan-phone:first-child { transform: translateX(calc(-1 * (var(--fan-x) + var(--fan-open)))) rotate(calc(-1 * var(--fan-turn))) scale(var(--fan-scale)); }
+.selected-project-fan-phone:last-child { transform: translateX(calc(var(--fan-x) + var(--fan-open))) rotate(var(--fan-turn)) scale(var(--fan-scale)); }
+.selected-project-media--mobile .selected-project-fan .phone-frame { box-shadow: inset 0 0 0 2px #303834, 0 18px 40px rgba(0, 0, 0, .3); }
+.selected-project-fan img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.selected-project-preview > .phone-frame { z-index: 1; }
+@media (hover: hover) and (pointer: fine) { .selected-project-preview:hover .selected-project-fan { --fan-open: 6%; } }
+/* Two columns on a narrower screen: a tighter fan, so it stays inside the band. */
+@media (min-width: 901px) and (max-width: 1279px) {
+  .selected-project-media--mobile .selected-project-preview { --phone-width: 220px; }
+  .selected-project-fan { --fan-x: 30%; --fan-turn: 7deg; }
 }
-@media (max-width: 767px) {
-  .selected-work, .selected-projects-mobile { grid-template-columns: 1fr; gap: 24px; }
-  .selected-project-preview { height: auto; aspect-ratio: 16 / 10; padding: 12px; }
-  .selected-project-copy { padding: 8px 20px 24px; }
-  .home-page .selected-project-title { font-size: 22px; }
-  .selected-project-summary { font-size: 16px; }
-  .selected-project-media--mobile .selected-project-preview { height: 520px; aspect-ratio: auto; }
-  .selected-projects-mobile .selected-project-heading { flex-wrap: nowrap; }
+
+/* Enhanced (showcase.js): one section background that follows the project in view. */
+:root.project-colors .selected-project { --band: transparent; }
+:root.project-colors .work-section { transition: background-color 700ms ease; }
+:root.project-colors .work-section[data-active-project="skyfire"] { background-color: var(--tone-skyfire); }
+:root.project-colors .work-section[data-active-project="maistra"] { background-color: var(--tone-maistra); }
+:root.project-colors .work-section[data-active-project="bulk-buying-companion"] { background-color: var(--tone-bulk-buying-companion); }
+:root.project-colors .work-section[data-active-project="pulso"] { background-color: var(--tone-pulso); }
+:root.project-colors .work-section[data-active-project="sige"] { background-color: var(--tone-sige); }
+
+/* Tilt + glow (showcase.js sets --rx/--ry/--gx/--gy on fine pointers only). */
+.selected-project-preview { transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform 450ms var(--ease-editorial), box-shadow 350ms ease; }
+.selected-project-preview::after { content: ''; position: absolute; inset: 0; z-index: 1; border-radius: inherit; background: radial-gradient(circle at var(--gx, 50%) var(--gy, 50%), rgba(255, 255, 255, .32), transparent 45%); opacity: 0; pointer-events: none; transition: opacity 300ms ease; }
+.selected-project-preview.is-tilting { transition: transform 90ms linear, box-shadow 350ms ease; box-shadow: 0 28px 70px rgba(0, 0, 0, .32), 0 0 56px var(--glow); }
+.selected-project-preview.is-tilting::after { opacity: 1; }
+.selected-project-media--mobile .selected-project-preview.is-tilting { box-shadow: 0 0 56px var(--glow); }
+
+@media (max-width: 900px) {
+  .home-page .work-section { padding-top: 64px; }
+  .selected-project { grid-template-columns: 1fr; gap: 28px; padding-block: 56px; }
+  .selected-project:nth-child(even) .selected-project-media { order: 0; }
+  .selected-project::before, .selected-project:nth-child(even)::before { left: -10%; right: -10%; bottom: 35%; width: auto; }
+  .selected-project-ghost { display: none; }
 }
-@media (prefers-reduced-motion: reduce) { .selected-project-case-study span { transition: none; } }
+@media (max-width: 600px) {
+  .selected-project-media--mobile .selected-project-preview { --phone-width: 220px; }
+  .selected-project-fan { --fan-x: 36%; --fan-turn: 7deg; --fan-scale: .84; }
+  .selected-project-summary { font-size: 17px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .selected-project-case-study span, :root.project-colors .work-section, .selected-project-preview, .selected-project-fan-phone { transition: none; }
+  .selected-project-preview { transform: none; }
+}

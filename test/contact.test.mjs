@@ -34,10 +34,12 @@ test('copy email writes the actual address and reports completion only after it 
   assert.notEqual(f.label.textContent, 'Copied');
   resolveWrite(); await pending;
   assert.equal(f.label.textContent, 'Copied');
+  assert.equal(f.button.dataset.cursor, 'Copied!', 'the cursor tag confirms the copy');
   assert.equal(f.status.textContent, 'Email copied to clipboard.');
   assert.equal(f.button.disabled, false);
   f.timers.at(-1)();
   assert.equal(f.label.textContent, 'Copy email');
+  assert.equal(f.button.dataset.cursor, 'Copy');
   stop();
   assert.equal(f.handlers.has('click'), false);
 });

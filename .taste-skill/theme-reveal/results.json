@@ -1,0 +1,125 @@
+[
+  {
+    "label": "index.html 1440px reveal to dark",
+    "pass": true,
+    "detail": {
+      "animated": true,
+      "theme": "dark",
+      "duration": 480,
+      "clip": "circle(1165.46px at 1312px 43.8626px)",
+      "origin": "1312px",
+      "scrollStable": true
+    }
+  },
+  {
+    "label": "1440px dark transition cleans up",
+    "pass": true
+  },
+  {
+    "label": "index.html 1440px reveal to light",
+    "pass": true,
+    "detail": {
+      "animated": true,
+      "theme": "light",
+      "duration": 480,
+      "clip": "circle(1165.46px at 1312px 44px)",
+      "origin": "1312px",
+      "scrollStable": true
+    }
+  },
+  {
+    "label": "1440px light transition cleans up",
+    "pass": true
+  },
+  {
+    "label": "index.html 390px reveal to dark",
+    "pass": true,
+    "detail": {
+      "animated": true,
+      "theme": "dark",
+      "duration": 480,
+      "clip": "circle(684.994px at 323px 38px)",
+      "origin": "323px",
+      "scrollStable": true
+    }
+  },
+  {
+    "label": "390px dark transition cleans up",
+    "pass": true
+  },
+  {
+    "label": "index.html 390px reveal to light",
+    "pass": true,
+    "detail": {
+      "animated": true,
+      "theme": "light",
+      "duration": 480,
+      "clip": "circle(684.994px at 323px 38px)",
+      "origin": "323px",
+      "scrollStable": true
+    }
+  },
+  {
+    "label": "390px light transition cleans up",
+    "pass": true
+  },
+  {
+    "label": "projects/skyfire.html 1440px reveal to dark",
+    "pass": true,
+    "detail": {
+      "animated": true,
+      "theme": "dark",
+      "duration": 480,
+      "clip": "circle(1137.19px at 1264px 40px)",
+      "origin": "1264px",
+      "scrollStable": true
+    }
+  },
+  {
+    "label": "1440px dark transition cleans up",
+    "pass": true
+  },
+  {
+    "label": "projects/skyfire.html 1440px reveal to light",
+    "pass": true,
+    "detail": {
+      "animated": true,
+      "theme": "light",
+      "duration": 480,
+      "clip": "circle(1137.19px at 1264px 40px)",
+      "origin": "1264px",
+      "scrollStable": true
+    }
+  },
+  {
+    "label": "1440px light transition cleans up",
+    "pass": true
+  },
+  {
+    "label": "reduced motion switches immediately",
+    "pass": true,
+    "detail": {
+      "theme": "dark",
+      "running": false,
+      "animated": false
+    }
+  },
+  {
+    "label": "rapid input preserves the final theme",
+    "pass": true,
+    "detail": {
+      "theme": "light",
+      "saved": "light",
+      "running": false
+    }
+  },
+  {
+    "label": "keyboard toggle works and retains focus",
+    "pass": true,
+    "detail": {
+      "theme": "dark",
+      "saved": "dark",
+      "focus": "<button class=\"theme-trigger\" data-theme-trigger=\"\" type=\"button\" role=\"switch\" aria-label=\"Dark mode\" aria-checked=\"true\" title=\"Switch to light mode\"><span class=\"theme-track\" ar"
+    }
+  }
+]

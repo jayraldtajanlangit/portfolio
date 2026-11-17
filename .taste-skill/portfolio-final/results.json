@@ -1,0 +1,715 @@
+[
+  {
+    "label": "requested roles type in order without moving the layout",
+    "pass": true,
+    "detail": {
+      "seen": [
+        "AI Engineer",
+        "Mobile Developer",
+        "Web Developer"
+      ],
+      "stable": true,
+      "pauses": true,
+      "scroll": 0
+    }
+  },
+  {
+    "label": "light 1440px retained hero, phone mockups and section order",
+    "pass": true,
+    "detail": {
+      "sections": [
+        "hero",
+        "about",
+        "work",
+        "tech-stack",
+        "certifications",
+        "contact"
+      ],
+      "overflow": false,
+      "hero": true,
+      "noHeroButton": true,
+      "noHeaderDuplicates": true,
+      "paired": true,
+      "phones": [
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        }
+      ],
+      "credentials": [
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/certificate/AIEDA0013075999766"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/CCLGM0NVP0SH"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/completed/statement-of-accomplishment/track/405cc4a312c44e1d0fa3a58104f691469a28789f"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.codecademy.com/profiles/jayraldTajanlangit1327992833/certificates/8c3029c4a6e5894e74da756e3a7c0ae3"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/NBB2KP6UJXND"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/RCSKCAZUV16E"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/URASZIXWWRPL"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/IRXT51SDPX1R"
+        }
+      ],
+      "staticRole": "AI Engineer"
+    }
+  },
+  {
+    "label": "dark 1440px retained hero, phone mockups and section order",
+    "pass": true,
+    "detail": {
+      "sections": [
+        "hero",
+        "about",
+        "work",
+        "tech-stack",
+        "certifications",
+        "contact"
+      ],
+      "overflow": false,
+      "hero": true,
+      "noHeroButton": true,
+      "noHeaderDuplicates": true,
+      "paired": true,
+      "phones": [
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        }
+      ],
+      "credentials": [
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/certificate/AIEDA0013075999766"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/CCLGM0NVP0SH"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/completed/statement-of-accomplishment/track/405cc4a312c44e1d0fa3a58104f691469a28789f"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.codecademy.com/profiles/jayraldTajanlangit1327992833/certificates/8c3029c4a6e5894e74da756e3a7c0ae3"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/NBB2KP6UJXND"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/RCSKCAZUV16E"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/URASZIXWWRPL"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/IRXT51SDPX1R"
+        }
+      ],
+      "staticRole": "AI Engineer"
+    }
+  },
+  {
+    "label": "light 1024px retained hero, phone mockups and section order",
+    "pass": true,
+    "detail": {
+      "sections": [
+        "hero",
+        "about",
+        "work",
+        "tech-stack",
+        "certifications",
+        "contact"
+      ],
+      "overflow": false,
+      "hero": true,
+      "noHeroButton": true,
+      "noHeaderDuplicates": true,
+      "paired": true,
+      "phones": [
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        }
+      ],
+      "credentials": [
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/certificate/AIEDA0013075999766"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/CCLGM0NVP0SH"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/completed/statement-of-accomplishment/track/405cc4a312c44e1d0fa3a58104f691469a28789f"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.codecademy.com/profiles/jayraldTajanlangit1327992833/certificates/8c3029c4a6e5894e74da756e3a7c0ae3"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/NBB2KP6UJXND"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/RCSKCAZUV16E"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/URASZIXWWRPL"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/IRXT51SDPX1R"
+        }
+      ],
+      "staticRole": "AI Engineer"
+    }
+  },
+  {
+    "label": "dark 1024px retained hero, phone mockups and section order",
+    "pass": true,
+    "detail": {
+      "sections": [
+        "hero",
+        "about",
+        "work",
+        "tech-stack",
+        "certifications",
+        "contact"
+      ],
+      "overflow": false,
+      "hero": true,
+      "noHeroButton": true,
+      "noHeaderDuplicates": true,
+      "paired": true,
+      "phones": [
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        }
+      ],
+      "credentials": [
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/certificate/AIEDA0013075999766"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/CCLGM0NVP0SH"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/completed/statement-of-accomplishment/track/405cc4a312c44e1d0fa3a58104f691469a28789f"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.codecademy.com/profiles/jayraldTajanlangit1327992833/certificates/8c3029c4a6e5894e74da756e3a7c0ae3"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/NBB2KP6UJXND"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/RCSKCAZUV16E"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/URASZIXWWRPL"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/IRXT51SDPX1R"
+        }
+      ],
+      "staticRole": "AI Engineer"
+    }
+  },
+  {
+    "label": "light 768px retained hero, phone mockups and section order",
+    "pass": true,
+    "detail": {
+      "sections": [
+        "hero",
+        "about",
+        "work",
+        "tech-stack",
+        "certifications",
+        "contact"
+      ],
+      "overflow": false,
+      "hero": true,
+      "noHeroButton": true,
+      "noHeaderDuplicates": true,
+      "paired": true,
+      "phones": [
+        {
+          "width": 154,
+          "height": 334,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 154,
+          "height": 334,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 154,
+          "height": 334,
+          "fits": true,
+          "loaded": true
+        }
+      ],
+      "credentials": [
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/certificate/AIEDA0013075999766"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/CCLGM0NVP0SH"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/completed/statement-of-accomplishment/track/405cc4a312c44e1d0fa3a58104f691469a28789f"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.codecademy.com/profiles/jayraldTajanlangit1327992833/certificates/8c3029c4a6e5894e74da756e3a7c0ae3"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/NBB2KP6UJXND"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/RCSKCAZUV16E"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/URASZIXWWRPL"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/IRXT51SDPX1R"
+        }
+      ],
+      "staticRole": "AI Engineer"
+    }
+  },
+  {
+    "label": "dark 768px retained hero, phone mockups and section order",
+    "pass": true,
+    "detail": {
+      "sections": [
+        "hero",
+        "about",
+        "work",
+        "tech-stack",
+        "certifications",
+        "contact"
+      ],
+      "overflow": false,
+      "hero": true,
+      "noHeroButton": true,
+      "noHeaderDuplicates": true,
+      "paired": true,
+      "phones": [
+        {
+          "width": 154,
+          "height": 334,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 154,
+          "height": 334,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 154,
+          "height": 334,
+          "fits": true,
+          "loaded": true
+        }
+      ],
+      "credentials": [
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/certificate/AIEDA0013075999766"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/CCLGM0NVP0SH"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/completed/statement-of-accomplishment/track/405cc4a312c44e1d0fa3a58104f691469a28789f"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.codecademy.com/profiles/jayraldTajanlangit1327992833/certificates/8c3029c4a6e5894e74da756e3a7c0ae3"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/NBB2KP6UJXND"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/RCSKCAZUV16E"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/URASZIXWWRPL"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/IRXT51SDPX1R"
+        }
+      ],
+      "staticRole": "AI Engineer"
+    }
+  },
+  {
+    "label": "light 390px retained hero, phone mockups and section order",
+    "pass": true,
+    "detail": {
+      "sections": [
+        "hero",
+        "about",
+        "work",
+        "tech-stack",
+        "certifications",
+        "contact"
+      ],
+      "overflow": false,
+      "hero": true,
+      "noHeroButton": true,
+      "noHeaderDuplicates": true,
+      "paired": true,
+      "phones": [
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        }
+      ],
+      "credentials": [
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/certificate/AIEDA0013075999766"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/CCLGM0NVP0SH"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/completed/statement-of-accomplishment/track/405cc4a312c44e1d0fa3a58104f691469a28789f"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.codecademy.com/profiles/jayraldTajanlangit1327992833/certificates/8c3029c4a6e5894e74da756e3a7c0ae3"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/NBB2KP6UJXND"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/RCSKCAZUV16E"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/URASZIXWWRPL"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/IRXT51SDPX1R"
+        }
+      ],
+      "staticRole": "AI Engineer"
+    }
+  },
+  {
+    "label": "dark 390px retained hero, phone mockups and section order",
+    "pass": true,
+    "detail": {
+      "sections": [
+        "hero",
+        "about",
+        "work",
+        "tech-stack",
+        "certifications",
+        "contact"
+      ],
+      "overflow": false,
+      "hero": true,
+      "noHeroButton": true,
+      "noHeaderDuplicates": true,
+      "paired": true,
+      "phones": [
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        },
+        {
+          "width": 202,
+          "height": 437,
+          "fits": true,
+          "loaded": true
+        }
+      ],
+      "credentials": [
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/certificate/AIEDA0013075999766"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/CCLGM0NVP0SH"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.datacamp.com/completed/statement-of-accomplishment/track/405cc4a312c44e1d0fa3a58104f691469a28789f"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.codecademy.com/profiles/jayraldTajanlangit1327992833/certificates/8c3029c4a6e5894e74da756e3a7c0ae3"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/NBB2KP6UJXND"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/RCSKCAZUV16E"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/URASZIXWWRPL"
+        },
+        {
+          "icon": true,
+          "target": "_blank",
+          "href": "https://www.coursera.org/account/accomplishments/verify/IRXT51SDPX1R"
+        }
+      ],
+      "staticRole": "AI Engineer"
+    }
+  },
+  {
+    "label": "mobile menu opens and Escape restores focus",
+    "pass": true
+  },
+  {
+    "label": "visible phone preview supports Play and Pause",
+    "pass": true
+  },
+  {
+    "label": "all five project detail links resolve",
+    "pass": true,
+    "detail": [
+      {
+        "name": "View SkyFire project",
+        "status": 200
+      },
+      {
+        "name": "View mAIstra project",
+        "status": 200
+      },
+      {
+        "name": "View Bulk Buying Companion project",
+        "status": 200
+      },
+      {
+        "name": "View Pulso project",
+        "status": 200
+      },
+      {
+        "name": "View Sige project",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "label": "project link opens the correct detail page",
+    "pass": true
+  },
+  {
+    "label": "no browser JavaScript exceptions",
+    "pass": true,
+    "detail": []
+  }
+]

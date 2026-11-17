@@ -1,0 +1,488 @@
+[
+  {
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(255, 255, 255)",
+      ".intro-section": "rgb(255, 255, 255)",
+      ".tech-section": "rgba(0, 0, 0, 0)",
+      ".about-section": "rgb(243, 246, 251)",
+      ".contact-section": "rgb(16, 35, 75)",
+      ".selected-project--skyfire": "rgb(243, 246, 251)",
+      ".selected-project--maistra": "rgb(243, 246, 251)",
+      ".selected-project--bulk-buying-companion": "rgb(243, 246, 251)",
+      ".selected-project--pulso": "rgb(243, 246, 251)",
+      ".selected-project--sige": "rgb(243, 246, 251)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 16.21
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(23, 75, 223)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 6.76
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(82, 96, 120)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 6.36
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 16.21
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(82, 96, 120)",
+        "background": "rgb(243, 246, 251)",
+        "contrast": 5.87
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(16, 35, 75)",
+        "contrast": 15.4
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(243, 246, 251)",
+        "contrast": 14.96
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 16.21
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(82, 96, 120)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 6.36
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(23, 75, 223)",
+        "contrast": 6.76
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(255, 255, 255)",
+      ".intro-section": "rgb(255, 255, 255)",
+      ".tech-section": "rgba(0, 0, 0, 0)",
+      ".about-section": "rgb(243, 246, 251)",
+      ".contact-section": "rgb(16, 35, 75)",
+      ".selected-project--skyfire": "rgb(243, 246, 251)",
+      ".selected-project--maistra": "rgb(243, 246, 251)",
+      ".selected-project--bulk-buying-companion": "rgb(243, 246, 251)",
+      ".selected-project--pulso": "rgb(243, 246, 251)",
+      ".selected-project--sige": "rgb(243, 246, 251)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 16.21
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(23, 75, 223)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 6.76
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(82, 96, 120)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 6.36
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 16.21
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(82, 96, 120)",
+        "background": "rgb(243, 246, 251)",
+        "contrast": 5.87
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(16, 35, 75)",
+        "contrast": 15.4
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(243, 246, 251)",
+        "contrast": 14.96
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 16.21
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(82, 96, 120)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 6.36
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(23, 75, 223)",
+        "contrast": 6.76
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(255, 255, 255)",
+      ".intro-section": "rgb(255, 255, 255)",
+      ".tech-section": "rgba(0, 0, 0, 0)",
+      ".about-section": "rgb(243, 246, 251)",
+      ".contact-section": "rgb(16, 35, 75)",
+      ".selected-project--skyfire": "rgb(243, 246, 251)",
+      ".selected-project--maistra": "rgb(243, 246, 251)",
+      ".selected-project--bulk-buying-companion": "rgb(243, 246, 251)",
+      ".selected-project--pulso": "rgb(243, 246, 251)",
+      ".selected-project--sige": "rgb(243, 246, 251)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 16.21
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(23, 75, 223)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 6.76
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(82, 96, 120)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 6.36
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 16.21
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(82, 96, 120)",
+        "background": "rgb(243, 246, 251)",
+        "contrast": 5.87
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(16, 35, 75)",
+        "contrast": 15.4
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(243, 246, 251)",
+        "contrast": 14.96
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(21, 32, 56)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 16.21
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(82, 96, 120)",
+        "background": "rgb(255, 255, 255)",
+        "contrast": 6.36
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(23, 75, 223)",
+        "contrast": 6.76
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(16, 24, 39)",
+      ".intro-section": "rgb(16, 24, 39)",
+      ".tech-section": "rgba(0, 0, 0, 0)",
+      ".about-section": "rgb(24, 35, 55)",
+      ".contact-section": "rgb(11, 18, 32)",
+      ".selected-project--skyfire": "rgb(24, 35, 55)",
+      ".selected-project--maistra": "rgb(24, 35, 55)",
+      ".selected-project--bulk-buying-companion": "rgb(24, 35, 55)",
+      ".selected-project--pulso": "rgb(24, 35, 55)",
+      ".selected-project--sige": "rgb(24, 35, 55)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 15.99
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(138, 175, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(181, 193, 213)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 9.77
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 15.99
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(181, 193, 213)",
+        "background": "rgb(24, 35, 55)",
+        "contrast": 8.66
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(11, 18, 32)",
+        "contrast": 16.85
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(24, 35, 55)",
+        "contrast": 14.16
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 15.99
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(181, 193, 213)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 9.77
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(16, 28, 51)",
+        "background": "rgb(138, 175, 255)",
+        "contrast": 7.81
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(16, 24, 39)",
+      ".intro-section": "rgb(16, 24, 39)",
+      ".tech-section": "rgba(0, 0, 0, 0)",
+      ".about-section": "rgb(24, 35, 55)",
+      ".contact-section": "rgb(11, 18, 32)",
+      ".selected-project--skyfire": "rgb(24, 35, 55)",
+      ".selected-project--maistra": "rgb(24, 35, 55)",
+      ".selected-project--bulk-buying-companion": "rgb(24, 35, 55)",
+      ".selected-project--pulso": "rgb(24, 35, 55)",
+      ".selected-project--sige": "rgb(24, 35, 55)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 15.99
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(138, 175, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(181, 193, 213)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 9.77
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 15.99
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(181, 193, 213)",
+        "background": "rgb(24, 35, 55)",
+        "contrast": 8.66
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(11, 18, 32)",
+        "contrast": 16.85
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(24, 35, 55)",
+        "contrast": 14.16
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 15.99
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(181, 193, 213)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 9.77
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(16, 28, 51)",
+        "background": "rgb(138, 175, 255)",
+        "contrast": 7.81
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(16, 24, 39)",
+      ".intro-section": "rgb(16, 24, 39)",
+      ".tech-section": "rgba(0, 0, 0, 0)",
+      ".about-section": "rgb(24, 35, 55)",
+      ".contact-section": "rgb(11, 18, 32)",
+      ".selected-project--skyfire": "rgb(24, 35, 55)",
+      ".selected-project--maistra": "rgb(24, 35, 55)",
+      ".selected-project--bulk-buying-companion": "rgb(24, 35, 55)",
+      ".selected-project--pulso": "rgb(24, 35, 55)",
+      ".selected-project--sige": "rgb(24, 35, 55)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 15.99
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(138, 175, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(181, 193, 213)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 9.77
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 15.99
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(181, 193, 213)",
+        "background": "rgb(24, 35, 55)",
+        "contrast": 8.66
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(11, 18, 32)",
+        "contrast": 16.85
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(24, 35, 55)",
+        "contrast": 14.16
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(238, 243, 255)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 15.99
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(181, 193, 213)",
+        "background": "rgb(16, 24, 39)",
+        "contrast": 9.77
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(16, 28, 51)",
+        "background": "rgb(138, 175, 255)",
+        "contrast": 7.81
+      }
+    ]
+  }
+]

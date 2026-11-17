@@ -51,31 +51,34 @@ export function renderHomePage() {
           <div class="intro-description"><p class="intro-role typing-line"><span class="typing-static">AI Engineer</span><span class="typing-visual" aria-hidden="true"><span class="typing-slot"><span class="typing-measure">Mobile Developer|</span><span class="typing-text" data-typing-words='["AI Engineer","Mobile Developer","Web Developer"]'>AI Engineer</span></span></span><button class="typing-toggle" type="button" data-typing-toggle aria-label="Pause typing animation" aria-pressed="false" hidden><span aria-hidden="true">Ⅱ</span></button></p><p>I build web and mobile applications, from booking flows to tools for learning and community.</p></div>
           <div class="hero-aside">
             <div class="hero-context"><p>Computer Science student</p><p>USJ-R &middot; Philippines</p></div>
-            <div class="intro-actions"><a class="resume-link" href="assets/documents/jayrald-tajanlangit-resume.pdf?v=20261103-education-summary" type="application/pdf">R&eacute;sum&eacute; <span class="resume-format">PDF</span></a></div>
+            <div class="intro-actions"><a class="resume-link" data-cursor="Open" href="assets/documents/jayrald-tajanlangit-resume.pdf?v=20261106-certifications-template-restored" type="application/pdf">R&eacute;sum&eacute; <span class="resume-format">PDF</span></a></div>
           </div>
         </div>
       </div>
     </section>
     <section class="about-section shell" id="about" aria-labelledby="about-title">
+      <header class="section-heading"><span class="section-index" aria-hidden="true">01</span><h2 id="about-title">About <em>me</em></h2><span class="section-rule" aria-hidden="true"></span></header>
       <div class="about-layout">
-        <div class="about-profile"><h2 id="about-title">About me</h2><div class="education-detail"><h3>Computer Science</h3><p>${e(site.education.school)}<br>Philippines</p></div></div>
-        <div class="about-copy"><p>I’m learning by turning real problems into working software.</p><p>I've worked independently on SkyFire and Sige, and with teammates on mAIstra, Bulk Buying Companion, and Pulso. That work has given me practice connecting interfaces, APIs, and databases.</p><h3>What’s next</h3><p>I'd like to contribute to development tasks, get feedback through code reviews, and learn how a team builds and maintains software.</p><div class="about-links"><a href="${contacts.github}">GitHub <span aria-hidden="true">↗</span></a><a href="${contacts.linkedin}">LinkedIn <span aria-hidden="true">↗</span></a><a href="assets/documents/jayrald-tajanlangit-resume.pdf?v=20261103-education-summary" download>Download résumé <span aria-hidden="true">↓</span></a></div></div>
+        <div class="about-profile"><div class="education-detail"><h3>Computer Science</h3><p>${e(site.education.school)}<br>Philippines</p></div></div>
+        <div class="about-copy"><p>I’m learning by turning real problems into working software.</p><p>I've worked independently on SkyFire and Sige, and with teammates on mAIstra, Bulk Buying Companion, and Pulso. That work has given me practice connecting interfaces, APIs, and databases.</p><h3>What’s next</h3><p>I'd like to contribute to development tasks, get feedback through code reviews, and learn how a team builds and maintains software.</p><div class="about-links"><a href="${contacts.github}">GitHub <span aria-hidden="true">↗</span></a><a href="${contacts.linkedin}">LinkedIn <span aria-hidden="true">↗</span></a><a href="assets/documents/jayrald-tajanlangit-resume.pdf?v=20261106-certifications-template-restored" data-cursor="Download" download>Download résumé <span aria-hidden="true">↓</span></a></div></div>
       </div>
     </section>
-    <section class="work-section shell" id="work" aria-labelledby="work-title">
-      <header class="section-heading"><h2 id="work-title">Projects</h2><p>A selection of things I’ve built, on my own and with a team.</p></header>
+    <section class="work-section" id="work" aria-labelledby="work-title" data-project-colors data-surface="dark">
+      <div class="shell">
+      <header class="section-heading"><span class="section-index" aria-hidden="true">02</span><h2 id="work-title">Selected <em>projects</em></h2><span class="section-rule" aria-hidden="true"></span><p>A selection of things I’ve built, on my own and with a team.</p></header>
       ${renderSelectedWork()}
+      </div>
     </section>
     ${renderToolkit()}
     ${renderCertifications()}
-    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+    <section class="contact-section" id="contact" aria-labelledby="contact-title" data-surface="dark">
       <div class="shell contact-layout" data-reveal-group>
-        <div class="contact-intro"><h2 id="contact-title">Let’s work together.</h2><p>Have a project in mind, or a role I could grow into? I’d like to hear from you.</p></div>
+        <div class="contact-intro"><h2 id="contact-title">Let’s work <em>together.</em></h2><p>Have a project in mind, or a role I could grow into? I’d like to hear from you.</p></div>
         <div class="contact-details">
           <a class="contact-email" href="mailto:${contacts.email}">${e(contacts.email).replace('@', '<wbr>@')}</a>
           <div class="contact-actions">
             <a class="button-link contact-compose" href="mailto:${contacts.email}">Email me <span aria-hidden="true">↗</span></a>
-            <button class="contact-copy" type="button" data-email-copy data-email="${e(contacts.email)}" hidden><svg class="copy-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V4H4v12h4"/></svg><svg class="copied-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg><span data-copy-label>Copy email</span></button>
+            <button class="contact-copy" type="button" data-email-copy data-cursor="Copy" data-email="${e(contacts.email)}" hidden><svg class="copy-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V4H4v12h4"/></svg><svg class="copied-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg><span data-copy-label>Copy email</span></button>
           </div>
           <p class="contact-copy-status" data-copy-status role="status" aria-live="polite" aria-atomic="true"></p>
           <div class="contact-socials"><a href="${contacts.github}">GitHub <span aria-hidden="true">↗</span></a><a href="${contacts.linkedin}">LinkedIn <span aria-hidden="true">↗</span></a></div>
@@ -86,6 +89,7 @@ export function renderHomePage() {
   <footer class="portfolio-footer"><div class="shell"><p>© 2026 ${e(site.name)}</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
   <script type="module" src="js/site.js"></script>
   <script type="module" src="js/motion.js"></script>
+  <script type="module" src="js/showcase.js"></script>
   <script type="module" src="js/swarm-rebuild.js?v=20261105-ten-agents"></script>
   <script type="module" src="js/walkthrough.js"></script>
   <script type="module" src="js/contact.js"></script>

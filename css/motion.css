@@ -30,3 +30,36 @@
   .typing-text::after { animation: none; }
   .portfolio-motion a, .portfolio-motion button, .portfolio-motion img { transition: none !important; transform: none !important; }
 }
+
+/* Custom cursor (showcase.js, fine pointers without reduced motion only): a dot that turns into a
+   spinning "View project" badge in the project's color, and shows a word tag over named buttons. */
+:root { --cursor-ink: #6e2439; --cursor-label: #fbf3ee; }
+:root[data-theme="dark"] { --cursor-ink: #fbf3ee; --cursor-label: #3a1320; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme]) { --cursor-ink: #fbf3ee; --cursor-label: #3a1320; } }
+:root.custom-cursor, :root.custom-cursor * { cursor: none !important; }
+.site-cursor { --badge-ink: #6e2439; position: fixed; left: 0; top: 0; z-index: 2147483000; width: 0; height: 0; pointer-events: none; opacity: 0; transition: opacity 200ms ease; }
+.site-cursor.is-visible { opacity: 1; }
+.site-cursor[data-on-dark] { --cursor-ink: #fbf3ee; --cursor-label: #3a1320; }
+.site-cursor[data-tone="skyfire"] { --badge-ink: var(--tone-skyfire); }
+.site-cursor[data-tone="maistra"] { --badge-ink: var(--tone-maistra); }
+.site-cursor[data-tone="bulk-buying-companion"] { --badge-ink: var(--tone-bulk-buying-companion); }
+.site-cursor[data-tone="pulso"] { --badge-ink: var(--tone-pulso); }
+.site-cursor[data-tone="sige"] { --badge-ink: var(--tone-sige); }
+.site-cursor > * { position: absolute; left: 0; top: 0; }
+/* The agent arrow from the Swarm intro: its tip (5, 3.5 in a 28px box) is the pointer, and it leans around it. */
+.site-cursor-agent { width: 28px; height: 28px; margin: -3.5px 0 0 -5px; transform-origin: 5px 3.5px; rotate: var(--lean, 0deg); scale: 1; transition: scale 300ms var(--ease-editorial); }
+.site-cursor-agent svg { display: block; overflow: visible; filter: drop-shadow(0 1px 1.5px rgba(0, 0, 0, .28)); }
+.site-cursor-agent path { fill: var(--cursor-ink); stroke: var(--cursor-label); stroke-width: 1.5; stroke-linejoin: round; transition: fill 200ms ease, stroke 200ms ease; }
+.site-cursor[data-state="link"] .site-cursor-agent { scale: 1.15; }
+.site-cursor[data-pressed] .site-cursor-agent { scale: .88; }
+.site-cursor[data-state="badge"] .site-cursor-agent { scale: 0; }
+.site-cursor-badge { display: grid; place-items: center; width: 84px; height: 84px; margin: -42px 0 0 -42px; border-radius: 50%; background: #fbf3ee; color: var(--badge-ink); box-shadow: 0 8px 22px rgba(0, 0, 0, .22); transform: scale(0) rotate(-40deg); transition: transform 500ms var(--ease-editorial), color 300ms ease; }
+.site-cursor[data-state="badge"] .site-cursor-badge { transform: scale(1) rotate(0deg); }
+.site-cursor-badge svg { position: absolute; inset: 0; width: 100%; height: 100%; animation: site-cursor-spin 10s linear infinite paused; }
+.site-cursor[data-state="badge"] .site-cursor-badge svg { animation-play-state: running; }
+.site-cursor-badge text { font: 700 14px var(--font-body); letter-spacing: .3em; fill: currentColor; }
+.site-cursor-arrow { font: 500 26px/1 "Bodoni Moda", Georgia, serif; }
+.site-cursor-pill { margin: 20px 0 0 16px; padding: 6px 11px; border-radius: 99px; background: var(--cursor-ink); color: var(--cursor-label); font: 700 12px/1 var(--font-body); white-space: nowrap; transform: scale(0); transform-origin: 0 0; transition: transform 300ms var(--ease-editorial); }
+.site-cursor[data-state="label"] .site-cursor-pill { transform: scale(1); }
+@keyframes site-cursor-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .site-cursor { display: none; } }

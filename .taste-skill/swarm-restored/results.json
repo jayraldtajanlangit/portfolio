@@ -1,0 +1,101 @@
+[
+  {
+    "label": "1440px real rebuild starts with at most 10 agents and working Pause",
+    "pass": true,
+    "detail": {
+      "started": true,
+      "max": 10,
+      "counts": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "paused": true,
+      "stable": true,
+      "resumed": true,
+      "items": 247,
+      "host": true
+    }
+  },
+  {
+    "label": "1440px Escape dismisses the rebuild and reveals the portfolio",
+    "pass": true
+  },
+  {
+    "label": "390px real rebuild starts with at most 10 agents and working Pause",
+    "pass": true,
+    "detail": {
+      "started": true,
+      "max": 10,
+      "counts": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "paused": true,
+      "stable": true,
+      "resumed": true,
+      "items": 243,
+      "host": true
+    }
+  },
+  {
+    "label": "390px Escape dismisses the rebuild and reveals the portfolio",
+    "pass": true
+  },
+  {
+    "label": "reduced motion displays the portfolio without a rebuild",
+    "pass": true
+  },
+  {
+    "label": "direct links keep their section without starting a rebuild",
+    "pass": true
+  },
+  {
+    "label": "no browser exceptions",
+    "pass": true,
+    "detail": []
+  }
+]

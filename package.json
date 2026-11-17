@@ -5,6 +5,7 @@
   "scripts": {
     "render": "node scripts/render-site.mjs",
     "render:walkthroughs": "node scripts/render-walkthroughs.mjs",
+    "render:home-previews": "node scripts/render-home-previews.mjs",
     "test": "node --test"
   }
 }

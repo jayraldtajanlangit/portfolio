@@ -40,7 +40,7 @@ const icons = new Map(areas.flatMap(area => area.tools.map(({ icon }) => {
 
 export function renderToolkit() {
   return `<section class="tech-section shell" id="tech-stack" aria-labelledby="tech-stack-title" data-reveal-group>
-    <header class="section-heading"><h2 id="tech-stack-title">Tech stack</h2></header>
+    <header class="section-heading"><span class="section-index" aria-hidden="true">03</span><h2 id="tech-stack-title">Tech <em>stack</em></h2><span class="section-rule" aria-hidden="true"></span></header>
     <div class="tech-stack-groups">${areas.map(area => `<div class="tech-stack-group">
       <h3>${e(area.title)}</h3>
       <ul class="tech-logo-list" aria-label="${e(area.title)}">${area.tools.map(tool => {

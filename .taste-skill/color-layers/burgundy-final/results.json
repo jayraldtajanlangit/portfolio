@@ -1,0 +1,2216 @@
+[
+  {
+    "theme": "light",
+    "width": 1440,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(229, 224, 218)",
+      ".intro-section": "rgb(229, 224, 218)",
+      ".tech-section": "rgb(67, 89, 107)",
+      ".about-section": "rgb(222, 217, 212)",
+      ".contact-section": "rgb(38, 35, 38)",
+      ".selected-project--skyfire": "rgb(243, 240, 236)",
+      ".selected-project--maistra": "rgb(243, 240, 236)",
+      ".selected-project--bulk-buying-companion": "rgb(243, 240, 236)",
+      ".selected-project--pulso": "rgb(243, 240, 236)",
+      ".selected-project--sige": "rgb(243, 240, 236)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(96, 51, 66)",
+        "background": "rgb(229, 224, 218)",
+        "contrast": 7.81
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(229, 224, 218)",
+        "contrast": 6.72
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(229, 224, 218)",
+        "contrast": 5.52
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 5.16
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 5.16
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 5.16
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 6.29
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 6.29
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 6.29
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(243, 240, 236)",
+        "background": "rgb(38, 35, 38)",
+        "contrast": 13.69
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(201, 194, 200)",
+        "background": "rgb(38, 35, 38)",
+        "contrast": 8.91
+      },
+      {
+        "selector": ".contact-compose",
+        "color": "rgb(38, 35, 38)",
+        "background": "rgb(189, 204, 215)",
+        "contrast": 9.46
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "width": 768,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(229, 224, 218)",
+      ".intro-section": "rgb(229, 224, 218)",
+      ".tech-section": "rgb(67, 89, 107)",
+      ".about-section": "rgb(222, 217, 212)",
+      ".contact-section": "rgb(38, 35, 38)",
+      ".selected-project--skyfire": "rgb(243, 240, 236)",
+      ".selected-project--maistra": "rgb(243, 240, 236)",
+      ".selected-project--bulk-buying-companion": "rgb(243, 240, 236)",
+      ".selected-project--pulso": "rgb(243, 240, 236)",
+      ".selected-project--sige": "rgb(243, 240, 236)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(96, 51, 66)",
+        "background": "rgb(229, 224, 218)",
+        "contrast": 7.81
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(229, 224, 218)",
+        "contrast": 6.72
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(229, 224, 218)",
+        "contrast": 5.52
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 5.16
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 5.16
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 5.16
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 6.29
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 6.29
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 6.29
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(243, 240, 236)",
+        "background": "rgb(38, 35, 38)",
+        "contrast": 13.69
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(201, 194, 200)",
+        "background": "rgb(38, 35, 38)",
+        "contrast": 8.91
+      },
+      {
+        "selector": ".contact-compose",
+        "color": "rgb(38, 35, 38)",
+        "background": "rgb(189, 204, 215)",
+        "contrast": 9.46
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(229, 224, 218)",
+      ".intro-section": "rgb(229, 224, 218)",
+      ".tech-section": "rgb(67, 89, 107)",
+      ".about-section": "rgb(222, 217, 212)",
+      ".contact-section": "rgb(38, 35, 38)",
+      ".selected-project--skyfire": "rgb(243, 240, 236)",
+      ".selected-project--maistra": "rgb(243, 240, 236)",
+      ".selected-project--bulk-buying-companion": "rgb(243, 240, 236)",
+      ".selected-project--pulso": "rgb(243, 240, 236)",
+      ".selected-project--sige": "rgb(243, 240, 236)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(96, 51, 66)",
+        "background": "rgb(229, 224, 218)",
+        "contrast": 7.81
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(229, 224, 218)",
+        "contrast": 6.72
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(229, 224, 218)",
+        "contrast": 5.52
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(67, 89, 107)",
+        "contrast": 6.45
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 5.16
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 5.16
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 5.16
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 6.29
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 6.29
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(116, 55, 72)",
+        "background": "rgb(222, 217, 212)",
+        "contrast": 6.29
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(243, 240, 236)",
+        "background": "rgb(38, 35, 38)",
+        "contrast": 13.69
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(201, 194, 200)",
+        "background": "rgb(38, 35, 38)",
+        "contrast": 8.91
+      },
+      {
+        "selector": ".contact-compose",
+        "color": "rgb(38, 35, 38)",
+        "background": "rgb(189, 204, 215)",
+        "contrast": 9.46
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(44, 41, 44)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 12.66
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(92, 85, 90)",
+        "background": "rgb(243, 240, 236)",
+        "contrast": 6.37
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(116, 55, 72)",
+        "contrast": 8.81
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "width": 1440,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(45, 35, 42)",
+      ".intro-section": "rgb(45, 35, 42)",
+      ".tech-section": "rgb(46, 67, 83)",
+      ".about-section": "rgb(45, 40, 46)",
+      ".contact-section": "rgb(21, 19, 22)",
+      ".selected-project--skyfire": "rgb(30, 27, 31)",
+      ".selected-project--maistra": "rgb(30, 27, 31)",
+      ".selected-project--bulk-buying-companion": "rgb(30, 27, 31)",
+      ".selected-project--pulso": "rgb(30, 27, 31)",
+      ".selected-project--sige": "rgb(30, 27, 31)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(223, 190, 200)",
+        "background": "rgb(45, 35, 42)",
+        "contrast": 8.9
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(216, 176, 188)",
+        "background": "rgb(45, 35, 42)",
+        "contrast": 7.84
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 35, 42)",
+        "contrast": 8.28
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 7.89
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 7.89
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 7.89
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(223, 185, 197)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(223, 185, 197)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(223, 185, 197)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(21, 19, 22)",
+        "contrast": 15.64
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(21, 19, 22)",
+        "contrast": 10.1
+      },
+      {
+        "selector": ".contact-compose",
+        "color": "rgb(21, 19, 22)",
+        "background": "rgb(189, 204, 215)",
+        "contrast": 11.25
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "width": 768,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(45, 35, 42)",
+      ".intro-section": "rgb(45, 35, 42)",
+      ".tech-section": "rgb(46, 67, 83)",
+      ".about-section": "rgb(45, 40, 46)",
+      ".contact-section": "rgb(21, 19, 22)",
+      ".selected-project--skyfire": "rgb(30, 27, 31)",
+      ".selected-project--maistra": "rgb(30, 27, 31)",
+      ".selected-project--bulk-buying-companion": "rgb(30, 27, 31)",
+      ".selected-project--pulso": "rgb(30, 27, 31)",
+      ".selected-project--sige": "rgb(30, 27, 31)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(223, 190, 200)",
+        "background": "rgb(45, 35, 42)",
+        "contrast": 8.9
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(216, 176, 188)",
+        "background": "rgb(45, 35, 42)",
+        "contrast": 7.84
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 35, 42)",
+        "contrast": 8.28
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 7.89
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 7.89
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 7.89
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(223, 185, 197)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(223, 185, 197)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(223, 185, 197)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(21, 19, 22)",
+        "contrast": 15.64
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(21, 19, 22)",
+        "contrast": 10.1
+      },
+      {
+        "selector": ".contact-compose",
+        "color": "rgb(21, 19, 22)",
+        "background": "rgb(189, 204, 215)",
+        "contrast": 11.25
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      }
+    ]
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "pass": true,
+    "overflow": false,
+    "surfaces": {
+      ".portfolio-header": "rgb(45, 35, 42)",
+      ".intro-section": "rgb(45, 35, 42)",
+      ".tech-section": "rgb(46, 67, 83)",
+      ".about-section": "rgb(45, 40, 46)",
+      ".contact-section": "rgb(21, 19, 22)",
+      ".selected-project--skyfire": "rgb(30, 27, 31)",
+      ".selected-project--maistra": "rgb(30, 27, 31)",
+      ".selected-project--bulk-buying-companion": "rgb(30, 27, 31)",
+      ".selected-project--pulso": "rgb(30, 27, 31)",
+      ".selected-project--sige": "rgb(30, 27, 31)"
+    },
+    "projects": true,
+    "text": [
+      {
+        "selector": ".hero-name",
+        "color": "rgb(223, 190, 200)",
+        "background": "rgb(45, 35, 42)",
+        "contrast": 8.9
+      },
+      {
+        "selector": ".intro-role",
+        "color": "rgb(216, 176, 188)",
+        "background": "rgb(45, 35, 42)",
+        "contrast": 7.84
+      },
+      {
+        "selector": ".intro-description > p:last-child",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 35, 42)",
+        "contrast": 8.28
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".tech-stack-group h3",
+        "color": "rgb(241, 241, 240)",
+        "background": "rgb(46, 67, 83)",
+        "contrast": 9.09
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 7.89
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 7.89
+      },
+      {
+        "selector": ".about-copy > p",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 7.89
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(223, 185, 197)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(223, 185, 197)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".about-links a",
+        "color": "rgb(223, 185, 197)",
+        "background": "rgb(45, 40, 46)",
+        "contrast": 8.17
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(21, 19, 22)",
+        "contrast": 15.64
+      },
+      {
+        "selector": ".contact-intro > p:not(.section-kicker)",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(21, 19, 22)",
+        "contrast": 10.1
+      },
+      {
+        "selector": ".contact-compose",
+        "color": "rgb(21, 19, 22)",
+        "background": "rgb(189, 204, 215)",
+        "contrast": 11.25
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-summary",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-contribution",
+        "color": "rgb(239, 235, 237)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 14.43
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-chip",
+        "color": "rgb(198, 189, 196)",
+        "background": "rgb(30, 27, 31)",
+        "contrast": 9.32
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      },
+      {
+        "selector": ".selected-project-case-study",
+        "color": "rgb(48, 32, 40)",
+        "background": "rgb(216, 176, 188)",
+        "contrast": 7.97
+      }
+    ]
+  }
+]

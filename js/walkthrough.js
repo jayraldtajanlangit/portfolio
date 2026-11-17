@@ -1,5 +1,7 @@
-export function shouldPreviewPlay({ intersecting, documentVisible, reducedMotion, userPaused, manual }) {
-  return Boolean(intersecting && documentVisible && !userPaused && (!reducedMotion || manual));
+// Homepage project previews play on their own whenever they are on screen. They rest off screen,
+// in a hidden tab and for visitors who ask for reduced motion. Clicking one opens its project.
+export function shouldPreviewPlay({ intersecting, documentVisible, reducedMotion }) {
+  return Boolean(intersecting && documentVisible && !reducedMotion);
 }
 
 export function initWalkthroughPreviews(root = document) {
@@ -13,23 +15,10 @@ export function initWalkthroughPreviews(root = document) {
     element?.addEventListener?.(name, handler);
     cleanups.push(() => element?.removeEventListener?.(name, handler));
   };
-  const fullscreen = record => doc.fullscreenElement === record.video;
-  const updateLabel = record => {
-    const action = record.video.paused ? 'Play' : 'Pause';
-    record.video.setAttribute?.('aria-label', `${action} ${record.label}`);
-    if (record.button) {
-      record.button.textContent = `${action} preview`;
-      record.button.setAttribute?.('aria-label', `${action} ${record.label}`);
-      record.button.setAttribute?.('aria-pressed', String(!record.video.paused));
-    }
-  };
   const pause = record => {
     record.generation++;
     record.autoRequested = false;
-    if (!record.video.paused) {
-      record.video.pause();
-    }
-    updateLabel(record);
+    if (!record.video.paused) record.video.pause();
   };
   const play = record => {
     if (!record.video.paused || record.autoRequested) return;
@@ -38,74 +27,42 @@ export function initWalkthroughPreviews(root = document) {
     Promise.resolve(record.video.play()).then(() => {
       if (generation !== record.generation) return;
       if (stopped || !record.wanted) pause(record);
-    }).catch(() => { if (generation === record.generation) { record.autoRequested = false; updateLabel(record); } });
+    }).catch(() => { if (generation === record.generation) record.autoRequested = false; });
   };
   const sync = () => {
     if (stopped) return;
     for (const record of records) {
-      record.wanted = shouldPreviewPlay({
-        ...record,
-        intersecting: record.intersecting || fullscreen(record),
-        manual: record.manual || fullscreen(record),
-        documentVisible: !doc.hidden, reducedMotion: reduced.matches,
-      });
+      record.wanted = shouldPreviewPlay({ intersecting: record.intersecting, documentVisible: !doc.hidden, reducedMotion: reduced.matches });
       record.wanted ? play(record) : pause(record);
     }
   };
   for (const card of root.querySelectorAll?.('[data-walkthrough-preview]') ?? []) {
     const video = card.querySelector('video');
     const frame = card.querySelector('.selected-project-media');
-    const button = card.querySelector('[data-preview-toggle]');
     if (!video || !frame) continue;
-    const record = { card, video, frame, button, label: video.getAttribute?.('aria-label') ?? 'project preview', intersecting: !hasObserver, userPaused: false, manual: false, generation: 0, wanted: false, autoRequested: false };
+    const record = { video, frame, intersecting: !hasObserver, generation: 0, wanted: false, autoRequested: false };
     records.push(record);
     video.muted = true;
     video.loop = true;
     // HTML autoplay is the no-JavaScript fallback; the controller manages visibility and motion preferences.
     video.autoplay = false;
     video.controls = false;
-    video.tabIndex = 0;
-    video.setAttribute?.('role', 'button');
-    const toggle = () => {
-      record.userPaused = !video.paused;
-      record.manual = video.paused;
-      sync();
-    };
-    if (button) {
-      button.hidden = false;
-      listen(button, 'click', toggle);
-    }
-    listen(video, 'click', toggle);
-    listen(video, 'keydown', event => {
-      if (![' ', 'Enter', 'Spacebar'].includes(event.key)) return;
-      event.preventDefault();
-      if (!event.repeat) toggle();
-    });
     listen(video, 'play', () => {
       record.autoRequested = false;
       if (!record.wanted) pause(record);
-      else updateLabel(record);
     });
-    listen(video, 'pause', () => updateLabel(record));
   }
   const byFrame = new Map(records.map(record => [record.frame, record]));
   const observer = hasObserver ? new view.IntersectionObserver(entries => {
     for (const entry of entries) {
       const record = byFrame.get(entry.target);
-      if (!record) continue;
-      const visible = entry.isIntersecting && entry.intersectionRatio >= .2;
-      record.intersecting = visible;
-      if (!visible && !fullscreen(record)) record.manual = false;
+      if (record) record.intersecting = entry.isIntersecting && entry.intersectionRatio >= .2;
     }
     sync();
   }, { threshold: [0, .2, .4, .6, .8, 1] }) : null;
   records.forEach(record => observer?.observe(record.frame));
   listen(doc, 'visibilitychange', sync);
-  listen(doc, 'fullscreenchange', sync);
-  listen(reduced, 'change', () => {
-    if (reduced.matches) records.forEach(record => { record.manual = false; });
-    sync();
-  });
+  listen(reduced, 'change', sync);
   sync();
   return () => {
     stopped = true;

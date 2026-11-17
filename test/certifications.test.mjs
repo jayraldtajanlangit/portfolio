@@ -37,3 +37,15 @@ test('all supplied credentials have accurate titles, issuer icons and direct ver
   assert.match(section, /DataCamp[\s\S]*Track completion/);
   assert.doesNotMatch(section, /AWS Certified/);
 });
+
+test('certifications are a compact list that still shows issuer and credential type', () => {
+  const section = renderHomePage().match(/<section[^>]*id="certifications"[\s\S]*?<\/section>/)?.[0];
+  assert.doesNotMatch(section, /credential-details/);
+  const links = [...section.matchAll(/<a class="credential-link"[\s\S]*?<\/a>/g)].map(match => match[0]);
+  assert.equal(links.length, 8);
+  for (const link of links) {
+    assert.match(link, /class="credential-title">[^<]+</);
+    assert.match(link, /class="credential-meta">[^<]+ · [^<]+</);
+  }
+  assert.match(section, /class="credential-meta">DataCamp · Track completion</);
+});

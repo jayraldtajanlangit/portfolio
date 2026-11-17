@@ -1,0 +1,320 @@
+[
+  {
+    "label": "light 1440px credentials fit and all issuer icons render",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        }
+      ],
+      "ibm": {
+        "loaded": true,
+        "filter": "none"
+      }
+    }
+  },
+  {
+    "label": "dark 1440px credentials fit and all issuer icons render",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        }
+      ],
+      "ibm": {
+        "loaded": true,
+        "filter": "brightness(0) invert(1)"
+      }
+    }
+  },
+  {
+    "label": "light 768px credentials fit and all issuer icons render",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        }
+      ],
+      "ibm": {
+        "loaded": true,
+        "filter": "none"
+      }
+    }
+  },
+  {
+    "label": "dark 768px credentials fit and all issuer icons render",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        }
+      ],
+      "ibm": {
+        "loaded": true,
+        "filter": "brightness(0) invert(1)"
+      }
+    }
+  },
+  {
+    "label": "light 390px credentials fit and all issuer icons render",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        }
+      ],
+      "ibm": {
+        "loaded": true,
+        "filter": "none"
+      }
+    }
+  },
+  {
+    "label": "dark 390px credentials fit and all issuer icons render",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "links": [
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        },
+        {
+          "fits": true,
+          "accessible": true,
+          "icon": true
+        }
+      ],
+      "ibm": {
+        "loaded": true,
+        "filter": "brightness(0) invert(1)"
+      }
+    }
+  }
+]

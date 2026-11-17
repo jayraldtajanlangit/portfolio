@@ -137,6 +137,7 @@ test('project previews reveal before complete copy blocks, stagger across column
 
 function entranceEnvironment({ splash = true, reduced = false } = {}) {
   const closeListeners = new Map(), animations = [], observers = [];
+  // The hero composition itself is animated by the CSS letter rise, not by this entrance.
   const selectors = ['.portfolio-header', '.intro-copy h1', '.intro-role', '.intro-copy > .intro-description', '.hero-composition'];
   const elements = selectors.map(selector => ({
     tagName: 'DIV', matches: query => query.split(',').some(value => value.trim() === selector),
@@ -172,12 +173,12 @@ test('homepage entrance starts immediately on the actual page', () => {
   const stop = module.initPageMotion(env.root);
   assert.equal(env.observers.length, 1);
   assert.equal(env.closeListeners.size, 0);
-  assert.equal(env.animations.length, 5, 'animate the visible homepage without waiting for an intro');
-  assert.deepEqual(env.animations.map(a => a.options.delay), [0, 100, 200, 300, 400]);
+  assert.equal(env.animations.length, 4, 'animate the visible homepage without waiting for an intro');
+  assert.deepEqual(env.animations.map(a => a.options.delay), [0, 100, 200, 300]);
   const observer = env.observers[0];
   assert.deepEqual(observer.observed, [], 'scroll observer must not replay the already-started hero');
   env.close();
-  assert.equal(env.animations.length, 5);
+  assert.equal(env.animations.length, 4);
   assert.ok(env.animations.every(a => a.options.fill === 'backwards' && a.frames.at(-1).opacity === 1));
   stop();
   assert.ok(env.animations.every(a => a.cancelled));
@@ -187,7 +188,7 @@ test('homepage entrance needs no dialog events', () => {
   const env = entranceEnvironment();
   const stop = module.initPageMotion(env.root);
   env.close();
-  assert.equal(env.animations.length, 5);
+  assert.equal(env.animations.length, 4);
   assert.equal(env.closeListeners.size, 0);
   stop();
 });
@@ -213,4 +214,78 @@ test('disposing the homepage cancels its entrance animations', () => {
   assert.equal(env.closeListeners.size, 0);
   assert.equal(env.observers.length, 1);
   assert.ok(env.animations.every(animation => animation.cancelled));
+});
+
+function nameEnvironment({ reduced = false, swarm = false, observer = false, rise } = {}) {
+  const listeners = new Map(), observers = [];
+  const documentElement = { dataset: { ...(swarm ? { swarmBuild: 'pending' } : {}), ...(rise ? { nameRise: rise } : {}) } };
+  const hero = { className: 'hero-name' };
+  const defaultView = { matchMedia: () => ({ matches: reduced }) };
+  if (observer) defaultView.IntersectionObserver = class {
+    constructor(callback) { this.callback = callback; this.observed = []; this.disconnected = false; observers.push(this); }
+    observe(element) { this.observed.push(element); }
+    disconnect() { this.disconnected = true; }
+  };
+  const root = {
+    documentElement, defaultView,
+    querySelector: query => (query === '.hero-name' ? hero : null),
+    addEventListener: (name, fn) => listeners.set(name, fn),
+    removeEventListener: (name, fn) => { if (listeners.get(name) === fn) listeners.delete(name); },
+  };
+  return { root, documentElement, listeners, observers, hero, fire: name => listeners.get(name)?.() };
+}
+
+test('after Swarm ends off-screen the name hides and rises once the hero is back in view', () => {
+  const env = nameEnvironment({ swarm: true, observer: true });
+  module.initNameRise(env.root);
+  env.fire('swarm-rebuild:end');
+  assert.equal(env.documentElement.dataset.nameRise, 'ready', 'letters wait below their line while the visitor is elsewhere');
+  const [watcher] = env.observers;
+  assert.deepEqual(watcher.observed, [env.hero]);
+  watcher.callback([{ isIntersecting: false }]);
+  assert.equal(env.documentElement.dataset.nameRise, 'ready');
+  watcher.callback([{ isIntersecting: true }]);
+  assert.equal(env.documentElement.dataset.nameRise, 'play');
+  assert.ok(watcher.disconnected);
+});
+
+test('a rise already started by the head bootstrap is not restarted', () => {
+  const env = nameEnvironment({ observer: true, rise: 'play' });
+  module.initNameRise(env.root);
+  assert.equal(env.documentElement.dataset.nameRise, 'play');
+  assert.equal(env.observers.length, 0);
+});
+
+test('the name rises right away when Swarm is not running', () => {
+  const env = nameEnvironment();
+  module.initNameRise(env.root);
+  assert.equal(env.documentElement.dataset.nameRise, 'play');
+});
+
+test('the name waits for Swarm to finish before rising', () => {
+  const env = nameEnvironment({ swarm: true });
+  module.initNameRise(env.root);
+  assert.equal(env.documentElement.dataset.nameRise, undefined, 'the name stays visible for the Swarm snapshot');
+  env.fire('swarm-rebuild:end');
+  assert.equal(env.documentElement.dataset.nameRise, 'play');
+});
+
+test('reduced motion keeps the name still with or without Swarm', () => {
+  for (const swarm of [false, true]) {
+    const env = nameEnvironment({ reduced: true, swarm });
+    module.initNameRise(env.root);
+    env.fire('swarm-rebuild:end');
+    assert.equal(env.documentElement.dataset.nameRise, undefined);
+  }
+});
+
+test('afterSwarm cleanup cancels a start that is still waiting for Swarm', () => {
+  const env = nameEnvironment({ swarm: true });
+  let calls = 0;
+  const stop = module.afterSwarm(env.root, () => calls++);
+  stop();
+  env.fire('swarm-rebuild:end');
+  assert.equal(calls, 0);
+  module.afterSwarm(nameEnvironment().root, () => calls++);
+  assert.equal(calls, 1, 'runs immediately when Swarm is not pending');
 });

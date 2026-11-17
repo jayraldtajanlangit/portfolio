@@ -7,7 +7,15 @@ export function shouldBuildHomepage(view, root) {
 
 export async function initSwarmRebuild(root = document, load = () => import('./vendor/swarm-rebuild.js?v=20261103-calm')) {
  const view=root.defaultView;
- const release=()=>delete root.documentElement.dataset.swarmBuild;
+ // Announce the end exactly once so the name rise and custom cursor can start after the tour.
+ let ended=false,watch;
+ const end=()=>{
+  if(ended)return;ended=true;
+  if(watch!==undefined)view.clearInterval?.(watch);
+  watch=undefined;
+  if(typeof root.dispatchEvent==='function')root.dispatchEvent(new view.CustomEvent('swarm-rebuild:end'));
+ };
+ const release=()=>{delete root.documentElement.dataset.swarmBuild;end();};
  if(!shouldBuildHomepage(view,root)){release();return ()=>{};}
  const agents={min:4,max:10,intro:6,flock:10};
  view.__swarmRebuildOptions={intro:false,autoScroll:true,autoExit:true,sound:false,homepage:true,agents};
@@ -16,6 +24,7 @@ export async function initSwarmRebuild(root = document, load = () => import('./v
   // Loading must never restart the tour after a visitor follows a deep link.
   if(!shouldBuildHomepage(view,root)){release();return ()=>{};}
   await load();
+  watch=view.setInterval?.(()=>{if(!view.__swarmRebuild?.app)end();},200);
  } catch(error){release();view.__swarmRebuild?.stop(false);view.console.warn('Swarm Rebuild could not start:',error);}
  return ()=>{view.__swarmRebuild?.stop(false);release();};
 }

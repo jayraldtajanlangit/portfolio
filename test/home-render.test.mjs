@@ -28,3 +28,11 @@ test('every project retains all three workflow screenshots and disclosures in it
     assert.ok(html.includes('Engineering choices'));
   }
 });
+
+test('the hero name is split into letters for the rise while keeping one accessible name', () => {
+  const h1 = renderHomePage().match(/<h1[^>]*>[\s\S]*?<\/h1>/)[0];
+  assert.match(h1, /aria-label="Jayrald Tajanlangit"/);
+  const letters = [...h1.matchAll(/<span class="hero-letter" style="--i:(\d+)">([A-Za-z])<\/span>/g)];
+  assert.equal(letters.map(match => match[2]).join(''), 'JayraldTajanlangit');
+  assert.deepEqual(letters.map(match => Number(match[1])), [...Array(18).keys()]);
+});

@@ -4,7 +4,7 @@ import { renderToolkit } from '../scripts/render-toolkit.mjs';
 
 test('tech stack has a heading and four ordered categories without introductory copy', () => {
   const html = renderToolkit();
-  assert.match(html, /<h2[^>]*>Tech stack<\/h2>/);
+  assert.match(html, /<h2[^>]*>Tech <em>stack<\/em><\/h2>/);
   assert.doesNotMatch(html, /The languages and frameworks I build with/);
   const categories = [...html.matchAll(/<h3>([^<]+)<\/h3>/g)].map(match => match[1]);
   assert.deepEqual(categories, ['Languages', 'Frameworks', 'Tools', 'AI tools']);

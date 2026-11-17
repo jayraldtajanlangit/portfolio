@@ -7,20 +7,28 @@
 .hero-name > span:first-child { font-size: clamp(96px, 18.1vw, 290px); }
 .hero-name > span:last-child { font-size: clamp(68px, 12.35vw, 198px); }
 .hero-name-word { display: block; }
-/* The text settles behind the portrait; the final type geometry stays intact. */
+/* The name rises letter by letter from behind its line, then the portrait follows.
+   data-name-rise is set by the head bootstrap, or by motion.js after the Swarm tour. */
+.hero-letter { display: inline-block; }
 @media (prefers-reduced-motion: no-preference) {
  .hero-name-line { clip-path: inset(-20% -4% -20%); }
- .hero-name-word { animation: hero-name-arrive 900ms cubic-bezier(.16,1,.3,1) both; }
- .hero-name-line:last-child .hero-name-word { animation-delay: 140ms; }
+ :root[data-name-rise="play"] .hero-letter { animation: hero-letter-rise 950ms cubic-bezier(.16,1,.3,1) calc(var(--i) * 45ms) both; }
+ :root[data-name-rise="play"] .hero-portrait { animation: hero-portrait-rise 1000ms cubic-bezier(.16,1,.3,1) 450ms both; }
+ :root[data-name-rise="ready"] .hero-letter { transform: translateY(140%); }
+ :root[data-name-rise="ready"] .hero-portrait { opacity: 0; }
  @supports (animation-timeline: view()) {
   .hero-name-line { animation: hero-name-separate linear both; animation-timeline: view(); animation-range: exit 0% exit 100%; }
   .hero-name-line:first-child { --name-travel: -18px; }
   .hero-name-line:last-child { --name-travel: 18px; }
  }
 }
-@keyframes hero-name-arrive {
- from { opacity: .25; transform: translateY(72%) rotate(3deg); }
- to { opacity: 1; transform: translateY(0) rotate(0); }
+@keyframes hero-letter-rise {
+ from { transform: translateY(140%); }
+ to { transform: translateY(0); }
+}
+@keyframes hero-portrait-rise {
+ from { opacity: 0; transform: translate(-50%, 24px); }
+ to { opacity: 1; transform: translate(-50%, 0); }
 }
 @keyframes hero-name-separate {
  from { transform: translateX(0); }

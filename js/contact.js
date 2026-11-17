@@ -11,6 +11,7 @@ export function initEmailCopy(root = document) {
   const reset = () => {
     label.textContent = 'Copy email';
     delete button.dataset.copied;
+    button.dataset.cursor = 'Copy';
   };
   const copy = async () => {
     if (button.disabled || stopped) return;
@@ -24,6 +25,7 @@ export function initEmailCopy(root = document) {
       if (stopped) return;
       label.textContent = 'Copied';
       button.dataset.copied = 'true';
+      button.dataset.cursor = 'Copied!';
       status.textContent = 'Email copied to clipboard.';
       timer = view.setTimeout(reset, 2500);
     } catch {

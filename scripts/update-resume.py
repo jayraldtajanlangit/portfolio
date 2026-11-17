@@ -2,6 +2,7 @@
 from copy import deepcopy
 from hashlib import sha256
 import json
+import re
 from pathlib import Path
 from zipfile import ZipFile
 from lxml import etree as E
@@ -12,6 +13,8 @@ TARGET = ROOT / 'output/docx/Jayrald_Tajanlangit_CV.docx'
 QA = ROOT / 'tmp/pdfs/cv-content-update'
 NS = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 W = '{' + NS['w'] + '}'
+R = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships'
+PR = 'http://schemas.openxmlformats.org/package/2006/relationships'
 
 REPLACEMENTS = {
     'EDUCATION': 'Education',
@@ -127,9 +130,55 @@ with ZipFile(SOURCE) as z:
         nodes[0].text = text
         body.insert(body.index(paragraphs[stack_index]) + 1, description)
         inserted.append(description)
+    # Keep CV credentials aligned with the verified portfolio records.
+    records = re.findall(
+        r"\{ title: '([^']+)', issuer: '([^']+)', icon: '[^']+', type: '([^']+)', href: '([^']+)' \}",
+        (ROOT / 'scripts/render-certifications.mjs').read_text(encoding='utf-8'),
+    )
+    assert len(records) == 8
+    relationships = E.fromstring(z.read('word/_rels/document.xml.rels'))
+
+    def credential_paragraph(segments, bold=False):
+        paragraph = deepcopy(languages)
+        for child in list(paragraph):
+            if child.tag != W + 'pPr':
+                paragraph.remove(child)
+        for text, url in segments:
+            run = deepcopy(paragraphs[19 if bold else 14].find('w:r', NS))
+            run.find('w:t', NS).text = text
+            run.find('w:t', NS).set('{http://www.w3.org/XML/1998/namespace}space', 'preserve')
+            if url:
+                rid = f'rIdCredential{len(relationships)}'
+                E.SubElement(relationships, '{' + PR + '}Relationship',
+                             Id=rid, Type=R + '/hyperlink', Target=url, TargetMode='External')
+                link = E.SubElement(paragraph, W + 'hyperlink', {'{' + R + '}id': rid})
+                link.append(run)
+            else:
+                paragraph.append(run)
+        return paragraph
+
+    heading = deepcopy(paragraphs[43])
+    assert ''.join(heading.xpath('.//w:t/text()', namespaces=NS)) == 'TECHNICAL SKILLS'
+    heading.find('.//w:t', NS).text = 'CERTIFICATIONS AND COURSES'
+    # Preserve the existing page exactly; additional content starts on its own page.
+    E.SubElement(heading.find('w:pPr', NS), W + 'pageBreakBefore')
+    cert_paragraphs = [heading, deepcopy(paragraphs[44]), deepcopy(paragraphs[45])]
+    for index, (title, issuer, kind, url) in enumerate(records):
+        if index:
+            cert_paragraphs.append(deepcopy(paragraphs[23]))
+        cert_paragraphs.append(credential_paragraph([(title, url)], bold=True))
+        metadata = f'{issuer} | {kind.replace(chr(183), "|")}'
+        cert_paragraphs.append(credential_paragraph([(metadata, None)]))
+    for paragraph in cert_paragraphs:
+        body.insert(body.index(body.find('w:sectPr', NS)), paragraph)
+        inserted.append(paragraph)
+
     inserted_indices = {body.index(p) for p in inserted}
 
-    updates = {'word/document.xml': E.tostring(doc, xml_declaration=True, encoding='UTF-8', standalone=True)}
+    updates = {
+        'word/document.xml': E.tostring(doc, xml_declaration=True, encoding='UTF-8', standalone=True),
+        'word/_rels/document.xml.rels': E.tostring(relationships, xml_declaration=True, encoding='UTF-8', standalone=True),
+    }
     with ZipFile(TARGET, 'w') as out:
         for info in z.infolist():
             out.writestr(info, updates.get(info.filename, z.read(info.filename)))
@@ -158,6 +207,10 @@ with ZipFile(SOURCE) as a, ZipFile(TARGET) as b:
         'project_descriptions': list(PROJECT_DESCRIPTIONS.values()),
         'education_coursework': COURSEWORK,
         'expected_graduation': 'June 2027',
+        'credentials': [{'title': title, 'issuer': issuer, 'type': kind, 'url': url}
+                        for title, issuer, kind, url in records],
+        'existing_spacing_preserved': True,
+        'certifications_start_on_new_page': True,
     }, indent=2), encoding='utf-8')
 print(TARGET)
 print(f'Preserved {len(untouched)} package parts; coursework formatting follows the supplied reference')

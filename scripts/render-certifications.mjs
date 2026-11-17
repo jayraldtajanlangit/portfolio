@@ -23,9 +23,9 @@ function issuerIcon(name) {
 
 export function renderCertifications() {
   return `<section class="certifications-section shell" id="certifications" aria-labelledby="certifications-title">
-    <header class="section-heading"><h2 id="certifications-title">Certifications</h2><p>Learning beyond the projects.</p></header>
+    <header class="section-heading"><span class="section-index" aria-hidden="true">04</span><h2 id="certifications-title">Certifications</h2><span class="section-rule" aria-hidden="true"></span><p>Learning beyond the projects.</p></header>
     <ul class="credential-list">${credentials.map(credential => `<li><a class="credential-link" href="${e(credential.href)}" target="_blank" rel="noopener noreferrer" aria-label="Verify ${e(credential.title)} from ${e(credential.issuer)} (opens in a new tab)">
-      ${issuerIcon(credential.icon)}<div class="credential-details"><h3>${e(credential.title)}</h3><p class="credential-issuer">${e(credential.issuer)}</p><p class="credential-type">${e(credential.type)}</p></div><span class="credential-arrow" aria-hidden="true">↗</span>
+      ${issuerIcon(credential.icon)}<span class="credential-text"><span class="credential-title">${e(credential.title)}</span><span class="credential-meta">${e(credential.issuer)} · ${e(credential.type)}</span></span><span class="credential-arrow" aria-hidden="true">↗</span>
     </a></li>`).join('')}</ul>
     <a class="certifications-linkedin" href="${contacts.linkedin}" target="_blank" rel="noopener noreferrer">More on LinkedIn <span aria-hidden="true">↗</span></a>
   </section>`;
